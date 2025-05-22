@@ -1,0 +1,905 @@
+name,address1,address2,address3,borough_name,website,os_addressbase_uprn,borough_code,ward_2018_name,ward_2018_code,latitude,longitude,easting,northing
+Cresswood Tenants Hall,215 Queen'S Crescent,Camden,NA,Camden,,5003376,E09000007,Gospel Oak,E05000134,51.55069284,-0.146923156,528467.0001,185214.0001
+Sparrow Farm Community Centre,Sparrow Farm Drive,Hounslow,NA,Hounslow,,10090800595,E09000018,Feltham North,E05000351,51.45159097,-0.395470491,511478.8001,173787.2001
+Grassroots Community Centre,Memorial Avenue,Newham,NA,Newham,,10023998843,E09000025,Canning Town North,E05000477,51.52644069,0.010103674,539426.2301,182804.9301
+Slade Centre,Erindale,Greenwich,NA,Greenwich,http://www.glyndon.org.uk/slade.htm,1.00023E+11,E09000011,Shooters Hill,E05000227,51.47826037,0.086659092,544888.5601,177596.5701
+The Eagle Community Centre,52 Tamworth Road,Croydon,NA,Croydon,,1.00023E+11,E09000008,Broad Green,E05000149,51.37374398,-0.103682601,531974.0001,165616.0001
+Bayham Place Tenants Association Hall,Bayham Place,NA,NA,Camden,,5109352,E09000007,St. Pancras and Somers Town,E05000143,51.53559564,-0.135754595,529284.0001,183555.0001
+The Sundial Centre,Sundial Centre,11 Shipton Street,London,Tower Hamlets,,6150974,E09000030,Weavers,E05009335,51.52963457,-0.068603309,533958.0001,183013.0001
+Sycamore Community Hall,27 West End Lane,Camden,NA,Camden,,5084701,E09000007,Kilburn,E05000140,51.53920226,-0.19032429,525490.0001,183861.0001
+Woodheyes,34 Woodheyes Road, London,NA,Brent,,202029222,E09000005,Stonebridge,E05000100,51.550841,-0.255109298,520967.0001,185046.0001
+Hawthorn Community Hall,Hawthorn Crescent,Wandsworth,NA,Wandsworth,,121030851,E09000032,Graveney,E05000616,51.42469914,-0.157592585,528080.0001,171186.0001
+Beethoven Centre,Third Avenue,City Of Westminster,NA,Westminster,https://a2dominion.co.uk/beethovencentre,2.00003E+11,E09000033,Queen's Park,E05000642,51.53052247,-0.20723622,524341.0001,182867.0001
+The Honeywell Centre,26 Wraysbury Drive,NA,NA,Hillingdon,https://www.a2dominion.co.uk/locations/The-Honeywell-Centre-West-Drayton,10090330845,E09000017,Yiewsley,E05000345,51.51298351,-0.476158615,505731.0001,180494.0001
+Woodgrange Community Centre,Bluebell Avenue,Newham,NA,Newham,,10008997939,E09000025,Manor Park,E05000488,51.54796078,0.048712988,542037.0001,185272.0001
+Havelock Centre Southall,17 Trubshaw Road, Southall,NA,Ealing,https://www.a2dominion.co.uk/locations/Havelock-Centre-Southall,12148842,E09000009,Norwood Green,E05000186,51.50082092,-0.364386823,513516.0001,179309.0001
+Meadows Community Centre,90 Wise Lane, West Drayton,NA,Hillingdon,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,2.00003E+11,E09000017,West Drayton,E05000342,51.49743218,-0.476691776,505730.0001,178764.0001
+Unity Centre,103 Church Road, London,NA,Brent,http://www.unitycentre.org.uk,202146192,E09000005,Harlesden,E05000091,51.54384221,-0.25195875,521204.0001,184273.0001
+Friary Park Community Centre,Joseph Ave, Friary Park, Acton,Ealing,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,12157376,E09000009,Acton Central,E05000170,51.51580396,-0.261854165,520592.0001,181139.0001
+Jasmine Community Centre,Jasmine Close, 88A Lancaster Road, Southall,Ealing,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,12142322,E09000009,Southall Broadway,E05000189,51.51477033,-0.381947798,512263.0001,180833.0001
+Godwin & Crowndale Community Hall,Crowndale Road,Camden,NA,Camden,,5110721,E09000007,St. Pancras and Somers Town,E05000143,51.53431174,-0.133629563,529435.0001,183416.0001
+Westcott Park Community Centre,13 Ferguson Drive, Westcott Park, Acton,Ealing,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,12105368,E09000009,East Acton,E05000175,51.5180847,-0.256765265,520939.0001,181401.0001
+Windmill Park Community Centre,1 Tulip Close, Chevy Road, Windmill Park,Ealing,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,12049219,E09000009,Norwood Green,E05000186,51.50617683,-0.351887824,514370.0001,179924.0001
+Artizan Street Library & Community Centre,1 Artizan Street,City Of London,NA,City of London,https://www.cityoflondon.gov.uk/services/libraries-and-archives/our-libraries/Pages/Artizan-Street-Library-and-Community-Centre.aspx,95511788,E09000001,Portsoken,E05009308,51.51514611,-0.075183973,533544.0001,181390.0001
+Golden Lane Community Centre,Golden Lane Estate,City Of London,NA,City of London,,2E+11,E09000001,Cripplegate,E05009302,51.52165663,-0.093852838,532230.0001,182080.0001
+The Factory,1 Chippenham Mews,City Of Westminster,NA,Westminster,,1.00024E+11,E09000033,Harrow Road,E05000635,51.52307376,-0.193616568,525306.0001,182062.0001
+Abbey Community Association : Abbey Community Centre,34 Great Smith Street,City Of Westminster,NA,Westminster,https://www.theabbeycentre.org.uk/,1.00023E+11,E09000033,St. James's,E05000644,51.49683648,-0.128043132,529929.0001,179259.0001
+Derry Hall,Church Street Estate,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/derry-hall,10033625314,E09000033,Church Street,E05000634,51.52270994,-0.170706447,526896.1301,182061.0301
+Orchard Community Centre,Columbine Way, Lewisham Road, London,Lewisham,http://www.thereapcentre.com/ ,10093390833,E09000023,Lewisham Central,E05000448,51.46665065,-0.010974526,538145.0001,176117.0001
+Butley Court Senior Citizens Centre,1 Butley Court, Ford Street,NA,Tower Hamlets,https://www.clarionhg.com/,6646862,E09000030,Bow West,E05009320,51.53288521,-0.033075018,536412.2401,183440.0901
+Tredegar Community Centre,333 Morville Street,NA,NA,Tower Hamlets,https://www.clarionhg.com/,6075400,E09000030,Bow East,E05009319,51.52973091,-0.022573041,537150.0001,183109.0001
+Stockwell Centre,1 Studley Road,Lambeth,NA,Lambeth,https://www.morleycollege.ac.uk/morley-matters/stockwell-centre,2E+11,E09000022,Stockwell,E05000429,51.47193926,-0.122236625,530403.0001,176501.0001
+The Arc Centre,98 St Paul Street,Islington,NA,Islington,www.thespacegroup.org/contact-us/,10090265601,E09000019,St. Peter's,E05000380,51.53546974,-0.094342871,532156.0001,183615.0001
+Ringcross Community Centre,60 Lough Road,Islington,NA,Islington,http://www.piliontrust.info/,5300058839,E09000019,Holloway,E05000375,51.54921854,-0.113112615,530815.0001,185110.0001
+The Stonebridge Hub,6 Hillside,Brent,NA,Brent,,202196460,E09000005,Stonebridge,E05000100,51.54100038,-0.259221179,520708.0001,183945.0001
+Darrick Wood Community Centre,Broadwater Gardens,Bromley,NA,Bromley,http://www.facebook.com/darrick.wood,10003626647,E09000006,Farnborough and Crofton,E05000118,51.36434016,0.070821319,544147.0001,164899.0001
+Hope Corner Community Centre,185 Mays Lane,Barnet,NA,Barnet,,10091041141,E09000003,Underhill,E05000060,51.64535653,-0.201405278,524431.2101,195645.6601
+WG Grace Community Centre,1 Lions Close,Lewisham,NA,Lewisham,,1.00023E+11,E09000023,Grove Park,E05000445,51.42945884,0.036299066,541543.0001,172072.0001
+Seddon Centre,33 Clyde Place,Waltham Forest,NA,Waltham Forest,,1.00023E+11,E09000031,Leyton,E05000604,51.56981156,-0.013286036,537673.0001,187583.0001
+Lewington Centre,9 Eugenia Road,Lewisham,NA,Lewisham,,10023232830,E09000023,Evelyn,E05000443,51.48903837,-0.049113553,535430.0001,178535.0001
+Wandle Valley Community Centre,2 Budge Lane,Sutton,NA,Sutton,https://www.lqgroup.org.uk/services-for-residents/have-your-say/resident-involvement/landq-community-centres/community-cen,5870115697,E09000029,Wandle Valley,E05000571,51.38518404,-0.162946157,527818.0001,166783.0001
+St. James Centre,1 Florence Way,Wandsworth,NA,Wandsworth,,121014981,E09000032,Nightingale,E05000618,51.44178731,-0.159898249,527872.0001,173082.0001
+Castle Point,163 Bennetts Castle Lane,Barking And Dagenham,NA,Barking and Dagenham,http://communityresources.co.uk,100003083,E09000002,Parsloes,E05000037,51.55467754,0.129101329,547588.0001,186178.0001
+Ted Ball Memorial Hall,67 Neasham Road,Barking And Dagenham,NA,Barking and Dagenham,,100022741,E09000002,Mayesbrook,E05000036,51.54453321,0.118631633,546895.0001,185029.0001
+Galleon Community Centre,Boundary Road West,Barking And Dagenham,NA,Barking and Dagenham,http://www.studio3arts.org.uk/,100053573,E09000002,Gascoigne,E05000032,51.52997308,0.081920849,544396.0001,183337.0001
+Abbey Community Hall,Cowbridge Lane,Barking And Dagenham,NA,Barking and Dagenham,,100055111,E09000002,Abbey,E05000026,51.53962087,0.073433624,543777.0001,184393.0001
+Chadwell Heath Community Centre,255 High Road,Barking And Dagenham,NA,Barking and Dagenham,,100101901,E09000002,Whalebone,E05000042,51.57212135,0.144638198,548608.0001,188149.0001
+Hedgecock Centre,28 Stephen Jewers Gardens,Barking And Dagenham,NA,Barking and Dagenham,www.hedgecockcentre.org.uk,10090634105,E09000002,Longbridge,E05000035,51.53854266,0.101802714,545747.4301,184329.2601
+Fanshawe Community Centre,73,Barnmead Road,Barking And Dagenham,Barking and Dagenham,http://fanshawe-community-c.wixsite.com/fanshawe,100011652,E09000002,Parsloes,E05000037,51.54684594,0.146262009,548803.0001,185342.0001
+Wantz Hall (Eastbrook Community Centre),Rainham Road North,Barking And Dagenham,NA,Barking and Dagenham,https://www.lbbd.gov.uk/services/wantz-hall,100024972,E09000002,Heath,E05000034,51.55206882,0.161583807,549848.0001,185954.0001
+Heath Park Community Centre,Rusholme Avenue,Barking And Dagenham,NA,Barking and Dagenham,,100026303,E09000002,Heath,E05000034,51.55505107,0.153963148,549310.0001,186270.0001
+Whittington Court TRA Hall,Retcar Place,Camden,NA,Camden,,5158161,E09000007,Highgate,E05000137,51.56520803,-0.140084665,528900.0001,186840.0001
+Marks Gate Community Hall,Rose Lane,Barking And Dagenham,NA,Barking and Dagenham,https://www.lbbd.gov.uk/services/marks-gate-hall,100027163,E09000002,Chadwell Heath,E05000029,51.58480467,0.137627205,548081.0001,189545.0001
+Thames View Community Centre,Bastable Avenue,Barking And Dagenham,NA,Barking and Dagenham,www.thameswardcommuniytassociation.com,100034772,E09000002,Thames,E05000039,51.52763526,0.10406246,545939.0001,183121.0001
+Curzon Community Centre,Bastable Avenue,Barking And Dagenham,NA,Barking and Dagenham,http://thecurzonclub.99on.com/?i=1,100034780,E09000002,Thames,E05000039,51.52761431,0.103225199,545881.0001,183117.0001
+Hatfield Hall,Hatfield Road,Barking And Dagenham,NA,Barking and Dagenham,,100041898,E09000002,Goresbrook,E05000033,51.53776733,0.139085206,548335.0001,184318.0001
+Scrattons Community Centre,Morrison Road,Barking And Dagenham,NA,Barking and Dagenham,https://www.lbbd.gov.uk/services/scrattons-community-hall,100045711,E09000002,Thames,E05000039,51.5286717,0.134304123,548033.0001,183297.0001
+Gascoigne Youth and Community Centre,124-128 St Anns,Gascoigne Road,Barking And Dagenham,Barking and Dagenham,,100058813,E09000002,Gascoigne,E05000032,51.53225242,0.08372646,544514.0001,183594.0001
+Village Hall,Vicarage Road,Barking And Dagenham,NA,Barking and Dagenham,,100061520,E09000002,Village,E05000041,51.53871849,0.156883875,549566.0001,184460.0001
+Teresa Greene Hall,25-29 Leys Avenue,Barking And Dagenham,NA,Barking and Dagenham,,100069289,E09000002,Village,E05000041,51.53433957,0.169987508,550489.0001,184000.0001
+North Road Community Centre,230 Burnt Oak Broadway,Barnet,NA,Barnet,,200018286,E09000003,Burnt Oak,E05000044,51.6035487,-0.269768356,519812.1101,190882.6201
+Tarling Road Community Centre,20 Fallows Close,Barnet,NA,Barnet,,200040351,E09000003,East Finchley,E05000049,51.59693513,-0.173321133,526508.6001,190309.7501
+Barnet Multi Cultural Community Centre,Algernon Road,Barnet,NA,Barnet,http://www.barnetmcc.moonfruit.com/venue-hire/4527035932,200166018,E09000003,West Hendon,E05000062,51.57856181,-0.234808248,522299.8901,188162.1301
+New Barnet Community,50 Victoria Road,Barnet,NA,Barnet,http://www.newbarnet.org.uk/,200120427,E09000003,East Barnet,E05000048,51.65006513,-0.167394934,526770.8101,196227.7101
+Outreach Centre (Youth & Family Centre),West Street, Erith,NA,Bexley,,10011847777,E09000004,Erith,E05000075,51.48474701,0.175324227,551023.0001,178497.0001
+Sidcup Youth Centre,Burnt Oak Lane, Sidcup, Kent,Bexley,,10090792526,E09000004,Sidcup,E05000083,51.4375896,0.106370301,546387.1701,173113.7401
+Cray Youth & Community Centre,150 Rectory Lane, Sidcup, Kent,Bexley,,1.00023E+11,E09000004,Cray Meadows,E05000072,51.4198727,0.121344362,547484.7701,171173.9101
+Bacton Tower TA Room,Haverstock Road,Camden,NA,Camden,,5123140,E09000007,Gospel Oak,E05000134,51.55158347,-0.152642911,528068.0001,185303.0001
+North Cray Neighborhood Centre,1 Davis Way, Sidcup, Kent,Bexley,https://www.youthactiondiversitytrust.co.uk/,10011863608,E09000004,Cray Meadows,E05000072,51.41722734,0.130373463,548121.0001,170898.0001
+Hurst Community Centre,Hurst Road, Bexley, Kent,Bexley,,10023304339,E09000004,St. Mary's,E05000081,51.43826176,0.126056493,547753.0001,173228.0001
+Crayford Community Centre,175 Townhall Square,Bexley,NA,Bexley,https://arena.yourlondonlibrary.net/web/bexley/ccc,10090792770,E09000004,Crayford,E05000071,51.44939192,0.181716274,551583.8701,174579.2501
+Slade Green and Howbury Community Centre,Chrome Road, Slade Green, Kent,Bexley,,10090794390,E09000004,North End,E05000079,51.47260377,0.192596225,552262.4301,177182.6301
+St Michaels Community Centre,Wrotham Road, Welling, Kent,Bexley,,1.00023E+11,E09000004,St. Michael's,E05000082,51.46884057,0.123114726,547450.0001,176622.0001
+Parkside Community Centre,Parkside Hall, 1 Parkside Cross, Bexleyheath,Bexley,,1.00023E+11,E09000004,Barnehurst,E05000064,51.46363011,0.173815644,550988.0001,176146.0001
+Falconwood Community and Childrens Centre,32-38 Falconwood Parade, Welling, Kent,Bexley,,1.00024E+11,E09000004,Falconwood and Welling,E05000076,51.45668849,0.094693448,545515.0001,175214.0001
+Belvedere Community Centre,Mitchell Close, Belvedere, Kent,Bexley,http://belvederecommunitycentre.org.uk/,2.00003E+11,E09000004,Belvedere,E05000065,51.49091662,0.160259678,549957.0001,179152.0001
+Pakistan Community Centre (Pakistan Welfare Association),Marley Walk, Station Parade, London,Brent,,202043209,E09000005,Dudden Hill,E05000089,51.54958716,-0.223104579,523189.0001,184960.0001
+Preston and Mall,May Lane, 237 The Mall, Kenton,Brent,,202071290,E09000005,Barnhill,E05000086,51.57710353,-0.286363093,518732.0001,187915.0001
+Kings Hall,155 Harlesden Road, Willesden, London,Brent,http://khcc.btck.co.uk/,202090623,E09000005,Willesden Green,E05000105,51.5441576,-0.232792343,522532.0001,184340.0001
+The Granville Plus Centre,The Granville Plus Centre, 80 Granville Road, Kilburn,Brent,http://granvillecommunitykitchen.wordpress.com or http://www.theotherwiseclub.org.uk/,202093923,E09000005,Kilburn,E05000094,51.53225492,-0.195877491,525124.0001,183079.0001
+Dudden Hill Community Centre,19 Dudden Hill Lane,Brent,NA,Brent,https://www.brent.gov.uk/services-for-residents/sport-leisure-and-parks/sports/sport-activity-finder/zumba-dudden-hill-community-centre/,202103783,E09000005,Willesden Green,E05000105,51.54888959,-0.237672114,522181.0001,184858.0001
+The Tabot Centre,151 Granville Road, Kilburn, London,Brent,http://tabot.co.uk/,202195084,E09000005,Kilburn,E05000094,51.53247161,-0.196517814,525079.0001,183102.0001
+Crofton Halls,Crofton Halls, Crofton Road, Orpington,Bromley,http://www.mytimeactive.co.uk/leisure/crofton-halls,10003626864,E09000006,Farnborough and Crofton,E05000118,51.37278868,0.088877797,545377.0001,165874.0001
+Windsor Drive Community Centre (Chelsfield),Windsor Drive, Orpington,NA,Bromley,,1.00023E+11,E09000006,Chelsfield and Pratts Bottom,E05000110,51.35592566,0.10590848,546616.0001,164033.0001
+Cotmandene Community Resource Centre,64 Cotmandene Crescent, St. Paul's Cray, Orpington,Bromley,http://www.bromley.gov.uk/CotmandeneCommunityCentre,1.00023E+11,E09000006,Cray Valley West,E05000115,51.40344831,0.106509578,546506.0001,169318.0001
+St Pancras Community Centre,67 Plender Street,Camden,NA,Camden,,5184843,E09000007,St. Pancras and Somers Town,E05000143,51.53599917,-0.13568042,529288.0001,183600.0001
+Queens Crescent Community Association,170 Weedington Road,Camden,NA,Camden,,5039917,E09000007,Gospel Oak,E05000134,51.55033675,-0.149433249,528294.0001,185170.0001
+Coopers Lane Community Centre,2 Hampden Close,Camden,NA,Camden,,5060593,E09000007,St. Pancras and Somers Town,E05000143,51.53248317,-0.128368988,529805.0001,183222.0001
+1A Arts Community Centre ,1 Rosebery Avenue,Camden,NA,Camden,,5079562,E09000007,Holborn and Covent Garden,E05000138,51.52193674,-0.110607716,531067.0001,182081.0001
+Somali Community Centre,1-2 Lismore Circus,Camden,NA,Camden,,5082283,E09000007,Gospel Oak,E05000134,51.55271852,-0.153332661,528017.0001,185428.0001
+South Hampstead and Kilburn Partnership (SHAK),52 Boundary Road,Camden,NA,Camden,,5109397,E09000007,Kilburn,E05000140,51.53946368,-0.179901198,526212.0001,183908.0001
+Peckwater TA Hall,Peckwater Street,Camden,NA,Camden,,5110209,E09000007,Kentish Town,E05000139,51.54943533,-0.134539665,529329.0001,185096.0001
+Blashford TA Room,Adelaide Road,Camden,NA,Camden,,5126516,E09000007,Belsize,E05000128,51.54289054,-0.160322023,527560.0001,184323.0001
+Camden Society,43 Carol Street,Camden,NA,Camden,,5129344,E09000007,Camden Town with Primrose Hill,E05000130,51.5383925,-0.139144788,529041.0001,183860.0001
+Bedefield Community Room,Cromer Street,Camden,NA,Camden,,5130668,E09000007,King's Cross,E05000141,51.52782963,-0.119692497,530420.0001,182720.0001
+Ethiopian Community in Britain,Lithos Road,Camden,NA,Camden,,5140115,E09000007,West Hampstead,E05000145,51.54861575,-0.183170998,525960.0001,184920.0001
+Hilgrove Estate TA Room,7 Hilgrove Road,Camden,NA,Camden,,5140532,E09000007,Swiss Cottage,E05000144,51.54176682,-0.175900714,526483.0001,184171.0001
+Cockpit Arts / Action Space,Cockpit Yard,Camden,NA,Camden,,5144567,E09000007,Holborn and Covent Garden,E05000138,51.52092616,-0.114873531,530774.0001,181961.0001
+Grafton Way TRA Room,30-40 Grafton Way,Camden,NA,Camden,,5153376,E09000007,Bloomsbury,E05000129,51.52367462,-0.13490079,529377.0001,182231.0001
+Camden People's Theatre,58-60 Hampstead Road,Camden,NA,Camden,,5158137,E09000007,Regent's Park,E05000142,51.52589093,-0.136843128,529236.0001,182474.0001
+Fellows Road Tenant Association,Fellows Road,Camden,NA,Camden,,5158252,E09000007,Belsize,E05000128,51.54298134,-0.167847271,527038.0001,184320.0001
+Gospel Oak 7 and 8 TRA Hall ,Weedington Road,Camden,NA,Camden,,5158306,E09000007,Gospel Oak,E05000134,51.55092686,-0.149784367,528268.0001,185235.0001
+Kingsland TA Room,Broxwood Way,Camden,NA,Camden,,5158315,E09000007,Swiss Cottage,E05000144,51.53698931,-0.162521319,527424.0001,183663.0001
+St Albans Villas and Oak Court TRA Hall,St Albans Villas,Camden,NA,Camden,,5158323,E09000007,Highgate,E05000137,51.5606707,-0.148321117,528342.0001,186321.0001
+Winchester Project ,21 Winchester Road,Camden,NA,Camden,,5158351,E09000007,Swiss Cottage,E05000144,51.54279669,-0.170998932,526820.0001,184294.0001
+Kent Hall ,Westcroft Way,Barnet,NA,Barnet,,200223249,E09000003,Childs Hill,E05000045,51.55656778,-0.207216846,524271.3601,185763.0701
+Doreen Bazell Hall,1 Goldington Street,Camden,NA,Camden,,5008498,E09000007,St. Pancras and Somers Town,E05000143,51.53333052,-0.129055237,529755.0001,183315.0001
+Maiden Lane Community Centre,156 St Paul'S Crescent,Camden,NA,Camden,https://www.maidenlanecommunitycentre.org/,5022268,E09000007,Cantelowes,E05000131,51.54082903,-0.127233292,529860.0001,184152.0001
+Swiss Cottage Community Centre,19 Winchester Road,Camden,NA,Camden,http://yourswiss.org/,5024570,E09000007,Swiss Cottage,E05000144,51.54256907,-0.17082056,526833.0001,184269.0001
+Kentish Town Community Centre,17 Busby Place,Camden,NA,Camden,http://www.ktcc.org.uk/,5026106,E09000007,Kentish Town,E05000139,51.54803559,-0.130788767,529593.0001,184947.0001
+Highgate Newtown Community Centre,25 Bertram Street,Camden,NA,Camden,https://www.highgatenewtown.org.uk/,5028517,E09000007,Highgate,E05000137,51.56222694,-0.141519394,528809.0001,186506.0001
+Kingsgate Resource Centre,Netherwood Street,Camden,NA,Camden,,5040594,E09000007,Kilburn,E05000140,51.54476152,-0.1962482,525064.0001,184469.0001
+Bengali Workers Community Centre,1 Robert Street,Camden,NA,Camden,http://bwa-surma.org/,5057066,E09000007,Regent's Park,E05000142,51.52780387,-0.137240832,529203.0001,182686.0001
+Holly Lodge Community Centre,30 Makepeace Avenue,Camden,NA,Camden,https://www.hlcchl.org/,5062979,E09000007,Highgate,E05000137,51.56414346,-0.146693734,528445.0001,186710.0001
+Sidings Community Centre,150 Brassey Road,Camden,NA,Camden,http://sidings.org.uk/,5064929,E09000007,Fortune Green,E05000132,51.54852922,-0.197382981,524975.0001,184886.0001
+Abbey Community Centre,222 Belsize Road,Camden,NA,Camden,http://abbeycc-kilburn.org.uk/,5075885,E09000007,Kilburn,E05000140,51.53897264,-0.187102897,525714.0001,183841.0001
+Camden Chinese Community Centre,9 Tavistock Place,Camden,NA,Camden,http://www.camdenccc.co.uk/,5087740,E09000007,King's Cross,E05000141,51.52485319,-0.125337054,530037.0001,182379.0001
+Ingestre Road Community Centre,Ingestre Road,Camden,NA,Camden,,5090630,E09000007,Kentish Town,E05000139,51.55492163,-0.141355562,528841.0001,185694.0001
+Hampstead Community Centre,78 Hampstead High Street,Camden,NA,Camden,http://www.hampsteadcommunitycentre.co.uk/,5090643,E09000007,Hampstead Town,E05000135,51.55501518,-0.174808008,526522.0001,185646.0001
+Castlehaven Community Centre,21 Castlehaven Road,Camden,NA,Camden,http://www.castlehaven.org.uk/,5109875,E09000007,Camden Town with Primrose Hill,E05000130,51.54226738,-0.143602059,528721.0001,184283.0001
+Covent Garden Dragon Hall Trust,17 Stukeley Street,Camden,NA,Camden,http://www.dragonhall.org.uk/,5128852,E09000007,Holborn and Covent Garden,E05000138,51.51611532,-0.121083168,530357.0001,181415.0001
+Ampthill Square Tenants Hall,Barnby Street,Camden,NA,Camden,,5141150,E09000007,Regent's Park,E05000142,51.53051232,-0.135630652,529307.0001,182990.0001
+St Pancras Community Centre,17 Dornfell Street,Camden,NA,Camden,http://www.spca.org.uk/,5188488,E09000007,Fortune Green,E05000132,51.55058491,-0.197720052,524946.0001,185114.0001
+Kingsgate Community Centre,105-107 Kingsgate Road,Camden,NA,Camden,http://www.kingsgatecommunitycentre.org.uk/,10091822969,E09000007,Kilburn,E05000140,51.54377475,-0.194657383,525177.0001,184362.0001
+Boundary Hall,138 Snells Park,Enfield,NA,Enfield,,207004110,E09000010,Upper Edmonton,E05000212,51.6092872,-0.065671646,533927.0001,191875.0001
+Klinger Hall,Pickwick Mews,Enfield,NA,Enfield,,207035284,E09000010,Haselbury,E05000201,51.6152039,-0.073264382,533384.0001,192519.0001
+Ayley Croft Hall,Ayley Croft,Enfield,NA,Enfield,,207039206,E09000010,Bush Hill Park,E05000194,51.64178382,-0.060690231,534175.9501,195497.4901
+Boleyn Hall,Boleyn Avenue,Enfield,NA,Enfield,,207154821,E09000010,Southbury,E05000207,51.66345353,-0.053617972,534601.0001,197920.0001
+Kempe Hall,Kempe Road,Enfield,NA,Enfield,,207160739,E09000010,Turkey Street,E05000211,51.67608237,-0.047782008,534967.0001,199335.0001
+Wayman Court Community Centre,Eleanor Road (North),Hackney,NA,Hackney,,10008230586,E09000012,Hackney Central,E05009372,51.54336762,-0.058242624,534636.0001,184559.0001
+North & South Arden Community Centre,Arden Estate,Hackney,NA,Hackney,,10008240056,E09000012,Hoxton East & Shoreditch,E05009377,51.53168634,-0.080182068,533149.0001,183220.0001
+Trelawney Club House,Paragon Road,Hackney,NA,Hackney,,10008242984,E09000012,Homerton,E05009376,51.54481569,-0.050489375,535169.2501,184734.3101
+Hawksley Court  Community Centre,Hawksley Road,Hackney,NA,Hackney,,10008244157,E09000012,Clissold,E05009369,51.5587208,-0.080216919,533067.6801,186225.9101
+Rhodes Est Community Centre,Carlisle Walk,Hackney,NA,Hackney,,10008244242,E09000012,Dalston,E05009370,51.5449113,-0.071129645,533738.0001,184707.0001
+Cranston Estate Community Centre,Cranston Estate,Hackney,NA,Hackney,,10008300258,E09000012,Hoxton West,E05009378,51.53212974,-0.084748945,532831.0001,183261.0001
+Nightingale Partnership Residents Association,18 Olympus Square,Hackney,NA,Hackney,,10008305054,E09000012,Hackney Downs,E05009373,51.55635167,-0.059709454,534496.0001,186000.0001
+The Mount Community Centre,21 Mount Pleasant Lane,Hackney,NA,Hackney,,10008305126,E09000012,Springfield,E05009383,51.56315705,-0.055740127,534751.0001,186764.0001
+Arden Estate Community Centre,Regan Way,Hackney,NA,Hackney,,10008308464,E09000012,Hoxton East & Shoreditch,E05009377,51.53204989,-0.079315996,533208.0001,183262.0001
+Geffrye  Community Centre,Falkirk Street,Hackney,NA,Hackney,,10008309530,E09000012,Hoxton East & Shoreditch,E05009377,51.53056182,-0.077965535,533306.0001,183099.0001
+Aspland & Marcon ,Amhurst Road,Hackney,NA,Hackney,,10008309531,E09000012,Hackney Central,E05009372,51.54808649,-0.056988652,534709.0001,185086.0001
+Ben Simons Community Centre,Bethune Road,Hackney,NA,Hackney,,10008309532,E09000012,Woodberry Down,E05009387,51.57162021,-0.081429546,532946.0001,187658.0001
+Wilton Est Community Centre,Greenwood Road,Hackney,NA,Hackney,,10008309537,E09000012,Hackney Central,E05009372,51.54431678,-0.062341846,534349.0001,184657.0001
+York Row ,Geffrye Street,Hackney,NA,Hackney,,10008309538,E09000012,Haggerston,E05009375,51.53332382,-0.074734388,533522.0001,183412.0001
+Wenlock  Community Centre,9-13 Cropley Street,Hackney,NA,Hackney,,10008310375,E09000012,Hoxton West,E05009378,51.53087095,-0.088075016,532604.0001,183115.0001
+Provost Community Centre,Provost Estate,Hackney,NA,Hackney,,10008318506,E09000012,Hoxton West,E05009378,51.53028377,-0.087364235,532655.0001,183051.0001
+The Beckers Community Centre,Rectory Road,Hackney,NA,Hackney,,10008318636,E09000012,Hackney Downs,E05009373,51.55559149,-0.06625938,534044.2501,185903.4501
+Joseph Court,Amhurst Park,Hackney,NA,Hackney,,10008318638,E09000012,Woodberry Down,E05009387,51.57450662,-0.07701955,533243.1201,187986.9701
+Pitcairn House ,St Thomass Square,Hackney,NA,Hackney,,10008318640,E09000012,Homerton,E05009376,51.54217584,-0.052538529,535035.0001,184437.0001
+Lordship North Community Centre,Lordship Road,Hackney,NA,Hackney,,10008323652,E09000012,Stamford Hill West,E05009384,51.56823652,-0.085782082,532654.2701,187273.8601
+Peter Collins Community Centre,Hindhead Close,Hackney,NA,Hackney,,10008331943,E09000012,Stamford Hill West,E05009384,51.56819592,-0.074978609,533403.0001,187289.0001
+Elsdale OAP Club,Elsdale Street,Hackney,NA,Hackney,,10008341872,E09000012,Homerton,E05009376,51.54275112,-0.049002313,535278.4701,184507.5001
+The Bell Club,140 Pitfield Street,Hackney,NA,Hackney,,10008344396,E09000012,Hoxton East & Shoreditch,E05009377,51.5303954,-0.081055696,533092.1801,183074.8701
+Fellows Court,Weymouth Terrace,Hackney,NA,Hackney,,1.00023E+11,E09000012,Haggerston,E05009375,51.53309553,-0.071239902,533765.0001,183393.0001
+Jack Watts Community Centre,10 Detmold Road,Hackney,NA,Hackney,,1.00023E+11,E09000012,Lea Bridge,E05009380,51.56297719,-0.051404449,535052.0001,186752.0001
+Radley & Southwold Community Centre,45 Southwold Road,Hackney,NA,Hackney,,1.00023E+11,E09000012,Lea Bridge,E05009380,51.56270026,-0.048270624,535270.0001,186727.0001
+Kier Hardie Community Centre,Springfield,Hackney,NA,Hackney,,1.00023E+11,E09000012,Springfield,E05009383,51.56737854,-0.059211079,534498.0001,187227.0001
+Warburton & Darcy Community Centre,Warburton Street,Hackney,NA,Hackney,,1.00023E+11,E09000012,London Fields,E05009381,51.53821799,-0.057380209,534711.0001,183988.0001
+Colville Community Centre,35 Branch Place,Hackney,NA,Hackney,,1.00023E+11,E09000012,Hoxton East & Shoreditch,E05009377,51.53660658,-0.08242663,532979.0001,183763.0001
+Defoe Small Blocks,Defoe Road,Hackney,NA,Hackney,,1.00023E+11,E09000012,Stoke Newington,E05009385,51.56062124,-0.077592758,533244.0001,186442.0001
+Mountford Estate ,Downs Park Road,Hackney,NA,Hackney,,1.00024E+11,E09000012,Hackney Central,E05009372,51.55046712,-0.06662459,534034.0001,185333.0001
+Shrubland Community Centre,Shrubland Road,Hackney,NA,Hackney,,2.00001E+11,E09000012,Haggerston,E05009375,51.53805428,-0.064886536,534191.0001,183956.0001
+Burma Court Community Centre,Burma Road,Hackney,NA,Hackney,,2.00003E+11,E09000012,Clissold,E05009369,51.5550814,-0.087751278,532556.0701,185807.5601
+Morland Hall,Richmond Road,Hackney,NA,Hackney,,10008240743,E09000012,London Fields,E05009381,51.54263348,-0.061706624,534398.0001,184471.0001
+Kingsgate Community Hall,Tottenham Road,Hackney,NA,Hackney,,10008241541,E09000012,De Beauvoir,E05009371,51.54447948,-0.076928121,533337.2601,184648.4001
+Yorkshire Grove Hall,20 Gunstor Road,Hackney,NA,Hackney,,10008242273,E09000012,Stoke Newington,E05009385,51.55624749,-0.07686828,533307.0001,185957.0001
+Banister House,Homerton High Street,Hackney,NA,Hackney,,10008242329,E09000012,Homerton,E05009376,51.54789874,-0.042990005,535680.0001,185091.0001
+Jack Dunning Hall,6 Furrow Lane,Hackney,NA,Hackney,,10008242350,E09000012,Homerton,E05009376,51.54847899,-0.046296448,535449.0601,185149.3901
+Nye Bevan Hall,Nye Bevan Estate,Hackney,NA,Hackney,,10008243115,E09000012,King's Park,E05009379,51.55614771,-0.039915556,535868.5501,186013.9101
+Lea View Hall,Springfield,Hackney,NA,Hackney,,10008243441,E09000012,Springfield,E05009383,51.56750117,-0.056839145,534662.0001,187245.0001
+Wrens Park Hall,Warwick Grove,Hackney,NA,Hackney,,10008243806,E09000012,Springfield,E05009383,51.56537048,-0.054173779,534853.0001,187013.0001
+Kings Crescent Community Hall (Vince Murrain),Queens Drive,Hackney,NA,Hackney,https://www.hackney.gov.uk/community-hall-hire,10008244239,E09000012,Brownswood,E05009367,51.56164897,-0.091746212,532260.1101,186530.5801
+Regents Hall,60 Brougham Road,Hackney,NA,Hackney,,10008293959,E09000012,London Fields,E05009381,51.53689482,-0.06166205,534418.0001,183833.0001
+Whiston and Goldsmiths Hall,Goldsmiths Row,Hackney,NA,Hackney,,10008309536,E09000012,Haggerston,E05009375,51.53319913,-0.061703711,534426.0001,183422.0001
+New Kingshold Community Centre,49 Ainsworth Road,Hackney,NA,Hackney,,10008311816,E09000012,Victoria,E05009386,51.53840326,-0.048257351,535343.0201,184025.4401
+Vi Forrester Hall,5 Gilpin Road,Hackney,NA,Hackney,https://hackney.gov.uk/article/3879/Community-hall-hire,10008318505,E09000012,King's Park,E05009379,51.55448411,-0.037986484,536007.2201,185832.5201
+Fawcett Estate Hall,Clapton Common,Hackney,NA,Hackney,,10008318639,E09000012,Springfield,E05009383,51.56843246,-0.059616305,534466.8101,187343.4401
+Herbert Butler Hall,Mabley Street,Hackney,NA,Hackney,,10008318641,E09000012,Hackney Wick,E05009374,51.54881632,-0.035031142,536229.0001,185207.8201
+Haydon Hall  ,Southill Lane,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Eastcote and East Ruislip,E05000329,51.58803727,-0.404703784,510506.5501,188945.2501
+Haggerston Community Centre,8 Lovelace Street,Hackney,NA,Hackney,https://www.haggerstoncc.com/,10008330088,E09000012,Haggerston,E05009375,51.53695843,-0.071582911,533729.8901,183821.8901
+Gascoyne Community Centre,Gascoyne Road,Hackney,NA,Hackney,http://www.hmp.org.uk/copy-of-services,10008342233,E09000012,Hackney Wick,E05009374,51.54119077,-0.037065201,536110.7501,184356.1501
+Nisbet Hall,Homerton High Street,Hackney,NA,Hackney,,10008310386,E09000012,Homerton,E05009376,51.54686482,-0.039240693,535943.0001,184983.0001
+Webb Estate Community Centre,Clapton Common,Hackney,NA,Hackney,,1.00024E+11,E09000012,Springfield,E05009383,51.5700665,-0.061319105,534344.0001,187522.0001
+William Church TRA Hall ,60 Lime Grove,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34119379,E09000013,Shepherd's Bush Green,E05000263,51.50245759,-0.226408517,523087.0001,179714.0001
+St Peter's Terrace Residents Association Rooms,St Peter'S Terrace,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://www.spraweb.net/index.html,34133232,E09000013,Munster,E05000257,51.47859699,-0.206839253,524510.0001,177094.0001
+Kathy Dolan Centre ,78 White City Close,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34135006,E09000013,College Park and Old Oak,E05000253,51.5104556,-0.225406062,523135.0001,180605.0001
+Philpot Square Residents Hall,Philpot Square,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34136875,E09000013,Sands End,E05000262,51.46593113,-0.190258904,525696.0001,175714.0001
+Rene Davis Memorial Hall ,Laundry Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34138852,E09000013,Fulham Reach,E05000255,51.48332784,-0.212156091,524128.0001,177611.0001
+Maystar Estate Residents Hall,Sun Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34140274,E09000013,North End,E05000258,51.48718592,-0.203909272,524690.0001,178054.0001
+Woodmans Mews TRA Hall,Woodmans Mews,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34140969,E09000013,College Park and Old Oak,E05000253,51.51895035,-0.226921026,523007.0001,181547.0001
+Springvale Estate Residents Hall,Blythe Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34141098,E09000013,Avonmore and Brook Green,E05000252,51.49674101,-0.212409278,524074.0001,179102.0001
+Robert Owen Residents Hall,Fulham Palace Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34141099,E09000013,Palace Riverside,E05000259,51.47677548,-0.215955287,523882.0001,176876.0001
+Tudor Rose ,Fulham Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34150881,E09000013,Town,E05000264,51.47646861,-0.197071678,525194.0001,176874.0001
+West Kensington Community Hall,80 Lillie Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,www.creightonhouse.co.uk,34070106,E09000013,North End,E05000258,51.48552592,-0.19946575,525003.0001,177877.0001
+White City Community Centre,India Way,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34128630,E09000013,Wormholt and White City,E05000265,51.51121256,-0.231458948,522713.0001,180679.0001
+Queen Caroline Estate Community Hall,Queen Caroline Street,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://www.queencaroline.co.uk/,34141083,E09000013,Hammersmith Broadway,E05000256,51.48944491,-0.226467026,523118.0001,178267.0001
+Milton Road Community Centre,Milton Road,London Borough Of Haringey,NA,Haringey,,10003979907,E09000014,West Green,E05000282,51.58825311,-0.098241679,531733.0001,189477.0001
+Mitalee Centre,Stanley Road,London Borough Of Haringey,NA,Haringey,,10003982757,E09000014,St. Ann's,E05000277,51.58562763,-0.095507273,531930.0001,189190.0001
+Kurdish Advice Centre,1 Eastfield Road,London Borough Of Haringey,NA,Haringey,,10022939793,E09000014,Hornsey,E05000273,51.58921576,-0.119468573,530260.0001,189546.0001
+Park Lane Community Centre,46 Park Lane,London Borough Of Haringey,NA,Haringey,,1.00023E+11,E09000014,Northumberland Park,E05000276,51.60164022,-0.063339364,534111.0001,191029.0001
+Selby Centre,Selby Road,London Borough Of Haringey,NA,Haringey,,1.00023E+11,E09000014,White Hart Lane,E05000283,51.60777244,-0.076930077,533152.0001,191686.0001
+Lord Morrison Hall,Scales Road,London Borough Of Haringey,NA,Haringey,,1.00023E+11,E09000014,Tottenham Hale,E05000281,51.59072263,-0.066099538,533952.0001,189810.0001
+Haringey Grove Community Centre,Denmark Road,London Borough Of Haringey,NA,Haringey,,1.00023E+11,E09000014,Harringay,E05000271,51.58706537,-0.107661081,531084.0001,189328.0001
+Whitehall & Tenterden Community Centre,Whitehall Street,London Borough Of Haringey,NA,Haringey,,2.00003E+11,E09000014,Northumberland Park,E05000276,51.60323,-0.068124382,533775.0001,191197.0001
+Cowley Meeting Hall,High Street,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Uxbridge South,E05000341,51.5262882,-0.481204867,505350.1801,181966.1401
+Turkish Cypriot Community Association,628-630 Green Lanes,London Borough Of Haringey,NA,Haringey,http://www.tcca.org/,1.00023E+11,E09000014,Harringay,E05000271,51.58505336,-0.098360875,531734.0001,189121.0001
+Winkfield Day Centre for the Deaf and Blind,31-35 Winkfield Road,London Borough Of Haringey,NA,Haringey,https://www.haringey.gov.uk/social-care-and-health/physical-disabilities-and-sensory-impairment/winkfield-resource-centre-services,1.00024E+11,E09000014,Woodside,E05000284,51.59999095,-0.103325629,531347.0001,190773.0001
+West Indian Cultural Centre,Clarendon Road Off Hornsey Park Road,London Borough Of Haringey,NA,Haringey,http://www.aclc.org.uk/,10003975935,E09000014,Noel Park,E05000275,51.58875735,-0.109409925,530958.0001,189513.0001
+Chestnuts Community Centre,St Anns Road,London Borough Of Haringey,NA,Haringey,http://chestnutscommunitycentre.org.uk/,10003976195,E09000014,St. Ann's,E05000277,51.58140655,-0.087022487,532530.0001,188736.0001
+Cypriot Community Centre and Banqueting Suites,Earlham Grove,London Borough Of Haringey,NA,Haringey,http://www.cypriotcentre.co.uk/,1.00023E+11,E09000014,Woodside,E05000284,51.60237041,-0.109219947,530932.0001,191027.0001
+Jacksons Lane Arts Centre,269 Archway Road,London Borough Of Haringey,NA,Haringey,https://www.jacksonslane.org.uk/,1.00023E+11,E09000014,Highgate,E05000272,51.5761763,-0.143822654,528610.0001,188053.0001
+Hornsey Vale Community Centre,60 Mayfield Road,London Borough Of Haringey,NA,Haringey,https://www.hornseyvale.org/,1.00023E+11,E09000014,Stroud Green,E05000279,51.5799114,-0.111870213,530813.0001,188525.0001
+Haringey Irish Cultural and Community Centre,Pretoria Road,London Borough Of Haringey,NA,Haringey,https://www.haringey-irish.com/hirefacilities.html,1.00024E+11,E09000014,Northumberland Park,E05000276,51.60705372,-0.069854162,533644.0001,191619.0001
+Marsh Road Community Centre,Marsh Road,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,10070270312,E09000015,Pinner South,E05000298,51.58859648,-0.37642874,512463.6701,189050.5501
+South Hornchurch Community Association,South Hornchurch Social Hall Nelson Road, Rainham,NA,Havering,,10091576887,E09000016,South Hornchurch,E05000321,51.52978287,0.188689427,551801.0001,183532.0001
+New Windmill Hall Community Association,302 St Mary’s Lane, Upminster,NA,Havering,,10091576889,E09000016,Upminster,E05000323,51.55572153,0.246944405,555752.3201,186538.4901
+Front Lane Community Association,Cranham Social Hall, 103 Front Lane, Cranham,Havering,,1.00024E+11,E09000016,Cranham,E05000307,51.56247579,0.267795211,557174.1801,187334.0801
+Bretons Community Association,Bretons Manor House 411 Rainham Road Rainham,NA,NA,Havering,,2.00003E+11,E09000016,Elm Park,E05000308,51.5414901,0.187377942,551671.1201,184830.9601
+Harold Wood Neighbourhood Centre,The Old School, Gubbins Lane, Harold Wood,Havering,http://www.hwnc.org.uk/,1.00023E+11,E09000016,Harold Wood,E05000312,51.58921009,0.235381927,554837.0701,190237.3801
+Harold Hill & District Community Association,Gooshays Drive, Harold Hill,NA,Havering,http://www.hhdca.co.uk/,1.00023E+11,E09000016,Gooshays,E05000310,51.60531731,0.227672187,554248.5101,192011.9801
+North Romford Community Association,Clockhouse Lane Collier Row,NA,NA,Havering,www.nrca.co.uk,1.00024E+11,E09000016,Havering Park,E05000313,51.60012564,0.165357986,549951.3301,191305.0401
+Tweedway Hall Community Association,Tweedway Hall Tweed Way, Collier Row,NA,Havering,https://www.tweedwayhall.com/,1.00023E+11,E09000016,Pettits,E05000317,51.59901313,0.179575553,550939.4801,191210.6101
+Elm Park Community Association,Elm Park Assembly Hall, Eyhurst Avenue, Elm Park,Havering,,1.00023E+11,E09000016,St. Andrew's,E05000320,51.55238849,0.199890179,552502.1601,186068.7301
+Mardyke Youth & Community Association,Mardyke Social Centre, South Street, Rainham,Havering,,1.00023E+11,E09000016,South Hornchurch,E05000321,51.52796435,0.171001905,550580.3801,183293.2501
+The Forest Row Community Centre,241 Lodge Lane, Collier Row,NA,Havering,http://www.theforestrowcentre.co.uk/,1.00023E+11,E09000016,Havering Park,E05000313,51.60499432,0.155115105,549226.1201,191825.4101
+Ardleigh House Community Association,42 Ardleigh Green Road,Havering,NA,Havering,www.ardleighhouse.org,1.00024E+11,E09000016,Squirrel's Heath,E05000322,51.58036352,0.223329247,554032.2401,189228.3001
+Community Centre Stockley Park ,Chestnut Avenue, West Drayton,NA,Hillingdon,,10022805197,E09000017,Yiewsley,E05000345,51.51459917,-0.458029883,506985.0001,180700.0001
+Brookside Community Centre,70 Brookside Road,Hillingdon,NA,Hillingdon,http://www.brooksidecommunitycentre.org/Default.aspx,10091851878,E09000017,Yeading,E05000344,51.51817596,-0.390894115,511634.0001,181198.0001
+Hillingdon Community Centre,Royal Lane,Hillingdon,NA,Hillingdon,,10022796415,E09000017,Yiewsley,E05000345,51.52262107,-0.464532102,506515.1701,181582.5101
+South Ruislip Community Centre,Long Drive,Hillingdon,NA,Hillingdon,http://www.southruislip.org/,1.00023E+11,E09000017,South Ruislip,E05000338,51.56006401,-0.38672473,511820.5201,185862.0901
+Yeading Community Centre,2 Ditchfield Road,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Yeading,E05000344,51.52547575,-0.383500207,512129.0001,182021.0001
+Sipson Community Centre,Sipson Way,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Heathrow Villages,E05000331,51.48266633,-0.454094838,507333.0001,177155.0001
+Harefield Community Centre,Priory Avenue,Hillingdon,NA,Hillingdon,,1.00024E+11,E09000017,Harefield,E05000330,51.59007645,-0.482690204,505100.0001,189057.0001
+Mission Hall Community Centre,Mission Square,Hounslow,NA,Hounslow,,1.00023E+11,E09000018,Brentford,E05000347,51.48716295,-0.297121866,518219.4001,177896.8001
+Oriel Community Centre,16 Chamberlain Walk,Hounslow,NA,Hounslow,,10001263362,E09000018,Hanworth,E05000353,51.43409399,-0.386985844,512111.1001,171854.6101
+Rose Community Hall & MUGA,Hawthorn Road,Hounslow,NA,Hounslow,,10023861919,E09000018,Syon,E05000364,51.48011419,-0.317574719,516817.6001,177080.2001
+Moulton Avenue Community Centre,14-16 Moulton Avenue,Hounslow,NA,Hounslow,,10090800372,E09000018,Heston Central,E05000355,51.4754103,-0.380588969,512454.1001,176458.5001
+Dukes Meadow Community Centre,Alexandra Gardens,Hounslow,NA,Hounslow,,10090800597,E09000018,Chiswick Homefields,E05000348,51.48017729,-0.255449293,521130.7601,177188.1701
+Alf Chandler Centre,Benson Close,Hounslow,NA,Hounslow,,10090800598,E09000018,Hounslow Heath,E05000359,51.46512391,-0.371287781,513125.3901,175329.0501
+Clayponds Community Centre,Clayponds Gardens,Hounslow,NA,Hounslow,,10001273919,E09000018,Brentford,E05000347,51.49475816,-0.302910214,517798.0001,178732.0001
+Brickfield Community Centre,Brickfield Close,Hounslow,NA,Hounslow,,10091692313,E09000018,Syon,E05000364,51.48194877,-0.31316233,517119.2501,177291.2401
+Gunnersbury Close,Chiswick High Road,Hounslow,NA,Hounslow,,10091693280,E09000018,Turnham Green,E05000365,51.49171076,-0.271602193,519979.0001,178444.0001
+Heston Farm,15 Biscoe Close ,Hounslow,NA,Hounslow,,10093256965,E09000018,Heston East,E05000356,51.48780158,-0.36724844,513349.7001,177856.9001
+ROWE Community Centre,Unwin Road,Hounslow,NA,Hounslow,,10093259960,E09000018,Isleworth,E05000362,51.46965723,-0.337612842,515452.7601,175885.6801
+Brabazon Community Centre,106 Brabazon Road,Hounslow,NA,Hounslow,,1.00022E+11,E09000018,Heston West,E05000357,51.48099086,-0.394335061,511486.0001,177058.0001
+Hogarth Meeting room ,Devonshire Street,Hounslow,NA,Hounslow,,1.00023E+11,E09000018,Turnham Green,E05000365,51.4875558,-0.25538891,521115.4001,178008.7001
+Bedfont Lane Community Centre,9 Proctors Close,Hounslow,NA,Hounslow,,1.00024E+11,E09000018,Feltham West,E05000352,51.44820387,-0.412677349,510291.5401,173384.5301
+The Bridgelink Centre,373 Summerwood Road,Hounslow,NA,Hounslow,,2.00004E+11,E09000018,Isleworth,E05000362,51.45824793,-0.330178085,515998.0001,174628.8001
+The Hub Community Centre,103 Salisbury Road,Hounslow,NA,Hounslow,https://fsd.hounslow.gov.uk/kb5/hounslow/fsd/service.page?id=O3TyhTLjDLY,1.00023E+11,E09000018,Cranford,E05000350,51.46961984,-0.394806335,511481.0001,175792.9001
+Convent Way Community Centre,Convent Way,Hounslow,NA,Hounslow,https://cig.hounslow.gov.uk/kb5/hounslow/community/service.page?id=tDACEAJwjPI#,10090800594,E09000018,Heston West,E05000357,51.49491049,-0.393137084,511535.2001,178607.6001
+Bentham Community Centre,New Bentham Court, Ecclesbourne Road, London,Islington,,5300029420,E09000019,St. Peter's,E05000380,51.54039802,-0.092117818,532296.0001,184167.0001
+St Johns' Community Centre,Elthorne Estate,Holland Walk,Islington,Islington,,10001298762,E09000019,Hillrise,E05000374,51.56683664,-0.127131479,529793.0001,187044.0001
+Aubert Court Community Centre,70 Avenell Road,Islington,NA,Islington,,10010440652,E09000019,Highbury West,E05000373,51.5560964,-0.100160628,531693.0001,185898.0001
+Earlstoke Estate Community Room,Manningford Close,Islington,NA,Islington,,10010441490,E09000019,Clerkenwell,E05000370,51.52828956,-0.100237199,531768.0001,182806.0001
+Walter Sickert Community Centre,Canonbury Crescent,Islington,NA,Islington,https://www.canonbury-snt-panel.org/walter-sickert-community-centre,10012787909,E09000019,Canonbury,E05000369,51.54215675,-0.09187117,532308.0001,184363.0001
+Providence Place Community Centre,1a Providence Court,Providence Place,Islington,Islington,,10093108754,E09000019,St. Mary's,E05000379,51.53658618,-0.102184683,531609.0001,183725.0001
+Brickworks Community Centre,42 Crouch Hill,Islington,NA,Islington,,10093111210,E09000019,Tollington,E05000381,51.57145342,-0.116651474,530506.0001,187576.0001
+Hind House Community Rooms,74 Hornsey Road,Islington,NA,Islington,,10093620607,E09000019,Highbury West,E05000373,51.55646916,-0.108758358,531096.0001,185924.0001
+Goodinge Community Centre,2 Goodinge Road,Islington,NA,Islington,,10093621811,E09000019,Holloway,E05000375,51.54753428,-0.124173951,530053.0001,184903.0001
+Halfmoon Crescent Co-op,183 Wynford Road,Islington,NA,Islington,,5300099584,E09000019,Barnsbury,E05000366,51.53368392,-0.111822858,530949.0001,183385.0001
+York Way Community Centre,Tiber Gardens,Islington,NA,Islington,,5300092135,E09000019,Caledonian,E05000368,51.53538313,-0.119063918,530442.0001,183561.0001
+Westbourne Community Centre,43 Roman Way,Islington,NA,Islington,http://directory.islington.gov.uk/kb5/islington/directory/service.page?id=G3Jy2lOy1-8,5300079082,E09000019,Caledonian,E05000368,51.54630408,-0.113637094,530787.0001,184785.0001
+Nailour Hall Community Centre,52 Blundell Street,Islington,NA,Islington,http://directory.islington.gov.uk/kb5/islington/directory/service.page?id=lMrJHwKnvao,5300010607,E09000019,Caledonian,E05000368,51.54424883,-0.118943483,530425.0001,184547.0001
+Almorah Community Centre,58 Almorah Road,Islington,NA,Islington,http://www.almorahcommunity.org.uk,5300001394,E09000019,Canonbury,E05000369,51.54021245,-0.085145107,532780.0001,184159.0001
+Hilldrop Community Centre,Community Lane,Hilldrop Road,Islington,Islington,https://www.hilldrop.org.uk/,5300022801,E09000019,St. George's,E05000378,51.55119103,-0.128452249,529746.0001,185302.0001
+Hargrave Hall Community Centre,42 Hargrave Road,Islington,NA,Islington,http://www.hargravehall.co.uk/,5300040886,E09000019,Junction,E05000376,51.56319856,-0.131912913,529472.0001,186631.0001
+Hornsey Lane Community Centre,Hornsey Lane Estate,Hazellville Road,Islington,Islington,http://hleca.org.uk/,5300042147,E09000019,Hillrise,E05000374,51.57226089,-0.1305888,529538.0001,187641.0001
+Loraine Community Centre,325 Holloway Road,Islington,NA,Islington,,5300048071,E09000019,Holloway,E05000375,51.55425927,-0.113942721,530743.0001,185669.0001
+Margery Street Community Centre,Margery Street Estate,Lloyd Baker Street,Islington,Islington,,5300060076,E09000019,Clerkenwell,E05000370,51.52626471,-0.11129361,531007.0001,182561.0001
+New Orleans Community Centre,New Orleans Walk,Islington,NA,Islington,,5300066093,E09000019,Hillrise,E05000374,51.57231516,-0.124972309,529927.0001,187657.0001
+Weston Rise Community Centre,187 Pentonville Road,Islington,NA,Islington,,5300073284,E09000019,Clerkenwell,E05000370,51.53060228,-0.113695133,530828.0001,183039.0001
+Popham and Cumming Community Centre,14 Popham Street,Islington,NA,Islington,,5300075537,E09000019,St. Peter's,E05000380,51.53719,-0.095049767,532102.0001,183805.0001
+Mildmay Community Centre,Woodville Road,Islington,NA,Islington,http://mildmaycp.wordpress.com,5300098973,E09000019,Mildmay,E05000377,51.55035853,-0.080824087,533050.0001,185295.0001
+Stephen's Ink Community Centre,104 Gillespie Road,Islington,NA,Islington,,10008978440,E09000019,Highbury West,E05000373,51.55837932,-0.102850117,531500.0001,186147.0001
+Jean Stokes Community Centre,Carnoustie Drive,Islington,NA,Islington,https://bemerton.wordpress.com/jean-stokes-community-centre/,10010440359,E09000019,Caledonian,E05000368,51.54014963,-0.11625691,530623.0001,184096.0001
+Brunswick Estate Community Centre,Tompion Street,Islington,NA,Islington,,10010440550,E09000019,Clerkenwell,E05000370,51.52616617,-0.100181418,531778.0001,182570.0001
+Chestnuts Community Centre,1 Highbury Grange,Islington,NA,Islington,,10010441199,E09000019,Highbury East,E05000372,51.55466533,-0.096209556,531971.0001,185746.0001
+Williamson Street Community Centre,76 Parkhurst Road,Islington,NA,Islington,,10010441453,E09000019,Holloway,E05000375,51.55606039,-0.119134214,530378.0001,185860.0001
+Birchmore Hall Community Hall,Highbury Quadrant,Islington,NA,Islington,https://highburyquadrant.co.uk/birchmore-hall/,10010441763,E09000019,Highbury East,E05000372,51.55846622,-0.092126328,532243.0001,186176.0001
+Tompion Hall Community Centre,40 Percival Street,Islington,NA,Islington,,10023215945,E09000019,Bunhill,E05000367,51.52549584,-0.100440009,531762.0001,182495.0001
+Andover Estate Community Centre,56 Corker Walk,Islington,NA,Islington,http://www.octopuscommunities.org.uk/our-projects/community-hubs/about-the-hubs/finsbury-park-community-hub-andover-community-centre/,5300024110,E09000019,Finsbury Park,E05000371,51.56297469,-0.111749497,530870.0001,186642.0001
+Wheatsheaf Hall,Wheatsheaf Lane,Lambeth,NA,Lambeth,wheatsheafhall.org.uk,1.00024E+11,E09000022,Oval,E05000426,51.48038102,-0.1237191,530276.0001,177437.0001
+Notre Dame Community Hall,1 Worsopp Drive,Lambeth,NA,Lambeth,https://notredametra.my-free.website/about-us,1.00024E+11,E09000022,Clapham Common,E05000418,51.45881164,-0.13708586,529409.0001,175015.0001
+Heath Road Community Hall,117 Heath Road,Lambeth,NA,Lambeth,https://www.facebook.com/heathbrook.hall.9,2E+11,E09000022,Clapham Town,E05000419,51.46809792,-0.145332949,528810.0001,176033.0001
+Jubilee Community Halls,Tulse Hill,Lambeth,NA,Lambeth,,2E+11,E09000022,Tulse Hill,E05000435,51.44916731,-0.11439106,531013.0001,173983.0001
+Chandler Hall,15 Lambeth Walk,Lambeth,NA,Lambeth,https://www.facebook.com/pages/Chandler-Community-Hall/700659773316783,2E+11,E09000022,Bishop's,E05000416,51.49477569,-0.11114048,531108.0001,179060.0001
+St Matthew's Tenants Hall,10 St Matthew'S Road,Lambeth,NA,Lambeth,https://twitter.com/stmatthewstra?lang=en,10008785856,E09000022,Tulse Hill,E05000435,51.45708875,-0.114827573,530960.0001,174863.0001
+Hawksworth Hall,Poynders Road,Lambeth,NA,Lambeth,https://sites.google.com/site/oaklandscommunityassociagbbo00/hawkesworth-hall,10090197025,E09000022,Clapham Common,E05000418,51.45150324,-0.140132749,529218.0001,174197.0001
+Myatts Field South Community Hall,Urlwin Walk,Lambeth,NA,Lambeth,,10090203232,E09000022,Vassall,E05000436,51.47135332,-0.106429736,531502.3201,176464.1201
+Vernon Hall,Vauxhall Street,Lambeth,NA,Lambeth,,10090203233,E09000022,Prince's,E05000427,51.48657724,-0.115950102,530797.6501,178139.8101
+Renton Close Community Centre,Brixton Hill,Lambeth,NA,Lambeth,https://rentonclose.org/hire-the-centre/,10090203264,E09000022,Brixton Hill,E05000417,51.45118688,-0.120811622,530561.1701,174196.0901
+Southwyck House Community Hall,Moorland Road,Lambeth,NA,Lambeth,https://southwyckhouse.wordpress.com/community-hall/,10090203265,E09000022,Coldharbour,E05000420,51.46190818,-0.105527866,531592.1201,175415.5401
+Edmundsbury Community Hall,171 Ferndale Road,Lambeth,NA,Lambeth,https://edmundsbury.org.uk/edmundsbury-community-hall/,10090203277,E09000022,Ferndale,E05000421,51.4615674,-0.117434829,530766.0901,175356.3201
+Drew House Meeting Room,Leigham Avenue,Lambeth,NA,Lambeth,,10090203572,E09000022,Streatham Wells,E05000432,51.43315804,-0.123323901,530438.0001,172187.0001
+Holland Town Community Hall,11 Vassall Road,Lambeth,NA,Lambeth,https://www.facebook.com/Holland-Town-Residents-Association-282329735288935/,10091117047,E09000022,Vassall,E05000436,51.47655652,-0.109824888,531251.6201,177036.5701
+Taylor Road Day Centre,Taylor Road, Merton,NA,Merton,http://www.positive-network.co.uk/,48068539,E09000024,Colliers Wood,E05000457,51.41608551,-0.166914107,527456.0001,170212.0001
+Pollards Hill - (New Horizons),South Lodge Avenue,Merton,NA,Merton,http://www.commonside.net/,48065105,E09000024,Pollards Hill,E05000467,51.39944912,-0.129477693,530106.0001,168428.0001
+North East Mitcham Community Centre,49 Woodland Way,Merton,NA,Merton,http://www.nemca.org.uk/,48075257,E09000024,Graveney,E05000461,51.41677269,-0.152258671,528473.0001,170314.0001
+Bird-In-Bush Centre,616 Old Kent Road,Southwark,NA,Southwark,,10091837834,E09000028,Livesey,E05000543,51.48242835,-0.063238221,534469.0001,177774.0001
+South Mitcham Community Centre,Haslemere Avenue,Merton,NA,Merton,http://www.southmitchamcommunity.org.uk/,48081917,E09000024,Cricket Green,E05000458,51.40650113,-0.180369046,526547.0001,169123.0001
+Colliers Wood Community Centre,66-72 High Street Collier'S Wood,Merton,NA,Merton,https://directories.merton.gov.uk/kb5/merton/directory/service.page?id=ExWbAG6gaDE&familychannel=0,48082185,E09000024,Colliers Wood,E05000457,51.42000773,-0.174651763,526907.1701,170634.6801
+Newminster Road,33 Newminster Road,Merton,NA,Merton,,48100193,E09000024,Ravensbury,E05000468,51.3879134,-0.183406516,526387.0001,167051.0001
+South Wimbledon Community Centre,78 Victory Road,Merton,NA,Merton,http://www.southwimbledoncommunity.com/,48130927,E09000024,Abbey,E05000455,51.41744551,-0.186530709,526088.4001,170329.2801
+Paul Street Community Centre,48 West Ham Lane, Newham,NA,Newham,,10008994317,E09000025,West Ham,E05000494,51.53763234,0.006786152,539162.0001,184043.0001
+Vicarage Lane Community Centre,Govier Close, Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Vicarage-Lane-Community-Centre.aspx,10009002033,E09000025,West Ham,E05000494,51.53862963,0.012094117,539527.0001,184164.0001
+Queens Road West Community Centre,63 Queens Road West, Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Queens-Road-West-Community-Centre.aspx,10009002930,E09000025,Plaistow North,E05000489,51.53236413,0.027059917,540584.0001,183496.0001
+Trinity Community Centre,Bothwell Close,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Trinity-Community-Centre.aspx,46099802,E09000025,Canning Town South,E05000478,51.51582849,0.016926994,539932.0001,181638.0001
+Jack Cornwell Community Centre,Jack Cornwell Street,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Jack-Cornwall-Community-Centre.aspx,10008995229,E09000025,Little Ilford,E05000487,51.55196993,0.063709136,543064.0001,185747.0001
+Jeyes Community Centre,1 James Close, Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Jeyes-Community-Centre.aspx,10009001158,E09000025,Plaistow North,E05000489,51.53023533,0.023778619,540363.0001,183253.0001
+Chandos Community Centre,105 Barking Road,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Chandos-Community-Centre.aspx,10009001471,E09000025,Canning Town North,E05000477,51.51704861,0.012915778,539650.0001,181766.0001
+Tiptree Community Hall | Clayhall,Tiptree Crescent,Redbridge,NA,Redbridge,,10023771023,E09000026,Fullwell,E05000504,51.59011187,0.07053823,543417.2601,190001.3301
+Etteridge Hall,Ray Lodge Road,Redbridge,NA,Redbridge,,10090505113,E09000026,Bridge,E05000497,51.60734565,0.044212552,541540.3701,191866.2201
+The Parkside Community Centre,176 Goodmayes Lane,Redbridge,NA,Redbridge,,1.00023E+11,E09000026,Mayfield,E05000508,51.55206868,0.10872449,546184.0001,185847.0001
+Hainault Forest Community Association,100 Manford Way,Redbridge,NA,Redbridge,http://www.hfca-uk.com/,1.00024E+11,E09000026,Hainault,E05000506,51.60725483,0.10604819,545821.7001,191977.7001
+Bullen Hall,Bennet Close,Richmond Upon Thames,NA,Richmond upon Thames,https://www.richmond.gov.uk/services/hall_and_venue_bookings/bullen_hall_venue_hire,10070711005,E09000027,Hampton Wick,E05000522,51.41332631,-0.311896412,517383.0001,169663.0001
+Sheen Lane Centre,Sheen Lane,Richmond Upon Thames,NA,Richmond upon Thames,https://www.richmond.gov.uk/services/hall_and_venue_bookings/sheen_lane_centre_venue_hire,1.00023E+11,E09000027,East Sheen,E05000517,51.46536187,-0.265643624,520462.0001,175524.0001
+Murray Park Hall,111 Kneller Road,Richmond Upon Thames,NA,Richmond upon Thames,https://www.richmond.gov.uk/services/hall_and_venue_bookings/murray_park_hall_venue_hire,1.00023E+11,E09000027,Whitton,E05000533,51.45464734,-0.351426988,514531.0001,174195.0001
+Crane Community Centre,49-51 Medway, Twickenham,NA,Richmond upon Thames,https://www.facebook.com/pages/Crane-Community-Centre/249951148350529,1.00024E+11,E09000027,West Twickenham,E05000532,51.44475648,-0.349005618,514724.0001,173099.0001
+Bells Garden Community Centre,19 Buller Close,Southwark,NA,Southwark,0207 639 6718,10013530698,E09000028,Peckham,E05000546,51.47721186,-0.066498189,534258.0001,177188.0001
+Beormund Community Centre,177 Abbey Street,Southwark,NA,Southwark,www.beormund.co.uk,2.00003E+11,E09000028,Riverside,E05000548,51.4979749,-0.070662676,533908.0001,179489.0001
+Browning Community Hall,57-59 Browning Street,Southwark,NA,Southwark,http://www.browning-ema.org.uk/,2.00003E+11,E09000028,East Walworth,E05000540,51.490234,-0.09170637,532470.0001,178590.0001
+Rockingham Community Centre,Falmouth Road,Southwark,NA,Southwark,https://communitysouthwark.org/organisations-venues/venues/rockingham-community-centre,2.00003E+11,E09000028,Chaucer,E05000537,51.49493927,-0.094016853,532296.0001,179109.0001
+Bermondsey Village Hall,Kirby Grove,Southwark,NA,Southwark,http://bermondseyhall.org.uk/,10000811728,E09000028,Grange,E05000542,51.50062904,-0.082775994,533059.6001,179762.0201
+Thurlow Lodge Community Hall,1 Thurlow Street,Southwark,NA,Southwark,http://www.creationtrust.org/hallsforhire,10009805020,E09000028,Faraday,E05000541,51.48551839,-0.081040472,533224.0901,178085.0301
+Albrighton Community Centre,37 Albrighton Road,Southwark,NA,Southwark,http://www.albrightoncommunitycentre.org/,2.00003E+11,E09000028,South Camberwell,E05000551,51.46409609,-0.079996942,533359.0001,175705.0001
+Grahame Park Community Centre,12 The Concourse,Barnet,NA,Barnet,,200114937,E09000003,Colindale,E05000046,51.60135957,-0.242839262,521682.5701,190683.6901
+Elmcroft Community Centre,London Road,Sutton,NA,Sutton,http://www.elmcroftcc.org.uk/,5870012360,E09000029,Nonsuch,E05000561,51.37253952,-0.223631825,523630.0001,165273.0001
+Shanklin Community & Children's Centre,Rookley Close,Sutton,NA,Sutton,,5870029716,E09000029,Belmont,E05000557,51.34708287,-0.194514854,525726.0001,162492.0001
+Thomas Wall Centre,52 Benhill Avenue,Sutton,NA,Sutton,http://thethomaswallcentre.co.uk/index4.html/index-4.html,5870047224,E09000029,Sutton Central,E05000564,51.36618433,-0.189194708,526044.0001,164625.0001
+Hillcrest Halls,Fryston Avenue,Sutton,NA,Sutton,http://www.spanglefish.com/clockhousecommunityassociation/,5870074245,E09000029,Carshalton South and Clockhouse,E05000559,51.32541056,-0.152589011,528706.0001,160155.0001
+Forest Community Centre,56 Guildford Road, Waltham Forest,NA,Waltham Forest,,1.00023E+11,E09000031,Hale End and Highams Park,E05000597,51.59997386,-0.000445269,538471.0001,190961.0001
+Frederic Street Community Centre,5 Frederic Street, Waltham Forest,NA,Waltham Forest,https://www.crazy4kids.co.uk/,2.00001E+11,E09000031,Markhouse,E05000606,51.57975654,-0.032382968,536320.0001,188653.0001
+"Mornington Hall, The Green",The Green, Waltham Forest,NA,Waltham Forest,https://www.hallshire.com/halls/view/3691/mornington-hall,2.00001E+11,E09000031,Chingford Green,E05000593,51.63117261,0.002718687,538595.0001,194436.0001
+Nexus Community Centre,3 Snowberry Close, Waltham Forest,NA,Waltham Forest,,2.00001E+11,E09000031,Cathall,E05000591,51.5526339,0.00467654,538970.0001,185707.0001
+Priory Court Community Centre,Priory Court, Waltham Forest,NA,Waltham Forest,http://priorycourtcc.org.uk/?doing_wp_cron=1548425449.1028890609741210937500,10009144740,E09000031,William Morris,E05000608,51.59322958,-0.025461795,536759.0001,190164.0001
+William Morris Community Users Assn Community Centre,6- 8 Greenleaf Road, Waltham Forest,NA,Waltham Forest,https://www.wmccua.org/,1.00024E+11,E09000031,William Morris,E05000608,51.58705009,-0.020604493,537114.0001,189486.0001
+R.O.S.E Clubroom,Ascalon Street, Wandsworth,NA,Wandsworth,,10070243523,E09000032,Queenstown,E05000620,51.47720443,-0.139404167,529196.0001,177056.0001
+Great Ormond St TRA Hall,17 Great Ormond Street,NA,NA,Camden,,5064181,E09000007,Holborn and Covent Garden,E05000138,51.52183843,-0.116796511,530638.0001,182059.0001
+Penfold Centre,Neville Gill Close, Arndale Estate, Wandsworth,Wandsworth,,1.00023E+11,E09000032,Southfields,E05000624,51.45481231,-0.193577807,525496.0001,174472.0001
+Tooting Grove Community Clubhouse,Effort Street,Wandsworth,NA,Wandsworth,,121031095,E09000032,Tooting,E05000626,51.42588402,-0.170650819,527169.0001,171295.0001
+Brookside Community Centre,12 Priory Lane,Wandsworth,NA,Wandsworth,,121031939,E09000032,Roehampton and Putney Heath,E05000621,51.46227659,-0.248670702,521649.0001,175209.0001
+Open Door Community Centre,Beaumont Road,Wandsworth,NA,Wandsworth,https://enablelc.org/public-halls/about/,121051546,E09000032,West Hill,E05000628,51.44828138,-0.214605073,524053.0001,173710.0001
+Focus Hall,Minstead Gardens,Wandsworth,NA,Wandsworth,,121051843,E09000032,Roehampton and Putney Heath,E05000621,51.45027983,-0.24810791,521720.0001,173876.0001
+Aboyne Community Clubroom,Deeside Road,Wandsworth,NA,Wandsworth,,121053450,E09000032,Earlsfield,E05000612,51.43418511,-0.179312218,526544.0001,172203.0001
+Civic Suite,Wandsworth High Street,Wandsworth,NA,Wandsworth,https://enablelc.org/public-halls/about/,10008156678,E09000032,Fairfield,E05000614,51.45647622,-0.190085896,525734.0001,174663.0001
+Horne Way Community Clubroom,Horne Way,Wandsworth,NA,Wandsworth,,10093418002,E09000032,Thamesfield,E05000625,51.47013446,-0.225185657,523259.0001,176122.0001
+Park Court Clubroom (The Venue),191 Battersea Park Road,Wandsworth,NA,Wandsworth,http://www.wandsworth.gov.uk/directory_record/148176/park_court_clubroom_the_venue/category/1125/clubrooms,10090497135,E09000032,Queenstown,E05000620,51.47475575,-0.147770394,528622.0001,176769.0001
+Ackroydon Community Clubroom,26 Montfort Place,Wandsworth,NA,Wandsworth,http://www.ackroydonhall.com,10024086732,E09000032,West Hill,E05000628,51.4463263,-0.216739486,523910.0001,173489.0001
+Kambala Community Clubroom,126 Fawcett Close,Wandsworth,NA,Wandsworth,kambala.org.uk,1.00023E+11,E09000032,Latchmere,E05000617,51.46849968,-0.17205689,526953.0001,176031.0001
+Wilditch Centre,48 Culvert Road,Wandsworth,NA,Wandsworth,https://enablelc.org/public-halls/about/,1.00023E+11,E09000032,Latchmere,E05000617,51.47127371,-0.157948653,527925.0001,176364.0001
+Chatham Hall,152 Northcote Road,Wandsworth,NA,Wandsworth,https://enablelc.org/public-halls/about/,1.00023E+11,E09000032,Northcote,E05000619,51.45455003,-0.163962702,527554.0001,174494.0001
+Boyd Court Clubroom,Carslake Road,Wandsworth,NA,Wandsworth,,1.00023E+11,E09000032,West Putney,E05000629,51.45344235,-0.226365813,523222.0001,174264.0001
+Alton Community Centre,1-9 Petersfield Rise,Wandsworth,NA,Wandsworth,,1.00023E+11,E09000032,Roehampton and Putney Heath,E05000621,51.44659196,-0.236677387,522524.0001,173485.0001
+Fitzhugh Grove Community Room,Fitzhugh Grove,Wandsworth,NA,Wandsworth,http://www.fitzhughgrove.info,1.00023E+11,E09000032,Wandsworth Common,E05000627,51.45261804,-0.175008971,526792.0001,174260.0001
+St Martin's Community Centre,Abbots Park,Lambeth,NA,Lambeth,,2E+11,E09000022,Tulse Hill,E05000435,51.44226175,-0.111696508,531220.0001,173220.0001
+Chalkhill Community Centre,113 Chalkhill Road,Brent,NA,Brent,https://www.metropolitan.org.uk/images/centre-profile_Chalkhill.pdf,202151476,E09000005,Barnhill,E05000086,51.5633925,-0.27495994,519558.0001,186409.0001
+Ashmole Estate Tenants' Hall,2 Meadow Road,Lambeth,NA,Lambeth,https://www.metropolitan.org.uk,1.00023E+11,E09000022,Oval,E05000426,51.48231663,-0.115991054,530807.0001,177666.0001
+Sky City Community Centre,50 Mayes Road,London Borough Of Haringey,NA,Haringey,https://www.metropolitan.org.uk/images/centre-profile_Sky-City2.pdf,1.00023E+11,E09000014,Noel Park,E05000275,51.59373182,-0.107802722,531055.0001,190069.0001
+Whitmore Community Centre,2 Phillipp Street,Hackney,NA,Hackney,https://www.metropolitan.org.uk/,1.00023E+11,E09000012,Hoxton East & Shoreditch,E05009377,51.53533084,-0.075918729,533434.0001,183633.0001
+Rectory Park Community Centre,245 Rectory Park Avenue,Ealing,NA,Ealing,,12175709,E09000009,Greenford Broadway,E05000177,51.53361438,-0.377616971,512517.0001,182935.0001
+Stockwell Park Community Centre,21 Aytoun Place,Lambeth,NA,Lambeth,http://www.thetrust.org.uk/,2E+11,E09000022,Ferndale,E05000421,51.4687785,-0.1141441,530974.0001,176164.0001
+Lascar Wharf Community Centre,21 Parnham Street,Tower Hamlets,NA,Tower Hamlets,https://www.newlon.org.uk/residents/community-services/community-facilities/,6163883,E09000030,St. Dunstan's,E05009329,51.51435159,-0.033604815,536430.8901,181378.3601
+Barnsbury Estate Community Centre Hall,12 Jays Street,Islington,NA,Islington,https://www.newlon.org.uk/residents/community-services/community-facilities/,10023220325,E09000019,Barnsbury,E05000366,51.53557496,-0.113648154,530817.0001,183592.0001
+The Vale Community Centre,1 Pentland Road,Brent,NA,Brent,https://www.brent.gov.uk/your-community/community-directory/the-vale-community-centre/,202139453,E09000005,Kilburn,E05000094,51.53125749,-0.194763375,525204.0001,182970.0001
+Phoenix Heights Community Centre,140 Byng Street,Tower Hamlets,NA,Tower Hamlets,https://www.onehousing.co.uk/for-you/volunteering-and-community-involvement/community-centres/phoenix-heights-community-centre,6165218,E09000030,Canary Wharf,E05009323,51.49978343,-0.020173267,537406.5301,179783.6701
+Flower and Dean Community Centre,41 Flower And Dean Walk,Tower Hamlets,NA,Tower Hamlets,https://www.onehousing.co.uk/for-you/volunteering-and-community-involvement/community-centres/flower-and-dean-community-centre,6001472,E09000030,Spitalfields & Banglatown,E05009333,51.51724721,-0.070597826,533856.0001,181632.0001
+Grays Inn Community Centre,Rosebery Avenue,Camden,NA,Camden,https://www.onehousing.co.uk/for-you/volunteering-and-community-involvement/community-centres/grays-inn-community-centre,5140780,E09000007,Holborn and Covent Garden,E05000138,51.52163326,-0.110750028,531058.0001,182047.0001
+Charlton House,Charlton Road,Greenwich,NA,Greenwich,https://www.greenwichheritage.org/whats-on/detail/community-groups-at-charlton-house,10010233503,E09000011,Charlton,E05000216,51.48015803,0.038730533,541555.0501,177713.8001
+St Marys Community Centre,180 Eltham High Street,Greenwich,NA,Greenwich,,1.00023E+11,E09000011,Eltham South,E05000219,51.45005809,0.058689915,543034.8601,174405.8601
+Invicta Hall,26 Strandfield Close,Greenwich,NA,Greenwich,http://www.glyndon.org.uk/invicta.htm,1.00023E+11,E09000011,Plumstead,E05000226,51.48619875,0.095123943,545451.0001,178496.0001
+World's End Community Centre,16 Blantyre Street, London,NA,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217122202,E09000020,Chelsea Riverside,E05009391,51.48042559,-0.177283773,526557.0001,177348.0001
+Freehold Community Centre,9 Alexandra Road,Barnet,NA,Haringey,,10003975973,E09000014,Alexandra,E05000266,51.60744377,-0.141377479,528691.0001,191534.0001
+Silchester Community Room,Frinstead House, Freston Road, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217127986,E09000020,Notting Dale,E05009399,51.51232601,-0.21746235,523681.0901,180826.3701
+Sir Thomas More Community Centre,Sir Thomas More Estate, Beaufort Street, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217004580,E09000020,Chelsea Riverside,E05009391,51.48254898,-0.172143259,526908.0001,177593.0001
+Henry Dickens Community Centre,Henry Dickens Court Estate, St Annes Road, London,Kensington and Chelsea,,217107812,E09000020,Notting Dale,E05009399,51.5096151,-0.213879857,523937.0001,180531.0001
+Treverton Community Centre,Treverton Street, London,NA,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217125493,E09000020,Dalgarno,E05009394,51.52273348,-0.213470191,523929.8101,181990.3501
+Kensal Resource Centre,Appleford House,  Appleford Road, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217126323,E09000020,Golborne,E05009396,51.52397628,-0.206998721,524375.3101,182139.5201
+John Keys Resource Centre,Pond House, Pond Place, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217126324,E09000020,Stanley,E05009405,51.49110413,-0.169280865,527082.9301,178549.2201
+Shiraz Mirza Hall (Norbiton),76 Coombe Road,Kingston Upon Thames,NA,Kingston upon Thames,http://www.shirazm.org.uk/norbiton/index.php,1.00023E+11,E09000021,Coombe Hill,E05000406,51.41184925,-0.281432982,519505.0001,169548.0001
+Tudor Hall,Tudor Drive,Kingston Upon Thames,NA,Kingston upon Thames,https://venuesinkingston.co.uk/venue/tudor-hall/,128039996,E09000021,Tudor,E05000415,51.42580323,-0.295942865,518460.0001,171076.0001
+Wharncliffe Gardens Community Hall,Pollitt Drive,City Of Westminster,NA,Westminster,,10033527341,E09000033,Regent's Park,E05000643,51.52621496,-0.172874687,526736.0001,182447.0001
+Shiraz Mirza Hall (Manor Park Hall),Manor Park Hall,316 Malden Road,Kingston Upon Thames,Kingston upon Thames,http://www.shirazm.org.uk/new-malden/index.php,128041830,E09000021,St. James,E05000411,51.38680713,-0.249570364,521787.0001,166816.0001
+Hook Centre,Hook Road,Kingston Upon Thames,NA,Kingston upon Thames,https://www.kingston.gov.uk/info/200203/hook_centre_and_music_studio/293/about_the_hook_centre,1.00023E+11,E09000021,Chessington North and Hook,E05000404,51.36739709,-0.30447708,518017.0001,164568.0001
+Nelson Mandela,Cazenove Road,Hackney,NA,Hackney,n16boilerhouse.com,10008241565,E09000012,Cazenove,E05009368,51.56369311,-0.069493818,533796.2801,186798.3501
+Belvedere House,Lemon Grove,Hounslow,NA,Hounslow,http://fcda.org.uk/,2.00004E+11,E09000018,Feltham West,E05000352,51.44520511,-0.41187235,510354.7001,173052.3001
+Assembly Halls - West Wickham,Assembly Halls, 18 Gates Green Road, West Wickham,Bromley,,1.00023E+11,E09000006,Hayes and Coney Hall,E05000119,51.36796338,0.005780632,539609.0001,165176.0001
+Sanderson Hall - St Paul's Cray,Mickleham Road, St Paul's Cray,NA,Bromley,http://www.sandersonhall.com/,1.00023E+11,E09000006,Cray Valley West,E05000115,51.40439146,0.103072959,546264.0001,169416.0001
+Minstead Gardens Christian Community Centre,Portswood Place,Wandsworth,NA,Wandsworth,,1.00023E+11,E09000032,Roehampton and Putney Heath,E05000621,51.45125397,-0.247696369,521746.0001,173985.0001
+Orpington Village Hall,311 High Street, Orpington,NA,Bromley,http://www.orpingtonvillagehall.org.uk,10070007136,E09000006,Orpington,E05000122,51.37303493,0.099752867,546133.0001,165923.0001
+Beckenham Public Hall,4 Bromley Road,Bromley,NA,Bromley,http://www.mytimeactive.co.uk/leisure/beckenham-public-hall,1.00023E+11,E09000006,Copers Cope,E05000113,51.40805868,-0.022823143,537498.0001,169580.0001
+Wickham Hall,Sussex Road,Bromley,NA,Bromley,http://www.wickhamhall.org.uk,1.00023E+11,E09000006,West Wickham,E05000127,51.37697313,-0.017868534,537936.0001,166133.0001
+Downe Village Hall,The Village Hall, 24 High Street, Downe,Bromley,,1.00023E+11,E09000006,Darwin,E05000117,51.33517129,0.055578835,543177.0001,161626.0001
+Hayes Village Hall,Hayes Street, Bromley,NA,Bromley,,1.00024E+11,E09000006,Hayes and Coney Hall,E05000119,51.37806996,0.020062335,540572.0001,166327.0001
+Farnborough Village Hall,65 High Street, Farnborough, Orpington,Bromley,,1.00024E+11,E09000006,Farnborough and Crofton,E05000118,51.35906354,0.069132338,544046.0001,164309.0001
+Mottingham Community and Learning Shop - Rooms,01-Feb, Cranley Parade, Beaconsfield Road,Bromley,http://www.bromley.gov.uk/MottinghamCommunityShop,1.00024E+11,E09000006,Mottingham and Chislehurst North,E05000121,51.42689827,0.048529239,542401.0001,171811.0001
+Casa De Mozambique in UK,Allensbury Place,Camden,NA,Camden,,5158246,E09000007,Cantelowes,E05000131,51.54090488,-0.125225434,529999.0001,184164.0001
+Community Learning Centre (SHELL),Ainsworth Way,Camden,NA,Camden,http://www.shakonline.co.uk/shell/,5163444,E09000007,Kilburn,E05000140,51.53874299,-0.180982749,526139.0001,183826.0001
+13 Cester Street,13 Cester Street,Hackney,NA,Hackney,https://www.hanover.org.uk/find-a-home/property-search/cester-street-hackney/,10008229900,E09000012,Haggerston,E05009375,51.5350235,-0.0659813,534124.0001,183617.0001
+Robert Owen Lodge,172 Clarence Road,Hackney,NA,Hackney,,1.00024E+11,E09000012,Hackney Downs,E05009373,51.55448073,-0.05426353,534879.0001,185802.0001
+The Fitzrovia Centre,2 Foley Street,City Of Westminster,NA,Westminster,http://fitzroviacentre.org/,10033619463,E09000033,West End,E05000649,51.51967307,-0.137160515,529231.5901,181782.0701
+London Chinese Community Centre,2 Leicester Court,City Of Westminster,NA,Westminster,http://www.ccc.org.uk,10033619899,E09000033,St. James's,E05000644,51.51095569,-0.1274355,529931.0001,180830.0001
+Portgate Community Hall,19 Portgate Close,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/portgate-community-hall,1.00024E+11,E09000033,Harrow Road,E05000635,51.52640699,-0.200419641,524825.0001,182421.0001
+Warwick Community Hall,300 Harrow Road,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/warwick-community-hall,1.00023E+11,E09000033,Westbourne,E05000648,51.52139886,-0.191145581,525482.0001,181880.0001
+St Judes Community Hall,Fourth Avenue,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/st-judes-community-hall,1.00023E+11,E09000033,Queen's Park,E05000642,51.52826984,-0.208723311,524244.0001,182614.0001
+Pickering Hall,Hallfield Estate,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/pickering-hall,10033620853,E09000033,Lancaster Gate,E05000638,51.51488342,-0.183893902,526003.0001,181168.0001
+Churchill Gardens Residents Hall,Lupus Street,City Of Westminster,NA,Westminster,https://www.openage.org.uk/churchill-hub,10033569513,E09000033,Churchill,E05000633,51.48646728,-0.142772472,528936.0001,178080.0001
+Village Club,Allitsen Road,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/village-club,10033555040,E09000033,Regent's Park,E05000643,51.53326584,-0.167040583,527121.0001,183241.1201
+Grosvenor Hall,Vincent Street,City Of Westminster,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/grosvenor-hall,10033548755,E09000033,Vincent Square,E05000646,51.49261869,-0.128619351,529901.0001,178789.0001
+Northfields Community Centre,Northcroft Road,Ealing,NA,Ealing,,12002196,E09000009,Northfield,E05000182,51.50051301,-0.317826421,516748.0001,179348.0001
+The Greenside Community Centre,Lilestone Street,City Of Westminster,NA,Westminster,http://www.westminstercommunityinfo.org/content/greenside-community-centre,10033625021,E09000033,Church Street,E05000634,51.52482512,-0.164725648,527305.0801,182306.6101
+Mountfield Community Centre,17 Sandway Road,Bromley,NA,Bromley,,10003626729,E09000006,Cray Valley East,E05000114,51.39339512,0.117865219,547328.0001,168223.0001
+Bede Community Centre,9 Bede Square,Tower Hamlets,NA,Tower Hamlets,http://www.eastendhomes.net/bede-cc,6180742,E09000030,Mile End,E05009327,51.52010297,-0.028329818,536779.6101,182027.7001
+Southern Grove Community Centre,14 Southern Grove,Tower Hamlets,NA,Tower Hamlets,http://www.eastendhomes.net/southern-grove,6176614,E09000030,Mile End,E05009327,51.52352196,-0.02954195,536685.2901,182405.5901
+The Centre,30 Merchant Street,Tower Hamlets,NA,Tower Hamlets,http://www.eastendhomes.net/the-centre,6159903,E09000030,Bromley North,E05009321,51.52484019,-0.025351326,536972.0001,182560.0001
+Broadwater Farm Community Centre,Freedom Road,London Borough Of Haringey,NA,Haringey,https://www.fusion-lifestyle.com/centres/broadwater-farm-community-centre/,2.00003E+11,E09000014,West Green,E05000282,51.5952161,-0.082889989,532776.0001,190279.0001
+London Borough of Haringey Neighbourhood Resource,179 Park Lane,London Borough Of Haringey,NA,Haringey,https://www.haringey.gov.uk/libraries-sport-and-leisure/culture-and-entertainment/venues-hire/northumberland-park-resource-centre,1.00023E+11,E09000014,Northumberland Park,E05000276,51.60234595,-0.058153461,534468.0001,191117.0001
+"Avondale Square, Community Center",Avondale Square,Southwark,NA,Southwark,,10093340586,E09000028,South Bermondsey,E05000550,51.48578935,-0.068382393,534102.0101,178138.2701
+Commerce Road Community Centre,52 Commerce Road,London Borough Of Haringey,NA,Haringey,,10022939252,E09000014,Bounds Green,E05000267,51.60211333,-0.111685775,530762.0001,190994.0001
+Dagenham Trades Hall,Charlotte Road,Barking And Dagenham,NA,Barking and Dagenham,,100038772,E09000002,Village,E05000041,51.5398289,0.159590192,549750.0001,184589.0001
+Keston Village Hall,Heathfield Road,Bromley,NA,Bromley,http://www.kestonvillagehall.org.uk,10003615873,E09000006,Bromley Common and Keston,E05000108,51.35584586,0.033578298,541581.0001,163882.0001
+Garden Estates Association of Petts Wood,36 Woodhurst Avenue,Bromley,NA,Bromley,https://www.bromley.gov.uk/directory_record/1210436/garden_estates_association_of_petts_wood/category/131/community_halls,10003626246,E09000006,Petts Wood and Knoll,E05000124,51.38796148,0.0711547,544096.0001,167526.0001
+Pratts Bottom Village Hall,Norsted Lane,Bromley,NA,Bromley,http://www.pbvh.co.uk,10003626614,E09000006,Chelsfield and Pratts Bottom,E05000110,51.33857355,0.113039334,547168.0001,162118.0001
+Greenwood Community Centre,4 High Street,Bromley,NA,Bromley,https://gsgvillagesociety.weebly.com/,1.00023E+11,E09000006,Chelsfield and Pratts Bottom,E05000110,51.35260461,0.090975813,545587.0001,163634.0001
+Keston Village Hall,Heathfield Road,Bromley,NA,Bromley,http://www.kestonvillagehall.org.uk,1.00024E+11,E09000006,Bromley Common and Keston,E05000108,51.35584586,0.033578298,541581.0001,163882.0001
+Marchmont Community Centre,62 Marchmont Street,Camden,NA,Camden,http://www.kcbna.org.uk/,5088076,E09000007,Bloomsbury,E05000129,51.52482439,-0.123536045,530162.0001,182379.0001
+Jim Faulkner Community Room,York Rise,Camden,NA,Camden,https://www.urbancommunityprojects.org.uk/,5090606,E09000007,Highgate,E05000137,51.55684485,-0.140700041,528881.0001,185909.0001
+CUFOS,The Avenue,London Borough Of Haringey,NA,Haringey,,10003980036,E09000014,Alexandra,E05000266,51.59427285,-0.13033479,529493.0001,190089.0001
+Chadswell Healthy Living Centre,Cromer Street,Camden,NA,Camden,http://www.kcbna.org.uk/locations/chadswell-centre/,5127059,E09000007,King's Cross,E05000141,51.52711318,-0.120442931,530370.0001,182639.0001
+St Eugene De Mazenod Community Centre,Mazenod Avenue,Camden,NA,Camden,http://cindex.camden.gov.uk/kb5/camden/cd/service.page?id=MU4V_nFTVbc,5144612,E09000007,Kilburn,E05000140,51.5404625,-0.192149196,525360.0001,183998.0001
+O2 Centre Community Venue,255 Finchley Road,Camden,NA,Camden,http://cindex.camden.gov.uk/kb5/camden/cd/service.page?id=0JU92SEtXhE,5147713,E09000007,West Hampstead,E05000145,51.54743975,-0.179828077,526195.0001,184795.0001
+Coulsdon Community Centre,Chipstead Valley Road,Croydon,NA,Croydon,https://coulsdoncommunitycentre.co.uk/,2.00001E+11,E09000008,Coulsdon West,E05000151,51.31949838,-0.146123752,529173.0001,159509.0001
+Shirley Community Centre,28 Shrublands Avenue,Croydon,NA,Croydon,http://shirleycca.com/,2.00001E+11,E09000008,Shirley,E05000163,51.3685389,-0.029181674,537174.0001,165174.0001
+Hanwell Community Centre,Westcott Crescent,Ealing,NA,Ealing,www.hanwellcc.co.uk,12020472,E09000009,Hobbayne,E05000180,51.52059278,-0.334039576,515572.0001,181555.0001
+Greenford Community Centre,170 Oldfield Lane South,Ealing,NA,Ealing,,12053972,E09000009,Greenford Green,E05000178,51.53461228,-0.347313461,514616.0001,183093.0001
+Perivale Community Centre,Horsenden Lane South,Ealing,NA,Ealing,www.perivale-community-centre.org.uk,12141327,E09000009,Perivale,E05000187,51.54054439,-0.323619309,516244.0001,183790.0001
+Viking Community Centre,Radcliffe Way,Ealing,NA,Ealing,,12141328,E09000009,Northolt West End,E05000185,51.53258569,-0.391078136,511586.0001,182800.0001
+Islip Manor Youth and Community Centre,Arnold Road,Ealing,NA,Ealing,,12141329,E09000009,Northolt Mandeville,E05000184,51.5481721,-0.376796195,512538.0001,184555.0001
+Northolt Village Community Centre,Ealing Road,Ealing,NA,Ealing,,12141331,E09000009,Northolt Mandeville,E05000184,51.54373275,-0.369901306,513027.0001,184072.0001
+Northolt Grange Community Centre,Rushdene Crescent,Ealing,NA,Ealing,,12142395,E09000009,Northolt West End,E05000185,51.53580174,-0.400684163,510912.0001,183143.0001
+The Lido Centre,63 Mattock Lane,Ealing,NA,Ealing,,12160743,E09000009,Walpole,E05000192,51.50966911,-0.317258556,516764.0001,180367.0001
+Golf Link Community Centre,Fleming Road,Ealing,NA,Ealing,,12188291,E09000009,Dormers Wells,E05000172,51.51690959,-0.355997759,514058.0001,181111.0001
+High Lane Porta Cabin,Hobbayne Road,Ealing,NA,Ealing,,12142398,E09000009,Hobbayne,E05000180,51.51885778,-0.344251245,514868.0001,181346.0001
+Acton Vale,Beech Avenue,Ealing,NA,Ealing,,12141413,E09000009,East Acton,E05000175,51.50713917,-0.252499304,521264.0001,180191.0001
+Gainsborough Tower Resource Centre,Academy Gardens,Ealing,NA,Ealing,,12141412,E09000009,Northolt West End,E05000185,51.53498609,-0.386436677,511902.0001,183074.0001
+Gurnell Grove Community Centre,Gurnell Grove,Ealing,NA,Ealing,,12141349,E09000009,Cleveland,E05000171,51.52634785,-0.330830629,515780.0001,182200.0001
+Buckingham Avenue Community Centre,Buckingham Avenue,Ealing,NA,Ealing,,12141345,E09000009,Perivale,E05000187,51.539311,-0.319756338,516515.0001,183659.0001
+Copley Close Community Shop,187 Copley Close,Ealing,NA,Ealing,,12062573,E09000009,Cleveland,E05000171,51.52264983,-0.330706372,515798.0001,181789.0001
+West Acton Community Centre,Churchill Gardens,Ealing,NA,Ealing,,12141330,E09000009,Acton Central,E05000170,51.51641981,-0.278609331,519428.0001,181180.0001
+Mottingham Hall,4 Mottingham Road,Enfield,NA,Enfield,,207099985,E09000010,Jubilee,E05000203,51.63602659,-0.040831123,535567.0001,194894.0001
+Westbourne Hall,Westbourne Place,Enfield,NA,Enfield,,207109169,E09000010,Lower Edmonton,E05000204,51.62279043,-0.050691961,534924.0001,193404.0001
+Enfield Highway Community Centre,117 Hertford Road,Enfield,NA,Enfield,,207142730,E09000010,Enfield Highway,E05000198,51.6558626,-0.045470156,535187.0001,197091.0001
+Highlands Village Hall,5 Florey Square,Enfield,NA,Enfield,,207192487,E09000010,Southgate,E05000208,51.64580675,-0.108540581,530854.0001,195858.0001
+Enfield Island Village Community Centre,40-42 Island Centre Way,Enfield,NA,Enfield,http://eiv.org.uk/,207193972,E09000010,Enfield Lock,E05000199,51.66796993,-0.015039183,537255.0001,198494.0001
+Ann Tayler Children Centre,1-13 Triangle Road,Hackney,NA,Hackney,https://www.learningtrust.co.uk/school/ann-tayler-childrens-centre,10008237754,E09000012,London Fields,E05009381,51.53764662,-0.05763529,534695.0001,183924.0001
+Wally Foster Community Centre Association,Homerton Road,Hackney,NA,Hackney,http://wallyfostercc.org.uk/,10008241129,E09000012,King's Park,E05009379,51.54977004,-0.032811775,536380.0001,185318.0001
+Morland Hall,Richmond Road,Hackney,NA,Hackney,,10008242426,E09000012,London Fields,E05009381,51.54263348,-0.061706624,534398.0001,184471.0001
+Kingsmead Community Centre,9 Kingsmead Way,Hackney,NA,Hackney,,10008242601,E09000012,King's Park,E05009379,51.55116276,-0.03327102,536344.0001,185472.0001
+Navarino Mansions,Dalston Lane,Hackney,NA,Hackney,https://www.ids.org.uk/,10008310099,E09000012,Hackney Central,E05009372,51.54750179,-0.061874734,534372.0001,185012.0001
+Redmond Community Centre,Kayani Avenue,Hackney,NA,Hackney,,10008326177,E09000012,Woodberry Down,E05009387,51.56958151,-0.089760986,532374.6501,187416.2001
+Morningside Hall,Cresset Road,Hackney,NA,Hackney,http://www.hmp.org.uk/copy-of-concorde,10008336728,E09000012,Homerton,E05009376,51.54420087,-0.046833839,535424.5101,184672.7101
+Northwold Community Hall,Upper Clapton Road,Hackney,NA,Hackney,,10008343000,E09000012,Cazenove,E05009368,51.56431388,-0.05997725,534453.9501,186884.8301
+Wayside Community Centre,69 Lower Clapton Road,Hackney,NA,Hackney,,1.00021E+11,E09000012,Homerton,E05009376,51.55081643,-0.050236405,535169.0001,185402.0001
+Shoreditch Town Hall,380 Old Street,Hackney,NA,Hackney,https://shoreditchtownhall.com/,1.00023E+11,E09000012,Hoxton East & Shoreditch,E05009377,51.52616557,-0.077516311,533350.0001,182611.0001
+Queensbridge Sports and Community Centre,30 Holly Street,Hackney,NA,Hackney,https://www.better.org.uk/leisure-centre/london/hackney/queensbridge-sport-and-community-centre?utm_source=google&utm_medium=organic&utm_campaign=google_my_business,1.00023E+11,E09000012,London Fields,E05009381,51.54185554,-0.06961466,533852.0001,184370.0001
+Wally Foster Community Centre Association,Homerton Road,Hackney,NA,Hackney,http://wallyfostercc.org.uk/,1.00023E+11,E09000012,King's Park,E05009379,51.54977004,-0.032811775,536380.0001,185318.0001
+Browning Court Residents Hall,Turneville Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34160359,E09000013,North End,E05000258,51.48607815,-0.206156797,524537.0001,177927.0001
+Matthews Community Hall,12 Margravine Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34141653,E09000013,Fulham Reach,E05000255,51.48628628,-0.213898631,523999.0001,177937.0001
+Crayford and Barnehurst Youth Centre,Woodside Road, Bexleyheath,NA,Bexley,,10011847892,E09000004,Barnehurst,E05000064,51.45670383,0.169009122,550677.0001,175366.0001
+Gibbs Green Hall,Gibbs Green,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34141100,E09000013,North End,E05000258,51.48983465,-0.202450968,524784.0001,178351.0001
+Edwards Woods Community Centre,60-70 Norland Road,Hammersmith And Fulham,NA,Kensington and Chelsea,,34039616,E09000020,Norland,E05009398,51.50643967,-0.214421989,523908.0001,180177.0001
+Masbro Centre,87 Masbro' Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://www.upg.org.uk,34034846,E09000013,Addison,E05000250,51.49969572,-0.214498295,523921.0001,179427.0001
+Dorset Wharf Residents Hall,158 Rainville Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34024170,E09000013,Fulham Reach,E05000255,51.4820173,-0.222376472,523422.0001,177448.0001
+Old Oak Centre,76 Braybrook Street,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://www.oldoakcentre.co.uk,34115066,E09000013,College Park and Old Oak,E05000253,51.51796121,-0.241864727,521973.0001,181412.0001
+Lytton Estate Community Hall,North End Crescent,Hammersmith And Fulham,NA,Hammersmith and Fulham,lyttonresidents.blogspot.com,34128657,E09000013,Avonmore and Brook Green,E05000252,51.49280694,-0.205676523,524552.0001,178676.0001
+Becklow Gardens Residents Hall,Becklow Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34013799,E09000013,Askew,E05000251,51.5043304,-0.241481606,522036.0001,179897.0001
+Lancaster Court Tenants’ Hall,Darlan Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,,34140754,E09000013,Town,E05000264,51.47823289,-0.200098677,524979.0001,177065.0001
+Dorset Wharf Community Hall,Rainville Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://www.rockingscots.co.uk/Dorsetwharfcommunityhall.html,34141101,E09000013,Fulham Reach,E05000255,51.48257784,-0.222570732,523407.0001,177510.0001
+Bridge Community Hut,Tewkesbury Road,London Borough Of Haringey,NA,Haringey,,10090477947,E09000014,Seven Sisters,E05000278,51.57579066,-0.084025179,532754.0001,188117.0001
+Haringey Chinese Centre,211 Langham Road,London Borough Of Haringey,NA,Haringey,http://www.haringeychinesecentre.org.uk/,1.00023E+11,E09000014,West Green,E05000282,51.59013,-0.099737052,531624.0001,189683.0001
+Pinner Hill Hall,Pinner Hill Road,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,2.00004E+11,E09000015,Pinner,E05000297,51.60195441,-0.39597789,511077.0001,190506.0001
+Marian Community Centre,Stafford Road,Brent,NA,Brent,https://www.brent.gov.uk/your-community/community-directory/marian-community-centre/,202043775,E09000005,Kilburn,E05000094,51.53045811,-0.194247072,525242.0001,182882.0001
+Kenmore Park Hall,Warneford Road,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,2E+11,E09000015,Kenton East,E05000294,51.59273885,-0.296589273,517983.0001,189637.0001
+Bede Anandappa Centre,Binyon Crescent,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,2E+11,E09000015,Stanmore Park,E05000303,51.61521957,-0.330851013,515553.0001,192082.0001
+Northolt Road Hall,Northolt Road,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,10094042923,E09000015,Harrow on the Hill,E05000289,51.56777827,-0.345952168,514627.0001,186783.0001
+Savoy Court Community Centre,Station Road,Harrow,NA,Harrow,,10070262953,E09000015,Headstone South,E05000293,51.58615586,-0.359083938,513671.1501,188805.9901
+Grange Farm Community Centre,65 Osmond Close,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,1.00023E+11,E09000015,Harrow on the Hill,E05000289,51.56811979,-0.349128988,514406.0001,186816.0001
+Churchill Place Hall,Sandridge Close,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,1.00023E+11,E09000015,Marlborough,E05000296,51.59058558,-0.333905477,515404.0001,189338.0001
+Julie Cook Hall,Augustine Road,Harrow,NA,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,10000001851,E09000015,Hatch End,E05000291,51.6021723,-0.353266414,514034.0001,190596.0001
+Avelon Road Centre,100 Avelon Road,Havering,NA,Havering,http://www.avelonroadcentre.com/,10033420082,E09000016,South Hornchurch,E05000321,51.53382316,0.201436056,552671.4501,184007.7501
+Wykeham Hall,Market Place,Havering,NA,Havering,,1.00023E+11,E09000016,Romford Town,E05000319,51.57884603,0.18259987,551215.8601,188974.5401
+Harmondsworth & Longford Community Centre,School Road,Hillingdon,NA,Hillingdon,,10003001017,E09000017,Heathrow Villages,E05000331,51.48636758,-0.47854427,505627.0001,177531.0001
+Uxbridge Community Centre,32 The Greenway,Hillingdon,NA,Hillingdon,,10003001516,E09000017,Uxbridge South,E05000341,51.53613502,-0.477779279,505565.0001,183066.0001
+Hayes & Harlington Community Centre,Albert Road,Hillingdon,NA,Hillingdon,,10003002586,E09000017,Botwell,E05000325,51.50135445,-0.422366591,509491.0001,179280.0001
+Crane Youth & Community Centre,Fuller Way,Hillingdon,NA,Hillingdon,,10022796414,E09000017,Pinkwell,E05000337,51.49306192,-0.421644429,509561.0001,178359.0001
+Manor Farm Community Centre,Bury Street,Hillingdon,NA,Hillingdon,eye-community-association.org.uk,10022796801,E09000017,Eastcote and East Ruislip,E05000329,51.57789542,-0.4270352,508984.0001,187784.0001
+Hayes End Community Centre,Kingsway,Hillingdon,NA,Hillingdon,,10022797808,E09000017,Botwell,E05000325,51.52319097,-0.437888176,508362.0001,181685.0001
+Skylark Community Centre,Pine Place,Hillingdon,NA,Hillingdon,,10022805224,E09000017,Charville,E05000328,51.52675273,-0.413817292,510023.0901,182116.9701
+Eastcote Community Centre,Southbourne Gardens,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Cavendish,E05000327,51.57282596,-0.399962178,510872.0001,187261.0001
+Kate Fassnidge Community Hall,76 High Street,Hillingdon,NA,Hillingdon,https://modgov.hillingdon.gov.uk/mgLocationDetails.aspx?RID=24,1.00023E+11,E09000017,Northwood,E05000335,51.60694416,-0.414177634,509804.7201,191033.3401
+Townfield Community Centre,Townfield Road,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Townfield,E05000339,51.51198215,-0.416854001,509848.0001,180470.0001
+Charville Community Centre0,Bury Avenue,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Charville,E05000328,51.53667097,-0.427058141,509081.0001,183200.0001
+Barnhill Community Centre,Ayles Road,Hillingdon,NA,Hillingdon,,1.00023E+11,E09000017,Barnhill,E05000324,51.53168419,-0.403423947,510732.0001,182681.0001
+Brookside Community Centre,70 Brookside Road,Hillingdon,NA,Hillingdon,,1.00024E+11,E09000017,Yeading,E05000344,51.51817596,-0.390894115,511634.0001,181198.0001
+Yiewsley & West Drayton Commmunity Centre,Harmondsworth Road,Hillingdon,NA,Hillingdon,,1.00024E+11,E09000017,West Drayton,E05000342,51.50186132,-0.465996182,506462.0001,179272.0001
+Highbury Roundhouse Community Centre,71 Ronalds Road,Islington,NA,Islington,,5300079437,E09000019,Highbury East,E05000372,51.55034066,-0.102391208,531555.0001,185254.0001
+City of London Community Education Centre,99 Golden Lane,Islington,NA,Islington,,10001295847,E09000019,Bunhill,E05000367,51.52258234,-0.093814176,532230.0001,182183.0001
+The Holloway Neighbourhood Group,84 Mayton Street,Islington,NA,Islington,http://www.hng.org.uk/,10008977169,E09000019,Finsbury Park,E05000371,51.55810817,-0.115601406,530617.0001,186094.0001
+Bayes House Community Centre,Augustas Lane,Islington,NA,Islington,,10023222753,E09000019,Barnsbury,E05000366,51.5427796,-0.108114543,531180.0001,184403.0001
+Roupell Park RMC Community Office,Brockham Drive,Lambeth,NA,Lambeth,http://www.roupellpark.co.uk/,10008786573,E09000022,Brixton Hill,E05000417,51.44767026,-0.119173718,530685.0001,173808.0001
+Springfield Community Health Centre,110 Union Road,Lambeth,NA,Lambeth,,10008789148,E09000022,Larkhall,E05000425,51.47006257,-0.131429048,529770.0001,176276.0001
+"Elmworth Grove Community Hall, Elmworth Grove Community Hall",Elmworth Grove,Lambeth,NA,Lambeth,,10023850989,E09000022,Thurlow Park,E05000434,51.43645005,-0.092150373,532595.0001,172609.0001
+Tulse Hill Youth and Play Project,Tulse Hill,Lambeth,NA,Lambeth,,10090196121,E09000022,Tulse Hill,E05000435,51.44956416,-0.11446107,531007.0001,174027.0001
+Kennington Park Centre,40 St Agnes Place,Lambeth,NA,Lambeth,,10091119527,E09000022,Oval,E05000426,51.48155202,-0.106374265,531476.8401,177598.2101
+High Path Community Resource Centre,63 High Path,Merton,NA,Merton,https://www2.merton.gov.uk/health-social-care/adult-social-care/help-at-home/daycentres/hpresourcecentre.htm,48082063,E09000024,Abbey,E05000455,51.41299386,-0.187287936,526048.0001,169833.0001
+Morden Assembly Hall,Tudor Drive,Merton,NA,Merton,https://www.merton.gov.uk/leisure-recreation-and-culture/hall-hire/morden-assembly-hall,48100062,E09000024,Lower Morden,E05000465,51.3897505,-0.219889035,523844.0001,167193.0001
+Wimbledon Park Hall,170 Arthur Road,Merton,NA,Merton,http://www.wimbledonpark.com/wimbledon-park-hall/,48105969,E09000024,Wimbledon Park,E05000474,51.43436533,-0.195424652,525423.7201,172195.3301
+Forest Lane Lodge,Forest Lane,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Forest-Gate-Lodge-Community-Centre.aspx,46100785,E09000025,Forest Gate North,E05000483,51.54791815,0.018490398,539942.0001,185209.0001
+Beckton Community Centre,14 East Ham Manor Way,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Beckton-Community-Centre.aspx,46251507,E09000025,Beckton,E05000475,51.50981512,0.064786721,543271.0001,181062.0001
+The Well Community Centre,49 Vicarage Lane,Newham,NA,Newham,http://www.bonnydowns.org/,46253395,E09000025,East Ham South,E05000482,51.52652233,0.064461255,543196.0001,182919.0001
+Old Town Hall,29 Broadway,Newham,NA,Newham,http://www.virtualvenuevisit.com/venue/old-town-hall-stratford,46255417,E09000025,Stratford and New Town,E05000492,51.53996393,0.003499436,538927.0001,184296.0001
+Froud Centre,1 Toronto Avenue,Newham,NA,Newham,http://www.aston-mansfield.org.uk/froud-centre-room-hire,10008986568,E09000025,Little Ilford,E05000487,51.55353642,0.057475462,542627.0001,185909.0001
+Flanders Community Centre,116 Napier Road,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Flanders-Community-Centre.aspx,10008989166,E09000025,Wall End,E05000493,51.53016334,0.06301101,543084.0001,183321.0001
+Ascot Community Centre,Hermit Road,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Ascot-Community-Centre.aspx,10008991266,E09000025,Canning Town North,E05000477,51.51899086,0.013462742,539682.0001,181983.0001
+Cundy Community Centre,Hartington Road,Newham,NA,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Cundy-Community-Centre.aspx,10008994537,E09000025,Custom House,E05000479,51.51234131,0.028779688,540765.0001,181273.0001
+The Cranbrook Centre,Cranbrook Road,Redbridge,NA,Redbridge,,10093036807,E09000026,Cranbrook,E05000502,51.56645107,0.07282156,543650.0001,187375.0001
+Loxford Community Corner,40 Loxford Lane,Redbridge,NA,Redbridge,https://find.redbridge.gov.uk/kb5/redbridge/fsd/service.page?id=6FPrv9bGDvA&familychannel=1_5_2,1.00023E+11,E09000026,Loxford,E05000507,51.54645894,0.083198693,544432.4101,185172.5501
+Newington Estate Tenants Hall,Canterbury Place,Southwark,NA,Southwark,,10009791116,E09000028,Newington,E05000544,51.4898628,-0.097642963,532059.0001,178538.0001
+Alberta T R A Hall,Alberta Street,Southwark,NA,Southwark,,10009804957,E09000028,Newington,E05000544,51.48925493,-0.101594144,531786.4901,178463.2901
+East Dulwich Community Centre,46-50 Darrell Road,Southwark,NA,Southwark,https://www.eastdulwichcommunitycentre.org.uk/,10009805006,E09000028,East Dulwich,E05000539,51.45552999,-0.069343702,534124.0001,174772.0001
+Brayards Estate Tenants & Residents Association,Caulfield Road,Southwark,NA,Southwark,,10013533664,E09000028,Nunhead,E05000545,51.46952642,-0.056959043,534943.0001,176351.0001
+Sojourner Truth Centre,161 Sumner Road,Southwark,NA,Southwark,,10090748514,E09000028,Peckham,E05000546,51.47745188,-0.071788224,533890.0001,177205.0001
+Colombo Centre,34-68 Colombo Street,Southwark,NA,Southwark,https://www.better.org.uk/leisure-centre/london/southwark/colombo-centre?utm_source=google&utm_medium=organic&utm_campaign=google_my_business,2.00003E+11,E09000028,Cathedrals,E05000536,51.50518371,-0.103489943,531609.0001,180231.0001
+Cossall Estate Tenants and Residents Association,48 Mortlock Close,Southwark,NA,Southwark,,2.00003E+11,E09000028,Nunhead,E05000545,51.47096039,-0.059739933,534745.6601,176505.3201
+The Green - Nunhead Community Centre,5 Nunhead Green,Southwark,NA,Southwark,http://www.thegreennunhead.org/,2.00003E+11,E09000028,The Lane,E05000553,51.46447988,-0.057979777,534887.0001,175788.0001
+Links Community Centre,353 Rotherhithe New Road,Southwark,NA,Southwark,,2.00003E+11,E09000028,Livesey,E05000543,51.4861607,-0.060515876,534647.0001,178194.0001
+Denmark Hill Community Centre,Blanchedowne,Southwark,NA,Southwark,,2.00003E+11,E09000028,South Camberwell,E05000551,51.46388962,-0.087723142,532823.0001,175668.0001
+RIverside Community Centre,113 Culvers Avenue,Sutton,NA,Sutton,http://riversidecentre.org/,5870121708,E09000029,The Wrythe,E05000568,51.37862949,-0.163064915,527828.0001,166054.0001
+St Hilda's East Community Centre,18 Club Row,Tower Hamlets,NA,Tower Hamlets,http://www.sthildas.org.uk/,6005236,E09000030,Weavers,E05009335,51.52456441,-0.072566458,533698.0001,182442.0001
+Brady Arts and Community Centre,192-196 Hanbury Street,Tower Hamlets,NA,Tower Hamlets,http://www.towerhamletsarts.org.uk/?cat=6&cid=17672&guide=Venues,6011121,E09000030,Spitalfields & Banglatown,E05009333,51.5189066,-0.063781105,534324.0001,181829.0001
+Francis Lee Community Centre,10 Hawthorn Avenue,Tower Hamlets,NA,Tower Hamlets,,6056939,E09000030,Bow East,E05009319,51.53606471,-0.029119751,536677.0001,183801.0001
+Cedar Centre,17 Arden Crescent,Tower Hamlets,NA,Tower Hamlets,http://www.cedarcentre.co.uk/,6063814,E09000030,Island Gardens,E05009324,51.49278062,-0.021013282,537369.2901,179003.4601
+Kingsley Hall Community Centre,1 Powis Road,Tower Hamlets,NA,Tower Hamlets,http://kingsley-hall.co.uk/,6071710,E09000030,Bromley North,E05009321,51.52611232,-0.012810169,537838.0001,182725.0001
+Saint John's Community Centre,37-43 Glengall Grove,Tower Hamlets,NA,Tower Hamlets,,6081722,E09000030,Blackwall & Cubitt Town,E05009318,51.49475682,-0.010485878,538094.0001,179243.0001
+Island House Community Centre,Roserton Street,Tower Hamlets,NA,Tower Hamlets,http://www.island-house.org/,6081799,E09000030,Blackwall & Cubitt Town,E05009318,51.49796865,-0.008429559,538227.0001,179604.0001
+Devons Estate TRA,Powis Road,Tower Hamlets,NA,Tower Hamlets,http://www.towerhamletsarts.org.uk/?cat=6&cid=17689&guide=Venues,6150927,E09000030,Bromley North,E05009321,51.52554223,-0.012604307,537854.0001,182662.0001
+Hind Grove Community Hall,18 Stainsby Road,Tower Hamlets,NA,Tower Hamlets,http://www.towerhamletsarts.org.uk/?cat=6&cid=17729&guide=Venues,6210828,E09000030,Mile End,E05009327,51.51230458,-0.023240411,537156.0701,181170.1301
+Tab Centre,3 Godfrey Place,Tower Hamlets,NA,Tower Hamlets,http://www.thetabcentre.co.uk/,6210895,E09000030,Weavers,E05009335,51.52690139,-0.074345154,533567.7901,182698.6001
+Brady Arts and Community Centre,192-196 Hanbury Street,Tower Hamlets,NA,Tower Hamlets,http://www.towerhamletsarts.org.uk/?cat=6&cid=17672&guide=Venues,6710343,E09000030,Spitalfields & Banglatown,E05009333,51.5189066,-0.063781105,534324.0001,181829.0001
+Barnfield & Woodfield Tenants Association Room,Upper Park Road,NA,NA,Camden,,5143088,E09000007,Gospel Oak,E05000134,51.55040596,-0.158403144,527672.0001,185162.0001
+Peterhouse Centre,122 Forest Rise,Waltham Forest,NA,Waltham Forest,,10091776322,E09000031,Wood Street,E05000609,51.58779232,0.006123076,538963.0001,189619.0001
+Ethelburga Community Clubroom,60 Worfield Street,Wandsworth,NA,Wandsworth,http://ethelburgacommunity.com/community-centre/,121031099,E09000032,St. Mary's Park,E05000622,51.47697164,-0.164574596,527449.0001,176986.0001
+York Gardens Library and Community Centre,34 Lavender Road,Wandsworth,NA,Wandsworth,www.wandsworth.gov.uk/libraries,10091844398,E09000032,Latchmere,E05000617,51.46671069,-0.176145747,526674.0001,175825.0001
+Balham Community Centre,91 Bedford Hill,Wandsworth,NA,Wandsworth,http://www.balhamcommunitycentre.com/index.html,1.00023E+11,E09000032,Bedford,E05000611,51.44107198,-0.147032604,528768.0001,173025.0001
+The Old Laundry,6 Stockwell Gardens,London,NA,Lambeth,,1.00022E+11,E09000022,Stockwell,E05000429,51.47234666,-0.119598916,530585.0001,176551.0001
+West Hendon Community Hub,Marsh Drive,Barnet,NA,Barnet,,200156706,E09000003,West Hendon,E05000062,51.57906368,-0.242527565,521763.7601,188205.0501
+Athlone Hall,Athlone Street,Camden,NA,Camden,https://www.originhousing.org.uk/community/community-halls/athlone-hall,5109339,E09000007,Haverstock,E05000136,51.54757114,-0.146862497,528480.0001,184867.0001
+Peabody Walworth Community Centre,Rodney Road,Southwark,NA,Southwark,,2.00003E+11,E09000028,East Walworth,E05000540,51.49098794,-0.090507922,532551.0001,178676.0001
+Peabody Hill Community Hall,Peabody Hill,Lambeth,NA,Lambeth,https://www.peabody.org.uk/neighbourhoods/community-centres,2E+11,E09000022,Thurlow Park,E05000434,51.44182592,-0.099755238,532051.0001,173193.0001
+The Dalgarno Trust,Dalgarno Way,Kensington And Chelsea,NA,Kensington and Chelsea,,217023026,E09000020,Dalgarno,E05009394,51.52386411,-0.222981705,523267.0001,182100.0001
+Leander Hall,Ship Street,Lewisham,NA,Lewisham,,1.00023E+11,E09000023,Brockley,E05000439,51.47210507,-0.023986258,537225.0001,176699.0001
+Rosendale Centre,Rosendale Road,Lambeth,NA,Lambeth,,10091120998,E09000022,Thurlow Park,E05000434,51.44553434,-0.098826515,532104.8301,173607.0101
+The Paradox Centre,3 Ching Way,Waltham Forest,NA,Waltham Forest,,10024418648,E09000031,Valley,E05000607,51.60760222,-0.023379286,536860.0001,191766.0001
+Pembury Community Centre,1 Atkins Square,Hackney,NA,Hackney,https://www.peabody.org.uk/neighbourhoods/community-centres/pembury-venue-hire,10008336791,E09000012,Hackney Central,E05009372,51.5493169,-0.057314598,534682.7701,185222.2101
+Victoria Park Community Centre,Egerton Road,Hackney,NA,Hackney,https://victoria-park-community-centre-peabody.business.site/,1.00023E+11,E09000012,Springfield,E05009383,51.57301607,-0.066750253,533959.0001,187840.0001
+Green Man Community Centre,Strawberry Vale,Barnet,NA,Barnet,http://greenmancentre.wordpress.com/,200195077,E09000003,East Finchley,E05000049,51.60044067,-0.171034451,526657.2001,190703.5001
+St John's Hill Community Centre,St Johns Hill,Wandsworth,NA,Wandsworth,,121044565,E09000032,Northcote,E05000619,51.46109564,-0.170178787,527104.0001,175211.0001
+Haskins Community Hall,Bromley Road,Lewisham,NA,Lewisham,https://www.lewisham.gov.uk/inmyarea/Pages/venue-detail.aspx?directoryid=3551,10023226892,E09000023,Whitefoot,E05000454,51.43053792,-0.015061511,537970.0001,172094.0001
+Spotlight Centre,35 Byron Street,Tower Hamlets,NA,Tower Hamlets,https://www.poplarharca.co.uk/node/368/,6352446,E09000030,Lansbury,E05009325,51.51493041,-0.009996009,538067.0001,181487.0001
+St Paul's Way Community Centre,83 St Pauls Way,Tower Hamlets,NA,Tower Hamlets,https://www.poplarharca.co.uk/community/community-centres/st-pauls-way-centre,6177479,E09000030,Mile End,E05009327,51.51758561,-0.025419965,536989.0101,181753.2401
+Teviot Centre,Wyvis Street,Tower Hamlets,NA,Tower Hamlets,,6152989,E09000030,Lansbury,E05009325,51.51812025,-0.012008335,537917.7601,181837.8801
+Linc Centre,70 Fern Street,Tower Hamlets,NA,Tower Hamlets,https://www.poplarharca.co.uk/community/community-centres/linc-centre,6116434,E09000030,Bromley South,E05009322,51.52086494,-0.018949405,537428.0001,182130.0001
+Bromley by Bow Centre,1 Bruce Road,Tower Hamlets,NA,Tower Hamlets,https://www.bbbc.org.uk/,6070381,E09000030,Bromley North,E05009321,51.52666747,-0.01160369,537920.0001,182789.0001
+St Joan of Arc Community Centre,Kelross Road,Islington,NA,Islington,http://www.stjoanofarcparish.co.uk/community-centre,5300053806,E09000019,Highbury East,E05000372,51.55540272,-0.095096716,532046.0001,185830.0001
+Trussler Community Hall,78 Grundy Street,Tower Hamlets,NA,Tower Hamlets,https://www.poplarharca.co.uk/community/community-centres/trussler-hall,6066080,E09000030,Lansbury,E05009325,51.5114353,-0.01444358,537769.0001,181090.0001
+Knee Hill Community Hall,4 Knee Hill,Greenwich,NA,Greenwich,,10010224800,E09000011,Abbey Wood,E05000214,51.48887615,0.122662544,547354.0001,178848.7701
+Anstridge Community Hall,79 Anstridge Road,Greenwich,NA,Greenwich,,10010224653,E09000011,Eltham South,E05000219,51.44726055,0.084269459,544820.7701,174145.0801
+Orchard Community Hall,120 Lewisham Road,Greenwich,NA,Greenwich,,10010220228,E09000011,Greenwich West,E05000222,51.46848661,-0.011895465,538075.5001,176319.4001
+Triangle Community Centre,Armitage Road,Greenwich,NA,Greenwich,,10010216516,E09000011,Peninsula,E05000225,51.48660901,0.010047641,539544.0001,178376.0001
+Coldharbour Hall,William Barefoot Drive,Greenwich,NA,Greenwich,,10010214625,E09000011,Coldharbour and New Eltham,E05000217,51.43036654,0.059941795,543183.4101,172218.8701
+Flintmill Meeting Rooms,72 Flintmill Crescent,Greenwich,NA,Greenwich,,10010206087,E09000011,Kidbrooke with Hornfair,E05000223,51.46392274,0.047549261,542217.7901,175925.7301
+Woolwich Public Hall,Wellington Street,Greenwich,NA,Greenwich,https://www.royalgreenwich.gov.uk/info/200164/about_the_royal_borough/327/woolwich_town_hall,10010240402,E09000011,Woolwich Riverside,E05000230,51.48924156,0.06622288,543435.2301,178777.2901
+Barnfield HUb,Barnfield Gardens,Greenwich,NA,Greenwich,,10010244209,E09000011,Woolwich Common,E05000229,51.48001278,0.073477675,543967.8701,177765.4101
+Flintmill Hall,72 Flintmill Crescent,Greenwich,NA,Greenwich,http://www.stmarys-eltham.co.uk/,10010256224,E09000011,Kidbrooke with Hornfair,E05000223,51.46396079,0.047461117,542211.5501,175929.7901
+Woolwich Common Community Centre,15-16 Leslie Smith Square,Greenwich,NA,Greenwich,,10010202523,E09000011,Woolwich Common,E05000229,51.47978874,0.064049371,543314.0001,177722.0001
+Lionel Road Community Hall,540 Westhorne Avenue,Greenwich,NA,Greenwich,,10010199361,E09000011,Eltham West,E05000220,51.45454267,0.041368406,541817.6001,174870.8001
+Greenwich West Community and Arts Centre,141 Greenwich High Road,Greenwich,NA,Greenwich,https://www.greenwichwest.org.uk/,1.00024E+11,E09000011,Greenwich West,E05000222,51.47675637,-0.014495558,537870.0001,177234.0001
+Horn Park Community Centre,96 Sibthorpe Road,Greenwich,NA,Greenwich,http://www.hornpark.org.uk/,1.00023E+11,E09000011,Middle Park and Sutcliffe,E05000224,51.44630893,0.028254589,540932.0001,173930.0001
+Progress Hall,Admiral Seymour Road,Greenwich,NA,Greenwich,not a CC,1.00023E+11,E09000011,Eltham North,E05000218,51.45819695,0.053155493,542625.0001,175300.0001
+Charlton Community Centre,54-56 The Village,Greenwich,NA,Greenwich,,1.00023E+11,E09000011,Charlton,E05000216,51.48138187,0.040102958,541646.5401,177852.5301
+C2K Community Centre,2 Penmon Road,Greenwich,NA,Greenwich,,1.00023E+11,E09000011,Abbey Wood,E05000214,51.49267027,0.110694447,546511.1001,179246.6001
+Glyndon Community Centre,75 Raglan Road,Greenwich,NA,Greenwich,http://www.glyndon.org.uk/glyndon.htm,1.00023E+11,E09000011,Glyndon,E05000221,51.48587902,0.07923109,544348.7801,178428.9901
+Middle Park Community Centre and the Joan Currie Hall,150 Middle Park Avenue,Greenwich,NA,Greenwich,,1.00023E+11,E09000011,Middle Park and Sutcliffe,E05000224,51.44518527,0.040506535,541786.7201,173828.7101
+Clockhouse Community Centre,Defiance Walk,Greenwich,NA,Greenwich,https://clockhousecc.org.uk/,1.00023E+11,E09000011,Woolwich Riverside,E05000230,51.49339683,0.054809082,542630.0001,179217.0001
+World's End Community Centre,7 World'S End Place,Kensington And Chelsea,NA,Kensington and Chelsea,,217005389,E09000020,Chelsea Riverside,E05009391,51.48113019,-0.17806228,526501.0001,177425.0001
+Kensal House Community Centre,Ladbroke Grove,Kensington And Chelsea,NA,Kensington and Chelsea,,217113030,E09000020,Dalgarno,E05009394,51.52472784,-0.213533556,523920.0001,182212.0001
+Kensington Town Hall,Hornton Street,Kensington And Chelsea,NA,Kensington and Chelsea,http://www.rbkc.gov.uk/venueskensington,217125489,E09000020,Campden,E05009390,51.5012569,-0.193512157,525373.1301,179636.3301
+Cambrian Centre,1 Cambrian Road,Richmond Upon Thames,NA,Richmond upon Thames,https://cambriancentre.org/,10070727172,E09000027,South Richmond,E05000528,51.45328344,-0.291968751,518665.0001,174138.0001
+Whitton Community Centre,Percy Road,Richmond Upon Thames,NA,Richmond upon Thames,https://www.whittoncommunity.org/,1.00023E+11,E09000027,Heathfield,E05000523,51.4434674,-0.362896718,513762.0001,172934.0001
+The Salvation Army,246 Norwood Road,Lambeth,NA,Lambeth,https://www.salvationarmy.org.uk/west-norwood,1.00023E+11,E09000022,Thurlow Park,E05000434,51.43715356,-0.104467623,531737.0001,172665.0001
+Vanston Place Community Centre,Samuel Lewis Trust Dwellings,Vanston Place,Hammersmith And Fulham,Hammersmith and Fulham,https://www.shgroup.org.uk/media/233111/vanston-place.pdf,34142009,E09000013,Fulham Broadway,E05000254,51.48065577,-0.195653431,525281.0001,177342.0001
+Ixworth Place Community Centre,Samuel Lewis Trust Dwellings,Ixworth Place,Kensington And Chelsea,Kensington and Chelsea,https://www.shgroup.org.uk/media/233105/ixworth-place.pdf,217104471,E09000020,Stanley,E05009405,51.49144793,-0.167810983,527184.0001,178590.0001
+Warner Road Community Centre,Warner Road,Southwark,NA,Southwark,https://www.shgroup.org.uk/media/233112/warner-road.pdf,10000813735,E09000028,Camberwell Green,E05000535,51.47324683,-0.092372262,532473.0001,176700.0001
+Amhurst Road Community Centre,Charterhouse Road,Hackney,NA,Hackney,https://www.shgroup.org.uk/media/425372/amhurst-road.pdf,10008324069,E09000012,Shacklewell,E05009382,51.55248131,-0.066460406,534039.4601,185557.2601
+Hindle House Community Centre,Arcola Street,Hackney,NA,Hackney,https://www.shgroup.org.uk/media/233104/hindle-house.pdf,10008241397,E09000012,Shacklewell,E05009382,51.55217425,-0.070894509,533733.0001,185515.0001
+Stamford Hill Estate Community Centre,110 Stamford Hill,Hackney,NA,Hackney,https://www.shgroup.org.uk/media/233110/stamford-hill.pdf,1.00023E+11,E09000012,Cazenove,E05009368,51.56879579,-0.069887793,533754.0001,187365.0001
+St Peter’s North Community Centre,1 Marian Place,Tower Hamlets,NA,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6137526,E09000030,St. Peter's,E05009331,51.53313466,-0.060523987,534508.0001,183417.0001
+Hanbury Street Community Room,Hanbury Street,Tower Hamlets,NA,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6015184,E09000030,Spitalfields & Banglatown,E05009333,51.51937123,-0.065231819,534222.0001,181878.0001
+Richard Mayo Hall,11 Eden Street,Kingston Upon Thames,NA,Kingston upon Thames,https://mayocentre.org.uk/,128042699,E09000021,Grove,E05000408,51.40865975,-0.303252983,517996.0001,169158.0001
+Lansdowne Green Community Centre,283-291 Wandsworth Road,Lambeth,NA,Lambeth,https://www.3va.org.uk/sites/default/files/AmicusHorizon%20Free%20Community%20Space%20Poster.pdf,2E+11,E09000022,Stockwell,E05000429,51.47718707,-0.127580439,530017.0001,177075.0001
+The William Hobbayne Centre,St Dunstans Road,Ealing,NA,Ealing,http://www.williamhobbaynecharity.co.uk/,12179422,E09000009,Elthorne,E05000176,51.50572654,-0.336556235,515435.0001,179898.0001
+Brunswick Club,34 Haldane Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,www.thebrunswickclub.org.uk,34055896,E09000013,Fulham Broadway,E05000254,51.48223841,-0.200906015,524912.0001,177509.0001
+The Irish Cultural Centre,5 Black'S Road,Hammersmith And Fulham,NA,Hammersmith and Fulham,http://irishculturalcentre.co.uk/,34156699,E09000013,Hammersmith Broadway,E05000256,51.49180166,-0.224013393,523281.9601,178533.1801
+Central Ward Residents Club,Ashridge Way,Merton,NA,Merton,central-ward.co.uk,48003530,E09000024,Cannon Hill,E05000456,51.39842754,-0.205620277,524813.0001,168182.0001
+East Twickenham Neighbourhood Association Community Centre,13 Rosslyn Road,Richmond Upon Thames,NA,Richmond upon Thames,https://etnacentre.org/,1.00023E+11,E09000027,Twickenham Riverside,E05000531,51.4546936,-0.311709374,517290.0001,174263.0001
+Graham Spicer Institute,Dukes Avenue,Kingston Upon Thames,NA,Kingston upon Thames,http://www.graham-spicer-institute.org.uk/images/e.png,128006114,E09000021,Beverley,E05000402,51.40244786,-0.253847578,521448.0001,168548.0001
+Canbury Pavillion,Lower Ham Road,Kingston Upon Thames,NA,Kingston upon Thames,,128029983,E09000021,Tudor,E05000415,51.41651912,-0.304429021,517894.0001,170030.0001
+Milapp Day Centre,142 Acre Road,Kingston Upon Thames,NA,Kingston upon Thames,http://www.milaapcentrekingston.org.uk/,128041918,E09000021,Canbury,E05000403,51.41656476,-0.293323565,518666.0001,170053.0001
+Sangam Community Centre,210 Burnt Oak Broadway,Barnet,NA,Barnet,,200018284,E09000003,Burnt Oak,E05000044,51.60302514,-0.268891844,519874.1801,190825.8401
+KSL Hall,Mount Pleasant,Brent,NA,Brent,,202087690,E09000005,Alperton,E05000085,51.54201411,-0.284076077,518982.0001,184017.0001
+Chelsea Old Church,64 Cheyne Walk,Kensington And Chelsea,NA,Kensington and Chelsea,http://www.chelseaoldchurch.org.uk,217061391,E09000020,Chelsea Riverside,E05009391,51.48283122,-0.169481601,527092.0001,177629.0001
+Granfers Community Centre,73-79 Oakhill Road,Sutton,NA,Sutton,https://www.suttoncvs.org.uk/,5870040510,E09000029,Sutton North,E05000565,51.37007833,-0.189759499,525994.0001,165057.0001
+Beacon Centre Harrow,Scott Crescent,Harrow,NA,Harrow,,10000005511,E09000015,Roxbourne,E05000301,51.57032263,-0.359930551,513652.0001,187044.1001
+Selsdon Community Centre,132 Addington Road,Croydon,NA,Croydon,http://www.selsdonhall.co.uk/,10001005673,E09000008,Selsdon and Ballards,E05000162,51.34186138,-0.060870498,535047.0001,162149.0001
+Aperfield Womens Institute,Lebanon Gardens,Bromley,NA,Bromley,https://www.bromley.gov.uk/directory_record/1210827/aperfield_womens_institute,10003627425,E09000006,Biggin Hill,E05000107,51.31021277,0.035506076,541856.0001,158812.0001
+Webb Estate Community Hall,Clapton Common,Hackney,NA,Hackney,,10008241655,E09000012,Springfield,E05009383,51.56956471,-0.060283182,534417.2601,187468.1101
+Mesifta Talmudical College,90-92 Cazenove Road,Hackney,NA,Hackney,,10008299940,E09000012,Cazenove,E05009368,51.56479614,-0.065670394,534058.0001,186928.0001
+Abney Public Hall,Stoke Newington Church Street,Hackney,NA,Hackney,www.abneypublichall.com,10008300895,E09000012,Stoke Newington,E05009385,51.56122577,-0.076066629,533348.0001,186512.0001
+Connect & Do,105-109 Railton Road,Lambeth,NA,Lambeth,http://www.connectanddo.org/,10008789005,E09000022,Coldharbour,E05000420,51.45744835,-0.106448502,531541.0001,174918.0001
+One Space Kidbrooke,Kidbrooke Park Road,Greenwich,NA,Greenwich,http://www.onespacekidbrooke.org.uk/,10010255690,E09000011,Eltham West,E05000220,51.45880902,0.028851997,540935.0001,175321.0001
+Kenley Memorial Home,92 Godstone Road,Croydon,NA,Croydon,,10014051997,E09000008,Kenley,E05000156,51.32461498,-0.097843776,532522.0001,160164.0001
+DERA Social Centre,Chertsey Road,Richmond Upon Thames,NA,Richmond upon Thames,http://www.deneestate.org/,10070711141,E09000027,Whitton,E05000533,51.44837511,-0.350515886,514610.0001,173499.0001
+Bolney Meadow Community Centre,31 Bolney Street,Lambeth,NA,Lambeth,https://www.bolneymeadow.com/,10090197815,E09000022,Stockwell,E05000429,51.47882957,-0.120066802,530534.0001,177271.0001
+Peel Institute Three Corners Centre,Northampton Road,Islington,NA,Islington,http://www.peelinstitute.org.uk/,10090264827,E09000019,Clerkenwell,E05000370,51.52484523,-0.105253726,531430.0001,182414.0001
+Myatts Field North Centre,24 Crawshay Road,Lambeth,NA,Lambeth,www.regentermyattsfieldnorth.com/community,10091120500,E09000022,Vassall,E05000436,51.47386064,-0.107977311,531387.6501,176740.1301
+The Exchange,75 London Road,Richmond Upon Thames,NA,Richmond upon Thames,https://exchangetwickenham.co.uk/venue-hire/,10091161250,E09000027,St. Margarets and North Twickenham,E05000527,51.44953357,-0.32969839,516053.4201,173660.5901
+Docklands Settlements Community Centre,400 Salter Road,Southwark,NA,Southwark,http://docklandsettlements.org.uk/,10091665500,E09000028,Surrey Docks,E05000552,51.49868601,-0.033555348,536481.1301,179636.6101
+Hook Centre Community Hall,Hook Road,Kingston Upon Thames,NA,Kingston upon Thames,https://www.kingston.gov.uk/info/200203/hook_centre/434/hook_centre_community_hall_and_meeting_room/4,10091803267,E09000021,Chessington North and Hook,E05000404,51.36739709,-0.30447708,518017.0001,164568.0001
+Yellow Qube,63 Christchurch Road,Lambeth,NA,Lambeth,http://yellowqube.org/,10093377637,E09000022,Tulse Hill,E05000435,51.44039646,-0.109230721,531396.6901,173017.0201
+Sidcup Workin Mesn Club,169 Main Road,Bexley,NA,Bexley,https://www.sidcupwmc.co.uk/,1.00023E+11,E09000004,Longlands,E05000078,51.42742045,0.094793087,545615.0001,171960.0001
+Kingston Working Men's Club & Institute,25 Old London Road,Kingston Upon Thames,NA,Kingston upon Thames,http://www.kingstonworkingmensclub.com/,1.00023E+11,E09000021,Grove,E05000408,51.41071336,-0.297884639,518364.0001,169395.0001
+Oak Tree Community Centre,77 Bethune Road,Hackney,NA,Hackney,https://www.theoaktreecentre.co.uk/,1.00023E+11,E09000012,Woodberry Down,E05009387,51.57028991,-0.079825885,533061.0001,187513.0001
+Kurdish Community Centre,11 Portland Gardens,London Borough Of Haringey,NA,Haringey,https://www.facebook.com/KurdishCommunityCentre?pnref=story,1.00023E+11,E09000014,St. Ann's,E05000277,51.57732218,-0.095233882,531973.0001,188267.0001
+Vauxhall Gardens Community Centre,5 Glasshouse Walk,Lambeth,NA,Lambeth,http://vgcc.org.uk/,1.00023E+11,E09000022,Prince's,E05000427,51.4884236,-0.120493277,530477.0001,178337.0001
+Polish Community Centre,6 Oliver Grove,Croydon,NA,Croydon,,1.00023E+11,E09000008,South Norwood,E05000164,51.39830923,-0.075751493,533846.0001,168398.0001
+Tresham Tenants Association Room,Red Lion Square,NA,NA,Camden,,5144581,E09000007,Holborn and Covent Garden,E05000138,51.51915526,-0.116604481,530659.0001,181761.0001
+The White House Community Association,45 The Avenue,Richmond Upon Thames,NA,Richmond upon Thames,www.whitehousehampton.co.uk,1.00023E+11,E09000027,Hampton North,E05000521,51.42505629,-0.37571073,512917.0001,170867.0001
+Ickenham Village Hall,33 Swakeleys Road,Hillingdon,NA,Hillingdon,https://www.ickenhamvillagehall.co.uk/,1.00023E+11,E09000017,Ickenham,E05000333,51.5640956,-0.444249641,507824.0001,186224.0001
+Bray TRA Hall,Bray Tower, Fellows Road,NA,Camden,,5144587,E09000007,Belsize,E05000128,51.54308704,-0.16482857,527247.0001,184337.0001
+The Hellenic Centre,16-18 Paddington Street,City Of Westminster,NA,Westminster,http://helleniccentre.org/venue-hire/,1.00023E+11,E09000033,Marylebone High Street,E05000641,51.5204466,-0.151986045,528201.0001,181842.0001
+Forestdale Residents Association,1 Bardolph Avenue,Croydon,NA,Croydon,,1.00024E+11,E09000008,Heathfield,E05000155,51.34603116,-0.0406746,536441.0001,162650.0001
+Stanley Halls,South Norwood Hill,Croydon,NA,Croydon,,1.00024E+11,E09000008,South Norwood,E05000164,51.39973287,-0.073721917,533983.0001,168560.0001
+Alf Partridge Community Hall,Prout Road,Hackney,NA,Hackney,https://bcctra.weebly.com/,1.00024E+11,E09000012,Lea Bridge,E05009380,51.55899283,-0.05301764,534952.0001,186306.0001
+Milton Gardens Community Hall,71-75 Shakspeare Walk,Hackney,NA,Hackney,,1.00024E+11,E09000012,Clissold,E05009369,51.55429102,-0.079865058,533105.0001,185734.0001
+The Redmond Community Centre,440 Seven Sisters Road,Hackney,NA,Hackney,https://www.redmondcommunitycentre.com/,1.00024E+11,E09000012,Woodberry Down,E05009387,51.57178308,-0.088653354,532445.0001,187663.0001
+St John The Divine Community Centre,Frederick Crescent,Lambeth,NA,Lambeth,,2E+11,E09000022,Vassall,E05000436,51.47694265,-0.103423163,531695.0001,177091.0001
+Goodliffe Hall,Highland Road,Lambeth,NA,Lambeth,http://www.gipsyhill.org.uk/church-hall/,2E+11,E09000022,Gipsy Hill,E05000422,51.42112019,-0.082503717,533310.0001,170922.0001
+Archbishop Davidson Institute,218 Lambeth Road,Lambeth,NA,Lambeth,,2E+11,E09000022,Bishop's,E05000416,51.49474706,-0.116069218,530766.0001,179048.0001
+Hammerton Memorial Hall,Lingham Street,Lambeth,NA,Lambeth,,2E+11,E09000022,Larkhall,E05000425,51.4673677,-0.119818051,530584.0001,175997.0001
+The Harry Caddick Community Centre,63 Lilford Road,Lambeth,NA,Lambeth,https://www.watmos.org.uk/thorlands-tmo,2E+11,E09000022,Herne Hill,E05000423,51.47001215,-0.099203345,532008.0001,176328.0001
+Brixton St Vincents Community Centre,Talma Road,Lambeth,NA,Lambeth,http://www.brixtoncommunitybase.org/,2E+11,E09000022,Coldharbour,E05000420,51.45837953,-0.10953402,531324.0001,175016.0001
+Croydon Irish Centre,29 Broadcoombe,Croydon,NA,Croydon,https://www.facebook.com/pages/Croydon-Irish-Centre/268144163317357,2.00001E+11,E09000008,Heathfield,E05000155,51.34988336,-0.050003967,535780.0001,163061.0001
+Phoenix Community Centre,66 Westow Street,Croydon,NA,Croydon,,2.00001E+11,E09000008,Upper Norwood,E05000166,51.41690471,-0.080465084,533464.0001,170457.0001
+Sanderstead Parish Halls,Purley Oaks Road,Croydon,NA,Croydon,https://www.sanderstead-parish.org.uk/halls,2.00001E+11,E09000008,Sanderstead,E05000160,51.34462719,-0.092922283,532807.0001,162398.0001
+Danson Youth Centre,Brampton Road, Bexleyheath, Kent,Bexley,http://www.dansonyouth.org.uk/,1.00023E+11,E09000004,Danson Park,E05000073,51.46115943,0.12759585,547786.0001,175777.0001
+The Barnes Green Centre,49 Station Road,Richmond Upon Thames,NA,Richmond upon Thames,https://www.barnesgreencentre.org.uk/#,2.00003E+11,E09000027,Mortlake and Barnes Common,E05000525,51.47178804,-0.245057373,521874.6201,176272.6001
+The Grosvenor Waterside,Woods House, 7 Gatliff Road,NA,Westminster,https://www.a2dominion.co.uk/grosvenor-waterside,10033623279,E09000033,Churchill,E05000633,51.48673414,-0.14656467,528672.0001,178103.0001
+Leamington Park/Orchard Lodge Community Centre,Jenner Avenue, Leamington Park, Acton,Ealing,https://www.chg.org.uk/residents/supporting-communities/our-community-centres/,12157345,E09000009,East Acton,E05000175,51.51951192,-0.258397388,520822.0001,181557.0001
+Portsoken Health & Community Centre,44-56 Hessel St, Whitechapel,NA,Tower Hamlets,,6011151,E09000030,Whitechapel,E05009336,51.51290891,-0.061123871,534526.0001,181167.0001
+York Way Estate,Market Road,London,NA,Islington,,5300067349,E09000019,Holloway,E05000375,51.54646891,-0.124477415,530035.0001,184784.0001
+Newstead Community Hub ,33 Wildwood Close, Lee Green, Newstead,Lewisham,www.greenwichwest.org.uk,1.00022E+11,E09000023,Lee Green,E05000447,51.44594402,0.014996916,540012.0001,173864.0001
+The Bridgestone Arena,Stonebridge Recreation Ground, Pavilion, Hillside,Brent,http://bridgestoneleisure.com/community,202149676,E09000005,Stonebridge,E05000100,51.54056,-0.264704022,520329.0001,183887.0001
+Underground Youth Centre,Piper Close,London,NA,Islington,https://www.facebook.com/pg/prospex.charity/about/?ref=page_internal,10023218792,E09000019,Holloway,E05000375,51.54859086,-0.113787718,530770.0001,185039.0001
+Sycamores Centre,Sycamores Centre,20 Wandsworth Plain,London,Wandsworth,,121007464,E09000032,Fairfield,E05000614,51.45772711,-0.193635469,525484.0001,174796.0001
+Rivergate Centre,Minter Road, Barking, IG11 0FJ,Barking and Dagenham,,10090629318,E09000002,Thames,E05000039,51.52015096,0.110453377,546406.2401,182301.6101
+Dagenham Library Community Rooms,1 Church Elm Lane,NA,NA,Barking and Dagenham,https://www.lbbd.gov.uk/local-libraries@lbbd.gov.uk,10023599312,E09000002,Village,E05000041,51.53986885,0.150073004,549090.0001,184574.0001
+Barking Learning Centre,2 Town Square, Barking,NA,Barking and Dagenham,www.lbbd.gov.uk/barking-learning-centre,100053358,E09000002,Abbey,E05000026,51.5358099,0.081422904,544343.0001,183985.0001
+The Vibe,195-211 Becontree Avenue, Dagenham,NA,Barking and Dagenham,,100002139,E09000002,Becontree,E05000028,51.55598705,0.121357009,547047.0001,186308.0001
+Eastbury Manor House,Eastbury Square, Barking,NA,Barking and Dagenham,https://www.lbbd.gov.uk/eastbury-manor-house,100054571,E09000002,Eastbury,E05000031,51.53383187,0.10106031,545711.0001,183804.0001
+Castle Green,Gale Street, Dagenham,NA,Barking and Dagenham,https://castle-green.org.uk/,10091872480,E09000002,Thames,E05000039,51.53282277,0.128095596,547589.0001,183746.0001
+The White House,884 Green Lane, Dagenham,NA,Barking and Dagenham,https://www.whitehouseart.org,100012001,E09000002,Valence,E05000040,51.56084974,0.134411119,547936.0001,186875.0001
+Sue Bramley Community Centre,Bastable Avenue, Barking,NA,Barking and Dagenham,,100034774,E09000002,Thames,E05000039,51.52735487,0.106154673,546085.0001,183094.0001
+Valence Manor House,Becontree Avenue, Dagenham,NA,Barking and Dagenham,https://www.lbbd.gov.uk/valence-house,100002560,E09000002,Valence,E05000040,51.55780231,0.135812252,548043.0001,186539.0001
+Rainbow Centre,24 Dollis Valley Drive, Barnet,NA,Barnet,http://www.rainbowcentrebarnet.wordpress.com,200202321,E09000003,Underhill,E05000060,51.64465499,-0.194751181,524893.4501,195579.0101
+Community Focus,Friary House, Friary Park, Friary Road,Barnet,,200220388,E09000003,Coppetts,E05000047,51.61884006,-0.160279695,527350.4101,192768.0701
+Welling Youth Centre,Lovel Avenue, Welling, Kent,Bexley,,1.00023E+11,E09000004,East Wickham,E05000074,51.46819815,0.111377586,546637.0001,176527.0001
+"The Link, Thamesmead",Belvedere Road, Thamesmead, London,Bexley,,10090793545,E09000004,Thamesmead East,E05000084,51.50012984,0.123338706,547364.6301,180101.3901
+Northumberland Heath Baptist Church,Belmont Road, Northumberland Heath, Kent,Bexley,https://nh-bc.org.uk/contact-us/,1.00023E+11,E09000004,Northumberland Heath,E05000080,51.47211554,0.158507084,549897.0001,177058.0001
+The Granville,140 Carlton Vale, South Kilburn,NA,Brent,http://thegranville.org,202224308,E09000005,Kilburn,E05000094,51.53221219,-0.196023377,525114.0001,183074.0001
+Una House TRA,29-36 Una House, Prince of Wales Road,NA,Camden,,5149007,E09000007,Kentish Town,E05000139,51.546199,-0.141422616,528861.0001,184724.0001
+St Kitts and Nevis,Kingfisher Youth and Community Centre, Crest Road, Neasden,Brent,,202110351,E09000005,Dollis Hill,E05000088,51.5639329,-0.241693535,521862.0001,186524.0001
+Community House Halls,Community House, South Street, Bromley,Bromley,https://www.bromley.gov.uk/directory_record/1210151/community_house_halls/category/131/community_halls,2.00002E+11,E09000006,Bromley Town,E05000109,51.40615398,0.01872589,540393.0001,169447.0001
+Dudley Court TA Room,Dudley Court, 36 Endell Street,NA,Camden,,5144584,E09000007,Holborn and Covent Garden,E05000138,51.51460128,-0.123134655,530219.0001,181243.0001
+Derby Lodge Tenants Association Hall,94 Derby Lodge, Wicklow Street,NA,Camden,,5105116,E09000007,King's Cross,E05000141,51.52951357,-0.115902996,530678.0001,182914.0001
+Calthorpe Project,258 Grays Inn Road,NA,NA,Camden,,5082789,E09000007,King's Cross,E05000141,51.52632783,-0.116337307,530657.0001,182559.0001
+Falcon Tenants Association Room,Falcon, Old Gloucester Street,NA,Camden,,5144580,E09000007,Holborn and Covent Garden,E05000138,51.5195988,-0.119584685,530451.0001,181805.0001
+"Kennistoun, Willingham, Rosemary & Margaret TA Hall",Margaret House, 1 Leighton Road,NA,Camden,,5110519,E09000007,Kentish Town,E05000139,51.5508519,-0.134827926,529305.0001,185253.0001
+Torriano Project / Torriano Meeting House Ltd,99 Torriano Avenue,NA,NA,Camden,,5063698,E09000007,Kentish Town,E05000139,51.55076708,-0.131758717,529518.0001,185249.0001
+Kenbrook TRA Hall,Kenbrook House, 1 Leighton Road,NA,Camden,,5152725,E09000007,Kentish Town,E05000139,51.54991172,-0.133957582,529368.0001,185150.0001
+Working Men's College,7, Leighton Place,NA,Camden,,5056364,E09000007,Kentish Town,E05000139,51.54968075,-0.134702729,529317.0001,185123.0001
+The Kosmos Centre (Camden Cypriot Women's Organisation),2c Falkland Road,NA,NA,Camden,,5076792,E09000007,Kentish Town,E05000139,51.55152207,-0.139085018,529008.0001,185320.0001
+Queens Crescent Community Association,33-43 Vadnie Bish House, Caversham Road,NA,Camden,,5083510,E09000007,Cantelowes,E05000131,51.54791512,-0.136217438,529217.0001,184924.0001
+Lissenden Gardens TA Room,26 Lissenden Gardens,NA,NA,Camden,,5153377,E09000007,Highgate,E05000137,51.55711553,-0.147008338,528443.0001,185928.0001
+"Brunswick TA Hall, Unit 10",Foundling Court,NA,NA,Camden,,5142627,E09000007,Bloomsbury,E05000129,51.52410767,-0.122585137,530230.0001,182301.0001
+Medway Court Tenants Association Room,Judd Street,NA,NA,Camden,,5149575,E09000007,King's Cross,E05000141,51.52640759,-0.12299515,530195.0001,182556.0001
+Somerton House Tenants Association Room,Duke's Road,NA,NA,Camden,,5152726,E09000007,King's Cross,E05000141,51.5272252,-0.127445608,529884.0001,182639.0001
+Sidmouth Street Tenants Association Room ,Sidmouth Street ,NA,NA,Camden,,5135490,E09000007,King's Cross,E05000141,51.52690383,-0.118043715,530537.0001,182620.0001
+Kings Cross Brunswick NA ,51 Argyle Street,NA,NA,Camden,,5069022,E09000007,King's Cross,E05000141,51.5282509,-0.119603045,530425.0001,182767.0001
+Winston House TRA Room,Winston House, 25 Endsleigh Street,NA,Camden,,5144553,E09000007,Bloomsbury,E05000129,51.52531309,-0.128792823,529796.0001,182424.0001
+Gordon Mansions Tenants Association Room,5 Torrington Place,NA,NA,Camden,,5149573,E09000007,Bloomsbury,E05000129,51.52167496,-0.132445197,529553.0001,182013.0001
+Holborn Community Association,50, Millman Street,NA,Camden,,5001099,E09000007,Bloomsbury,E05000129,51.51926556,-0.135326018,529360.0001,181740.0001
+Mortimer Crescent Tenants Hall,26 Cheshunt House, Mortimer Crescent,NA,Camden,,5135491,E09000007,Kilburn,E05000140,51.53608306,-0.186929311,525734.0001,183520.0001
+Sidney Boyd Court Tenants Hall,flat 59 Sidney Boyd Court, West End Lane,NA,Camden,,5144666,E09000007,Swiss Cottage,E05000144,51.54168595,-0.191004574,525436.0001,184136.0001
+Queens Crescent Community Association,45 Ashdown Crescent,NA,NA,Camden,,5062435,E09000007,Gospel Oak,E05000134,51.54973491,-0.150049116,528253.0001,185102.0001
+Kiln Place TRA Hall,146 Kiln Place,NA,NA,Camden,,5110008,E09000007,Gospel Oak,E05000134,51.55348632,-0.149550658,528277.0001,185520.0001
+Barrington Court Tenants Association Room,Lamble Street,NA,NA,Camden,,5143554,E09000007,Gospel Oak,E05000134,51.55277001,-0.150892527,528186.0001,185438.0001
+Talacre Action Group,Wilkin Street,NA,NA,Camden,,5133217,E09000007,Haverstock,E05000136,51.54703026,-0.145643969,528566.0001,184809.0001
+Denyer House TRA Room,44 Denyer House, Highgate Road,NA,Camden,,5154988,E09000007,Highgate,E05000137,51.55585123,-0.143265348,528706.0001,185794.0001
+Arkwright Mansions Tenants Room,206 Finchley Road,NA,NA,Camden,,5144665,E09000007,Frognal and Fitzjohns,E05000133,51.55023217,-0.181274557,526087.0001,185103.0001
+Beaumont Walk Tenants Association Room,Beaumont Walk,NA,NA,Camden,,5149568,E09000007,Haverstock,E05000136,51.54354778,-0.156357926,527833.0001,184403.0001
+Primrose Hill Court TRA Room,94 Primrose Hill Court, King Henry's Road,NA,Camden,,5144589,E09000007,Camden Town with Primrose Hill,E05000130,51.54185987,-0.158257859,527706.0001,184212.0001
+Constable House Tenants Hall,Constable House, Adelaide Road,NA,Camden,,5147924,E09000007,Haverstock,E05000136,51.54378644,-0.154949201,527930.0001,184432.0001
+Taplow TA Room,Adelaide Road,NA,NA,Camden,,5144588,E09000007,Belsize,E05000128,51.54219853,-0.169551779,526922.0001,184230.0001
+Burgh House Trust,New End Square,NA,NA,Camden,,5067420,E09000007,Hampstead Town,E05000135,51.55767471,-0.173489583,526606.0001,185944.0001
+St Christophers Fellowship,96 Shoot-up Hill,NA,NA,Camden,,5122783,E09000007,Fortune Green,E05000132,51.55188628,-0.208112997,524222.0001,185241.0001
+Templar House Tenants Hall,99 Templar House, Shoot-Up Hill,NA,Camden,,5143564,E09000007,Fortune Green,E05000132,51.5478879,-0.203062811,524583.0001,184805.0001
+Agar Grove Tenant Management Co-operative,Wrotham Road,NA,NA,Camden,,5147995,E09000007,St. Pancras and Somers Town,E05000143,51.54137571,-0.131624208,529554.0001,184205.0001
+Camden Square TA Hall,1a Camden Park Road,NA,NA,Camden,,5024787,E09000007,Cantelowes,E05000131,51.54521225,-0.125192601,529989.0001,184643.0001
+Primrose Hill Community Centre,29 Hopkinsons Place, Primrose Hill, London,Camden,,5024639,E09000007,Camden Town with Primrose Hill,E05000130,51.53961345,-0.153805588,528021.0001,183970.0001
+Three Fields TA Hall,Arlington Road (on Northgate, known as Camden High Street),NA,Camden,,5110689,E09000007,Regent's Park,E05000142,51.53526958,-0.139575014,529020.0001,183512.0001
+Regents Park TA Room,Redhill Street,NA,NA,Camden,,5192080,E09000007,Regent's Park,E05000142,51.52919051,-0.142447118,528838.0001,182831.0001
+West Euston Partnership ,HPod, Cumberland Market,NA,Camden,,5144496,E09000007,Regent's Park,E05000142,51.5289963,-0.140407551,528980.0001,182813.0001
+Samuel Lithgow Youth Centre (London Youth),69-75 Stanhope Street,NA,NA,Camden,,5083006,E09000007,Regent's Park,E05000142,51.52637433,-0.139533975,529048.0001,182523.0001
+Churchway Tenants Association Room,1-31 Churchway,NA,NA,Camden,,5149571,E09000007,St. Pancras and Somers Town,E05000143,51.52825941,-0.1291334,529764.0001,182751.0001
+Training Link ,54 56 Phoenix Road,NA,NA,Camden,,5087521,E09000007,St. Pancras and Somers Town,E05000143,51.53062523,-0.12916617,529755.0001,183014.0001
+Camden People First,215 Eversholt Street, Ampthill Square,NA,Camden,,5019905,E09000007,St. Pancras and Somers Town,E05000143,51.53203817,-0.135438524,529316.0001,183160.0001
+Lauderdale House Society,Highgate Hill, Waterlow Park,NA,Camden,,5023081,E09000007,Highgate,E05000137,51.56879617,-0.141770994,528773.0001,187236.0001
+Wanstead House Community Association,21 The Green, London ,NA,Redbridge,,1.00022E+11,E09000026,Wanstead,E05000515,51.5737199,0.030770633,540713.6301,188101.4401
+Bourne Estate Tenants Association Hall,Gray's Inn Buildings, Rosebery Avenue,NA,Camden,,5166220,E09000007,Holborn and Covent Garden,E05000138,51.52192799,-0.110622495,531066.0001,182080.0001
+Langdon House Tenants Association Hall,Flat 34, Langdon House, Leather Lane,Camden,,5149574,E09000007,Holborn and Covent Garden,E05000138,51.52046475,-0.108001655,531252.0001,181922.0001
+Gamages Tenants Hall,12b Leather Lane,NA,NA,Camden,,5084573,E09000007,Holborn and Covent Garden,E05000138,51.51850996,-0.107246577,531310.0001,181706.0001
+Havelock Community Shop,39 Hunt Road,Southall,Middlesex,Ealing,,12038325,E09000009,Norwood Green,E05000186,51.50154715,-0.370686703,513077.0001,179380.0001
+St Helier Hall,12 Eastfield Road ,NA,NA,Enfield,,207162912,E09000010,Enfield Highway,E05000198,51.66677724,-0.039330936,535579.0001,198316.0001
+Ordnance Unity Centre,645 Hertford Road ,NA,NA,Enfield,,207144176,E09000010,Enfield Lock,E05000199,51.67157982,-0.037720477,535676.0001,198853.0001
+Memorial Hall,Maldon Road ,NA,NA,Enfield,,207015762,E09000010,Edmonton Green,E05000197,51.62279894,-0.064793542,533948.0001,193379.0001
+Vaine House,Cassland Road, Gascoyne Estate, Hackney,Hackney,,10008310347,E09000012,Hackney Wick,E05009374,51.54385849,-0.037480448,536074.0001,184652.0001
+Tower Gardens,2 Inglethorp House, ,NA,Hackney,,1.00023E+11,E09000012,Cazenove,E05009368,51.56322012,-0.061725806,534336.0001,186760.0001
+St Mary Community Centre,Kent Street, Hackney, London,Hackney,,10008243952,E09000012,Haggerston,E05009375,51.53279411,-0.068772379,533937.0001,183364.0001
+Smalley Road Community Centre,20 Cleveland Close,NA,NA,Hackney,,10008229195,E09000012,Stoke Newington,E05009385,51.56066489,-0.070390862,533743.0001,186460.0001
+Sherry's Wharf,5 Oswalds mead, ,NA,Hackney,,2.00002E+11,E09000012,King's Park,E05009379,51.5541072,-0.032408217,536395.0001,185801.0001
+Napier Grove ,1 Napier Grove, ,NA,Hackney,,1.00023E+11,E09000012,Hoxton West,E05009378,51.53171301,-0.09118324,532386.0001,183203.0001
+Beecholme,Prout Rd,NA,NA,Hackney,,1.00021E+11,E09000012,Lea Bridge,E05009380,51.55931074,-0.05320606,534938.0001,186341.0001
+Azalea Court ,Finsbury Park Place, Queens Drive, Hackney,Hackney,,10008348541,E09000012,Brownswood,E05009367,51.56556111,-0.099561003,531707.2101,186951.4701
+Amwell Court Estate ,Portland Rise, London ,NA,Hackney,,10008286958,E09000012,Woodberry Down,E05009387,51.56600861,-0.091377639,532273.0001,187016.0001
+William Banfield Community Hall,Munster Road,NA,NA,Hammersmith and Fulham,,34043341,E09000013,Town,E05000264,51.47308748,-0.204131918,524713.0001,176486.0001
+Clem Attlee Residents Hall,Clem Attlee Tenants Hall,Len Freeman Place,London,Hammersmith and Fulham,,34050487,E09000013,Fulham Broadway,E05000254,51.48228828,-0.204159347,524686.0001,177509.0001
+Nye Bevan Hall,Aspen Gardens,London,NA,Hammersmith and Fulham,,34006935,E09000013,Hammersmith Broadway,E05000256,51.49076462,-0.228692046,522960.0001,178410.0001
+I Can Care Centre,Woodside House, Woodside Park, 294 High Road,Haringey,,1.00021E+11,E09000014,Woodside,E05000284,51.60314217,-0.10911567,530937.0001,191113.0001
+Brookside Hall,Brookside Hall, Brookside Close, Harrow,Harrow,http://www.harrow.gov.uk/info/200244/housing_portal/1668/community_centre_halls,2E+11,E09000015,Roxbourne,E05000301,51.56017254,-0.377696296,512446.0001,185888.0001
+Wennington Village Association,1a Church Lane Wennington, Rainham,NA,Havering,,1.00021E+11,E09000016,Rainham and Wennington,E05000318,51.50634651,0.218646099,553957.5001,180988.8101
+Rush Green Community Association,Rush Green Gardens  Rush Green Road, Romford,NA,Havering,,2.00003E+11,E09000016,Brooklands,E05000306,51.5646441,0.17238932,550555.4501,187374.4001
+Rainham Royals Youth Centre,Viking Way, Rainham,NA,Havering,,1.00023E+11,E09000016,Rainham and Wennington,E05000318,51.51855633,0.192398029,552095.6001,182291.4701
+Rainham & Wennington Community Association,Brenda Blakemore Community Centre, Davies Close, Rainham,Havering,,10091577045,E09000016,Rainham and Wennington,E05000318,51.52062093,0.207334751,553124.7801,182552.1801
+Havering Asian Social & Welfare Association,Greenfields Kilmartin Way Elm Park,NA,NA,Havering,,10091576884,E09000016,Elm Park,E05000308,51.54376421,0.202847036,552736.0001,185116.0001
+Emerson Park Community Association,Emerson Park Social Hall Slewins Lane Hornchurch,NA,NA,Havering,,1.00023E+11,E09000016,Squirrel's Heath,E05000322,51.57470539,0.215230673,553490.3001,188582.1601
+Cranham Community Association,115a Marlborough Gardens Cranham,NA,NA,Havering,,1.00023E+11,E09000016,Cranham,E05000307,51.56748205,0.2670499,557105.2701,187889.1001
+Briar Community Association,Betty Strathern Centre, 41 Myrtle Rd, Harold Hill,Havering,,1.00023E+11,E09000016,Heaton,E05000314,51.60199916,0.215307544,553403.6401,191617.0201
+Hartlands Community Centre,Water Church Road, Heston,NA,Hounslow,,1.00023E+11,E09000018,Heston West,E05000357,51.49024352,-0.406907506,510590.7201,178067.7701
+Hunter House,Highfields Estate - Hazel Grove,NA,NA,Hounslow,,2.00004E+11,E09000018,Feltham West,E05000352,51.44592486,-0.412563674,510304.9301,173131.2901
+Mersey Estate TRA Flat,2 Birkenhead House,Mersey Estate,Liverpool Road,Islington,,5300057849,E09000019,St. Mary's,E05000379,51.54838124,-0.108588961,531131.0001,185025.0001
+Durham Road Community Room,Bolton Walk,Durham Road,London,Islington,,5300010980,E09000019,Finsbury Park,E05000371,51.56399028,-0.111707417,530870.0001,186755.0001
+Bennett Court Community Centre,Axminster Road,London ,NA,Islington,,10008977973,E09000019,Finsbury Park,E05000371,51.55948197,-0.116583463,530545.0001,186245.0001
+Menard Court Community Centre,Pleydell Estate,Galway Street,NA,Islington,,10012786377,E09000019,Bunhill,E05000367,51.52647566,-0.091546505,532376.0001,182620.0001
+St Lukes TRA Community Room,Bath Court,Bath Street,NA,Islington,,10090549514,E09000019,Bunhill,E05000367,51.52585712,-0.088357176,532599.0001,182557.0001
+Peregrine Hall Community Centre,Peregrine House,Hall Street London ,NA,Islington,,10010440292,E09000019,Bunhill,E05000367,51.52931203,-0.098954594,531854.0001,182922.0001
+King Square Community Centre,Ground floor,Rahere House,King Square,Islington,,10090549145,E09000019,Bunhill,E05000367,51.52806948,-0.096093802,532056.0001,182789.0001
+Betty Brunker Hall,Gambier House,Mora Street,NA,Islington,,10091003650,E09000019,Bunhill,E05000367,51.52743786,-0.0909872,532412.0001,182728.0001
+Brecknock Estate TRA Flat,Flat 1,Blake House,Brecknock Road Estate,Islington,,5300011414,E09000019,St. George's,E05000378,51.55274781,-0.131893946,529503.0001,185469.0001
+Harry Rice Hall Community Centre ,72 – 74 Hargrave Park ,London,NA,Islington,,5300040787,E09000019,Junction,E05000376,51.56351992,-0.138551857,529011.0001,186655.0001
+Girdlestone Community Centre,Under 151,Salisbury Walk,Girdlestone Estate,Islington,,10012785327,E09000019,Junction,E05000376,51.56468472,-0.137710623,529066.0001,186786.0001
+Holly Hall Community Centre,Blythwood Road, London,NA,Islington,,5300010632,E09000019,Hillrise,E05000374,51.57287584,-0.117862754,530418.0001,187732.0001
+Charles Rowan House TRA Flat,88 Charles Rowan House,Margery Street,NA,Islington,,5300062006,E09000019,Clerkenwell,E05000370,51.52685685,-0.108414299,531205.0001,182632.0001
+Thornhill Houses TRA Flat,Block 70-83 Thornhill Houses,NA,NA,Islington,www.thornhillhousesra.com,5300090456,E09000019,Barnsbury,E05000366,51.54252919,-0.10875955,531136.0001,184374.0001
+PEDLARS ACRE COMMUNITY HALL,1 Opal Street, North Lambeth,NA,Lambeth,,2E+11,E09000022,Stockwell,E05000429,51.47560436,-0.119724162,530567.0001,176913.0001
+LOUGHBOROUGH ESTATE,105 Angell Road, London,NA,Lambeth,,10008787179,E09000022,Coldharbour,E05000420,51.46608793,-0.104017343,531685.0001,175883.0001
+FENWICK ESTATE,128 Willington Road, London,NA,Lambeth,,1.00023E+11,E09000022,Larkhall,E05000425,51.46315593,-0.124699365,530257.0001,175520.0001
+DERONDA ESTATE,Jarrett Close ,NA,NA,Lambeth,,2.00001E+11,E09000022,Thurlow Park,E05000434,51.44170513,-0.106740063,531566.0001,173167.0001
+"Rotunda, CRESSINGHAM GARDENS ESTATE",Cressingham Gardens estate, Tulse Hill, London,Lambeth,,10008787389,E09000022,Tulse Hill,E05000435,51.44655638,-0.110310312,531304.0001,173700.0001
+BERRIDGE ROAD ESTATE,13 -17 Bridgetown Close,,NA,Lambeth,,2E+11,E09000022,Gipsy Hill,E05000422,51.42457591,-0.084833437,533138.0001,171302.0001
+St Lukes Hall,1 Hawthorne Road, London,NA,Waltham Forest,,2.00001E+11,E09000031,William Morris,E05000608,51.58925467,-0.017476641,537324.0001,189737.0001
+Woodman Community Centre,Woodman Street, North Woolwich, London,Newham,https://www.newham.gov.uk/Pages/ServiceChild/Woodman-Community-Centre.aspx,10009003863,E09000025,Royal Docks,E05000491,51.50098659,0.069186223,543604.0001,180089.0001
+Rennie Tenants and Residents Association New Hall,Galleywall Road,NA,NA,Southwark,,2.00003E+11,E09000028,South Bermondsey,E05000550,51.4886323,-0.05697163,534885.7401,178475.3401
+Bluebird Community Centre,821 Old Kent Road,NA,NA,Southwark,http://trass.org.uk/,2.00003E+11,E09000028,Livesey,E05000543,51.47928589,-0.054326111,535097.0001,177441.0001
+Bellenden Old School,165 Bellenden Rd, London,NA,Southwark,,2.00003E+11,E09000028,South Camberwell,E05000551,51.46563219,-0.071667458,533933.0001,175891.0001
+Aylesbury Access Centre,Unit 7 Thurlow Street,London,NA,Southwark,,10090286106,E09000028,Faraday,E05000541,51.48730388,-0.084344511,532989.5301,178277.5501
+Rosehill Community Centre,Rosehill Community Centre, Rosehill Recreation Ground, Rose Hill,Sutton,,5870117675,E09000029,Sutton North,E05000565,51.37778774,-0.192789434,525762.0001,165909.0001
+Seven Acres Community Hub,Seven Acres Community Hub, 41-43 Seven Acres, Carshalton,Sutton,https://www.suttonhousingpartnership.org.uk/news-events/cuppa-with-a-copper-at-seven-acres-community-hub--763,5870066625,E09000029,The Wrythe,E05000568,51.37485109,-0.172197596,527203.0001,165618.0001
+Hill House,Hill House Community Centre,Hill House,Bishopsford Road,Sutton,,5870054793,E09000029,St. Helier,E05000562,51.38654764,-0.181750117,526506.0001,166902.0001
+"Marmion Centre, Waltham Forest Resource Hub",58 Hall Lane, London,NA,Waltham Forest,https://www.ageuk.org.uk/walthamforest/,1.00023E+11,E09000031,Valley,E05000607,51.61656527,-0.019435889,537106.0001,192770.0001
+Friday Hill House Community Care Support Centre,56 Friday Hill, London,NA,Waltham Forest,,2.00001E+11,E09000031,Hatch Lane,E05000598,51.62133713,0.010405503,539157.0001,193357.0001
+Henry Prince Estate Community Clubroom,Henry Prince Estate Community Clubroom,"	Garratt Lane", Prince Henry Estate,Wandsworth,,121054835,E09000032,Earlsfield,E05000612,51.44421676,-0.188843681,525854.0001,173302.0001
+Friday Hill Tenant Management Community Centre & Offices,19 Chingdale Road, London,NA,Waltham Forest,http://www.fridayhilltmo.org.uk/community-association,1.00023E+11,E09000031,Hatch Lane,E05000598,51.61939038,0.011171864,539216.0001,193142.0001
+Chingdale Centre,19 Chingdale Road, London,NA,Waltham Forest,,1.00024E+11,E09000031,Hatch Lane,E05000598,51.61939038,0.011171864,539216.0001,193142.0001
+Vestry House Museum Community Café & Room,Vestry Road, London,NA,Waltham Forest,https://vestryhousemuseum.org.uk/,1.00023E+11,E09000031,Hoe Street,E05000601,51.58350852,-0.011143846,537780.0001,189110.0001
+Waltham Forest Community Hub,18A Orford Road, London,NA,Waltham Forest,https://www.wfchub.org/,1.00023E+11,E09000031,Hoe Street,E05000601,51.58228965,-0.010865051,537803.0001,188975.0001
+Markhouse Road Day Centre,247 Markhouse Road, London,NA,Waltham Forest,https://directory.walthamforest.gov.uk/kb5/walthamforest/directory/service.page?id=HASnaIBO0VQ,1.00023E+11,E09000031,Markhouse,E05000606,51.5742402,-0.02683347,536721.0001,188050.0001
+The Mill Community Centre at Coppermill Ltd,7-11 Coppermill Lane, London,NA,Waltham Forest,https://themille17.org/,1.00023E+11,E09000031,High Street,E05000599,51.5808364,-0.032957039,536277.0001,188772.0001
+Ambia Community Centre,144 Bramley Close, London,NA,Waltham Forest,,1.00024E+11,E09000031,Higham Hill,E05000600,51.59342568,-0.030709247,536395.0001,190176.0001
+Gnome House Community Print Making Workshop & Café,Gnome House, 7 Blackhorse Lane, London,Waltham Forest,http://gnomehouse.org.uk/,10091186484,E09000031,William Morris,E05000608,51.58865429,-0.039015298,535834.0001,189630.0001
+Blackhorse Community Workshop & Café,1-2 Sutherland Road Path, London,NA,Waltham Forest,http://www.blackhorseworkshop.co.uk/,10091186505,E09000031,Higham Hill,E05000600,51.59154591,-0.037143648,535955.0001,189955.0001
+Higham Hill Community Hub & Café,Higham Hill Park, Hecham Close, London,Waltham Forest,http://highamhillhub.org.uk/,10091185782,E09000031,Higham Hill,E05000600,51.59662589,-0.035985962,536020.0001,190522.0001
+Hoe Street Community Centre,1 Hoe Street, London,NA,Waltham Forest,https://wfculture19.co.uk/onehoestreet-venue,1.00023E+11,E09000031,Hoe Street,E05000601,51.58887304,-0.016713605,537378.0001,189696.0001
+Town Hall Complex Community Café,701 Forest Road, London,NA,Waltham Forest,,2.00001E+11,E09000031,Chapel End,E05000592,51.59066225,-0.011899804,537706.0001,189904.0001
+Gordon Road Community Centre,22 Gordon Road, London,NA,Waltham Forest,,2.00001E+11,E09000031,Cathall,E05000591,51.55224193,-0.003982137,538371.0001,185647.0001
+Crownfield Road Community Centre,90 Crownfield Road, London,NA,Waltham Forest,,1.00023E+11,E09000031,Cathall,E05000591,51.55191335,0.003158942,538867.0001,185624.0001
+X7Eaven Productions Ltd/ Nexus Community Centre,1 Snowberry Close, London,NA,Waltham Forest,http://www.x7dance.com/community/about.htm,2.00001E+11,E09000031,Cathall,E05000591,51.55263179,0.005325643,539015.0001,185708.0001
+The Junction Adult Learning Service & Community Library,2-4 Cathall Road, Leytonstone,NA,Waltham Forest,,1.00023E+11,E09000031,Cathall,E05000591,51.55760358,0.008054869,539189.0001,186266.0001
+East London Community Law Service,440 Cathall Road, London,NA,Waltham Forest,http://elclas.org.uk/,2.00001E+11,E09000031,Cathall,E05000591,51.5599016,0.005154908,538981.0001,186516.0001
+SCOPE Day Centre (VCS Hub),1 Russell Road, London,NA,Waltham Forest,,1.00023E+11,E09000031,Lea Bridge,E05000603,51.5738386,-0.014755805,537559.0001,188028.0001
+"Dahir Community House, East London Community Law Service",702 High Road, Leyton, London,Waltham Forest,http://elclas.org.uk/,1.00023E+11,E09000031,Forest,E05000595,51.57121856,-0.006629057,538130.0001,187752.0001
+Capel Manor College Community Centre,169 Farmer Rd, London,NA,Waltham Forest,https://walthamforest.gov.uk/content/brooks-farm-outdoor-learning-centre,1.00023E+11,E09000031,Leyton,E05000604,51.56956281,-0.008693104,537992.0001,187564.0001
+Pennethorne House Meeting Room,4 Wye Street, London,NA,Wandsworth,,1.00024E+11,E09000032,Latchmere,E05000617,51.46738689,-0.174520455,526785.0001,175903.0001
+Patmore Clubroom,Thessaly Road, London, SW8 4HT,Lambeth,,2E+11,E09000022,Larkhall,E05000425,51.47385839,-0.132911794,529656.2701,176695.4301
+Toland Square Community Clubroom,Toland Square Community Clubroom,Toland Square,London,Wandsworth,,121054253,E09000032,West Putney,E05000629,51.456044,-0.240257521,522250.0001,174530.0001
+Aubyn Square Clubroom,Aubyn Square Clubroom, London,NA,Wandsworth,,121054046,E09000032,West Putney,E05000629,51.45999125,-0.24079673,522202.0001,174968.0001
+Community Clubroom (lennox),Community Clubroom (lennox),"	Ludovick Walk", London,Wandsworth,,121038491,E09000032,Roehampton and Putney Heath,E05000621,51.46442494,-0.251007348,521481.0001,175444.0001
+Manresa Clubroom,Manresa Clubroom, Fontley Way, London,Wandsworth,,10008157575,E09000032,Roehampton and Putney Heath,E05000621,51.44670935,-0.240299824,522272.0001,173492.0001
+Andrew Reed House Clubroom,Andrew Reed House Clubroom,"	1 Linstead Way", London,Wandsworth,,1.00023E+11,E09000032,West Hill,E05000628,51.4491015,-0.214126878,524084.0001,173802.0001
+Minstead Gardens Clubroom,Minstead Gardens Clubroom, Minstead Gardens, London,Wandsworth,,1.00023E+11,E09000032,Roehampton and Putney Heath,E05000621,51.45190991,-0.247656856,521747.0001,174058.0001
+Newlands Hall (Putney Vale Clubroom),Newlands Hall, 226 Stroud Crescent, Putney Vale Estate,Wandsworth,,1.00023E+11,E09000032,Roehampton and Putney Heath,E05000621,51.43756461,-0.242809811,522122.0001,172471.0001
+Moorlands Community Centre,Moorlands Community Centre,50a Corry Drive,London,Lambeth,,10023850557,E09000022,Coldharbour,E05000420,51.45969487,-0.105218144,531620.0001,175170.0001
+High Trees Community Development Centre,High Trees Community Development Centre,High Trees,London,Lambeth,http://www.high-trees.org/,1.00023E+11,E09000022,Tulse Hill,E05000435,51.44403472,-0.1100978,531326.0001,173420.0001
+The Reed,28 Convent Gardens ,NA,NA,Kensington and Chelsea,,217129015,E09000020,Colville,E05009392,51.51534177,-0.205049138,524534.0901,181182.7501
+St John's TRA Office ,Flat 4 Thorne House Launch Street London        ,NA,NA,Tower Hamlets,,6127353,E09000030,Blackwall & Cubitt Town,E05009318,51.49576442,-0.011092399,538048.8601,179353.8901
+Virginia Quays Community Centre,Virginia Quays Community Centre,27-35 Sexton Court,9 Newport Avenue,Tower Hamlets,https://www.onehousing.co.uk/for-you/volunteering-and-community-involvement/community-centres/virginia-quays-community-centre,6008049,E09000030,Blackwall & Cubitt Town,E05009318,51.50854211,0.000736804,538831.0001,180797.0001
+Hillview Community Centre,Hillview Community Centre,1 Midhope Street,London,Camden,https://www.onehousing.co.uk/for-you/volunteering-and-community-involvement/community-centres/hillview-community-centre,5026897,E09000007,King's Cross,E05000141,51.52756743,-0.121289326,530310.0001,182688.0001
+New Charlton Community Centre,New Charlton Community Centre,217 Maryon Road,London,Greenwich,,1.00023E+11,E09000011,Woolwich Riverside,E05000230,51.48857488,0.048714409,542222.0001,178669.0001
+Mycenae House,Mycenae House,90 Mycenae Road,London,Greenwich,,1.00023E+11,E09000011,Blackheath Westcombe,E05000215,51.47912572,0.01758783,540090.3501,177558.3501
+Shrewsbury House,Shrewsbury House,Bushmoor Crescent,London,Greenwich,,1.00023E+11,E09000011,Shooters Hill,E05000227,51.47300931,0.074598311,544067.7401,176988.9201
+North Kensington Resource Centre,Whitchurch Road, Lancaster West Estate, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217113750,E09000020,Notting Dale,E05009399,51.51239091,-0.215443232,523821.0001,180837.0001
+Portobello Court Community Centre,Portobello Court Estate, Portobello Road, London,Kensington and Chelsea,https://www.rbkc.gov.uk/housing-management/housing-venues-hire,217105300,E09000020,Colville,E05009392,51.51393558,-0.201170712,524807.0001,181033.0001
+Surbiton Library Hall,Ewell Rd, Surbiton,NA,Kingston upon Thames,https://www.kingston.gov.uk/info/200208/libraries/301/branch_surbiton_library/4,128006816,E09000021,Berrylands,E05000401,51.39228094,-0.296326317,518520.0001,167348.0001
+New Malden Library Hall,Kingston Rd, New Malden,NA,Kingston upon Thames,https://www.kingston.gov.uk/info/200208/libraries/299/branch_new_malden_library/4,128010803,E09000021,Beverley,E05000402,51.3987777,-0.259235194,521083.0001,168131.0001
+Gladstone Youth and Community Centre,162 Anson Road, Cricklewood, London,Brent,,202135024,E09000005,Mapesbury,E05000095,51.55479968,-0.227618996,522862.0001,185532.0001
+Finsbury Unity Room,Ground Floor,Michael Cliffe House,Finsbury Estate,Islington,,10090549066,E09000019,Clerkenwell,E05000370,51.52588993,-0.104229933,531498.0001,182532.0001
+Donnington Court Community Room,Community Room,Donnington Court,Donnington Road,Brent,,202146927,E09000005,Willesden Green,E05000105,51.54181628,-0.231397521,522635.0001,184082.0001
+Cheviot Gardens,36 Cheviot Rd, ,West Norwood,Lambeth,https://www.nhhg.org.uk/communities/spaces-for-hire/cheviot-gardens/,10091120509,E09000022,Knight's Hill,E05000424,51.42788985,-0.104077208,531790.7901,171635.6801
+Conrad Court,Conrad Court,1-78 Cary Avenue,London,Lewisham,https://www.nhhg.org.uk/communities/spaces-for-hire/conrad-court/,10090786135,E09000023,Evelyn,E05000443,51.49100771,-0.03563095,536360.0001,178779.0001
+Covent Garden Community Centre,Seven Dials Club,42 Earlham Street,London,Camden,https://www.sevendialsclub.com/,5155575,E09000007,Holborn and Covent Garden,E05000138,51.51322363,-0.124157018,530152.0001,181088.0001
+Friend in Need Community Centre,East Barnet Baptist Church,Crescent Road,Barnet,Barnet,,200028180,E09000003,East Barnet,E05000048,51.64290388,-0.163410146,527066.4601,195438.3501
+Southwark Pensioners Centre,Southwark Pensioners Centre,305-307 Camberwell Road,London,Southwark,southwarkpensioners.org.uk,2.00003E+11,E09000028,Camberwell Green,E05000535,51.47555953,-0.091901308,532499.0001,176958.0001
+Westbourne Park Family Centre,Westbourne Park Family Centre,91-99 Westbourne Park Road,London,Westminster,http://www.westbourneparkfamilycentre.org.uk/home,2.00001E+11,E09000033,Bayswater,E05000631,51.51850596,-0.194258623,525274.0001,181553.0001
+Paddington Development Trust,Great Western Studios,65 Alfred Road,London,Westminster,http://www.pdt.org.uk/,10033624231,E09000033,Westbourne,E05000648,51.52068971,-0.194734461,525235.0001,181795.0001
+Open Age Westbourne Hub,Paddington Arts,32 Woodfield Road,London,Westminster,https://www.openage.org.uk/westbourne-hub,10033601823,E09000033,Westbourne,E05000648,51.52255678,-0.198596368,524962.0001,181996.0001
+Jubilee Hall,Jubilee Hall Recreation Centre & Gym,30 Jubilee Market,The Piazza,Westminster,www.jubileehalltrust.org,10033595832,E09000033,St. James's,E05000644,51.51155098,-0.121357484,530351.0001,180907.0001
+Marylebone Bangladesh Society,Marylebone Bangladesh Society,Community Centre,19 Samford Street,Westminster,http://www.mbs-uk.org/,10033585810,E09000033,Church Street,E05000634,51.52415537,-0.168257124,527062.0001,182226.0001
+Cardinal Hume Centre,The Surgery,Cardinal Hume Centre,3-7 Arneway Street,Westminster,https://www.cardinalhumecentre.org.uk/,10033529127,E09000033,St. James's,E05000644,51.49461755,-0.130453738,529768.0001,179008.0001
+WECH Community Centre (Walterton & Elgin Community homes),Walterton & Elgin Community Homes Ltd,416 Harrow Road,London,Westminster,http://wech.co.uk/,1.00024E+11,E09000033,Harrow Road,E05000635,51.52318691,-0.19629363,525120.0001,182070.0001
+Neighbourhood Centre (Harrow Road),421 Harrow Road,London,NA,Westminster,,1.00023E+11,E09000033,Harrow Road,E05000635,51.52517449,-0.203914024,524586.0001,182278.0001
+Streatham Stables Community Centre,The White Lion,Streatham High Road,London,Lambeth,http://www.whitelionsw16.co.uk/?fbclid=IwAR25_e_kBt2rAwlueFStdNp8jn3_XIM2gWW995VB0cxY9FzKyOucnteahMc,1.00022E+11,E09000022,St. Leonard's,E05000428,51.43023155,-0.128163009,530110.0001,171853.0001
+Broadley Gardens Community Space,IMPS Pre-School, Broadley Street,London,Westminster,https://www.cwh.org.uk/your-community/hall-hire/broadley-gardens-community-space,10033549218,E09000033,Church Street,E05000634,51.52175086,-0.167474219,527123.0001,181960.0001
+Tachbrook Social Club,Tachbrook social club,Peabody Estate, Aylesford Street,Westminster,,10033635402,E09000033,Tachbrook,E05000645,51.48820918,-0.132401426,529651.0001,178292.0001
+Dryburgh Community Hall,Dry Burgh House,Abbots Manor estate,Alderney Street,Westminster,https://www.cwh.org.uk/your-community/hall-hire/dryburgh-community-hall,10033528585,E09000033,Warwick,E05000647,51.49018135,-0.145027412,528769.0001,178489.0001
+Lydford Tenants and Residents Hall,74 Fernhead Road,London,NA,Westminster,https://www.cwh.org.uk/your-community/hall-hire/lydford-tenants-and-residents-hall,1.00024E+11,E09000033,Harrow Road,E05000635,51.52794873,-0.200084892,524844.0001,182593.0001
+Queens Park Court Community Hall,Queens Park Court,Ilbert Street,London,Westminster,https://www.cwh.org.uk/your-community/hall-hire/queens-park-court-community-hall,1.00023E+11,E09000033,Queen's Park,E05000642,51.52870428,-0.212440676,523985.0001,182656.0001
+The Sandbunker Community Centre,The Sandbunker Community Centre,The Sandlings,London,Haringey,https://haricare.haringey.gov.uk/adults/cat/vendor/3092,1.00021E+11,E09000014,Noel Park,E05000275,51.59308909,-0.101418437,531499.0001,190009.0001
+Prospects Centre,Banstead Court,60 Westway,London,Hammersmith and Fulham,,34142348,E09000013,Wormholt and White City,E05000265,51.51340511,-0.242703206,521927.0001,180904.0001
+Nevern Place,Notting Hill Housing Association,Flat 1a,1 Nevern Place,Kensington and Chelsea,,217058060,E09000020,Earl's Court,E05009395,51.49262446,-0.19320703,525418.0001,178677.0001
+Dobson and Amigo Community Hall,Amigo House,Morley Street,London,Southwark,,2.00003E+11,E09000028,Cathedrals,E05000536,51.49827952,-0.107566217,531346.0001,179456.0001
+Clapham Park Community Resource Centre,Clapham Park Homes,1 Headlam Road,London,Lambeth,,2.00001E+11,E09000022,Thornton,E05000433,51.44929106,-0.129974353,529930.0001,173969.0001
+Elgin Close Resource Centre,1-3 Elgin Close,London,NA,Hammersmith and Fulham,,34131373,E09000013,Askew,E05000251,51.50100971,-0.234159581,522553.0001,179540.0001
+Mulberry Court Community Centre,Mulberry Court Community Centre,17 Mulberry Court,Elgar Avenue,Brent,,202065743,E09000005,Stonebridge,E05000100,51.54836799,-0.258752415,520721.0001,184765.0001
+Penfold Community Hub,Penfold Community Hub,60 Penfold Street,London,Westminster,https://www.nhhg.org.uk/communities/spaces-for-hire/penfold-street/,1.00023E+11,E09000033,Church Street,E05000634,51.52321953,-0.17052931,526907.0001,182118.0001
+Whytecliffe Community Space,Whytecliffe Community Space,Whytecliffe Road South,Purley,Croydon,https://www.3va.org.uk/sites/default/files/AmicusHorizon%20Free%20Community%20Space%20Poster.pdf,2.00001E+11,E09000008,Purley,E05000159,51.33852923,-0.111784691,531511.0001,161686.0001
+Community Flat,Community Flat,14 Saxonfield Close,London,Lambeth,https://www.3va.org.uk/sites/default/files/AmicusHorizon%20Free%20Community%20Space%20Poster.pdf,2E+11,E09000022,Tulse Hill,E05000435,51.44539482,-0.115251724,530964.0001,173562.0001
+Lansdowne Green Family Centre,Lambeth Family Housing Centre,Benson Court,Hartington Road,Lambeth,https://www.3va.org.uk/sites/default/files/AmicusHorizon%20Free%20Community%20Space%20Poster.pdf,1.00024E+11,E09000022,Stockwell,E05000429,51.47568524,-0.126460984,530099.0001,176910.0001
+Basil Jellicoe Hall,Basil Jellicoe Hall,Drummond Crescent,London,Camden,https://www.originhousing.org.uk/community/community-halls/basil-jellicoe-hall,5147865,E09000007,St. Pancras and Somers Town,E05000143,51.52909291,-0.130079709,529696.0001,182842.0001
+NEQ Community Room,NEQ Community Room,175 Drummond Street,London,Camden,https://www.originhousing.org.uk/community/community-halls/north-east-quadrant-(neq),5169014,E09000007,Regent's Park,E05000142,51.52568827,-0.137673215,529179.0001,182450.0001
+SocietyLinks,Whitechapel Threshold Centre,80 John Fisher Street,London,Tower Hamlets,http://www.societylinks.org.uk/page2.php,6137028,E09000030,Whitechapel,E05009336,51.50996233,-0.06786454,534067.0001,180827.0001
+Calcott Community Centre,Calcott Community Centre,Palmer Estate,30A Cathcart Hill,Islington,,5300017533,E09000019,Junction,E05000376,51.55952667,-0.136276529,529180.0001,186215.0001
+Vignola Hall,Fulham Estate Residents Association (FERA),Old Estate Office (opposite Block J),Peabody Estate,Hammersmith and Fulham,https://fulhamestatetra.org.uk/?page_id=126,34134720,E09000013,Fulham Broadway,E05000254,51.4851305,-0.198314534,525084.0001,177835.0001
+Tenant Hall,Tenant Hall,Peabody Estate,Fulham Palace Road,Hammersmith and Fulham,,34029839,E09000013,Hammersmith Broadway,E05000256,51.48957087,-0.222313146,523406.0001,178288.0001
+Darwin Court,Darwin Court Office,1 Crail Row,London,Southwark,,10093339233,E09000028,East Walworth,E05000540,51.49131631,-0.085826325,532875.0001,178721.0001
+Pimlico Thamesbank Centre,Thames Bank Centre,Turpentine Lane,London,Westminster,http://computerhousedial.com/thamesbank/index.html,10033615881,E09000033,Churchill,E05000633,51.48600678,-0.144361357,528827.0001,178026.0001
+Centrepoint Bruce House Foyer,Skills Development Centre,Bruce House,Kemble Street,Westminster,https://www.homeless.org.uk/homeless-england/service/centrepoint-bruce-house-foyer,10033536863,E09000033,St. James's,E05000644,51.51341362,-0.118052119,530575.0001,181120.0001
+Willow Tree Community House,12 Mandarin Way,Hayes,Middlesex,Hillingdon,,10003001848,E09000017,Yeading,E05000344,51.52006591,-0.387065032,511895.0001,181414.0001
+Victoria Park Community Centre,Peabody,5 Gore Road,London,Hackney,https://victoria-park-community-centre-peabody.business.site/,1.00023E+11,E09000012,Victoria,E05009386,51.53592795,-0.049993142,535230.0001,183747.0001
+Hugh Cubitt Community Centre,Hugh Cubitt,48 Collier Street,London,Islington,https://barnsburyliving.wordpress.com/,10001295469,E09000019,Barnsbury,E05000366,51.53211451,-0.11377681,530818.0001,183207.0001
+Langthorne Court Community Hall,Langthorne Community Hall,Bromley Road,Bromley,Lewisham,https://www.lewisham.gov.uk/inmyarea/Pages/venue-detail.aspx?directoryid=3556,1.00024E+11,E09000023,Whitefoot,E05000454,51.42774358,-0.010449264,538299.0001,171792.0001
+The Green Man,Phoenix Community Housing,The Green Man,355 Bromley Road,Lewisham,http://thegreenman.com/,1.00022E+11,E09000023,Whitefoot,E05000454,51.42703955,-0.009242574,538385.0001,171716.0001
+Aberfeldy Community Centre,Aberfeldy Community Centre,Aberfeldy Street,London,Tower Hamlets,https://www.poplarharca.co.uk/community/community-centres/aberfeldy-centre,6210893,E09000030,Lansbury,E05009325,51.51348109,-0.004625043,538444.0001,181336.0001
+Poplar Union,Poplar Union,2 Cotall Street,Poplar,Tower Hamlets,https://poplarunion.com/,6194894,E09000030,Lansbury,E05009325,51.51508725,-0.02139117,537276.0001,181483.0001
+The Cabin Community Centre,The Brownfield Cabin,82 St. Leonards Road,London,Tower Hamlets,https://www.poplarharca.co.uk/community/community-centres/cabin,6084685,E09000030,Lansbury,E05009325,51.51313831,-0.007739048,538229.0001,181292.0001
+The Guildhall,Kingston UNISON,107 Guildhall 1,Kingston upon Thames,Kingston upon Thames,,128008649,E09000021,Grove,E05000408,51.4078474,-0.303671327,517969.0001,169067.0001
+Selby Street Community Centre,Selby Street Community Centre,Selby Street,London,Tower Hamlets,https://www.shgroup.org.uk/media/233109/selby-street.pdf,6017503,E09000030,Spitalfields & Banglatown,E05009333,51.52123451,-0.060972046,534512.0001,182093.0001
+Fieldgate Mansion Community Centre,Fieldgate Mansion Community Centre,15 Romford Street,London,Tower Hamlets,https://www.shgroup.org.uk/media/233103/fieldgate-mansions.pdf,6012454,E09000030,Whitechapel,E05009336,51.5161165,-0.061477746,534492.0001,181523.0001
+Lisgar Terrace Community Centre,Community Hall,Samuel Lewis Trust Dwellings,Lisgar Terrace,Hammersmith and Fulham,https://www.shgroup.org.uk/media/233106/lisgar-terrace.pdf,34162985,E09000013,Avonmore and Brook Green,E05000252,51.49363155,-0.207257782,524440.0001,178765.0001
+Dawson Heights Community Centre,Community Flat,Ladlands,Overhill Road,Southwark,https://www.shgroup.org.uk/media/233102/dawson-heights.pdf,2.00003E+11,E09000028,College,E05000538,51.44690541,-0.066094915,534375.0001,173819.0001
+Liverpool Road Community Centre,Liverpool Road Community Centre,Samuel Lewis Trust Dwellings,Liverpool Road,Islington,https://www.shgroup.org.uk/media/233108/liverpool-road.pdf,10010440334,E09000019,St. Mary's,E05000379,51.54316215,-0.105069767,531390.0001,184451.0001
+Tarling East Community Centre Main Hall,Tarling East Community Centre;,63 Martha Street,London,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6168883,E09000030,Shadwell,E05009332,51.51175604,-0.053210508,535078.4201,181053.3901
+Wodeham Gardens Community Room,Wodeham Gardens Community Room,1 Wodeham Gardens,London,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6140257,E09000030,Spitalfields & Banglatown,E05009333,51.51902226,-0.061527331,534480.0001,181846.0001
+Cable Street Pensioner’s Club Room,Cable Street Pensioner’s Club Room,395 Cable Street,London,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6025381,E09000030,Shadwell,E05009332,51.51117777,-0.047850622,535452.0001,180999.0001
+Zander Court Club Room,Zander Court Club Room,50 Zander Court,London,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,6020905,E09000030,St. Peter's,E05009331,51.52940345,-0.062225435,534401.0001,182999.0001
+Minerva Community Centre Main Hall,Minerva Community Centre Main Hall,10 Minerva Street,London,Tower Hamlets,http://www.thch.org.uk/join-in/supporting-the-comm/,10091975249,E09000030,St. Peter's,E05009331,51.5308279,-0.058084205,534684.0001,183165.0001
+The Marylebone Association,229 Great Portland Street,London,NA,Westminster,http://www.marylebone.org/about,1.00023E+11,E09000033,Marylebone High Street,E05000641,51.5230601,-0.143215648,528802.0001,182148.0001
+The Fircroft Trust,The Fircroft Trust,Fircroft,96 Ditton Road,Kingston upon Thames,http://thefircrofttrust.org/,1.00023E+11,E09000021,Surbiton Hill,E05000413,51.38146125,-0.302491374,518119.0001,166135.0001
+Kennington Park Community Centre,8 Harleyford Street,Lambeth,NA,Lambeth,http://kpccoval.org/,1.00023E+11,E09000022,Oval,E05000426,51.48203232,-0.111177419,531142.0001,177643.0001
+The Markfield Project,Markfield Road,,,Haringey,https://markfield.org.uk/,,E09000014,Seven Sisters,E05013598,51.581918,-0.061633,,

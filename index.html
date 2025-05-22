@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cultural Cartographies</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    html {
+  scroll-behavior: smooth;
+    }
+    
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Bricolage Grotesque", sans-serif;
+      background-color: #e9e9e9;
+    }
+
+    /* Navigation */
+    .nav-buttons {
+      position: fixed;
+      top: 30px;
+      right: 40px;
+      display: flex;
+      gap: 15px;
+      z-index: 1000;
+    }
+
+    .nav-buttons a {
+      font-family: "Bricolage Grotesque", sans-serif;
+      color: white;
+      text-transform: uppercase;
+      border: 1px solid white;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      background-color: transparent;
+      transition: background-color 0.3s, color 0.3s;
+      margin: 6px 0;
+    }
+
+    .nav-buttons a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .dropdown-menu {
+      background-color: transparent;
+      border: none;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+      background-color: #eee;
+      color: #000;
+      
+    }
+
+    /* Landing Title Section with Background */
+    .title-section {
+      height: 100vh;
+      background: url('WebsiteBackground.png') center center / cover no-repeat;
+      display: flex;
+      justify-content: right;
+      align-items: flex-end;
+      padding: 100px;
+    }
+
+    .title {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #333432;
+      font-family: "Rubik Mono One", monospace;
+      text-transform: uppercase;
+    }
+
+    section {
+      background-color: #333432;
+    }
+
+    h2 {
+      color: #5900FF;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #000;
+    }
+
+    .section-title {
+  font-size: 2.5rem;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-transform: uppercase;
+  color: #85F2A0;
+  padding: 60px 40px 20px;
+  margin: 0;
+}
+
+.chart-toggle-btn {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: whitesmoke;
+  text-transform: uppercase;
+  border: 1px solid whitesmoke;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chart-toggle-btn:hover,
+.chart-toggle-btn.active {
+  background-color: whitesmoke;
+  color: black;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div class="nav-buttons">
+    <div class="dropdown">
+      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#citynetwork">City Network</a></li>
+        <li><a class="dropdown-item" href="#2018_2023">2018-2023</a></li>
+        <li><a class="dropdown-item" href="#capital">Cultural Capital?</a></li>
+        <li><a class="dropdown-item" href="#2017_2025">2017-2025</a></li>
+        <li><a class="dropdown-item" href="#inequitable">Inequitable Change</a></li>
+        <li><a class="dropdown-item" href="#boroughs">Borough by borough</a></li>
+        <li><a class="dropdown-item" href="#casestudies">Case Studies</a></li>
+        <li><a class="dropdown-item" href="#process">Process and People</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <section class="title-section">
+    <div class="title">Cultural Cartographies</div>
+  </section>
+
+  <!-- City Network Section -->
+  <section id="citynetwork" style="padding: 10px; margin: 0;">
+    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
+
+      <h2 class="section-title">City Network</h2>
+
+  <!-- content here -->
+
+    </div>
+  </section>
+
+  <!-- 2018-2023 -->
+  <section id="2018_2023" style="padding: 60px;">
+      <h2 class="section-title">2018-2023</h2>
+      <iframe src="./networkmap.html" style="width: 100%; height: 80vh; border: none;"></iframe>
+    </section>
+   
+    </div>
+  </section>
+
+   <!-- London- cultural capital? -->
+   <section id="capital" style="min-height: 100vh; padding: 60px;">
+    <h2 class="section-title">London – Cultural Capital?</h2>
+  
+    <!-- Toggle Buttons -->
+    <div class="d-flex justify-content-center gap-3 mb-4">
+      <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
+      <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+    </div>
+  
+    <!-- Chart Container -->
+    <div id="main" style="width: 100%; height: 80vh;"></div>
+  </section>
+  
+  
+  <!-- 2017-2025 -->
+  <section id="2017_2025" style="padding: 60px;">
+      <h2 class="section-title">2017-2025</h2>
+      <!-- content here -->
+      <iframe src="./2017_2025.html" style="width: 100%; height: 80vh; border: none;"></iframe>
+    </section>
+
+
+  <!-- Inequitable Change -->
+  <section id="inequitable" style="min-height: 100vh; padding: 60px;">
+  <h2 class="section-title">Inequitable Change</h2>
+  
+</section>
+
+
+  <!-- Borough by borough -->
+  <section id="boroughs" style="padding: 60px;">
+    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
+      <h2 class="section-title">Borough by borough</h2>
+      <!-- content here -->
+
+    </div>
+  </section>
+
+  <!-- Case studies -->
+  <section id="casestudies" style="padding: 60px;">
+    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
+      <h2 class="section-title">Case Studies</h2>
+      <!-- content here -->
+
+    </div>
+  </section>
+
+  <!-- Process and People -->
+  <section id="process" style="padding: 60px;">
+    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
+      <h2 class="section-title">Process and People</h2>
+      <!-- content here -->
+
+    </div>
+  </section>
+
+  <!-- Map / Data Logic -->
+<script src="app.js"></script>
+
+  <!-- Bootstrap JS (Dropdown) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const chartDom = document.getElementById('main');
+  const myChart = echarts.init(chartDom);
+
+  myChart.showLoading();
+
+  const LONDON_GEOJSON_URL = 'https://raw.githubusercontent.com/radoi90/housequest-data/master/london_boroughs.geojson';
+
+  $.get(LONDON_GEOJSON_URL, function (londonJson) {
+    myChart.hideLoading();
+    echarts.registerMap('London', londonJson);
+
+    const data = [
+      { name: 'Barking and Dagenham', value: 0.00 }, { name: 'Barnet', value: -0.20 },
+      { name: 'Bexley', value: -0.60 }, { name: 'Brent', value: 0.25 },
+      { name: 'Bromley', value: -0.13 }, { name: 'Camden', value: -0.13 },
+      { name: 'City of London', value: 0.00 }, { name: 'Croydon', value: 0.20 },
+      { name: 'Ealing', value: -0.18 }, { name: 'Enfield', value: 0.10 },
+      { name: 'Greenwich', value: -0.08 }, { name: 'Hackney', value: 0.00 },
+      { name: 'Hammersmith and Fulham', value: 0.09 }, { name: 'Haringey', value: -0.43 },
+      { name: 'Harrow', value: -0.14 }, { name: 'Havering', value: 1.00 },
+      { name: 'Hillingdon', value: 0.17 }, { name: 'Hounslow', value: -0.25 },
+      { name: 'Islington', value: 0.00 }, { name: 'Kensington and Chelsea', value: 0.43 },
+      { name: 'Kingston upon Thames', value: 0.11 }, { name: 'Lambeth', value: -0.08 },
+      { name: 'Lewisham', value: -0.06 }, { name: 'Merton', value: 0.11 },
+      { name: 'Newham', value: 0.00 }, { name: 'Redbridge', value: -0.56 },
+      { name: 'Richmond upon Thames', value: -0.60 }, { name: 'Southwark', value: 0.08 },
+      { name: 'Sutton', value: -0.33 }, { name: 'Tower Hamlets', value: -0.20 },
+      { name: 'Waltham Forest', value: -0.33 }, { name: 'Wandsworth', value: -0.33 },
+      { name: 'Westminster', value: 0.25 }
+    ];
+
+    data.sort((a, b) => a.value - b.value);
+
+    const mapOption = {
+  tooltip: {
+    trigger: 'item',
+    backgroundColor: '#333432', // ✅ Dark background
+    borderColor: '#ffffff', // ✅ White border
+    borderWidth: 1, // ✅ Border width
+    textStyle: {
+      color: '#ffffff', // ✅ White text
+      fontFamily: 'Bricolage Grotesque', // ✅ Custom font
+      fontSize: 14 // ✅ Font size
+    },
+    padding: 10, // ✅ Padding around tooltip
+    extraCssText: 'border-radius: 10px;' // ✅ Rounded corners
+  },
+  visualMap: {
+    left: 'right',
+    min: -0.60,
+    max: 1.00,
+    inRange: {
+      color: ['#C79BF2', '#C8C2F2', '#C4E5F2', '#A0F2CC', '#5EF275'] // Color range
+    },
+    text: ['High', 'Low'],
+    calculable: true,
+    textStyle: {
+      color: '#ffffff', // ✅ White text for the visual map
+      fontFamily: 'Bricolage Grotesque',
+      fontSize: 14
+    }
+  },
+  series: [{
+    id: 'libraries_change',
+    type: 'map',
+    roam: false,
+    map: 'London',
+    universalTransition: true,
+    animationDurationUpdate: 1000,
+    data: data,
+    emphasis: {
+      itemStyle: {
+        areaColor: '#FFFFFF', // ✅ Change the hover color of the area
+        borderColor: '#000000', // ✅ Border color on hover
+        borderWidth: 1 // ✅ Border width on hover
+      },
+      label: {
+        color: '#000000', // ✅ Label color on hover
+        fontFamily: 'Bricolage Grotesque',
+        fontSize: 12
+      }
+    }
+  }]
+};
+
+    const barOption = {
+      tooltip: { trigger: 'axis' },
+      textStyle: {
+    color: '#ffffff',
+    fontFamily: 'Bricolage Grotesque',
+    fontSize: 12
+  },
+      xAxis: { type: 'value' },
+      yAxis: {
+        type: 'category',
+        axisLabel: { rotate: 30 },
+        data: data.map(d => d.name)
+      },
+      series: [{
+        id: 'libraries_change',
+        type: 'bar',
+        data: data.map(d => d.value),
+        universalTransition: true,
+        itemStyle: {
+          color: (params) => params.value < 0 ? '#81B9E4' : '#A9BED9'
+        }
+      }],
+      animationDurationUpdate: 2000
+    };
+
+    let currentView = 'map';
+myChart.setOption(mapOption);
+
+// Toggle button logic
+const mapViewBtn = document.getElementById('mapViewBtn');
+const barViewBtn = document.getElementById('barViewBtn');
+
+mapViewBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  myChart.setOption(mapOption, true);
+  currentView = 'map';
+  mapViewBtn.classList.add('active');
+  barViewBtn.classList.remove('active');
+});
+
+barViewBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  myChart.setOption(barOption, true);
+  currentView = 'bar';
+  barViewBtn.classList.add('active');
+  mapViewBtn.classList.remove('active');
+});
+
+
+  });
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+  <meta charset="UTF-8">
+  <title>Change in number of libraries per borough (2017 Vs 2025)</title>
+  <!-- ECharts -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <!-- jQuery for AJAX -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    #main {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="main"></div>
+  <script>
+    var chartDom = document.getElementById('main');
+    var myChart = echarts.init(chartDom);
+
+    myChart.showLoading();
+
+    var LONDON_GEOJSON_URL = 'https://raw.githubusercontent.com/radoi90/housequest-data/master/london_boroughs.geojson';
+
+    $.get(LONDON_GEOJSON_URL, function (londonJson) {
+      myChart.hideLoading();
+
+      echarts.registerMap('London', londonJson);
+
+      var data = [
+        { name: 'Barking and Dagenham', value: 0.00 },
+        { name: 'Barnet', value: -0.20 },
+        { name: 'Bexley', value: -0.60 },
+        { name: 'Brent', value: 0.25 },
+        { name: 'Bromley', value: -0.13 },
+        { name: 'Camden', value: -0.13 },
+        { name: 'City of London', value: 0.00 },
+        { name: 'Croydon', value: 0.20 },
+        { name: 'Ealing', value: -0.18 },
+        { name: 'Enfield', value: 0.10 },
+        { name: 'Greenwich', value: -0.08 },
+        { name: 'Hackney', value: 0.00 },
+        { name: 'Hammersmith and Fulham', value: 0.09 },
+        { name: 'Haringey', value: -0.43 },
+        { name: 'Harrow', value: -0.14 },
+        { name: 'Havering', value: 1.00 },
+        { name: 'Hillingdon', value: 0.17 },
+        { name: 'Hounslow', value: -0.25 },
+        { name: 'Islington', value: 0.00 },
+        { name: 'Kensington and Chelsea', value: 0.43 },
+        { name: 'Kingston upon Thames', value: 0.11 },
+        { name: 'Lambeth', value: -0.08 },
+        { name: 'Lewisham', value: -0.06 },
+        { name: 'Merton', value: 0.11 },
+        { name: 'Newham', value: 0.00 },
+        { name: 'Redbridge', value: -0.56 },
+        { name: 'Richmond upon Thames', value: -0.60 },
+        { name: 'Southwark', value: 0.08 },
+        { name: 'Sutton', value: -0.33 },
+        { name: 'Tower Hamlets', value: -0.20 },
+        { name: 'Waltham Forest', value: -0.33 },
+        { name: 'Wandsworth', value: -0.33 },
+        { name: 'Westminster', value: 0.25 }
+      ];
+
+      data.sort(function (a, b) {
+        return a.value - b.value;
+      });
+
+      const mapOption = {
+        tooltip: {
+          trigger: 'item'
+        },
+        visualMap: {
+          left: 'right',
+          min: -0.60,
+          max: 1.00,
+          inRange: {
+            color: ['#ff8c00', '#ffcc00', '#ffff00', '#66cc66', '#008000'] // Orange to green shades for negative to positive values
+          },
+          text: ['High', 'Low'],
+          calculable: true
+        },
+        series: [
+          {
+            id: 'libraries_change',
+            type: 'map',
+            roam: false,
+            map: 'London',
+            animationDurationUpdate: 1000,
+            universalTransition: true,
+            data: data
+          }
+        ]
+      };
+
+      const barOption = {
+        tooltip: {
+          trigger: 'axis'
+        },
+        xAxis: {
+          type: 'value'
+        },
+        yAxis: {
+          type: 'category',
+          axisLabel: {
+            rotate: 30
+          },
+          data: data.map(item => item.name)
+        },
+        animationDurationUpdate: 2000,  // Increased to 2000ms (2 seconds)
+  series: {
+    type: 'bar',
+    id: 'libraries_change',
+    data: data.map(item => item.value),
+    itemStyle: {
+      color: function(params) {
+        var value = params.value;
+        if (value < 0) {
+          return '#9b59b6';
+        } else {
+          return '#8e44ad';
+        }
+      }
+    },
+    universalTransition: true
+  }
+};
+
+let currentView = 'map';
+    myChart.setOption(mapOption);
+
+    let lastScroll = 0;
+    let scrolling = false;
+
+    section.addEventListener('wheel', (e) => {
+      if (scrolling) return; // debounce
+      scrolling = true;
+
+      setTimeout(() => { scrolling = false; }, 800); // 800ms lock to avoid spamming
+
+      if (e.deltaY > 0 && currentView !== 'bar') {
+        myChart.setOption(barOption, true);
+        currentView = 'bar';
+        e.preventDefault();
+      } else if (e.deltaY < 0 && currentView !== 'map') {
+        myChart.setOption(mapOption, true);
+        currentView = 'map';
+        e.preventDefault();
+      }
+    }, { passive: false }); // must set passive: false to allow e.preventDefault()
+
+  });
+</script>
+</body>
+</html>

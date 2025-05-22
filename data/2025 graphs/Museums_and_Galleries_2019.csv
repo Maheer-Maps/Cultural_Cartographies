@@ -1,0 +1,252 @@
+name,address1,address2,address3,borough_name,website,os_addressbase_uprn,borough_code,ward_2018_name,ward_2018_code,easting,northing,longitude,latitude
+Mall Galleries,The Mall,17 Carlton House Terrace,NA,City of Westminster,http://www.mallgalleries.org.uk/,1.00E+11,E09000033,St. James's,E05000644,529866.0001,180299.0001,-0.128567343,51.50619817
+Chisenhale Gallery,64 Chisenhale Road,,,Tower Hamlets,http://www.chisenhale.org.uk/#,6146768,E09000030,Bow West,E05009320,536071.1105,183402.8564,-0.039595359,51.533143
+Islington Museum,245 St John Street,London,,Islington,https://www.islington.gov.uk/libraries-arts-and-heritage/heritage/islington-museum,5300084848,E09000019,Clerkenwell,E05000370,531698.3506,182490.0806,-0.102943118,51.52597704
+London Transport Museum,The Piazza ,London,,Westminster,https://www.ltmuseum.co.uk/,10033620581,E09000033,St. James's,E05000644,530581.2365,180862.9407,-0.119639726,51.51161339
+Charles Dickens Museum,48-49 Doughty St,London,,Camden,https://dickensmuseum.com/,10092001640,E09000007,Holborn and Covent Garden,E05000138,530894.2628,182148.0547,-0.114654399,51.52309009
+Museum of Croydon,Central Library,Croydon Clocktower,Katharine Street,Croydon,http://www.museumofcroydon.com/,1.00E+11,E09000008,Fairfield,E05011468,532381.0001,165364.0001,-0.097931813,51.37138431
+Museum of Writing,c/o Institute of English Studies,University of London Senate House,Malet Street,Camden,http://www.museumofwriting.co.uk/,5016035,E09000007,Bloomsbury,E05000129,529927.0001,181851.0001,-0.127116688,51.52013303
+The Foundling Museum,40 Brunswick Square,NA,NA,Camden,http://www.foundlingmuseum.org.uk/,5002560,E09000007,King's Cross,E05000141,530403.0001,182378.0001,-0.12006408,51.52475979
+Freud Museum,20 Maresfield Gardens,NA,NA,Camden,https://www.freud.org.uk/,5012934,E09000007,Frognal and Fitzjohns,E05000133,526482.0001,184855.0001,-0.175669217,51.54791475
+Keats House,10 Keats Grove,Hampstead,NA,Camden,http://www.cityoflondon.gov.uk/keats,5015415,E09000007,Hampstead Town,E05000135,527108.0001,185666.0001,-0.166351857,51.55506318
+British Museum,Great Russell Street,NA,NA,Camden,http://www.britishmuseum.org/,5027059,E09000007,Bloomsbury,E05000129,530086.0001,181669.0001,-0.124893237,51.51846067
+2 Willow Road,Hampstead,NA,NA,Camden,https://www.nationaltrust.org.uk/2-willow-road,5032722,E09000007,Hampstead Town,E05000135,527019.0001,185841.0001,-0.167571832,51.5566561
+British Library,96 Euston Road London,NW1 2DB ,NA,Camden,http://www.bl.uk/,5037737,E09000007,St. Pancras and Somers Town,E05000143,530019.0001,182893.0001,-0.125406634,51.52947699
+Burgh House and Hampstead Museum,New End Square,Hampstead,NA,Camden,www.burghhouse.org.uk/,5067420,E09000007,Hampstead Town,E05000135,526606.0001,185944.0001,-0.173489583,51.55767471
+Royal College of Physicians of London Museum,Library Archive and Museum Services,11 St Andrews Place,Regent’s Park,Camden,http://www.rcplondon.ac.uk/museum-and-garden,5069347,E09000007,Regent's Park,E05000142,528783.0001,182390.0001,-0.143400913,51.52523946
+"Jewish Museum, London",Raymond Burton Hs,129-131 Albert Street,NA,Camden,http://www.jewishmuseum.org.uk/,5082327,E09000007,Camden Town with Primrose Hill,E05000130,528774.0001,183673.0001,-0.143061343,51.53677278
+Wellcome Collection,183 Euston Road,NA,NA,Camden,http://www.wellcomecollection.org/,5083806,E09000007,Bloomsbury,E05000129,529550.0001,182426.0001,-0.132336523,51.52538756
+Government Art Collection,Queen's Yard,179a Tottenham Court Rd,NA,Camden,www.gac.culture.gov.uk/,5087928,E09000007,Bloomsbury,E05000129,529492.0001,182023.0001,-0.133320357,51.52177882
+Fenton House,Hampstead Grove,Hampstead,NA,Camden,https://www.nationaltrust.org.uk/fenton-house-and-garden,5126160,E09000007,Hampstead Town,E05000135,526253.0001,186017.0001,-0.178553228,51.55840996
+Sir John Soaneʼs Museum,13 Lincoln’s Inn Fields,NA,NA,Camden,http://www.soane.org/,5137612,E09000007,Holborn and Covent Garden,E05000138,530713.0001,181465.0001,-0.115936351,51.51648243
+"Ben Uri Gallery, The Art Museum for Everyone, The London Jewish Museum of Art",108A Boundary Road,off Abbey Rd,St John’s Wood,Camden,www.benuri.org.uk,5144462,E09000007,Kilburn,E05000140,525949.0001,183631.0001,-0.183790989,51.53703278
+"Grant Museum of Zoology and Comparative Anatomy, UCL",21 University Street,NA,NA,Camden,https://www.ucl.ac.uk/culture/grant-museum-zoology,5157295,E09000007,Bloomsbury,E05000129,529505.0001,182172.0001,-0.133078286,51.52311501
+Petrie Museum of Egyptian Archaeology,University College London,Malet Place,NA,Camden,http://www.culture24.org.uk/se000386,5157395,E09000007,Bloomsbury,E05000129,529654.0001,182223.0001,-0.130912785,51.52353919
+"Geology (and Teaching & Research) Collections, UCL",Rock Room,"Room 4, First Floor",South Wing,Camden,https://www.ucl.ac.uk/culture/geology-collection,5157402,E09000007,Bloomsbury,E05000129,529587.0001,182227.0001,-0.13187663,51.52359052
+UCL Art Museum,South Cloisters,UCL,NA,Camden,http://www.ucl.ac.uk/museums/uclart,5157412,E09000007,Bloomsbury,E05000129,529599.0001,182272.0001,-0.131687181,51.52399221
+Crystal Palace Museum,Anerley Hill,NA,NA,Bromley,www.crystalpalacemuseum.org.uk/,1.00E+11,E09000006,Crystal Palace,E05000116,533829.0001,170728.0001,-0.075116344,51.41925428
+Cartoon Museum,35 Little Russell Street,NA,NA,Camden,http://www.cartoonmuseum.org/,5158052,E09000007,Holborn and Covent Garden,E05000138,530121.0001,181527.0001,-0.124441464,51.51717636
+House of Illustration,2 Granary Square King's Cross London,NA,NA,Camden,http://www.houseofillustration.org.uk/,5188521,E09000007,St. Pancras and Somers Town,E05000143,530176.0001,183615.0001,-0.122877374,51.53592987
+V&A Museum of Childhood,Cambridge Heath Road,NA,NA,Tower Hamlets,http://www.museumofchildhood.org.uk/,6039165,E09000030,Bethnal Green,E05009317,535023.0001,182920.0001,-0.053293375,51.52854504
+Ragged School Museum,46-50 Copperfield Road,NA,NA,Tower Hamlets,http://www.raggedschoolmuseum.org.uk/,6048400,E09000030,Mile End,E05009327,536387.0001,181800.0001,-0.03407382,51.51815155
+The Tower of London,St Katharine's & Wapping,London,NA,Tower Hamlets,www.​hrp.​org.​uk/​TowerOfLondon/​,6086565,E09000030,St. Katharine's & Wapping,E05009330,533602.0001,180570.0001,-0.074659304,51.50776272
+"Royal Armouries, Tower of London",HM Tower Of London,St Katharine's & Wapping,NA,Tower Hamlets,https://royalarmouries.org/visit-us/tower-of-london,6086565,E09000030,St. Katharine's & Wapping,E05009330,533602.0001,180570.0001,-0.074659304,51.50776272
+The Fusilier Museum London,HM Tower of London,35 Tower Hill,St Katharine's & Wapping,Tower Hamlets,www.​fusiliermuseumlondon.​org,6086845,E09000030,St. Katharine's & Wapping,E05009330,533675.0001,180585.0001,-0.073602252,51.50788027
+Royal London Hospital Archives and Museum,Church of St Augustine with St Philip,Newark Street,NA,Tower Hamlets,NA,6118397,E09000030,Whitechapel,E05009336,534671.0001,181598.0001,-0.05887063,51.5167479
+Museum of the Royal Pharmaceutical Society,1 Lambeth High Street,NA,NA,Tower Hamlets,www.​rpsgb.​org/​museum,6136082,E09000030,Whitechapel,E05009336,534153.0001,180674.0001,-0.066684113,51.50856685
+Museum of London Docklands,No. 1 Warehouse,West India Quay,NA,Tower Hamlets,http://www.museumoflondon.org.uk/docklands,6151122,E09000030,Canary Wharf,E05009323,537241.0001,180594.0001,-0.022241432,51.5071062
+Trades Union Congress (TUC) Library Collections,Special Collections  London Metropolitan University,Wash Houses,Old Castle Street,Tower Hamlets,http://www.londonmet.ac.uk/tuc,6151239,E09000030,Spitalfields & Banglatown,E05009333,533736.0001,181408.0001,-0.072411463,51.51526246
+Kelmscott House,26 Upper Mall,Hammersmith,NA,Hammersmith and Fulham,http://www.culture24.org.uk/se000423,34008094,E09000013,Ravenscourt Park,E05000261,522598.0001,178324.0001,-0.233934067,51.49007025
+Fulham Palace,Fulham Palace,Bishop's Ave,Fulham,Hammersmith and Fulham,www.fulhampalace.org/,34022825,E09000013,Palace Riverside,E05000259,524062.0001,176130.0001,-0.213626422,51.47003084
+Wandle Industrial Museum,The Vestry Hall Annexe,London Road,Mitcham,Merton,http://www.wandle.org/,48083242,E09000024,Cricket Green,E05000458,527527.0001,168619.0001,-0.166466478,51.4017516
+Museum of Wimbledon,22 Ridgway,Wimbledon,NA,Merton,http://www.wimbledonmuseum.org.uk/,48107954,E09000024,Village,E05000472,524089.3001,170880.0001,-0.215074838,51.42283672
+Wimbledon Lawn Tennis Museum,The All England Lawn Tennis Club,Church Road,Wimbledon,Merton,http://www.wimbledon.com/museum,48129052,E09000024,Village,E05000472,524243.0001,172037.0001,-0.212459281,51.43320243
+Barts Pathology Museum,3rd Floor,Robin Brook Centre  St Bartholomew's Hospital,West Smithfield,City and County of the City of London,www.qmul.ac.uk/pathologymuseum/,95512892,E09000001,Farringdon Without,E05009305,531855.9501,181567.3001,-0.099433593,51.51713619
+St Bartholomews Hospital Museum,North Wing,St Bartholomew’s Hospital,West Smithfield,City and County of the City of London,https://www.bartshealth.nhs.uk/st-bartholomews-museum-and-archives,95512892,E09000001,Farringdon Without,E05009305,531855.9501,181567.3001,-0.099433593,51.51713619
+Valence House Museum,Becontree Ave,NA,NA,Barking and Dagenham,www.​lbbd.​gov.​uk/​heritage,100002560,E09000002,Valence,E05000040,548043.0001,186539.0001,0.135812252,51.55780231
+Dorich House Museum,Kingston University,67 Kingston Vale,NA,Kingston upon Thames,https://www.dorichhousemuseum.org.uk/,128010892,E09000021,Coombe Hill,E05000406,520834.0001,171913.0001,-0.261523826,51.4328253
+Kingston Museum (and Heritage Service),W6 9TA,NA,NA,Kingston upon Thames,http://www.kingston.gov.uk/museum,128019799,E09000021,Grove,E05000408,518310.0001,169207.0001,-0.298723543,51.40903476
+The Stephens Collection,Avenue House,East End Road,Finchley,Barnet,http://www.london-northwest.com/sites/stephens,200035687,E09000003,Finchley Church End,E05000051,525148.3801,190183.0601,-0.192996205,51.59610036
+Royal Air Force Museum London (RAF),Grahame Park Way,Hendon,NA,Barnet,http://www.rafmuseum.org/,200049886,E09000003,Colindale,E05000046,522123.0001,190370.1001,-0.236591661,51.59844565
+Barnet Museum (and Local History Society),31 Wood Street,Barnet,Hertfordshire,Barnet,www.barnetmuseum.co.uk,200128241,E09000003,Underhill,E05000060,524459.5401,196427.9201,-0.200717589,51.65238108
+Museum of Domestic Design and Architecture,Middlesex University,9 Boulevard Drive,Beaufort Park,Barnet,http://www.culture24.org.uk/se000059,200141133,E09000003,Colindale,E05000046,521871.0001,190049.0001,-0.240340162,51.59561416
+Brent Museum,Willesden Library Centre,95 High Rd,NA,Brent,https://www.brent.gov.uk/museum,202149110,E09000005,Willesden Green,E05000105,522904.0001,184570.0001,-0.22734961,51.54614396
+Enfield Museum Service,Enfield Museum,The Dugdale Centre Thomas Hardy House,39 London Road,Enfield,http://www.enfield.gov.uk/museum,207007119,E09000010,Grange,E05000200,532849.2801,196356.6601,-0.079527242,51.64982039
+Clockmakersʼ Museum,Exhibition Road,Kensington,NA,Kensington and Chelsea,http://www.clockmakers.org/,217031151,E09000020,Brompton & Hans Town,E05009389,526676.0001,179171.0001,-0.174916546,51.49678399
+Leighton House Museum,12 Holland Park Road,NA,NA,Kensington and Chelsea,http://http/www.rbkc.gov.uk/subsites/museums.aspx,217039506,E09000020,Holland,E05009397,524826.0001,179269.0001,-0.201521502,51.49807644
+Design Museum,224-238 Kensington High Street (Holland Park),NA,NA,Kensington and Chelsea,http://designmuseum.org/,217044656,E09000020,Holland,E05009397,525026.2701,179417.0801,-0.198585083,51.49936312
+Kensington Palace (State Apartments and Royal Ceremonial Dress Collection),Kensington Palace/Palace Green,NA,NA,Kensington and Chelsea,http://www.hrp.org.uk%0Bwww.kensingtonpalace@hrp.org.uk/,217064431,E09000020,Campden,E05009390,525854.0001,180030.0001,-0.18644659,51.50468832
+National Army Museum,Royal Hospital Road,Chelsea,NA,Kensington and Chelsea,http://www.nam.ac.uk/,217075883,E09000020,Royal Hospital,E05009403,527828.2701,177968.3901,-0.158760019,51.48571566
+British Architectural Library – Drawings and Archives Collections,Victoria and Albert Museum,Cromwell Road,Knightsbridge,Kensington and Chelsea,https://www.architecture.com/about/riba-library-and-collections,217108016,E09000020,Brompton & Hans Town,E05009389,526982.1301,179134.8301,-0.170521415,51.49639021
+Natural History Museum,Cromwell Road,NA,NA,Kensington and Chelsea,http://www.nhm.ac.uk/,217108017,E09000020,Brompton & Hans Town,E05009389,526652.0001,179089.0001,-0.175291575,51.49605236
+Carlyle’s House,24 Cheyne Row,NA,NA,Kensington and Chelsea,https://www.nationaltrust.org.uk/carlyles-house,217110505,E09000020,Chelsea Riverside,E05009391,527184.0001,177719.0001,-0.168124823,51.48361945
+The Science Museum,Exhibition Rd,Kensington,NA,Kensington and Chelsea,https://www.sciencemuseum.org.uk/,217118723,E09000020,Brompton & Hans Town,E05009389,526676.0001,179171.0001,-0.174916546,51.49678399
+Victoria and Albert Museum,Cromwell Road,South Kensington,NA,Kensington and Chelsea,http://www.vam.ac.uk/,217119925,E09000020,Brompton & Hans Town,E05009389,526974.9001,179139.2501,-0.170623933,51.49643156
+The Estorick Collection of Modern Italian Art,39A Canonbury Square,NA,NA,Islington,www.​estorickcollection.​com,5300016244,E09000019,St. Mary's,E05000379,531811.0001,184485.0001,-0.098988883,51.54336953
+John Wesleyʼs House and The Museum of Methodism,Wesley's Chapel,49 City Road,NA,Islington,http://www.culture24.org.uk/se000445,5300019876,E09000019,Bunhill,E05000367,532808.0001,182253.0001,-0.085460513,51.52307582
+"Wesley’s Chapel, Museum of Methodism and John Wesley’s House",49 City Road,NA,NA,Islington,http://www.wesleychapel.org.uk/,5300019879,E09000019,Bunhill,E05000367,532844.0001,182274.0001,-0.084933935,51.52325609
+London Canal Museum,12/13 New Wharf Road,King’s Cross,NA,Islington,http://www.canalmuseum.org.uk/,5300066428,E09000019,Caledonian,E05000368,530471.0001,183376.0001,-0.118714556,51.53371372
+Museum of the Order of St John,St John’s Gate,26 St John's Ln,NA,Islington,http://www.museumstjohn.org.uk/,5300085644,E09000019,Clerkenwell,E05000370,531740.0001,182040.0001,-0.100927156,51.52141165
+Whitehall Historic House,1 Malden Road,Cheam,Surrey,Sutton,https://whitehallmuseum.wordpress.com/,5870019263,E09000029,Cheam,E05000560,524223.0001,163765.0001,-0.215642786,51.35885564
+Little Holland House,40 Beeches Ave,Carshalton,NA,Sutton,http://www.sutton.gov.uk/,5870060822,E09000029,Carshalton South and Clockhouse,E05000559,527481.0001,163389.0001,-0.169004517,51.35475421
+Honeywood Museum,Honeywood Walk,Carshalton,Surrey,Sutton,http://www.friendsofhoneywood.co.uk/,5870115967,E09000029,Carshalton Central,E05000558,527837.0001,164494.0001,-0.163496882,51.36460606
+Tate Modern,Bankside,NA,NA,Southwark,http://www.tate.org.uk/modern,10000813334,E09000028,Borough & Bankside,E05011095,531999.0001,180455.0001,-0.097789441,51.50710595
+Fashion and Textile Museum,83 Bermondsey Street London,NA,NA,Southwark,http://www.ftmlondon.org/,10000818830,E09000028,London Bridge & West Bermondsey,E05011104,533238.0001,179771.0001,-0.080203629,51.50066771
+Musical Museum,399 High St,Brentford,NA,Hounslow,https://www.musicalmuseum.co.uk/,10001271544,E09000018,Brentford,E05000347,518604.3001,177932.0001,-0.291568435,51.48739874
+Museum of Army Music,Royal Military School of Music,Kneller Hall,2 Kneller Rd,Richmond upon Thames,www.army.mod.uk › Corps of Army Music › The Royal Military School of Music,10002261149,E09000027,Whitton,E05000533,514693.0001,174192.0001,-0.349097154,51.45458757
+Hampton Court Palace,Molesey,East Molesey,NA,Richmond upon Thames,https://www.hrp.org.uk/hampton-court-palace/,10002266633,E09000027,Hampton,E05000520,515727.0001,168514.0001,-0.336075749,51.40333861
+Kew Palace,Royal Botanic Gardens Kew,Richmond,NA,Richmond upon Thames,https://www.hrp.org.uk/kew-palace/,10002266941,E09000027,Kew,E05000524,518747.0001,177642.0001,-0.289611457,51.48476211
+Strawberry Hill House,268 Waldegrave Rd,Twickenham,NA,Richmond upon Thames,http://www.strawberryhillhouse.org.uk/,10002267260,E09000027,South Twickenham,E05000529,515842.0001,172340.0001,-0.333172189,51.43770637
+Heath Robinson Museum,Pinner Memorial Park,West End Lane,Pinner,Harrow,www.heathrobinsonmuseum.org,10002293329,E09000015,Pinner South,E05000298,511853.9401,189412.8801,-0.385111771,51.59197479
+Harrow Museum and Heritage Centre,Headstone Manor,Pinner View, Harrow,Harrow,http://www.harrow.gov.uk/info/200070/museums_and_galleries/190/harrow_museum,10002293456,E09000015,Headstone North,E05000292,514038.0001,189683.0001,-0.353505542,51.59396486
+Hackney Museum,1 Reading Lane,NA,NA,Hackney,http://www.hackney.gov.uk/cm-museum.htm,10008313143,E09000012,Hackney Central,E05009372,534895.0001,184633.0001,-0.054481199,51.54397082
+House Mill,Three Mill Lane,Bromley-by-Bow,NA,Newham,NA,10008997232,E09000025,Stratford and New Town,E05000492,538309.0001,182825.0001,-0.005984978,51.52689584
+Royal Museums Greenwich,Park Row,Greenwich,NA,Greenwich,http://www.rmg.co.uk/,10010231322,E09000011,Greenwich West,E05000222,538716.6501,177688.8601,-0.002131999,51.48063722
+Eltham Palace,Court Yard,NA,NA,Greenwich,http://www.english-heritage.org.uk/elthampalace,10010235842,E09000011,Eltham South,E05000219,542410.3001,173988.4501,0.049538845,51.44646434
+National Maritime Museum,Romney Road,NA,NA,Greenwich,http://www.rmg.co.uk/national-maritime-museum#,10010243516,E09000011,Greenwich West,E05000222,538613.8201,177662.4501,-0.003622409,51.48042509
+Charterhouse,Sutton's Hospital,Charterhouse Square,NA,Islington,http://www.thecharterhouse.org/,10023218636,E09000019,Bunhill,E05000367,531913.0001,181977.0001,-0.098458374,51.52080505
+Cinema Museum,"The Master’s House, The Old Lambeth Workhouse",2 Dugard Way,Kennington,Lambeth,http://www.rmg.co.uk/cuttysark,10023852579,E09000022,Prince's,E05000427,531641.0001,178739.0001,-0.103585874,51.49176679
+Michael Faraday Museum at the Royal Institution,The Royal Institution,21 Albemarle Street,NA,City of Westminster,http://www.rigb.org/,10033528771,E09000033,West End,E05000649,528996.0001,180637.0001,-0.14097368,51.50943533
+Tate Britain,Millbank,NA,NA,City of Westminster,http://www.tate.org.uk/britain,10033538284,E09000033,Vincent Square,E05000646,530117.0001,178543.0001,-0.125600103,51.49035804
+The Society of Antiquaries of London - Burlington House,Burlington House,Piccadilly,Mayfair,City of Westminster,www.​sal.​org.​uk,10033541032,E09000033,West End,E05000649,529194.0001,180507.0001,-0.138169461,51.50822168
+Royal Academy of Arts,Burlington House,Piccadilly,NA,City of Westminster,http://www.royalacademy.org.uk/,10033541035,E09000033,West End,E05000649,529205.0001,180548.0001,-0.137996003,51.50858766
+MCC Museum,Lord’s Ground,NA,NA,City of Westminster,http://www.lords.org/,10033543781,E09000033,Regent's Park,E05000643,526828.0001,182652.0001,-0.171475242,51.52803681
+The Courtauld Gallery,Somerset House,Strand,NA,City of Westminster,http://www.courtauld.ac.uk/gallery,10033544134,E09000033,St. James's,E05000644,530700.0001,180800.0001,-0.116370226,51.51050867
+Household Cavalry Museum,Horseguards Parade,Whitehall,NA,City of Westminster,http://www.culture24.org.uk/se000447,10033545888,E09000033,St. James's,E05000644,530073.0001,180112.0001,-0.125655069,51.50446986
+Royal Academy of Music Museum,1–5 York Gate,Marylebone Road,NA,City of Westminster,http://www.ram.ac.uk/museum,10033546476,E09000033,Marylebone High Street,E05000641,528279.0001,182128.0001,-0.150758163,51.52299939
+Guards Museum,Wellington Barracks,Birdcage Walk,NA,City of Westminster,http://www.theguardsmuseum.com/,10033547407,E09000033,St. James's,E05000644,529322.0001,179495.0001,-0.136697005,51.4990968
+Banqueting House Whitehall,Whitehall,NA,NA,City of Westminster,www.hrp.org.uk,10033549112,E09000033,St. James's,E05000644,530165.0001,180065.0001,-0.124347466,51.50402625
+Imperial College Healthcare Charity Art Collection at St Mary's Hospital,Ground Floor,Clarence Memorial Wing St Mary's Hospital,Praed Street,City of Westminster,NA,10033554476,E09000033,Hyde Park,E05000636,526819.0001,181411.0001,-0.172051702,51.51688486
+The Wallace Collection,Hertford House,Manchester Square,NA,City of Westminster,http://www.wallacecollection.org/,10033582984,E09000033,Marylebone High Street,E05000641,528258.0001,181422.0001,-0.151317737,51.51665878
+British Optical Association Museum,The College of Optometrists,41-42 Craven St,NA,City of Westminster,https://www.college-optometrists.org/the-college/museum.html,10033590012,E09000033,St. James's,E05000644,530195.3701,180433.6701,-0.123773966,51.50733274
+Anaesthesia Museum,21 Portland Pl,Marylebone,NA,City of Westminster,https://www.aagbi.org/education/heritage-centre/anaesthesia-museum,10033598850,E09000033,West End,E05000649,528792.0001,181683.0001,-0.143529719,51.51888307
+Museum of the Royal Philatelic Society London,Royal Philatelic Society London,41 Devonshire Place,Marylebone,City of Westminster,http://www.rpsl.org.uk/,10033629406,E09000033,Marylebone High Street,E05000641,528441.0001,181906.0001,-0.14850506,51.52096728
+Churchill (Museum & Cabinet) War Rooms,Clive Steps,King Charles Street,NA,City of Westminster,http://iwm.org.uk/,10033636263,E09000033,St. James's,E05000644,529932.3801,179796.5201,-0.127796465,51.50166677
+Havering Museum,19-21 High St,Romford,NA,Havering,www.haveringmuseum.org.uk/,10070706838,E09000016,Romford Town,E05000319,551123.9201,188812.4201,0.181204103,51.5774139
+Marble Hill House,Richmond Rd,Twickenham,NA,Richmond upon Thames,http://www.culture24.org.uk/se000472,10070709920,E09000027,Twickenham Riverside,E05000531,517302.0001,173630.0001,-0.311746658,51.44900128
+Museum of Richmond,Old Town Hall,Whittaker Avenue,Richmond,Richmond upon Thames,www.​museumofrichmond.​com,10070710719,E09000027,South Richmond,E05000528,517746.0001,174675.0001,-0.305011527,51.45830224
+World Rugby Museum,Twickenham Stadium,Rugby Road,Twickenham,Richmond upon Thames,http://www.rfu.com/museum,10070721329,E09000027,St. Margarets and North Twickenham,E05000527,515383.0001,174231.0001,-0.33915697,51.4547979
+Bentley Priory Museum,Mansion House Drive Stanmore,NA,NA,Harrow,www.bentleypriory.org,10091091981,E09000015,Stanmore Park,E05000303,515481.1301,193281.0001,-0.331493386,51.62601154
+Black Cultural Archives,1 Windrush Square,NA,NA,Lambeth,www.bcaheritage.org.uk,10091118537,E09000022,Coldharbour,E05000420,531079.1601,175189.9501,-0.11299205,51.45999969
+Redbridge Museum,Redbridge Central Library,Clements Road,lford,Redbridge,redbridgefirstworldwar.org.uk,10091799736,E09000026,Ilford Town,E05011246,543963.0001,186394.0001,0.076933039,51.55755549
+Horniman Museum and Gardens,100 London Road,Forest Hill,NA,Lewisham,http://www.horniman.ac.uk/,10091839078,E09000023,Forest Hill,E05000444,534876.0001,173132.0001,-0.059150882,51.44061193
+Library and Museum of Freemasonry,Freemasons' Hall,60 Great Queen Street,NA,Camden,http://www.freemasonry.london.museum/,10091860258,E09000007,Holborn and Covent Garden,E05000138,530469.0001,181255.0001,-0.119529012,51.51465144
+Crossness Engines,The Old Works. Thames Water S.T.W.,Bazalgette Way,Abbey Wood,Bexley,http://www.crossness.org.uk/,10091915267,E09000004,Thamesmead East,E05011232,548200.0001,180700.0001,0.13561791,51.50529066
+National Portrait Gallery,St Martin’s Place,NA,NA,City of Westminster,http://www.npg.org.uk/,1.00E+11,E09000033,St. James's,E05000644,529976.0001,180601.0001,-0.126871767,51.50888716
+Hunterian Museum at the Royal College of Surgeons,Royal College of Surgeons,35-43 Lincoln’s Inn Fields,NA,City of Westminster,http://www.medicalmuseums.org/,10091945440,E09000033,St. James's,E05000644,530832.0001,181278.0001,-0.114291539,51.51477419
+Royal College of Surgeons of England,35-43 Lincoln's Inn Fields,NA,NA,City of Westminster,https://www.rcseng.ac.uk/,10091945440,E09000033,St. James's,E05000644,530832.0001,181278.0001,-0.114291539,51.51477419
+Kenwood House (known as the Iveagh Bequest),Hampstead Ln,Highgate,NA,Camden,http://www.culture24.org.uk/mw387,10091954503,E09000007,Highgate,E05000137,527087.0001,187419.0001,-0.166020721,51.57082353
+Hall Place and Gardens,Bourne Road,Bexley,Kent,Bexley,https://www.hallplace.org.uk/,1.00E+11,E09000004,Crayford,E05011222,550211.0001,174329.0001,0.16186577,51.44750903
+Geffrye Museum,136 Kingsland Road,London,NA,Hackney,http://www.geffrye-museum.org.uk/,1.00E+11,E09000012,Haggerston,E05009375,533534.0001,183159.0001,-0.074657422,51.53104717
+Ham House,Ham House and Garden,Ham St,Richmond-upon-Thames,Richmond upon Thames,https://www.nationaltrust.org.uk/ham-house-and-garden,1.00E+11,E09000027,"Ham, Petersham and Richmond Riverside",E05000519,517098.0001,172976.0001,-0.314897784,51.4431649
+Orleans House Gallery,Riverside,Twickenham,NA,Richmond upon Thames,http://www.richmond.gov.uk/arts,1.00E+11,E09000027,Twickenham Riverside,E05000531,516907.0001,173378.0001,-0.317512279,51.44681783
+Bromley Museum at Bromley Historic Collections, High St,Bromley,NA,Bromley,NA,1.00E+11,E09000006,Bromley Town,E05000109,540217.0001,169118.0001,0.016066784,51.40324078
+Bethlem Museum of the Mind,Bethlem Royal Hospital,Monks Orchard Road,NA,Bromley,http://museumofthemind.org.uk/,1.00E+11,E09000006,Kelsey and Eden Park,E05000120,537210.0001,166494.0001,-0.028155004,51.38039353
+Dr Johnsonʼs House,17 Gough Square,NA,NA,City and County of the City of London,http://www.drjohnsonshouse.org/,1.00E+11,E09000001,Castle Baynard,E05009297,531368.0001,181264.0001,-0.106575808,51.51452396
+Walthamstow Pumphouse Museum,10 S Access Rd,Walthamstow,NA,Waltham Forest,http://e17pumphouse.org.uk/,1.00E+11,E09000031,Markhouse,E05000606,536276.0001,188257.0001,-0.033171337,51.57620829
+Vestry House Museum,Vestry Road,NA,NA,Waltham Forest,http://www.walthamforest.gov.uk/vestry-house,1.00E+11,E09000031,Hoe Street,E05000601,537780.0001,189110.0001,-0.011143846,51.58350852
+Sutton House,2 & 4 Homerton High St,NA,NA,Hackney,www.​nationaltrust.​org.​uk/​sutton-​house,1.00E+11,E09000012,Homerton,E05009376,535276.0001,185089.0001,-0.048814315,51.54797778
+The Garden Museum,5 Lambeth Palace Rd,Lambeth,NA,Lambeth,www.​gardenmuseum.​org.​uk,1.00E+11,E09000022,Bishop's,E05000416,530590.0001,179020.0001,-0.118613722,51.49453609
+Rangerʼs House,Chesterfield Walk,Lewisham,NA,Greenwich,http://www.english-heritage.org.uk/visit/places/rangers-house-the-wernher-collection/,1.00E+11,E09000011,Greenwich West,E05000222,538887.0001,176832.0001,-1.71E-05,51.47289476
+Fan Museum,12 Crooms Hill,NA,NA,Greenwich,https://www.thefanmuseum.org.uk/,1.00E+11,E09000011,Greenwich West,E05000222,538412.1401,177438.7901,-0.006612863,51.47846443
+The Old Royal Naval College,King William Walk,Greenwich,NA,Greenwich,www.​ornc.​org,1.00E+11,E09000011,Greenwich West,E05000222,538525.6201,177885.6201,-0.004804325,51.48245234
+Royal College of Music Museum of Instruments,Prince Consort Rd,Kensington,NA,City of Westminster,www.​rcm.​ac.​uk/​visit/​museum/​,1.00E+11,E09000033,Knightsbridge and Belgravia,E05000637,526643.0001,179391.0001,-0.175312754,51.49876874
+The London Museum of Water and Steam,Green Dragon Lane,Brentford,NA,Hounslow,www.​waterandsteam.​org.​uk,1.00E+11,E09000018,Brentford,E05000347,518782.9001,178063.7001,-0.288952709,51.48854503
+"Hillingdon Local Studies, Archives and Museum",Central Library,14-16 High Street,Uxbridge,Hillingdon,https://www.hillingdon.gov.uk/history,1.00E+11,E09000017,Uxbridge South,E05000341,505618.0001,184018.0001,-0.47672958,51.54468289
+National Gallery,Trafalgar Square,NA,NA,City of Westminster,http://www.nationalgallery.org.uk/,1.00E+11,E09000033,St. James's,E05000644,530032.0001,180569.0001,-0.126076999,51.50858667
+Benjamin Franklin House,36 Craven Street,NA,NA,City of Westminster,http://www.benjaminfranklinhouse.org/,1.00E+11,E09000033,St. James's,E05000644,530228.0001,180412.0001,-0.123312015,51.50713046
+British Dental Association Museum,64 Wimpole St,Marylebone,NA,City of Westminster,https://bda.org/museum,1.00E+11,E09000033,Marylebone High Street,E05000641,528551.0001,181586.0001,-0.147037043,51.51806617
+Handel and Hendrix in London,23 and 25 Brook Street,Mayfair,NA,City of Westminster,https://handelhendrix.org/,1.00E+11,E09000033,West End,E05000649,528755.0001,180967.0001,-0.144324354,51.51245627
+Hogarth’s House,Greater London,NA,NA,Hounslow,http://www.hounslow.info/arts-culture/historic-houses-museums/hogarth-house/#,1.00E+11,E09000018,Chiswick Homefields,E05000348,521254.9201,177895.3801,-0.25341912,51.48650733
+Bruce Castle Museum,Bruce Castle Museum,Lordship Lane,NA,Haringey,http://www.haringey.gov.uk/leisure/brucecastlemuseum,1.00E+11,E09000014,White Hart Lane,E05000283,533392.0001,190677.0001,-0.073849803,51.59864748
+Down House,Down House,Luxted Road, Downe,Bromley,www.english-heritage.org.uk/darwin/,1.00E+11,E09000006,Darwin,E05000117,543154.0001,161150.0001,0.055057521,51.33089928
+Museum of London,150 London Wall,NA,NA,City and County of the City of London,http://www.museumoflondon.org.uk/london-wall/#,2.00E+11,E09000001,Aldersgate,E05009288,532199.0001,181593.0001,-0.094482179,51.51728697
+Barbican Art Gallery,Level 3,Barbican Centre,Silk Street,City and County of the City of London,http://www.barbican.org.uk/artgallery,2.00E+11,E09000001,Cripplegate,E05009302,532329.0001,181837.0001,-0.092517837,51.51944948
+British Red Cross Museum and Archives,UK Office 44 Moorfields,NA,NA,City and County of the City of London,http://www.redcross.org.uk/museumandarchives,2.00E+11,E09000001,Coleman Street,E05009299,532709.7601,181750.2801,-0.087065249,51.51858074
+Guildhall Art Gallery and London's Roman Amphitheatre,Guildhall Art Gallery Cultural and Visitor Development Town Clerk’s Department Guildhall Yard,NA,NA,City and County of the City of London,http://www.guildhallartgallery.cityoflondon.gov.uk/,2.00E+11,E09000001,Bassishaw,E05009290,532513.0001,181353.0001,-0.09004913,51.51505639
+Hayward Gallery,Southbank Centre,Belvedere Road,NA,Lambeth,http://ticketing.southbankcentre.co.uk/venues/hayward-gallery#,2.00E+11,E09000022,Bishop's,E05000416,530888.0001,180261.0001,-0.113862479,51.50562082
+Florence Nightingale Museum,St. Thomas Hospital,2 Lambeth Palace Road,NA,Lambeth,http://www.florence-nightingale.co.uk/,2.00E+11,E09000022,Bishop's,E05000416,530797.0001,179582.0001,-0.115424879,51.49953929
+The View (Epping Forest Collection),6 Rangers Road,,Chingford,Waltham Forest,www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest/Pages/default.aspx,2.00E+11,E09000031,Chingford Green,E05000593,539722.0001,194770.0001,0.019126479,51.63389537
+William Morris Gallery and Brangwyn Gift,Lloyd Park House,531 Forest Rd,Walthamstow,Waltham Forest,http://wmgallery.org.uk/,2.00E+11,E09000031,William Morris,E05000608,537229.0001,189906.0001,-0.018781165,51.59079662
+Clipper Ship Cutty Sark,King William Walk,Greenwich,NA,Greenwich,http://www.rmg.co.uk/cuttysark,2.00E+11,E09000011,Greenwich West,E05000222,538311.1801,177862.4401,-0.007899992,51.48229651
+London Fire Brigade Museum,Winchester House,94a Southwark Bridge Rd,NA,Southwark,http://www.culture24.org.uk/mw921,2.00E+11,E09000028,Borough & Bankside,E05011095,532102.0001,179829.0001,-0.096540517,51.50145568
+HMS Belfast,Uxbridge,Middlesex,NA,Southwark,http://iwm.org.uk/,2.00E+11,E09000028,London Bridge & West Bermondsey,E05011104,533244.8501,180373.2501,-0.07987744,51.50607879
+Imperial War Museum,Lambeth Rd,NA,NA,Southwark,http://london.iwm.org.uk/,2.00E+11,E09000028,St. George's,E05011114,531411.0001,179148.0001,-0.106744975,51.49549623
+Old Operating Theatre and Herb Garret,9A St Thomas’ Street,NA,NA,Southwark,http://www.oldoperatingtheatre.com/,2.00E+11,E09000028,London Bridge & West Bermondsey,E05011104,532766.0001,180185.0001,-0.086844633,51.50449961
+Brunel Museum,Brunel Engine House,Railway Avenue,Rotherhithe,Southwark,www.brunel-museum.org.uk/,2.00E+11,E09000028,Rotherhithe,E05011112,535239.0001,179870.0001,-0.051351513,51.50108215
+Dulwich Picture Gallery,6 Gallery Road,Dulwich Village,NA,Southwark,http://www.dulwichpicturegallery.org.uk/,2.00E+11,E09000028,Dulwich Village,E05011100,533077.0001,173624.0001,-0.084837608,51.4454594
+Osterley Park House,Jersey Road,Isleworth,NA,Hounslow,https://www.nationaltrust.org.uk/osterley-park-and-house?p=1356312744250,2.00E+11,E09000018,Osterley and Spring Grove,E05000363,514531.4001,178014.6001,-0.350182958,51.48898096
+Gunnersbury Park Museum,Gunnersbury Park,Popes Ln,NA,Hounslow,www.hounslow.info › Arts & Culture › Historic Houses & Museums,2.00E+11,E09000018,Brentford,E05000347,519046.9001,179236.8001,-0.284755866,51.49903389
+Photographer's Gallery,16-18 Ramillies Street,London,,Westminster,https://thephotographersgallery.org.uk/,10033542105,E09000033,West End,E05000649,529225.2587,181196.7789,-0.13904674,51.514925
+Whitechapel Gallery,77-82 Whitechapel High Street,London,,Tower Hamlets,https://www.whitechapelgallery.org/,6011122,E09000030,Spitalfields & Banglatown,E05009333,533985.1773,181458.8395,-0.07038992,51.516172
+Camera Museum,44 Museum Street,London,,Camden,https://www.cameramuseum.uk/museum-gallery,5110142,E09000007,Holborn and Covent Garden,E05000138,530174.2396,181527.7792,-0.125256,51.517682
+The Postal Museum,15-20 Phoenix Place,London,,Camden,https://www.postalmuseum.org/,5191953,E09000007,Holborn and Covent Garden,E05000138,530929.2212,182334.7735,-0.11408144,51.52476
+Museum of Funeral History,"	29-31 Rosebery Avenue",London,,Islington,https://www.dignityfunerals.co.uk/funeral-directors/locations/england/london/clerkenwell/29---31-roseber,5300079668,E09000019,Clerkenwell,E05000370,531122.2196,182265.7528,-0.11132672,51.524095
+Antique Breadboard Museum,17 Lifford Street,London,,Wandsworth,https://antiquebreadboards.com/,1.00E+11,E09000032,Thamesfield,E05000625,523858.3635,175362.906,-0.21839674,51.463695
+London Mithraeum,12 Walbrook,London,,City of London,https://www.londonmithraeum.com/,95514174,E09000001,Cordwainer,E05009300,532578.2115,181036.7768,-0.090813816,51.512711
+Turner's House,40 Sandycoombe Road,Twickenham,,Richmond upon Thames,https://turnershouse.org/,1.00E+11,E09000027,Twickenham Riverside,E05000531,517088.4431,174102.9731,-0.31622272,51.45381
+Eel Pie Island Museum,1-3 Richmond Road,Twickenham,,Richmond upon Thames,https://www.eelpiemuseum.co.uk/,1.00E+11,E09000027,Twickenham Riverside,E05000531,516448.4725,173482.0218,-0.3256336,51.448361
+Vagina Museum,18 Victoria Park Square,Chalk Farm Road,,Tower Hamlets,https://www.vaginamuseum.co.uk/,,E09000030,,,535141.9325,182890.3113,-0.05318,51.52876
+Swendeborg Society Museum,20-21 Bloomsbury Way,London,,Camden,https://www.swedenborg.org.uk/,5088225,E09000007,Holborn and Covent Garden,E05000138,530339.2383,181568.7286,-0.12286419,51.518012
+Biggin Hill Memorial Museum,Main Road,Kent,,Bromley,https://bhmm.org.uk/,10070018882,E09000006,Biggin Hill,E05000107,541085.0099,160618.8371,0.02357799,51.327177
+Stanley Picker Gallery,Kingston School of Art,"Grange Road
+Kingston upon Thames",,Kingston upon Thames,https://www.stanleypickergallery.org/,128036412,E09000021,Grove,E05000408,518460.4861,168704.9847,-0.29828949,51.40501
+Studio Voltaire,1A Nelsons Row,London,,Lambeth,https://www.studiovoltaire.org/,1.00E+11,E09000022,Clapham Town,E05000419,529682.236,175329.8335,-0.13461766,51.462095
+South London Gallery,65-67 Peckham Rd,London,,Southwark,https://www.southlondongallery.org/,2.00E+11,E09000028,St Giles,E05011115,533456.22,176783.841,-0.079775561,51.474285
+Matt's Gallery,92 Webster Road,London,,Southwark,https://www.mattsgallery.org/,2.00E+11,E09000028,North Bermondsey,E05011106,534568.1987,179171.8881,-0.062864801,51.495482
+Drawing Room,1-27 Rodney Pl ,London,,Southwark,https://drawingroom.org.uk/,2.00E+11,E09000028,North Walworth,E05011107,,,-0.093815533,51.493624
+Lake Gallery (Southwark Park Galleries,"1 Park Approach, Southwark Park",London,,Southwark,https://southwarkparkgalleries.org/,10000811264,E09000028,Rotherhithe,E05011112,535192.1915,179039.8886,-0.053931951,51.494147
+Dilston Gallery (Southwark Park Gallery),Southwark Park Rd,London,,Southwark,https://southwarkparkgalleries.org/,2.00E+11,E09000028,North Bermondsey,E05011106,535174.1987,178779.7975,-0.054290569,51.491814
+Nunnery Gallery,181 Bow Rd,Bow,,Tower Hamlets,https://bowarts.org/nunnery,6128627,E09000030,Bow East,E05009319,537590.0933,182973.8021,-0.017877042,51.52892
+Auto Italia,44 Bonner Road,London,,Tower Hamlets,https://autoitaliasoutheast.org/,6169839,E09000030,St Peter's,E05009331,535182.1271,183292.7758,-0.052446491,51.532367
+Peer UK,97-99 Hoxton Street,London,,Hackney,https://www.peeruk.org/,1.00E+11,E09000012,Hoxton East & Shoreditch,E05009377,533244.175,182956.724,-0.080496648,51.529808
+Autograph,Rivington Place,London,,Hackney,https://autograph.org.uk/,1.00E+11,E09000012,Hoxton East & Shoreditch,E05009377,533326.1773,182584.7603,-0.079455921,51.526446
+New Contemporaries,Rich Mix,35-47 Bethnal Green Road,,Tower Hamlets,https://www.newcontemporaries.org.uk/,6150258,E09000030,Weavers,E05009335,533759.1701,182363.8052,-0.073301807,51.524358
+SPACE Ilford,10 Oakfield Road,Ilford,,Redbridge,https://spacestudios.org.uk/visit-space-ilford/,10094819396,E09000026,Ilford Town,E05011246,543907.1609,186437.7799,0.074540907,51.558472
+Gasworks,155 Vauxhall Street,London,,Lambeth,https://gasworks.org.uk/,1.00E+11,E09000022,Oval,E05000426,530947.2607,177925.8748,-0.11545759,51.485134
+Institute of International Visual Arts,Stuart Hall Library,16 John Islip Street,,Westminster,https://iniva.org/library/,10033569512,E09000033,Vincent Square,E05000646,529973.2766,178503.8918,-0.12926452,51.490553
+Cubitt Artists,8 Angel Mews,London,,Islington,https://www.cubittartists.org.uk/,10012791474,E09000019,Barnsbury,E05000366,531338.2085,183189.6861,-0.10787081,51.532348
+Institute of Contemporary Arts,"The Mall, St. James's",", London ",,Westminster,https://www.ica.art/,1.00E+11,E09000033,St James's,E05000644,529813.2614,180261.821,-0.13092159,51.506388
+Serpentine South Gallery,Kensington Gardens,London,,Westminster,https://www.serpentinegalleries.org/,10033534401,E09000033,Knightsbridge and Belgravia,E05000637,526758.3139,180006.8102,-0.17500755,51.504789
+Serpentine North Gallery,West Carriage Drive,London,,Westminster,https://www.serpentinegalleries.org/,,E09000033,,,527009.3547,180263.5463,-0.1713,51.50704
+The Showroom,63 Penfold Street,London,,Westminster,https://www.theshowroom.org/,1.00E+11,E09000033,Church Street,E05000634,526859.2848,182085.7575,-0.17280564,51.52345
+Camden Art Centre,Arkwright Road,London,,Camden,https://camdenartcentre.org/,5090703,E09000007,Frognal and Fitzjohns,E05000133,526041.2607,185158.7291,-0.18349077,51.55125
+LUX,Dartmouth Park Hill,London,,Camden,https://lux.org.uk/,5143559,E09000007,Highgate,E05000137,528796.2214,187129.6762,-0.14305657,51.568341
+180 The Strand,Temple,London,,Westminster,https://www.180thestrand.com/,1.00E+11,E09000033,St James's,E05000644,530893.2349,180960.832,-0.11510992,51.512421
+Cabinet Gallery,132 Tyers Street,Vauxhall Pleasure Gardens,,Lambeth,https://www.cabinet.uk.com/,10093057125,E09000022,Prince's,E05000427,530659.2656,178194.876,-0.11950352,51.487618
+Goldsmiths Centre for Contemporary Art,"St James�,�New Cross",London,,Lewisham,https://goldsmithscca.art/,1.00E+11,E09000023,Brockley,E05000439,536538.2101,176849.958,-0.035401153,51.474144
+hARTslane,17 Harts Lane,New Cross Gate,,Lewisham,https://www.hartslane.org/,10023231445,E09000023,New Cross,E05000449,536010.2151,176993.9366,-0.042943472,51.475565
+Candid Arts Centre,3 Torrens Street,London,,Islington,https://candidarts.wordpress.com/,5300092107,E09000019,St Peter's,E05000380,531529.2047,183172.7095,-0.10512514,51.532151
+Lewisham Arthouse,140 Lewisham Way,London,,Lewisham,http://www.lewishamarthouse.org.uk/,1.00E+11,E09000023,Brockley,E05000439,536877.2105,176562.957,-0.030634187,51.471483
+Saatchi Gallery,"Duke of York's HQ, King's Road",London,,Kensington and Chelsea,https://www.saatchigallery.com/,217110596,E09000020,Royal Hospital,E05009403,527922.3129,178470.8163,-0.15880202,51.490723
+White Cube Bermondsey,144 � 152 Bermondsey Street ,London,,Southwark,https://whitecube.com/,2.00E+11,E09000028,London Bridge & West Bermondsey,E05011104,533181.2198,179576.7906,-0.082680195,51.499449
+White Cube Mason's Yard,"25-26 Masons Yard, St. James's",London,,Westminster,https://whitecube.com/,10033550744,E09000033,St James's,E05000644,529375.2656,180386.854,-0.13718321,51.507612
+Bankside Gallery,48 Hopton Street,London,,Southwark,https://www.banksidegallery.com/,2.00E+11,E09000028,Borough & Bankside,E05011095,531887.2265,180515.8309,-0.10096046,51.508191
+Jerwood Space,171 Union Street,London,,Southwark,https://jerwoodarts.org/,2.00E+11,E09000028,Borough & Bankside,E05011095,532028.2292,180010.8527,-0.099118829,51.50362
+The Mosaic Rooms,226 Cromwell Road,,,Kensington and Chelsea,https://mosaicrooms.org/,,E09000020,,,525373.7856,178868.799,-0.19535,51.49487
+Arts Council Collection,Southbank Centre,Belvedere Road,,Lambeth,https://artscouncilcollection.org.uk,,E09000022,,,530828.8176,180253.5822,-0.1163,51.50608
+Emery Walker's House,7 Hammersmith Terrace,London,,Hammersmith and Fulham,https://www.emerywalker.org.uk/,34007395,E09000013,Ravenscourt Park,E05000261,522118.4126,178228.8209,-0.24244193,51.48983
+Two Temple Place,Two Temple Place,London,,Westminster,https://twotempleplace.org/,1.00E+11,E09000033,St James's,E05000644,,,-0.11224702,51.511601
+Queen's House,Romney Road,London,,Greenwich,https://www.rmg.co.uk/queens-house,1.00E+11,E09000011,Greenwich West,E05000222,538663.1984,177707.8798,-0.004487344,51.481337
+Royal Observatory Greenwich,Blackheath Avenue,London,,Greenwich,https://www.rmg.co.uk/royal-observatory,10010200750,E09000011,Greenwich West,E05000222,538925.214,177270.898,-0.000888495,51.477346
+Chiswick House & Gardens,Burlington Lane,London,,Hounslow,https://chiswickhouseandgardens.org.uk/,2.00E+11,E09000018,Chiswick Riverside,E05000349,521008.4254,177526.934,-0.25866216,51.48376
+Museum of Brands,111 � 117 Lancaster Road,Notting Hill,,Kensington and Chelsea,https://museumofbrands.com/,,E09000020,,,524227.7911,181225.1639,-0.21102,51.5163
+Pitzhanger Manor & Gallery,Mattock Lane,London,,Ealing,https://www.pitzhanger.org.uk/,12141314,E09000009,Walpole,E05000192,517574.4521,180466.9043,-0.3071148,51.510907
+Garden Museum,5 Lambeth Palace Road,London,,Lambeth,https://gardenmuseum.org.uk/,1.00E+11,E09000022,Bishop's,E05000416,530588.2664,179019.8213,-0.12022058,51.495048
+Spencer House,27 St James�s Place,London,,Westminster,https://spencerhouse.co.uk/,10033571672,E09000033,St James's,E05000644,529169.2746,180107.773,-0.1402519,51.505151
+Apsley House (The Wellington Collection),149 Piccadilly,Hyde Park Corner,,Westminster,https://www.wellingtoncollection.co.uk/,1.00E+11,E09000033,West End,E05000649,528368.2907,179893.7607,-0.15186432,51.50341
+Syon House & Gardens,Syon Park,Brentford,,Hounslow,https://www.syonpark.co.uk/,,E09000018,,,517288.9104,176665.4983,-0.31249,51.4768
+Westminster Abbey Library,East Cloister,London,,Westminster,https://www.westminster-abbey.org/about-the-abbey/library-research/library-collection,1.00E+11,E09000033,St James's,E05000644,530077.2693,179446.813,-0.12742012,51.499003
+Lambeth Palace Library,15 Lambeth Palace Road,London,,Lambeth,https://lambethpalacelibrary.org/,10094053854,E09000022,Bishop's,E05000416,530695.2619,179312.7728,-0.1185717,51.497656
+HQS Wellington,"Temple Stairs, Victoria Embakment",London,,Westminster,https://www.thewellingtontrust.org/,1.00E+11,E09000033,St James's,E05000644,531085.235,180766.821,-0.11241675,51.510633
+The Chocolate Museum,187 Ferndale Rd,London,,Lambeth,https://www.thechocolatemuseum.co.uk/,2.00E+11,E09000022,Ferndale,E05000421,530949.2213,175565.8968,-0.11630269,51.463925
+Van Gogh House London,87 Hackford Road,London,,Lambeth,https://vangoghhouse.co.uk/,1.00E+11,E09000022,Vassall,E05000436,530997.2382,176744.8625,-0.11517551,51.474509
+Stour Gallery,258 Kingsland road,London,,Hackney,https://www.stourgalleries.co.uk/,1.00E+11,E09000012,Haggerston,E05009375,533512.1535,183798.8185,-0.07631648,51.537312
+Madame Tussauds,Marylebone Rd,London,,Westminster,https://www.madametussauds.com/london/,1.00E+11,E09000033,Regent's Park,E05000643,528092.266,182062.7257,-0.15505127,51.522965
+The Sherlock Holmes Museum,221b Baker St,London,,Westminster,https://www.sherlock-holmes.co.uk/,1.00E+11,E09000033,Bryanston and Dorset Square,E05000632,527845.2688,182143.7421,-0.15858017,51.523749
+San Mei Gallery,39a Loughborough Road,NA,,Lambeth,https://www.sanmeigallery.co.uk/,10094054829,E09000022,Vassall,E05000436,531468.2266,176351.8552,-0.10854377,51.470868
+Vigo Gallery,7-8 Masons Yard,St. James's,,Westminster,https://www.vigogallery.com/,10033538227,E09000033,St James's,E05000644,529366.268,180408.7684,-0.13730475,51.507811
+Thaddeus Ropac,Ely House,37 Dover Street,,Westminster,https://ropac.net/,1.00E+11,E09000033,West End,E05000649,529001.2713,180475.8261,-0.14253664,51.508497
+The Stone  Space,6 Church Lane,Leytonstone,,Waltham Forest,www.stonespace.gallery,1.00E+11,E09000031,Leytonstone,E05000605,539444.1144,187395.7761,0.010583682,51.568201
+Chelsea Physic Garden,66 Royal Hospital Road,Chelsea,,Kensington and Chelsea,https://www.chelseaphysicgarden.co.uk/,217102618,E09000020,Royal Hospital,E05009403,527669.3181,177811.8523,-0.16268225,51.484858
+The Mill @ Coppermill,7-11 Coppermill Lane,Walthamstow,,Waltham Forest,www.themille17.org,1.00E+11,E09000031,High Street,E05000599,536284.1714,188815.7485,-0.034430334,51.581733
+Guildhall Art Gallery,Basinghall St,London,,City of London,http://cityoflondon.gov.uk/guildhallartgallery,2.00E+11,E09000001,Bassishaw,E05009290,532511.2102,181352.7227,-0.091660082,51.515566
+The Arab British Centre,"1 Gough Sqaure, EC4A 3DE",,,City of London,https://www.arabbritishcentre.org.uk,1.00E+11,E09000001,Castle Baynard,E05009297,531373.2264,181275.7706,-0.10807957,51.51514
+Oxford House in Bethnal Green,"Derbyshire Street, London E2 6HG",,,Tower Hamlets,https://www.oxfordhouse.org.uk,6089004,E09000030,St Peter's,E05009331,534571.1484,182608.8377,-0.061510951,51.526367
+Rosetta Arts,"1 HAMILTON RD, LONDON E15 3AE",,,Newham,https://rosettaarts.org,46034253,E09000025,Canning Town North,E05000477,539333.0971,182575.7346,0.007076147,51.524916
+JW3,"341-351 Finchley Road, London, NW3 6ET",,,Camden,https://www.jw3.org.uk,5164899,E09000007,West Hampstead,E05000145,525950.2608,185118.7487,-0.18481686,51.550911
+Usurp Art,140 Vaughan Road,,,Harrow,http://www.usurp.org.uk/exhibitions/#,1.00E+11,E09000015,West Harrow,E05000305,514470.4796,187976.801,-0.34938282,51.579041
+University of the Arts London Gallery,272 High Holborn,,,Camden,http://www.arts.ac.uk/gallery.htm#,5154466,E09000007,Holborn and Covent Garden,E05000138,530789.2304,181552.8044,-0.1163883,51.517765
+Brunei Gallery,SOAS,Thornhaugh Street,,Camden,http://www.soas.ac.uk/gallery/#,5086881,E09000007,Bloomsbury,E05000129,529883.2377,182039.7592,-0.12925904,51.52235
+L Ron Hubbard's Fitzroy House,37 Fitzroy St,,,Camden,http://www.fitzroyhouse.org/#,5088512,E09000007,Bloomsbury,E05000129,529192.2491,182038.7229,-0.13921366,51.522499
+Four Corners Gallery,121 Roman Road,,,Tower Hamlets,http://www.fourcornersfilm.co.uk/gallery#,6039056,E09000030,,,535440.0357,182903.8124,-0.04888,51.52881
+Bhavan Art Gallery,4a Castletown Road,,,Hammersmith and Fulham,http://www.bhavan.net/art-gallery#,34140084,E09000013,North End,E05000258,524574.3698,178280.9074,-0.20706715,51.489763
+Bethlem Gallery,Bethlem Royal Hospital,Monks Orchard Road,,Bromley,http://bethlemgallery.com/#,10003615210,E09000006,,,537236.0218,166485.8388,-0.02937,51.38084
+The Aram Gallery,110 Drury Lane,,,Westminster,http://www.thearamgallery.org/#,10033550729,E09000033,,,530631.2105,181051.901,-0.11885,51.5133
+Queen's Gallery,Buckingham Palace Road,,,Westminster,http://www.royalcollection.org.uk/default.asp?action=article&ID=32#,10033569645,E09000033,St James's,E05000644,529007.2856,179498.7814,-0.14280725,51.499715
+Pollock's Toy Museum,1 Scala Street,,,Camden,https://www.pollockstoymuseum.co.uk/,10091857645,E09000007,Bloomsbury,E05000129,529469.2474,181804.7553,-0.1353092,51.520333
+ASC Gallery,"Taplow House,",Thurlow Street,,Southwark,http://www.ascstudios.co.uk/asc-gallery/#,10093339547,E09000028,,,532896.4403,178408.8389,-0.08722,51.48902
+Ambika P3,"Uni. of Westminster,",35 Marylebone Road,,Westminster,http://www.p3exhibitions.com/#,1.00E+11,E09000033,Marylebone High Street,E05000641,528126.2661,181958.7645,-0.15459925,51.522023
+Standpoint,45 Coronet Street,Hoxton,,Hackney,http://www.standpointlondon.co.uk/#,1.00E+11,E09000012,Hoxton East & Shoreditch,E05009377,533158.1793,182649.7867,-0.081851649,51.52707
+The Markfield Beam Engine and Museum,Markfield Road,,,Haringey,https://www.mbeam.org/,,E09000014,Seven Sisters,E05000278,,,-0.061633,51.581918
+Furtherfield Gallery,The Mackenzie Pavilion,Finsbury Park,,Haringey,https://www.furtherfield.org/visit-us/,,E09000014,,,,,-0.101464232,51.56974372

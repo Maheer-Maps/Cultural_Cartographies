@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Music Venues and Museums Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .chart {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="musicChart" class="chart"></div>
+        <div id="museumChart" class="chart"></div>
+    </div>
+
+    <script>
+        const cities = [
+            'London', 'Seoul', 'Melbourne', 'Paris', 'Amsterdam',
+            'Montreal', 'Dublin', 'New York', 'Tokyo'
+        ];
+
+        // === Music Chart Data ===
+        const musicVenues = [797, 81, 553, 430, 147, 42, 44, 453, 649];
+        const populationPerVenue = [
+            11295.46801, 123592.3827, 9329.495479, 28717.68605,
+            5941.07483, 47720.69048, 30621.79545, 19034.65342, 21330.547
+        ];
+
+        // === Museum Chart Data ===
+        const museumCounts = [192, 201, 44, 297, 144, 66, 62, 140, 173];
+        const museumsPerHectare = [
+            0.122137405, 0.332099663, 0.004403302, 0.024725275,
+            0.055813953, 0.132264529, 0.067538126, 0.178571429, 0.078851413
+        ];
+
+        // === Music Chart Setup ===
+        var musicChartDom = document.getElementById('musicChart');
+        var musicChart = echarts.init(musicChartDom);
+        var musicBarOption = {
+            title: { text: 'Number of Music Venues by City', left: 'center' },
+            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+            xAxis: { type: 'category', data: cities, axisLabel: { rotate: 30 } },
+            yAxis: { type: 'value', name: 'Music Venues' },
+            series: [{
+                type: 'bar',
+                id: 'venueSeries',
+                data: musicVenues.map((value, index) => ({ value, groupId: cities[index] })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                itemStyle: { color: '#C4A2F2' }, // Music bar color
+                animationDurationUpdate: 1500
+            }]
+        };
+        var musicScatterOption = {
+            title: { text: 'Population per Music Venue by City', left: 'center' },
+            tooltip: {
+                formatter: function (params) {
+                    return cities[params.dataIndex] +
+                        '<br/>Population per Venue: ' + params.value[1].toFixed(2);
+                }
+            },
+            xAxis: { type: 'category', data: cities, axisLabel: { rotate: 30 } },
+            yAxis: { type: 'value', name: 'Population per Venue' },
+            series: [{
+                type: 'scatter',
+                id: 'venueSeries',
+                data: populationPerVenue.map((value, index) => ({
+                    value: [cities[index], value],
+                    groupId: cities[index]
+                })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                symbolSize: 20,
+                itemStyle: { color: '#368ABF' }, // Music scatter color
+                animationDurationUpdate: 1500
+            }]
+        };
+
+        let currentMusicOption = musicBarOption;
+        musicChart.setOption(currentMusicOption);
+        setInterval(() => {
+            currentMusicOption = currentMusicOption === musicBarOption ? musicScatterOption : musicBarOption;
+            musicChart.setOption(currentMusicOption, true);
+        }, 4000);
+
+        // === Museum Chart Setup ===
+        var museumChartDom = document.getElementById('museumChart');
+        var museumChart = echarts.init(museumChartDom);
+        var museumBarOption = {
+            title: { text: 'Number of Museums by City', left: 'center' },
+            tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+            xAxis: { type: 'category', data: cities, axisLabel: { rotate: 30 } },
+            yAxis: { type: 'value', name: 'Museums' },
+            series: [{
+                type: 'bar',
+                id: 'museumSeries',
+                data: museumCounts.map((value, index) => ({ value, groupId: cities[index] })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                itemStyle: { color: '#26A682' }, // Museum bar color
+                animationDurationUpdate: 1500
+            }]
+        };
+        var museumScatterOption = {
+            title: { text: 'Museums per Hectare by City', left: 'center' },
+            tooltip: {
+                formatter: function (params) {
+                    return cities[params.dataIndex] +
+                        '<br/>Museums per Hectare: ' + params.value[1].toFixed(6);
+                }
+            },
+            xAxis: { type: 'category', data: cities, axisLabel: { rotate: 30 } },
+            yAxis: { type: 'value', name: 'Museums per Hectare' },
+            series: [{
+                type: 'scatter',
+                id: 'museumSeries',
+                data: museumsPerHectare.map((value, index) => ({
+                    value: [cities[index], value],
+                    groupId: cities[index]
+                })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                symbolSize: 20,
+                itemStyle: { color: '#2e294e' }, // Museum scatter color
+                animationDurationUpdate: 1500
+            }]
+        };
+
+        let currentMuseumOption = museumBarOption;
+        museumChart.setOption(currentMuseumOption);
+        setInterval(() => {
+            currentMuseumOption = currentMuseumOption === museumBarOption ? museumScatterOption : museumBarOption;
+            museumChart.setOption(currentMuseumOption, true);
+        }, 4000);
+    </script>
+</body>
+</html>

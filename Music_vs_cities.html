@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Music Venues and Population per Venue</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        #main {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+
+    <script>
+        var chartDom = document.getElementById('main');
+        var myChart = echarts.init(chartDom);
+        var option;
+
+        const cities = [
+            'London', 'Seoul', 'Melbourne', 'Paris', 'Amsterdam',
+            'Montreal', 'Dublin', 'New York', 'Tokyo'
+        ];
+
+        const musicVenues = [797, 81, 553, 430, 147, 42, 44, 453, 649];
+
+        const populationPerVenue = [
+            11295.46801, 123592.3827, 9329.495479, 28717.68605,
+            5941.07483, 47720.69048, 30621.79545, 19034.65342, 21330.547
+        ];
+
+        // Bar Chart: Number of music venues
+        const barOption = {
+            title: {
+                text: 'Number of Music Venues by City',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { type: 'shadow' }
+            },
+            xAxis: {
+                type: 'category',
+                data: cities,
+                name: 'City',
+                axisLabel: {
+                    rotate: 30
+                }
+            },
+            yAxis: {
+                type: 'value',
+                name: 'Music Venues'
+            },
+            series: [{
+                type: 'bar',
+                id: 'venueSeries',
+                data: musicVenues.map((value, index) => ({
+                    value,
+                    groupId: cities[index]
+                })),
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx) {
+                        return Math.random() * 600;
+                    }
+                },
+                itemStyle: {
+                    color: '#800080' // Purple bars
+                },
+                animationDurationUpdate: 1500
+            }]
+        };
+
+        // Scatter Chart: Population per music venue
+        const scatterOption = {
+            title: {
+                text: 'Population per Music Venue by City',
+                left: 'center'
+            },
+            tooltip: {
+                formatter: function (params) {
+                    return cities[params.dataIndex] +
+                        '<br/>Population per Venue: ' + params.value[1].toFixed(2);
+                }
+            },
+            xAxis: {
+                type: 'category',
+                data: cities,
+                name: 'City',
+                axisLabel: {
+                    rotate: 30
+                }
+            },
+            yAxis: {
+                type: 'value',
+                name: 'Population per Venue'
+            },
+            series: [{
+                type: 'scatter',
+                id: 'venueSeries',
+                data: populationPerVenue.map((value, index) => ({
+                    value: [cities[index], value],
+                    groupId: cities[index]
+                })),
+                universalTransition: {
+                    enabled: true,
+                    delay: function (idx) {
+                        return Math.random() * 600;
+                    }
+                },
+                symbolSize: 20,
+                itemStyle: {
+                    color: '#2ecc71' // Green scatter points
+                },
+                animationDurationUpdate: 1500
+            }]
+        };
+
+        // Toggle between bar and scatter every 4 seconds
+        let currentOption = barOption;
+        myChart.setOption(currentOption);
+
+        setInterval(function () {
+            currentOption = currentOption === barOption ? scatterOption : barOption;
+            myChart.setOption(currentOption, true);
+        }, 4000); // Slower transition (4 seconds)
+    </script>
+</body>
+</html>

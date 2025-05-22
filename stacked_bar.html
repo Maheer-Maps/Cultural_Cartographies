@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ECharts Bar Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <style>
+    #main {
+      width: 100%;
+      height: 700px;
+    }
+  </style>
+</head>
+<body>
+  <div id="main"></div>
+
+  <script>
+    var chartDom = document.getElementById('main');
+    var myChart = echarts.init(chartDom);
+    var option;
+
+    // Function to replace negative scraped values with 0
+    function removeNegatives(data) {
+      return data.map(val => val < 0 ? 0 : val);
+    }
+
+    option = {
+      color: [
+        '#003f5c', '#2f4b7c', '#665191', '#a05195', '#d45087', '#f95d6a', // GLA Data (blues)
+        '#00876c', '#66c2a5', '#abdda4', '#e6f598', '#fee08b', '#f46d43'  // Scraped Data (greens/purples)
+      ],
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: { type: 'shadow' }
+      },
+      legend: [
+  {
+    top: 650,
+    left: 10,
+    orient: 'vertical',
+    show: true,
+    title: {
+      text: 'GLA 2023 Data',
+      show: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: '#003f5c',
+        fontSize: 14
+      }
+    },
+    data: [
+      'Art Centres',
+      'Community Centres',
+      'Museums and Galleries',
+      'Theatres',
+      'Libraries',
+      'Cinemas'
+    ],
+    selectedMode: 'multiple'
+  },
+  {
+    top: 650,
+    right: 10,
+    orient: 'vertical',
+    show: true,
+    title: {
+      text: 'Scraped Data',
+      show: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: '#00876c',
+        fontSize: 14
+      }
+    },
+    data: [
+      'Change in Art Centres',
+      'Change in Community Centres',
+      'Change in Libraries',
+      'Change in Theatres',
+      'Change in Cinemas',
+      'Change in Music Venues'
+    ],
+    selectedMode: 'multiple'
+  }
+],
+
+
+
+
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '10%',
+        containLabel: true
+      },
+      xAxis: [
+        {
+          type: 'category',
+          axisLabel: { rotate: 90 },
+          data: [
+            'Barking and Dagenham', 'Barnet', 'Bexley', 'Brent', 'Bromley', 'Camden',
+            'City of London', 'Croydon', 'Ealing', 'Enfield', 'Greenwich', 'Hackney',
+            'Hammersmith and Fulham', 'Haringey', 'Harrow', 'Havering', 'Hillingdon',
+            'Hounslow', 'Islington', 'Kensington and Chelsea', 'Kingston upon Thames',
+            'Lambeth', 'Lewisham', 'Merton', 'Newham', 'Redbridge', 'Richmond upon Thames',
+            'Southwark', 'Sutton', 'Tower Hamlets', 'Waltham Forest', 'Wandsworth', 'Westminster'
+          ]
+        }
+      ],
+      yAxis: [
+  {
+    type: 'value',
+    name: 'Number of Cultural Facilities (2023 GLA data)',
+    position: 'left',
+    nameLocation: 'center',
+    nameGap: 40, // Move label further right
+  },
+  {
+    type: 'value',
+    name: 'Rate of Change (%) from 2017 to 2025',
+    nameLocation: 'center',
+    nameGap: 60, // Move label further right
+    min: 0,
+    max: 3,
+    axisLabel: {
+      formatter: function (value) {
+        return (value * 100).toFixed(0) + '%';
+      }
+    }
+  }
+],
+
+      series: [
+        {
+          name: 'Art Centres',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 2, 2, 1, 2, 0, 0, 0, 1, 0, 2, 1, 0, 1, 1, 2, 0, 0, 2, 0, 1, 1],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Community Centres',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [27, 13, 17, 19, 21, 110, 2, 12, 26, 13, 27, 90, 34, 28, 11, 22, 27, 21, 60, 18, 14, 54, 9, 11, 18, 7, 11, 30, 10, 42, 32, 34, 34],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Museums and Galleries',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [1, 4, 2, 1, 6, 34, 10, 1, 1, 1, 9, 7, 4, 3, 4, 1, 1, 7, 10, 14, 3, 14, 4, 3, 2, 2, 11, 17, 3, 17, 6, 1, 46],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Theatres',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [1, 2, 4, 1, 4, 26, 5, 4, 2, 4, 3, 12, 10, 9, 2, 2, 3, 6, 15, 9, 3, 18, 10, 6, 4, 2, 9, 22, 1, 8, 5, 7, 54],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Libraries',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [6, 16, 12, 9, 13, 12, 4, 14, 13, 17, 14, 9, 6, 9, 7, 10, 17, 11, 10, 7, 7, 9, 12, 7, 10, 13, 13, 12, 8, 8, 10, 11, 11],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Cinemas',
+          type: 'bar',
+          stack: 'GLA Data',
+          data: [1, 3, 1, 3, 3, 14, 2, 3, 1, 2, 4, 5, 4, 5, 1, 1, 2, 3, 3, 7, 1, 7, 2, 2, 2, 2, 3, 7, 0, 6, 0, 3, 20],
+          yAxisIndex: 0
+        },
+        {
+          name: 'Change in Art Centres',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([1.00, 0.75, 0.33, 0.38, -0.50, 0.27, 1.00, 0.54, 0.67, 0.60, 0.64, 0.58, 0.27, 0.56, 0.33, 0.60, 0.80, -0.33, 0.25, 0.71, 0.00, 0.40, 0.07, 1.00, 0.30, 1.00, 0.50, 0.38, 0.45, 0.15, 0.25, 0.09, 0.56]),
+          yAxisIndex: 1
+        },
+        {
+          name: 'Change in Community Centres',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([0.00, -0.20, -0.60, 0.25, -0.13, -0.13, 0.00, 0.20, -0.18, 0.10, -0.08, 0.00, 0.09, -0.43, -0.14, 1.00, 0.17, -0.25, 0.00, 0.43, 0.11, -0.08, -0.06, 0.11, 0.00, -0.56, -0.60, 0.08, -0.33, -0.20, -0.33, -0.33, 0.25]),
+          yAxisIndex: 1
+        },
+        {
+          name: 'Change in Libraries',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 1.00, -0.33, 0.00, -0.33, 0.20, 0.00, 0.00, 0.00, 0.00, -1.00, 0.00, -0.07, 0.11, -1.00, 0.14, 0.00, 0.00, -1.00, 0.00, -1.00, 0.08, 0.00, 0.67, 1.00, 0.00, 0.18]),
+          yAxisIndex: 1
+        },
+        {
+          name: 'Change in Theatres',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([0.00, 0.00, 0.00, 0.00, 0.20, 0.33, 0.20, 0.00, 1.00, -1.00, 0.00, 1.00, 0.00, 0.20, -0.33, -0.20, 0.00, 0.60, 0.50, 0.00, 0.00, 0.14, 0.33, 0.00, -0.20, 1.00, 0.00, 0.00, 0.00, 0.08, 0.00, 0.50, -0.04]),
+          yAxisIndex: 1
+        },
+        {
+          name: 'Change in Cinemas',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([0.00, 0.00, 0.00, 0.00, 0.33, 0.17, 0.33, -0.11, 0.00, 0.00, 0.00, 0.20, 1.00, -0.33, 0.00, 1.00, -1.00, 0.00, 0.04, 0.50, 0.00, 0.07, 1.00, 0.00, 0.67, 0.33, 0.00, 0.14, 0.00, -0.14, 0.00, -0.33, 0.18]),
+          yAxisIndex: 1
+        },
+        {
+          name: 'Change in Music Venues',
+          type: 'bar',
+          stack: 'Scraped',
+          data: removeNegatives([0.00, 0.00, 0.00, 0.00, 0.00, 1.00, 0.00, 0.00, 0.00, 0.00, 0.00, -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.33, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, -1.00, 0.00, 0.00, 0.00, 0.00, 0.00]),
+          yAxisIndex: 1
+        }
+      ]
+    };
+
+    option && myChart.setOption(option);
+  </script>
+</body>
+</html>
