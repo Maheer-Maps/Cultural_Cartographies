@@ -14,6 +14,7 @@
             margin: 0; 
             padding: 0; 
             font-family: 'Bricolage Grotesque', sans-serif;
+            color:whitesmoke;
             
         }
         #map { 
@@ -27,7 +28,8 @@
             bottom: 20px;
             right: 20px;
             z-index: 1000;
-            background: rgba(255, 255, 255, 0.9);
+            background: #333432;
+            opacity: 0.9;
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(2, 0, 0, 0.2);
@@ -42,11 +44,13 @@
         }
         #controls button {
             padding: 6px 12px;
-            border: none;
-            border-radius: 4px;
-            background: #f0f0f0;
-            font-family: 'Poppins', sans-serif;
-            cursor: pointer;
+            width: 50px;
+            border: 1px solid;
+            border-color: white ;
+            border-radius: 20px;
+            background: transparent;
+            font-family: 'Bricolage Grotesque', sans-serif;
+            cursor:pointer ;
             transition: background 0.2s;
         }
         #controls button:hover {
@@ -62,6 +66,7 @@
         .legend h4 {
             margin: 0 0 8px 0;
             font-size: 14px;
+            text-transform: uppercase;
         }
         .legend-item {
             display: flex;

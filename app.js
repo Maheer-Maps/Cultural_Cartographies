@@ -9,13 +9,13 @@ const map = new mapboxgl.Map({
 
 // Define the new color scheme for amenities
 const amenityColors = {
-    'Theatre': '#C4A2F2',   // Light Purple
-    'Nightclub': '#368ABF',  // Light Blue
-    'Music Venue': '#26A682', // Green
-    'Library': '#FFFFFF',    // Dark Purple
-    'Community Centre': '#00FFFF', // Light Blue
-    'Cinema': '#C4A2F2',     // Light Purple
-    'Arts Centre': '#26A682' // Green
+    'Theatre': '#C79BF2', 
+    'Nightclub': '#AFC4E3',
+    'Music Venue': '#90B8B1', 
+    'Library': '#BBF2E8',   
+    'Community Centre': '#00FFFF',
+    'Cinema': '#59D571',     
+    'Arts Centre': '#22F230' 
 };
 
 // Format amenity names by replacing underscores and capitalizing
@@ -126,9 +126,9 @@ function updateMapForYear(year) {
             type: 'circle',
             source: layerId,
             paint: {
-                'circle-radius': 5,  // Smaller pins
+                'circle-radius': 3,
                 'circle-color': amenityColors[amenity],
-                'circle-stroke-width': 0  // No white outline
+                'circle-stroke-width': 0 
             }
         });
     }
