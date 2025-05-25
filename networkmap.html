@@ -88,6 +88,24 @@
     interactive: false // Static map, no interactions
   });
 
+  map.on('load', () => {
+  map.addSource('boroughs', {
+    type: 'geojson',
+    data: './london_boroughs_4326.geojson'
+  });
+
+  map.addLayer({
+    id: 'boroughs-outline',
+    type: 'line',
+    source: 'boroughs',
+    paint: {
+      'line-color': '#ffffff',
+      'line-width': 0.8,
+      'line-opacity': 1
+    }
+  });
+});
+
   const svg = d3.select("body").append("svg");
   const colorScale = d3.scaleOrdinal().range(["#C79BF2","#81B9E4", "#85F2A0","#C8C2F2",  "#5EF275"]); // Custom color scale
   let currentYear = "2018";

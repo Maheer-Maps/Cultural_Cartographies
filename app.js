@@ -7,13 +7,31 @@ const map = new mapboxgl.Map({
     zoom: 9  // Good zoom level to see most of Greater London
 });
 
+map.on('load', () => {
+    map.addSource('boroughs', {
+      type: 'geojson',
+      data: './london_boroughs_4326.geojson'
+    });
+  
+    map.addLayer({
+      id: 'boroughs-outline',
+      type: 'line',
+      source: 'boroughs',
+      paint: {
+        'line-color': '#ffffff',
+        'line-width': 0.5,
+        'line-opacity': 1
+      }
+    });
+  });
+
 // Define the new color scheme for amenities
 const amenityColors = {
     'Theatre': '#C79BF2', 
     'Nightclub': '#AFC4E3',
     'Music Venue': '#90B8B1', 
     'Library': '#BBF2E8',   
-    'Community Centre': '#00FFFF',
+    'Community Centre': '#C4E5F2',
     'Cinema': '#59D571',     
     'Arts Centre': '#22F230' 
 };

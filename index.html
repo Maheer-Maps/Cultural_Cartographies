@@ -166,6 +166,7 @@
   <!-- 2018-2023 -->
   <section id="2018_2023" style="padding: 60px;">
       <h2 class="section-title">2018-2023</h2>
+
       <iframe src="./networkmap.html" style="width: 100%; height: 80vh; border: none;"></iframe>
     </section>
    
@@ -188,9 +189,31 @@
   
   
   <!-- 2017-2025 -->
-  <section id="2017_2025" style="padding: 60px;">
+  <section id="2017_2025" style="position: relative; padding: 60px;">
       <h2 class="section-title">2017-2025</h2>
-      <!-- content here -->
+        <!-- Add the iframe for the chart -->
+        <div style="
+        position: absolute;
+        bottom: 95px;
+        left: 90px;
+        width: 560px;
+        height: 450px;
+        z-index: 1000;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        opacity: 0.9;
+      ">
+        <iframe 
+          src="Line.html"
+          style="
+            width: 100%;
+            height: 100%;
+            border: none;
+          "
+        ></iframe>
+
+      </div>
       <iframe src="./2017_2025.html" style="width: 100%; height: 80vh; border: none;"></iframe>
     </section>
 
@@ -277,28 +300,28 @@ document.addEventListener('DOMContentLoaded', function () {
     const mapOption = {
   tooltip: {
     trigger: 'item',
-    backgroundColor: '#333432', // ✅ Dark background
-    borderColor: '#ffffff', // ✅ White border
-    borderWidth: 1, // ✅ Border width
+    backgroundColor: '#333432', 
+    borderColor: '#ffffff', 
+    borderWidth: 1, 
     textStyle: {
-      color: '#ffffff', // ✅ White text
-      fontFamily: 'Bricolage Grotesque', // ✅ Custom font
-      fontSize: 14 // ✅ Font size
+      color: '#ffffff', 
+      fontFamily: 'Bricolage Grotesque', 
+      fontSize: 14 
     },
-    padding: 10, // ✅ Padding around tooltip
-    extraCssText: 'border-radius: 10px;' // ✅ Rounded corners
+    padding: 10, 
+    extraCssText: 'border-radius: 10px;' 
   },
   visualMap: {
     left: 'right',
     min: -0.60,
     max: 1.00,
     inRange: {
-      color: ['#C79BF2', '#C8C2F2', '#C4E5F2', '#A0F2CC', '#5EF275'] // Color range
+      color: ['#C79BF2', '#C8C2F2', '#C4E5F2', '#A0F2CC', '#5EF275'] 
     },
     text: ['High', 'Low'],
     calculable: true,
     textStyle: {
-      color: '#ffffff', // ✅ White text for the visual map
+      color: '#ffffff', 
       fontFamily: 'Bricolage Grotesque',
       fontSize: 14
     }
@@ -313,12 +336,12 @@ document.addEventListener('DOMContentLoaded', function () {
     data: data,
     emphasis: {
       itemStyle: {
-        areaColor: '#FFFFFF', // ✅ Change the hover color of the area
-        borderColor: '#000000', // ✅ Border color on hover
-        borderWidth: 1 // ✅ Border width on hover
+        areaColor: '#FFFFFF', 
+        borderColor: '#000000', 
+        borderWidth: 1 
       },
       label: {
-        color: '#000000', // ✅ Label color on hover
+        color: '#000000', 
         fontFamily: 'Bricolage Grotesque',
         fontSize: 12
       }
@@ -345,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
         data: data.map(d => d.value),
         universalTransition: true,
         itemStyle: {
-          color: (params) => params.value < 0 ? '#81B9E4' : '#A9BED9'
+          color: (params) => params.value < 0 ? '#A9BED9' : '#5EF275'
         }
       }],
       animationDurationUpdate: 2000
@@ -376,6 +399,8 @@ barViewBtn.addEventListener('click', function (e) {
 
 
   });
+
+  
 });
 </script>
 
