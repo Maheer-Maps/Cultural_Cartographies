@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rate of Change Line Graph (2018-2024)</title>
     <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
     <style>
@@ -57,14 +57,14 @@
 
         // Prepare the series for each category with different neon colors
         var seriesData = Object.keys(venues).map(function(category, index) {
-            var colors = ['#00FF00', '#00FFFF', '#9B30FF', '#00FF7F', '#32CD32']; // Neon shades of green, blue, and purple
+            var colors = ['#22F230', '#59D571', '#C4E5F2', '#BBF2E8', '#C79BF2']; 
             return {
                 name: category,
                 type: 'line',
                 data: venues[category],
                 lineStyle: { 
-                    width: 2, // Bolder lines
-                    color: colors[index % colors.length] // Assigning the neon colors
+                    width: 2,
+                    color: colors[index % colors.length] 
                 }
             };
         });
@@ -75,9 +75,9 @@
                 text: 'Rate of Change between Years',
                 left: 'center',
                 textStyle: {
-                    fontFamily:'"Bricolage Grotesque", sans-serif',
+                    fontFamily:'"Cormorant", serif',
                     color: 'white',
-                    fontSize: 12
+                    fontSize: 13
                 }
             },
             tooltip: {
@@ -95,16 +95,29 @@
                 type: 'category',
                 boundaryGap: false,
                 data: years,
-                axisLine: { lineStyle: { color: 'white',width: 5} }
+                axisLine: { lineStyle: { color: 'white',width: 5} },
+                axisLabel: {
+                 show: true,
+                    color: 'white',
+                    fontFamily: '"Cormorant", serif',
+                    fontSize: 13 
+                    }
             },
+
+
             yAxis: {
                 type: 'value',
                 axisLine: { 
                     show: true,
-                    lineStyle: { color: 'white', width: 1} // Thicker white line at 0
-                },
+                    lineStyle: { color: 'white', width: 1}},
                 axisTick: { show: false },
-                axisLabel: { show: true, color: 'white' },
+
+                 axisLabel: {
+        show: true,
+        color: 'white',
+        fontFamily: '"Cormorant", serif',
+        fontSize: 13
+    },
                 splitLine: { lineStyle: { type: 'dashed', color: 'white', } }
             },
             series: seriesData
