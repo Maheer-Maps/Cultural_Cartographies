@@ -73,7 +73,7 @@
 </head>
 <body>
 <div id="map"></div>
-<div id="toggleYear">Switch to 2023</div>
+
 <div id="legendToggle">Show Legend</div>
 <div id="legend"></div>
 
@@ -84,39 +84,16 @@
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
     center: [-0.1276, 51.5072],
-    zoom: 10,
+    zoom: 9.7,
     interactive: false // Static map, no interactions
   });
 
-  map.on('load', () => {
-  map.addSource('boroughs', {
-    type: 'geojson',
-    data: './london_boroughs_4326.geojson'
-  });
-
-  map.addLayer({
-    id: 'boroughs-outline',
-    type: 'line',
-    source: 'boroughs',
-    paint: {
-      'line-color': '#ffffff',
-      'line-width': 0.8,
-      'line-opacity': 1
-    }
-  });
-});
 
   const svg = d3.select("body").append("svg");
   const colorScale = d3.scaleOrdinal().range(["#C79BF2","#81B9E4", "#85F2A0","#C8C2F2",  "#5EF275"]); // Custom color scale
   let currentYear = "2018";
   let dataByYear = { "2018": [], "2023": [] };
 
-  // Toggle year
-  document.getElementById("toggleYear").onclick = () => {
-    currentYear = currentYear === "2018" ? "2023" : "2018";
-    document.getElementById("toggleYear").innerText = `Switch to ${currentYear === "2018" ? "2023" : "2018"}`;
-    updateVisualization();
-  };
 
   // Show/hide legend
   document.getElementById("legendToggle").onclick = () => {
@@ -234,6 +211,31 @@
   }
 
   loadData();
+
+
 </script>
+
+<script>
+  window.addEventListener("message", (event) => {
+    // Ensure it's the right message format
+    if (event.data?.type === "switchYear") {
+      const newYear = event.data.year;
+
+      if (newYear !== currentYear) {
+        currentYear = newYear;
+
+        // Update the button text if applicable
+        const toggleBtn = document.getElementById("toggleYear");
+        if (toggleBtn) {
+          toggleBtn.innerText = `Switch to ${currentYear === "2018" ? "2023" : "2018"}`;
+        }
+
+        // Re-run the visualization with new year
+        updateVisualization();
+      }
+    }
+  });
+</script>
+
 </body>
 </html>

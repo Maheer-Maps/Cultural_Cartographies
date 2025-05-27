@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Museums Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #333432;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chart {
+            width: 397px;
+            height: 350px;
+            background-color: #333432;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="museumChart" class="chart"></div>
+
+    <script>
+        const cities = [
+            'London', 'Seoul', 'Melbourne', 'Paris', 'Amsterdam',
+            'Montreal', 'Dublin', 'New York', 'Tokyo'
+        ];
+
+        // Museum Chart Data
+        const museumCounts = [192, 201, 44, 297, 144, 66, 62, 140, 173];
+        const museumsPerHectare = [
+            0.122137405, 0.332099663, 0.004403302, 0.024725275,
+            0.055813953, 0.132264529, 0.067538126, 0.178571429, 0.078851413
+        ];
+
+        // Museum Chart Setup
+        var museumChartDom = document.getElementById('museumChart');
+        var museumChart = echarts.init(museumChartDom);
+        var museumBarOption = {
+            title: { 
+                text: 'Number of Museums vs Museums per Hectare', 
+                left: 'center',
+                textStyle: { color: '#ffffff',
+                fontFamily: 'Bricolage Grotesque, sans-serif' ,
+                fontSize:12
+                }
+            },
+            tooltip: { 
+                trigger: 'axis', 
+                axisPointer: { type: 'shadow' },
+                textStyle: { color: '#ffffff' }
+            },
+            xAxis: { 
+                type: 'category', 
+                data: cities, 
+                axisLabel: { 
+                    rotate: 30,
+                    color: '#ffffff'
+                },
+                axisLine: { lineStyle: { color: '#666666' } }
+            },
+            yAxis: { 
+                type: 'value', 
+                name: 'Museums',
+                nameTextStyle: { color: '#ffffff' },
+                axisLabel: { color: '#ffffff' },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#444444' } }
+            },
+            series: [{
+                type: 'bar',
+                id: 'museumSeries',
+                data: museumCounts.map((value, index) => ({ value, groupId: cities[index] })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                itemStyle: { color: '#A0F2CC' },
+                animationDurationUpdate: 1500
+            }]
+        };
+        var museumScatterOption = {
+            title: { 
+                text: 'Number of Museums vs Museums per Hectare', 
+                left: 'center',
+                textStyle: { color: '#ffffff',
+                fontFamily: 'Bricolage Grotesque, sans-serif' ,
+                fontSize:12
+                 }
+            },
+            tooltip: {
+                formatter: function (params) {
+                    return cities[params.dataIndex] +
+                        '<br/>Museums per Hectare: ' + params.value[1].toFixed(6);
+                },
+                textStyle: { color: '#ffffff' }
+            },
+            xAxis: { 
+                type: 'category', 
+                data: cities, 
+                axisLabel: { 
+                    rotate: 30,
+                    color: '#ffffff'
+                },
+                axisLine: { lineStyle: { color: '#666666' } }
+            },
+            yAxis: { 
+                type: 'value', 
+                name: 'Museums per Hectare',
+                nameTextStyle: { color: '#ffffff' },
+                axisLabel: { color: '#ffffff' },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#444444' } }
+            },
+            series: [{
+                type: 'scatter',
+                id: 'museumSeries',
+                data: museumsPerHectare.map((value, index) => ({
+                    value: [cities[index], value],
+                    groupId: cities[index]
+                })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                symbolSize: 20,
+                itemStyle: { color: '#5EF275' },
+                animationDurationUpdate: 1500
+            }]
+        };
+
+        let currentMuseumOption = museumBarOption;
+        museumChart.setOption(currentMuseumOption);
+        setInterval(() => {
+            currentMuseumOption = currentMuseumOption === museumBarOption ? museumScatterOption : museumBarOption;
+            museumChart.setOption(currentMuseumOption, true);
+        }, 4000);
+
+        window.addEventListener('resize', function() {
+            museumChart.resize();
+        });
+    </script>
+</body>
+</html>

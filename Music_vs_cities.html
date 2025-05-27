@@ -2,101 +2,119 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Music Venues and Population per Venue</title>
+    <title>Music Venues Comparison</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        #main {
-            width: 800px;
-            height: 600px;
-            margin: 0 auto;
+        body {
+            background-color: #333432;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chart {
+            width: 397px;
+            height: 350px;
+            background-color: #333432;
+            border-radius: 8px;
+           
         }
     </style>
 </head>
 <body>
-    <div id="main"></div>
+    <div id="musicChart" class="chart"></div>
 
     <script>
-        var chartDom = document.getElementById('main');
-        var myChart = echarts.init(chartDom);
-        var option;
-
         const cities = [
             'London', 'Seoul', 'Melbourne', 'Paris', 'Amsterdam',
             'Montreal', 'Dublin', 'New York', 'Tokyo'
         ];
 
+        // Music Chart Data
         const musicVenues = [797, 81, 553, 430, 147, 42, 44, 453, 649];
-
         const populationPerVenue = [
             11295.46801, 123592.3827, 9329.495479, 28717.68605,
             5941.07483, 47720.69048, 30621.79545, 19034.65342, 21330.547
         ];
 
-        // Bar Chart: Number of music venues
-        const barOption = {
-            title: {
-                text: 'Number of Music Venues by City',
-                left: 'center'
+        // Music Chart Setup
+        var musicChartDom = document.getElementById('musicChart');
+        var musicChart = echarts.init(musicChartDom);
+        var musicBarOption = {
+            title: { 
+                text: 'Number of Music Venues vs Population per Music Venue', 
+                left: 'center',
+                textStyle: { color: '#ffffff',
+                fontFamily: 'Bricolage Grotesque, sans-serif' ,
+                fontSize:12
+                 }
             },
-            tooltip: {
-                trigger: 'axis',
-                axisPointer: { type: 'shadow' }
+            tooltip: { 
+                trigger: 'axis', 
+                axisPointer: { type: 'shadow' },
+                textStyle: { color: '#ffffff' }
             },
-            xAxis: {
-                type: 'category',
-                data: cities,
-                name: 'City',
-                axisLabel: {
-                    rotate: 30
-                }
+            xAxis: { 
+                type: 'category', 
+                data: cities, 
+                axisLabel: { 
+                    rotate: 30,
+                    color: '#ffffff'
+                },
+                axisLine: { lineStyle: { color: '#666666' } }
             },
-            yAxis: {
-                type: 'value',
-                name: 'Music Venues'
+            yAxis: { 
+                type: 'value', 
+                name: 'Music Venues',
+                nameTextStyle: { color: '#ffffff' },
+                axisLabel: { color: '#ffffff' },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#444444' } }
             },
             series: [{
                 type: 'bar',
                 id: 'venueSeries',
-                data: musicVenues.map((value, index) => ({
-                    value,
-                    groupId: cities[index]
-                })),
-                universalTransition: {
-                    enabled: true,
-                    delay: function (idx) {
-                        return Math.random() * 600;
-                    }
-                },
-                itemStyle: {
-                    color: '#800080' // Purple bars
-                },
+                data: musicVenues.map((value, index) => ({ value, groupId: cities[index] })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                itemStyle: { color: '#C79BF2' },
                 animationDurationUpdate: 1500
             }]
         };
-
-        // Scatter Chart: Population per music venue
-        const scatterOption = {
-            title: {
-                text: 'Population per Music Venue by City',
-                left: 'center'
+        var musicScatterOption = {
+            title: { 
+                text: 'Number of Music Venues vs Population per Music Venue', 
+                left: 'center',
+                textStyle: { color: '#ffffff',
+                fontFamily: 'Bricolage Grotesque, sans-serif' ,
+                fontSize:12
+                 }
             },
             tooltip: {
                 formatter: function (params) {
                     return cities[params.dataIndex] +
                         '<br/>Population per Venue: ' + params.value[1].toFixed(2);
-                }
+                },
+                textStyle: { color: '#ffffff' }
             },
-            xAxis: {
-                type: 'category',
-                data: cities,
-                name: 'City',
-                axisLabel: {
-                    rotate: 30
-                }
+            xAxis: { 
+                type: 'category', 
+                data: cities, 
+                axisLabel: { 
+                    rotate: 30,
+                    color: '#ffffff'
+                },
+                axisLine: { lineStyle: { color: '#666666' } }
             },
-            yAxis: {
-                type: 'value',
-                name: 'Population per Venue'
+            yAxis: { 
+                type: 'value', 
+                name: 'Population per Venue',
+                nameTextStyle: { color: '#ffffff' },
+                axisLabel: { color: '#ffffff' },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#444444' } }
             },
             series: [{
                 type: 'scatter',
@@ -105,28 +123,23 @@
                     value: [cities[index], value],
                     groupId: cities[index]
                 })),
-                universalTransition: {
-                    enabled: true,
-                    delay: function (idx) {
-                        return Math.random() * 600;
-                    }
-                },
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
                 symbolSize: 20,
-                itemStyle: {
-                    color: '#2ecc71' // Green scatter points
-                },
+                itemStyle: { color: '#7f8beb' },
                 animationDurationUpdate: 1500
             }]
         };
 
-        // Toggle between bar and scatter every 4 seconds
-        let currentOption = barOption;
-        myChart.setOption(currentOption);
+        let currentMusicOption = musicBarOption;
+        musicChart.setOption(currentMusicOption);
+        setInterval(() => {
+            currentMusicOption = currentMusicOption === musicBarOption ? musicScatterOption : musicBarOption;
+            musicChart.setOption(currentMusicOption, true);
+        }, 4000);
 
-        setInterval(function () {
-            currentOption = currentOption === barOption ? scatterOption : barOption;
-            myChart.setOption(currentOption, true);
-        }, 4000); // Slower transition (4 seconds)
+        window.addEventListener('resize', function() {
+            musicChart.resize();
+        });
     </script>
 </body>
 </html>

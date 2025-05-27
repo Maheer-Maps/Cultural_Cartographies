@@ -65,7 +65,6 @@
       
     }
 
-    /* Landing Title Section with Background */
     .title-section {
       height: 100vh;
       background: url('LandingCollage.png') center center / cover no-repeat;
@@ -76,9 +75,9 @@
     }
 
     .title {
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: 700;
-      color: #def4e3;
+      color: #ffffff;
       font-family: "Rubik Mono One", monospace;
       text-transform: uppercase;
     }
@@ -87,15 +86,9 @@
       background-color: #333432;
     }
 
-    h2 {
-      color: #5900FF;
-      font-weight: 600;
-      font-size: 2rem;
-    }
-
     p {
-      font-size: 1rem;
-      color: #000;
+      font-size: 1.2rem;
+      color: #ffffff;
     }
 
     .section-title {
@@ -103,7 +96,7 @@
   font-family: 'Bricolage Grotesque', sans-serif;
   text-transform: uppercase;
   color: #D9D9D9;
-  padding: 60px 40px 20px;
+  padding: 0px 40px 20px;
   margin: 0;
 }
 
@@ -125,6 +118,70 @@
   background-color: whitesmoke;
   color: black;
 }
+
+.city-network-wrapper {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 40px 0px 40px;
+  height: 90vh;
+  box-sizing: border-box;
+  color: white;
+}
+
+.city-network-left, .city-network-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.city-network-desc {
+  padding:0px 0px 10px 40px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 95%;
+  color: white;
+}
+
+.infographic-img {
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.two-column {
+  padding:20px 0px 10px 40px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "EB Garamond", serif;
+  color: white;
+}
+
+.two-column.reversed {
+  flex-direction: row-reverse !important;
+  flex-wrap: nowrap;
+}
+
+.music-chart {
+  width: 110%;
+  height: 50vh;
+  border: none;
+  margin-bottom: 20px;
+}
+
   </style>
 </head>
 <body>
@@ -153,38 +210,83 @@
   </section>
 
   <!-- City Network Section -->
-  <section id="citynetwork" style="padding: 10px; margin: 0;">
-    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
-
-      <h2 class="section-title">City Network</h2>
-
-  <!-- content here -->
-
+<section id="citynetwork" style="padding: 0; margin: 0;">
+  <div class="city-network-wrapper">
+    
+    <div class="city-network-left">
+      <h2 class="section-title ">LONDON'S CULTURAL NETWORK</h2>
+      <p class="city-network-desc">
+        Our web-analysis of London’s cultural network, visualises gaps in cultural infrastructure and data through a spatial-temporal lens. While existing maps—such as the Cultural Infrastructure Map by the Mayor of London and the Culture and Place Data Explorer by Arts Council England—offer valuable static overviews, they fail to reflect how London’s cultural landscape has shifted over time, particularly in the wake of COVID-19. Cultural consumption spaces experienced the greatest losses, prompting a targeted investigation into how access to culture has changed across both space and time begging the research question - 
+        <em>Is access to London cultural network equitable across time and geography?</em>
+      </p>
+      <img src="./diagram3.png" alt="Net Loss Bar Chart" class="infographic-img">
     </div>
-  </section>
+
+    <div class="city-network-right">
+      <img src="./diagram1.png" alt="Cultural Closures Donut Chart" class="infographic-img">
+      <img src="./diagram2.png" alt="Cultural Consumption Net Loss" class="infographic-img">
+    </div>
+
+  </div>
+</section>
 
   <!-- 2018-2023 -->
-  <section id="2018_2023" style="padding: 60px;">
-      <h2 class="section-title">2018-2023</h2>
-
-      <iframe src="./networkmap.html" style="width: 100%; height: 80vh; border: none;"></iframe>
-    </section>
-   
+<section id="2018_2023" style="padding: 60px;">
+  <h2 class="section-title">Cultural Network comparison</h2>
+  <div class="two-column">
+    <div class="column" style="flex: 2;">
+      <iframe src="./networkmap.html" style="width: 95%; height: 80vh; border: none;" id="mapFrame"></iframe>
     </div>
-  </section>
+    <div class="column" style="flex: 1;">
+      <div class="year-toggle">
+        <button class="chart-toggle-btn active" data-year="2018">2018</button>
+        <button class="chart-toggle-btn" data-year="2023">2023</button>
+      </div>
+      <p id="map-description">
+        <!-- Initial text for 2018 -->
+        The natural place to start a network study is to begin plotting a geographical network diagram. As we are investigating access to cultural infrastructure  and cultural typologies to see if London has equitable access we employed the 15 min cities theoretical framework to observe walkable (1km) cultural access across London and grouped the network by their typology (cinema/gallery/etc/etc). As the only verified cultural infrastructure data in London is the GLA data for 2018 and 2023 we began by plotting 2018 to then compare it with 2023 to observe changes in trends.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 2018-2023 - continuation -->
+<section id="2023_continuation" style="padding: 60px 60px 60px 60px;">
+  <div class="two-column reversed">
+    <div class="column">
+      <p>
+        <!-- New text for 2023 -->
+        In 2023, notable shifts have occurred. The expansion of cultural infrastructure is evident, with increased presence in outer boroughs. However, central London continues to show a denser network, reinforcing the concentration of cultural capital. This comparative analysis helps identify underserved areas and opportunities for more equitable cultural development.
+      </p>
+    </div>
+    <div class="column" style="flex: 2;">
+      <iframe src="./dotdiagram.html" style="width: 95%; height: 80vh; border: none;" id="dotMapFrame"></iframe>
+    </div>
+  </div>
+</section>
 
    <!-- London- cultural capital? -->
    <section id="capital" style="min-height: 100vh; padding: 60px;">
-    <h2 class="section-title">London – Cultural Capital?</h2>
-  
-    <!-- Toggle Buttons -->
-    <div class="d-flex justify-content-center gap-3 mb-4">
-      <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
-      <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+    <div class="city-network-wrapper">
+    
+      <div class="city-network-left">
+    <h2 class="section-title">London; A Global Cultural Benchmark?</h2>
+    <p class="city-network-desc">
+      Our web-analysis of London’s cultural network, visualises gaps in cultural infrastructure and data through a spatial-temporal lens. While existing maps—such as the Cultural Infrastructure Map by the Mayor of London and the Culture and Place Data Explorer by Arts Council England—offer valuable static overviews, they fail to reflect how London’s cultural landscape has shifted over time, particularly in the wake of COVID-19. Cultural consumption spaces experienced the greatest losses, prompting a targeted investigation into how access to culture has changed across both space and time begging the research question - 
+      <em>Is access to London cultural network equitable across time and geography?</em>
+    </p>
+    <img src="./cities.png" alt="Cities Diagram" class="infographic-img">
+  </div>
+
+
+    <div class="city-network-right">
+      <iframe src="./Music_vs_cities.html" class="music-chart" title="Music Network Map"></iframe>
+      <iframe src="./Museum_vs_cities.html" class="music-chart" title="Museum Network Map"></iframe>
     </div>
-  
-    <!-- Chart Container -->
-    <div id="main" style="width: 100%; height: 80vh;"></div>
+
+</div>
+
+   
   </section>
   
   
@@ -226,11 +328,18 @@
 
 
   <!-- Borough by borough -->
-  <section id="boroughs" style="padding: 60px;">
-    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
-      <h2 class="section-title">Borough by borough</h2>
+  <section id="boroughs" style="min-height: 100vh; padding: 60px;">
+    
+      <h2 class="section-title">Borough by borough breakdown</h2>
       <!-- content here -->
+<!-- Toggle Buttons -->
+<div class="d-flex justify-content-center gap-3 mb-4">
+  <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
+  <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+</div>
 
+<!-- Chart Container -->
+<div id="main" style="width: 100%; height: 80vh;"></div>
     </div>
   </section>
 
@@ -421,6 +530,32 @@ barViewBtn.addEventListener('click', function (e) {
 });
 </script>
 
+<script>
+  const buttons = document.querySelectorAll('.chart-toggle-btn');
+  const description = document.getElementById('map-description');
+  const mapFrame = document.getElementById('mapFrame');
+
+  const descriptions = {
+    "2018": `The natural place to start a network study is to begin plotting a geographical network diagram. As we are investigating access to cultural infrastructure  and cultural typologies to see if London has equitable access we employed the 15 min cities theoretical framework to observe walkable (1km) cultural access across London and grouped the network by their typology (cinema/gallery/etc/etc). As the only verified cultural infrastructure data in London is the GLA data for 2018 and 2023 we began by plotting 2018 to then compare it with 2023 to observe changes in trends.`,
+    "2023": `In 2023, the network reveals significant shifts in typologies and accessibility across London...`
+  };
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active class
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const year = btn.getAttribute('data-year');
+
+      // Update description text
+      description.textContent = descriptions[year];
+
+      // Send message to iframe to update the year
+      mapFrame.contentWindow.postMessage({ type: 'switchYear', year: year }, '*');
+    });
+  });
+</script>
 
 </body>
 </html>
