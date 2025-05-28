@@ -227,6 +227,18 @@
   border: none;
 }
 
+.wide-chart-container {
+  width: 70vh;
+  height: 60vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wide-chart-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
   </style>
 </head>
@@ -237,12 +249,12 @@
     <div class="dropdown">
       <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#citynetwork">City Network</a></li>
-        <li><a class="dropdown-item" href="#2018_2023">2018-2023</a></li>
-        <li><a class="dropdown-item" href="#capital">Cultural Capital?</a></li>
-        <li><a class="dropdown-item" href="#2017_2025">2017-2025</a></li>
-        <li><a class="dropdown-item" href="#boroughs">Borough by borough</a></li> 
-        <li><a class="dropdown-item" href="#inequitable">Inequitable Change</a></li>
+        <li><a class="dropdown-item" href="#citynetwork">London's Cultural network</a></li>
+        <li><a class="dropdown-item" href="#2018_2023">Cultural network comparison</a></li>
+        <li><a class="dropdown-item" href="#capital">London: A global cultural benchmark?</a></li>
+        <li><a class="dropdown-item" href="#2017_2025">spatio-temporal analysis</a></li>
+        <li><a class="dropdown-item" href="#boroughs">Borough by borough breakdown</a></li> 
+        <li><a class="dropdown-item" href="#inequitable">Inequitable Access</a></li>
         <li><a class="dropdown-item" href="#casestudies">Case Studies</a></li>
         <li><a class="dropdown-item" href="#process">Process and People</a></li>
 
@@ -306,7 +318,7 @@
       </p>
     </div>
     <div class="column" style="flex: 2;">
-      <iframe src="./dotdiagram.html" style="width: 95%; height: 80vh; border: none;" id="dotMapFrame"></iframe>
+      <iframe src="./dotdiagram2.html" style="width: 95%; height: 80vh; border: none;" id="dotMapFrame"></iframe>
     </div>
   </div>
 </section>
@@ -355,11 +367,25 @@
   </section>
 
 
-  <!-- Borough by borough -->
-  <section id="boroughs" style="min-height: 100vh; padding: 60px;">
-    
-      <h2 class="section-title">Borough by borough breakdown</h2>
-      <!-- content here -->
+ <!-- Borough by borough -->
+<section id="boroughs" style="height: 100vh; padding: 60px; display: flex; flex-direction: column; box-sizing: border-box;">
+
+  <!-- Section Title -->
+  <h2 class="section-title" style="margin-bottom: 20px;">Borough by borough breakdown</h2>
+
+  <!-- Description Text -->
+  <p class="city-network-desc" style="max-width: 900px; margin-bottom: 20px;">
+    This section explores how cultural infrastructure is distributed across London’s boroughs. The stacked bar chart provides a typology-based comparison per borough, helping to identify localised trends and disparities in cultural access.
+  </p>
+
+  <!-- Chart Fills Remaining Height -->
+  <div style="flex: 1;">
+    <iframe src="./stacked_bar.html" style="width: 100%; height: 100%; border: none;"></iframe>
+  </div>
+
+</section>
+
+</section>
 <!-- Toggle Buttons -->
 <div class="d-flex justify-content-center gap-3 mb-4">
   <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
@@ -367,16 +393,45 @@
 </div>
 
 <!-- Chart Container -->
-<div id="main" style="width: 100%; height: 80vh;"></div>
+<div id="main" style="width: 100%; height: 80vh; padding: 60px;"></div>
     </div>
   </section>
 
 
- <!-- Inequitable Change -->
-  <section id="inequitable" style="min-height: 100vh; padding: 60px;">
-  <h2 class="section-title">Inequitable Change</h2>
-  
+<!-- Inequitable Access - Page 1 -->
+<section id="inequitable" style="min-height: 100vh; padding: 60px;">
+  <h2 class="section-title">Inequitable Access</h2>
+  <div class="section-flex">
+    <!-- Left Column with Text -->
+    <div class="left-column">
+      <p class="city-network-desc">
+        Access to community services is not evenly distributed across the city. 
+        Certain neighborhoods benefit from a dense network of community centres, 
+        while others remain underserved. This chart shows disparities in access 
+        across different boroughs.
+      </p>
+    </div>
+
+    <div class="right-column">
+      <div class="wide-chart-container">
+        <iframe src="Community_centres.html"></iframe>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- Toggle Buttons -->
+<div class="d-flex justify-content-center gap-3 mb-4">
+  <a href="#" id="mapViewBtn2" class="chart-toggle-btn">Map View</a>
+  <a href="#" id="barViewBtn2" class="chart-toggle-btn">Bar Chart</a>
+</div>
+
+<!-- Chart Container -->
+<div id="main2" style="width: 100%; height: 80vh; padding: 60px;"></div>
+    </div>
+  </section>
+</section>
+
 
 
  <!-- Case studies -->
@@ -392,17 +447,20 @@
 
 </section>
 
+
        <!-- Subsection: Bromley -->
   <div style="height: 100vh;">
     <iframe src="./Bromley.html"
             style="width: 100%; height: 100%; border: none ;display: block;"></iframe>
   </div>
 
+
       <!-- Subsection: Hackney -->
   <div style="height: 100vh;">
     <iframe src="./Hackney.html"
             style="width: 100%; height: 100%; border: none; display: block;"></iframe>
   </div>
+
 
   <!-- Subsection: Hillingdon -->
   <div style="height: 100vh;">
@@ -415,10 +473,15 @@
 
   <!-- Process and People -->
   <section id="process" style="padding: 60px;">
-    <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 90vh; padding: 0;">
+   
       <h2 class="section-title">Process and People</h2>
       <!-- content here -->
 
+      <div style="height: 100vh;">
+        <iframe src="./Data.html"
+                style="width: 100%; height: 100%; border: none; display: block;"></iframe>
+      </div>
+    
     </div>
   </section>
 
@@ -470,6 +533,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const mapOption = {
   tooltip: {
     trigger: 'item',
+    formatter:'{b}: {c}', 
     backgroundColor: '#333432', 
     borderColor: '#ffffff', 
     borderWidth: 1, 
@@ -600,6 +664,190 @@ barViewBtn.addEventListener('click', function (e) {
     });
   });
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const chartDom2 = document.getElementById('main2');
+    const myChart2 = echarts.init(chartDom2);
+    myChart2.showLoading();
+  
+    const LONDON_GEOJSON_URL = 'https://raw.githubusercontent.com/radoi90/housequest-data/master/london_boroughs.geojson';
+  
+    $.get(LONDON_GEOJSON_URL, function (londonJson) {
+      myChart2.hideLoading();
+      echarts.registerMap('London2', londonJson); // Unique map name
+  
+      const data2 =  [
+    { name: 'Barking and Dagenham', value: 1 },
+    { name: 'Barnet', value: 3 },
+    { name: 'Bexley', value: 1 },
+    { name: 'Brent', value: 3 },
+    { name: 'Bromley', value: 3 },
+    { name: 'Camden', value: 14 },
+    { name: 'City of London', value: 2 },
+    { name: 'Croydon', value: 3 },
+    { name: 'Ealing', value: 1 },
+    { name: 'Enfield', value: 2 },
+    { name: 'Greenwich', value: 4 },
+    { name: 'Hackney', value: 5 },
+    { name: 'Hammersmith and Fulham', value: 4 },
+    { name: 'Haringey', value: 5 },
+    { name: 'Harrow', value: 1 },
+    { name: 'Havering', value: 1 },
+    { name: 'Hillingdon', value: 2 },
+    { name: 'Hounslow', value: 3 },
+    { name: 'Islington', value: 3 },
+    { name: 'Kensington and Chelsea', value: 7 },
+    { name: 'Kingston upon Thames', value: 1 },
+    { name: 'Lambeth', value: 7 },
+    { name: 'Lewisham', value: 2 },
+    { name: 'Merton', value: 2 },
+    { name: 'Newham', value: 2 },
+    { name: 'Redbridge', value: 2 },
+    { name: 'Richmond upon Thames', value: 3 },
+    { name: 'Southwark', value: 7 },
+    { name: 'Sutton', value: 0 },
+    { name: 'Tower Hamlets', value: 6 },
+    { name: 'Waltham Forest', value: 0 },
+    { name: 'Wandsworth', value: 3 },
+    { name: 'Westminster', value: 20 }
+  ];
+
+  const bardata2 = [
+    { name: 'Barking and Dagenham', value: 0.069 },
+    { name: 'Barnet', value: 0.177 },
+    { name: 'Bexley', value: 0.061 },
+    { name: 'Brent', value: 0.196 },
+    { name: 'Bromley', value: 0.154 },
+    { name: 'Camden', value: 0.77 },
+    { name: 'City of London', value: 0.218 },
+    { name: 'Croydon', value: 0.175 },
+    { name: 'Ealing', value: 0.062 },
+    { name: 'Enfield', value: 0.131 },
+    { name: 'Greenwich', value: 0.225 },
+    { name: 'Hackney', value: 0.276 },
+    { name: 'Hammersmith and Fulham', value: 0.211 },
+    { name: 'Haringey', value: 0.29 },
+    { name: 'Harrow', value: 0.063 },
+    { name: 'Havering', value: 0.059 },
+    { name: 'Hillingdon', value: 0.122 },
+    { name: 'Hounslow', value: 0.192 },
+    { name: 'Islington', value: 0.156 },
+    { name: 'Kensington and Chelsea', value: 0.364 },
+    { name: 'Kingston upon Thames', value: 0.058 },
+    { name: 'Lambeth', value: 0.37 },
+    { name: 'Lewisham', value: 0.119 },
+    { name: 'Merton', value: 0.117 },
+    { name: 'Newham', value: 0.133 },
+    { name: 'Redbridge', value: 0.126 },
+    { name: 'Richmond upon Thames', value: 0.154 },
+    { name: 'Southwark', value: 0.374 },
+    { name: 'Sutton', value: 0 },
+    { name: 'Tower Hamlets', value: 0.33 },
+    { name: 'Waltham Forest', value: 0 },
+    { name: 'Wandsworth', value: 0.15 },
+    { name: 'Westminster', value: 1 }
+  ];
+
+
+  
+  const mapOption2 = {
+      tooltip: {
+        trigger: 'item',
+        formatter: '{b}: {c}',  // ✅ clean label without "series0:"
+        backgroundColor: '#333432',
+        borderColor: '#ffffff',
+        borderWidth: 1,
+        textStyle: { color: '#fff', fontFamily: 'Bricolage Grotesque' },
+        extraCssText: 'border-radius: 10px; padding: 10px;'
+      },
+      visualMap: {
+        left: 'right',
+        min: 0,
+        max: 20, 
+        inRange: {
+      color: ['#C79BF2', '#C8C2F2', '#C4E5F2', '#A0F2CC', '#5EF275'] 
+    },
+        text: ['High', 'Low'],
+        calculable: true,
+        textStyle: {
+          color: '#ffffff',
+          fontFamily: 'Bricolage Grotesque',
+          fontSize: 14
+        }
+      },
+      series: [{
+        id: 'chart2_map',
+        type: 'map',
+        roam: false,
+        map: 'London2',
+        data: data2,
+        emphasis: {
+      itemStyle: {
+        areaColor: '#ffffff' // 👈 This sets the hover color to white
+      }, label: {
+        color: '#000000', // Optional: makes the label text black on hover
+        fontFamily: 'Bricolage Grotesque'
+      }
+    }
+      }]
+    };
+
+    const barOption2 = {
+      tooltip: {
+        trigger: 'axis',
+        formatter: function (params) {
+          return `${params[0].name}: ${params[0].value}`;
+        }
+      },
+      textStyle: {
+        color: '#ffffff',
+        fontFamily: 'Bricolage Grotesque',
+        fontSize: 12
+      },
+      xAxis: { type: 'value' },
+      yAxis: {
+        type: 'category',
+        axisLabel: { rotate: 30 },
+        data: bardata2.map(d => d.name)
+      },
+      series: [{
+        id: 'chart2_bar',
+        type: 'bar',
+        data: bardata2.map(d => d.value),
+        itemStyle: {
+          color: (params) => params.value < 0.1 ? '#A9BED9' : '#C79BF2'
+        }
+      }]
+    };
+
+    let currentView2 = 'map';
+    myChart2.setOption(mapOption2);
+
+    // Toggle buttons logic
+    const mapViewBtn2 = document.getElementById('mapViewBtn2');
+    const barViewBtn2 = document.getElementById('barViewBtn2');
+
+    mapViewBtn2.addEventListener('click', function (e) {
+      e.preventDefault();
+      myChart2.setOption(mapOption2, true);
+      currentView2 = 'map';
+      mapViewBtn2.classList.add('active');
+      barViewBtn2.classList.remove('active');
+    });
+
+    barViewBtn2.addEventListener('click', function (e) {
+      e.preventDefault();
+      myChart2.setOption(barOption2, true);
+      currentView2 = 'bar';
+      barViewBtn2.classList.add('active');
+      mapViewBtn2.classList.remove('active');
+    });
+  });
+});
+</script>
+  </script>
+  
 
 </body>
 </html>

@@ -23,21 +23,36 @@ html, body {
       background-color: #333432;
       overflow: hidden;
     }
-    .switch {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      border: 1px solid white;
-      padding: 6px 15px;
-      border-radius: 20px;
-      background-color: transparent;
-      font-size: 0.85rem;
-      cursor: pointer;
-      z-index: 10;
-      font-family: "Bricolage Grotesque", sans-serif;
-      color:white;
-      text-transform: uppercase;
-    }
+
+    .year-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+
+
+.year-btn {
+  border: 1px solid white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+    .year-btn.active {
+  background-color: white;
+  color: black;
+}
+
+
     .tooltip {
       position: absolute;
       background: #333432;
@@ -52,10 +67,12 @@ html, body {
   </style>
 </head>
 <body>
-  <div class="switch" onclick="toggleYear()">Switch to 2023</div>
-  <svg></svg>
-  <div class="tooltip" id="tooltip"></div>
-
+    <div class="year-toggle">
+        <button class="year-btn" id="btn2018" onclick="setYear('2018')">2018</button>
+        <button class="year-btn" id="btn2023" onclick="setYear('2023')">2023</button>
+      </div>
+      <svg></svg>
+      <div class="tooltip" id="tooltip"></div>
   <script>
     let discontinuedCategories = [
       "Live in Artists' Workspace",
@@ -76,19 +93,22 @@ html, body {
     let colorScale;
 
     function buildColorScale(categories) {
-      const n = categories.length;
-      const tValues = Array.from({ length: n }, (_, i) => i / (n - 1));
-      for (let i = tValues.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [tValues[i], tValues[j]] = [tValues[j], tValues[i]];
-      }
-      const categoryMap = new Map();
-      categories.sort();
-      categories.forEach((cat, i) => {
-        categoryMap.set(cat, gradient(tValues[i]));
-      });
-      colorScale = d => categoryMap.get(d);
-    }
+  // Sort alphabetically for consistency
+  const sortedCategories = [...categories].sort();
+  const n = sortedCategories.length;
+
+  // Create evenly spaced values between 0 and 1
+  const tValues = sortedCategories.map((_, i) => i / (n - 1));
+
+  // Map each category to a color based on its index
+  const categoryMap = new Map();
+  sortedCategories.forEach((cat, i) => {
+    categoryMap.set(cat, gradient(tValues[i]));
+  });
+
+  colorScale = d => categoryMap.get(d);
+}
+
 
     let year = "2018";
     let allData = { "2018": [], "2023": [] };
@@ -251,7 +271,19 @@ cachedLayout = { columns, rows, stepX, stepY, circleRadius, offsetX, offsetY };
       render();
     }
 
+    function setYear(selectedYear) {
+  year = selectedYear;
+  render();
+
+  // Toggle button appearance
+  document.getElementById("btn2018").classList.toggle("active", year === "2018");
+  document.getElementById("btn2023").classList.toggle("active", year === "2023");
+}
+
+
     loadCSVData();
+
+    setYear("2018");
   </script>
 </body>
 </html>

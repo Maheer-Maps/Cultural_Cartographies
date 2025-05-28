@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Transparency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #333333;
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr auto;
+      height: 100vh;
+      box-sizing: border-box;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .box {
+      background-color: #333333;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #title-box h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    #graphs-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #map-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      width: 100%;
+    }
+
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .buttons-container a {
+      text-decoration: none;
+      padding: 10px 15px;
+      background-color: #555;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .buttons-container a:hover {
+      background-color: #88F298;
+      color: #333;
+    }
+
+    #bottom-section {
+      grid-column: span 2;
+      height: 50vh;
+    }
+
+    .graph-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .graph-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="title-box">
+    <h1>Data Transparency</h1>
+    <p>Explore key datasets about London's boroughs and infrastructure.</p>
+  </div>
+
+  <div class="box" id="graphs-box">
+    <div id="map-title">Explore London Data Sources</div>
+    <div class="buttons-container">
+      <a href="https://data.london.gov.uk/dataset/earnings-place-residence-borough" target="_blank">INCOME DATA</a>
+      <a href="https://data.london.gov.uk/dataset/land-area-and-population-density-ward-and-borough" target="_blank">POPULATION DATA</a>
+      <a href="https://data.london.gov.uk/dataset/cultural-infrastructure-map" target="_blank">CULTURAL INFRASTRUCTURE DATA</a>
+      <a href="https://worldcitiescultureforum.com/cities/?_gl=1*iqrlto*_up*MQ..*_ga*ODEzMTE4NTAzLjE3NDg0MjkxNDQ.*_ga_0RH3RGNJVS*czE3NDg0MjkxNDMkbzEkZzAkdDE3NDg0MjkxNDMkajYwJGwwJGgw" target="_blank">WORLD CULTURAL CITIES FORUM</a>
+      <a href="https://overpass-turbo.eu/" target="_blank">OVER-PASS TURBO</a>
+    </div>
+  </div>
+
+  <div class="box" id="bottom-section">
+    <div class="graph-container">
+      <img src="DATA_DIAGRAM.png" alt="Data Diagram">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Access to Community Centres per London Borough</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #333432;
+            color: white;
+            font-family: "Bricolage Grotesque", sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .chart-container {
+            width: 100%;
+            max-width: 2000px;
+            height: 600px;
+            background-color:transparent;
+            margin-top: 20px;
+        }
+        .chart-title {
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: "Bricolage Grotesque", sans-serif;
+        }
+        .description {
+            max-width: 900px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="communityChart" class="chart-container"></div>
+
+    <script>
+        const boroughs = [
+            'Barking and Dagenham', 'Barnet', 'Bexley', 'Brent', 'Bromley',
+            'Camden', 'City of London', 'Croydon', 'Ealing', 'Enfield',
+            'Greenwich', 'Hackney', 'Hammersmith and Fulham', 'Haringey', 'Harrow',
+            'Havering', 'Hillingdon', 'Hounslow', 'Islington', 'Kensington and Chelsea',
+            'Kingston upon Thames', 'Lambeth', 'Lewisham', 'Merton', 'Newham',
+            'Redbridge', 'Richmond upon Thames', 'Southwark', 'Sutton', 'Tower Hamlets',
+            'Waltham Forest'
+        ];
+
+        // Community Centre Data
+        const communityCentres = [27, 13, 17, 19, 21, 110, 2, 12, 26, 13,
+                                 27, 90, 34, 28, 11, 22, 27, 21, 60, 18,
+                                 14, 54, 9, 11, 18, 7, 11, 30, 10, 42, 32, 34];
+        const centresPerPopulationHectare = [
+            2.181481481, 3.523076923, 2.429411765, 4.1, 1.057142857,
+            1.053636364, 13.25, 3.766666667, 2.430769231, 3.215384615,
+            2.240740741, 1.643333333, 3.3, 3.428571429, 4.6, 1.040909091,
+            0.992592593, 2.366666667, 2.673333333, 7.3, 3.442857143,
+            2.312962963, 9.811111111, 5.063636364, 5.422222222, 7.742857143,
+            3.154545455, 3.723333333, 4.73, 3.819047619, 2.284375, 2.785294118, 3.482352941
+        ];
+
+        // Community Chart Setup
+        var communityChartDom = document.getElementById('communityChart');
+        var communityChart = echarts.init(communityChartDom);
+        
+        // Enhanced options with better tooltips and styling
+        var communityBarOption = {
+            title: { 
+                text: 'Number of Community Centres by London Borough', 
+                left: 'center',
+                textStyle: { 
+                    color: '#ffffff',
+                    fontSize: 18,
+                    fontWeight: 'bold',
+                    fontFamily:'Bricolage Grotesque, sans-serif' ,
+
+                }
+            },
+            tooltip: { 
+                trigger: 'axis', 
+                axisPointer: { type: 'shadow' },
+                backgroundColor: '#ffffff',
+                textStyle: { color: '#333333' },
+                formatter: function(params) {
+                    return `<strong style="color:#333333">${params[0].name}</strong><br/>
+                            Community Centres: ${params[0].value.toLocaleString()}`;
+                }
+            },
+            xAxis: { 
+                type: 'category', 
+                data: boroughs, 
+                axisLabel: { 
+                    rotate: 45,
+                    color: '#ffffff',
+                    fontSize: 10,
+                    interval: 0,
+                    formatter: function(value) {
+                        // Shorten long borough names for better display
+                        if (value === 'Barking and Dagenham') return 'Barking & Dag.';
+                        if (value === 'Hammersmith and Fulham') return 'Hammersmith & Ful.';
+                        if (value === 'Kensington and Chelsea') return 'Kensington & Chel.';
+                        if (value === 'Richmond upon Thames') return 'Richmond';
+                        if (value.length > 12) return value.substring(0, 10) + '...';
+                        return value;
+                    }
+                },
+                axisLine: { lineStyle: { color: '#666666' } },
+                axisTick: { alignWithLabel: true }
+            },
+            yAxis: { 
+                type: 'value', 
+                name: 'Number of Community Centres',
+                nameTextStyle: { 
+                    color: '#ffffff',
+                    padding: [0, 0, 0, 40]
+                },
+                axisLabel: { 
+                    color: '#ffffff',
+                    formatter: function(value) {
+                        return value.toLocaleString();
+                    }
+                },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#555555' } }
+            },
+            series: [{
+                type: 'bar',
+                id: 'centreSeries',
+                data: communityCentres.map((value, index) => ({ 
+                    value, 
+                    groupId: boroughs[index],
+                    itemStyle: {
+                        color: index % 2 === 0 ? '#C4E5F2' : '#81B9E4'
+                    }
+                })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                animationDurationUpdate: 1500,
+                label: {
+                    show: false // Removed numbers on top of bars
+                }
+            }],
+            grid: {
+                left: '10%',
+                right: '5%',
+                bottom: '25%',
+                top: '20%',
+                containLabel: true
+            }
+        };
+
+        var communityScatterOption = {
+            title: { 
+                text: 'Community Centres per Population per Hectare', 
+                left: 'center',
+                textStyle: { 
+                    color: '#ffffff',
+                    fontSize: 18,
+                    fontWeight: 'bold',
+                    fontFamily:'Bricolage Grotesque, sans-serif',
+                }
+            },
+            tooltip: {
+                trigger: 'item',
+                backgroundColor: '#ffffff',
+                textStyle: { color: '#333333' },
+                formatter: function (params) {
+                    return `<strong style="color:#333333">${params.name}</strong><br/>
+                            Centres per Pop./Hectare: ${params.value[1].toFixed(2)}`;
+                }
+            },
+            xAxis: { 
+                type: 'category', 
+                data: boroughs, 
+                axisLabel: { 
+                    rotate: 45,
+                    color: '#ffffff',
+                    fontSize: 10,
+                    interval: 0,
+                    formatter: function(value) {
+                        if (value === 'Barking and Dagenham') return 'Barking & Dag.';
+                        if (value === 'Hammersmith and Fulham') return 'Hammersmith & Ful.';
+                        if (value === 'Kensington and Chelsea') return 'Kensington & Chel.';
+                        if (value === 'Richmond upon Thames') return 'Richmond';
+                        if (value.length > 12) return value.substring(0, 10) + '...';
+                        return value;
+                    }
+                },
+                axisLine: { lineStyle: { color: '#666666' } },
+                axisTick: { alignWithLabel: true }
+            },
+            yAxis: { 
+                type: 'value', 
+                name: 'Centres per Population per Hectare',
+                nameTextStyle: { 
+                    color: '#ffffff',
+                    padding: [0, 0, 0, 40]
+                },
+                axisLabel: { 
+                    color: '#ffffff',
+                    formatter: function(value) {
+                        return value.toFixed(2);
+                    }
+                },
+                axisLine: { lineStyle: { color: '#666666' } },
+                splitLine: { lineStyle: { color: '#555555' } }
+            },
+            series: [{
+                type: 'scatter',
+                id: 'centreSeries',
+                data: centresPerPopulationHectare.map((value, index) => ({
+                    name: boroughs[index],
+                    value: [boroughs[index], value],
+                    groupId: boroughs[index]
+                })),
+                universalTransition: { enabled: true, delay: idx => Math.random() * 600 },
+                symbolSize: function(data) {
+                    return Math.min(30, Math.max(10, data[1] * 2));
+                },
+                itemStyle: { 
+                    color: '#7f8beb', // Changed dots color
+                    opacity: 0.8
+                },
+                animationDurationUpdate: 1500,
+                label: {
+                    show: false // Removed labels on dots
+                },
+                emphasis: {
+                    itemStyle: {
+                        color: '#7f8beb',
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(127, 139, 235, 0.5)'
+                    }
+                }
+            }],
+            grid: {
+                left: '10%',
+                right: '5%',
+                bottom: '25%',
+                top: '20%',
+                containLabel: true
+            }
+        };
+
+        let currentCommunityOption = communityBarOption;
+        communityChart.setOption(currentCommunityOption);
+        
+        // Add transition animation with smooth timing
+        setInterval(() => {
+            currentCommunityOption = currentCommunityOption === communityBarOption ? communityScatterOption : communityBarOption;
+            communityChart.setOption(currentCommunityOption, {
+                notMerge: true,
+                lazyUpdate: true
+            });
+        }, 5000);
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            communityChart.resize();
+        });
+    </script>
+</body>
+</html>
