@@ -25,22 +25,18 @@
 
     .box {
       background-color: #333432;
-      border-radius: 10px;
       padding: 40px;
       display: flex;
       flex-direction: column;
       color: white;
-      /* Make sure boxes don't overflow */
       overflow: hidden;
     }
-
-    #title-box {
-}
 
     #graphs-box {
       position: relative;
       display: flex;
       flex-direction: column;
+      height: 120%;
     }
 
     #map-title {
@@ -60,6 +56,7 @@
       /* Map chart container fills available space below title */
       flex-grow: 1;
       margin-top: 40px;
+      
   
     }
 
@@ -227,10 +224,10 @@
           name: name,
           value: rawData[i],
           itemStyle: {
-            color: getColor(rawData[i]),
-            borderColor: name === "Bromley" ? "#FFFFFF" : "#666666",
-            borderWidth: name === "Bromley" ? 3 : 1,
-          },
+  color: getColor(rawData[i]),
+  borderColor: name === "Bromley" ? "#63F26D" : undefined, // green for Bromley only
+  borderWidth: name === "Bromley" ? 4 : undefined           // thicker border for Bromley
+},
           tooltipData:
             name +
             "<br/><span style='color:#333333'>Change: " +
@@ -252,7 +249,7 @@
           borderWidth: 1,
           textStyle: {
             color: "#333333",
-            fontFamily: "Poppins",
+            fontFamily: "Bricolage Grotesque",
           },
         },
         visualMap: {
@@ -262,11 +259,12 @@
           {
             id: "cinema_change",
             type: "map",
-            roam: true,
+            roam: false,
             map: "London",
             data: data,
             itemStyle: {
-              borderColor: "#666666",
+              borderColor: "white",
+              borderWidth:0.5,
             },
             emphasis: {
               itemStyle: {
@@ -281,7 +279,7 @@
             },
             label: {
               color: "white",
-              fontFamily: "Poppins",
+              fontFamily: "Bricolage Grotesque",
             },
           },
         ],
@@ -326,7 +324,7 @@
           left: "center",
           textStyle: {
             color: "white",
-            fontFamily: "Poppins",
+            fontFamily: "Bricolage Grotesque",
             fontSize: 18,
             fontWeight: 600,
           },
@@ -334,7 +332,7 @@
         tooltip: {
           trigger: "axis",
           axisPointer: { type: "shadow" },
-          textStyle: { fontFamily: "Poppins" },
+          textStyle: { fontFamily: "Bricolage Grotesque" },
         },
         xAxis: {
           type: "category",
@@ -343,8 +341,8 @@
           nameLocation: "middle",
           nameGap: 30,
           axisLine: { lineStyle: { color: "#ccc" } },
-          axisLabel: { color: "white", fontFamily: "Poppins" },
-          nameTextStyle: { color: "white", fontFamily: "Poppins", fontSize: 14 },
+          axisLabel: { color: "white", fontFamily: "Bricolage Grotesque" },
+          nameTextStyle: { color: "white", fontFamily: "Bricolage Grotesque", fontSize: 14 },
         },
         yAxis: {
           type: "value",
@@ -355,8 +353,8 @@
           nameGap: 50,
           axisLine: { lineStyle: { color: "#ccc" } },
           splitLine: { lineStyle: { color: "#555" } },
-          axisLabel: { color: "white", fontFamily: "Poppins" },
-          nameTextStyle: { color: "white", fontFamily: "Poppins", fontSize: 14 },
+          axisLabel: { color: "white", fontFamily: "Bricolage Grotesque" },
+          nameTextStyle: { color: "white", fontFamily: "Bricolage Grotesque", fontSize: 14 },
         },
         series: [
           {
