@@ -1,185 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borough: Bromley</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Cormorant", serif;
-            background-color: #333333;
-            color: white;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            height: 100vh;
-            box-sizing: border-box;
-            gap: 10px;
-            padding: 10px;
-        }
-        
-        .box {
-            background-color: #333333;
-            border-radius: 10px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            color: white;
-            border: 1px solid #555;
-        }
-        
-        #title-box {
-        }
-        
-        #photo-box {
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #graphs-box {
-        }
-        
-        #quote-box {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .graph-container {
-            width: 100%;
-            height: 45%;
-        }
-        
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        
-        #quote {
-            font-size: 1.8rem;
-            font-style: italic;
-            font-weight: 600;
-            max-width: 80%;
-        }
-        
-        .photo-placeholder {
-            width: 80%;
-            height: 80%;
-            background-color: rgba(255,255,255,0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 5px;
-            font-size: 1.2rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Borough: Hillingdon</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #333333;
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr auto;
+      height: 100vh;
+      box-sizing: border-box;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .box {
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #555;  <-- removed */
+}
+
+
+    #title-box h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    #graphs-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #map-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      width: 100%;
+    }
+
+    #comparison-map {
+      width: 100%;
+      height: 100%;
+      flex-grow: 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    #bottom-section {
+      grid-column: span 2;
+      height: 50vh; /* HALF viewport height */
+    }
+
+    .graph-container {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-    <div class="box" id="title-box">
-        <h1>Borough: Hillingdon</h1>
-        <p>The text will go here</p>
-    </div>
-    
-    <div class="box" id="graphs-box">
-        <div class="graph-container" id="graph1"></div>
-        <div class="graph-container" id="graph2"></div>
-    </div>
-    
-    <div class="box" id="photo-box">
-        <div class="photo-placeholder">Photo would go here</div>
-    </div>
-    
-    <div class="box" id="quote-box">
-        <p id="quote">"Museums and galleries have seen an 8% decline since the last data capture."</p>
-    </div>
+  <div class="box" id="title-box">
+    <h1>Borough: Hillingdon</h1>
+    <p>The text will go here</p>
+  </div>
 
-    <script>
-        // Initialize charts
-        const chart1 = echarts.init(document.getElementById('graph1'));
-        const chart2 = echarts.init(document.getElementById('graph2'));
-        
-        // Chart 1 options
-        const option1 = {
-            title: {
-                text: 'Cultural Visits Trend',
-                left: 'center',
-                textStyle: {
-                    color: 'white'
-                }
-            },
-            tooltip: {},
-            xAxis: {
-                type: 'category',
-                data: ['2018', '2019', '2020', '2021', '2022'],
-                axisLabel: {
-                    color: 'white'
-                }
-            },
-            yAxis: {
-                type: 'value',
-                axisLabel: {
-                    color: 'white'
-                }
-            },
-            series: [{
-                data: [120, 200, 150, 80, 70],
-                type: 'bar',
-                itemStyle: {
-                    color: '#5EF275'
-                }
-            }]
+  <div class="box" id="graphs-box">
+    <div id="map-title">Libraries Rate of Change: Hillingdon Vs London Average (2017-2025)</div>
+    <div class="graph-container" id="comparison-map"></div>
+  </div>
+
+  <div class="box" id="bottom-section">
+    <div class="graph-container" id="main-graph"></div>
+  </div>
+
+  <script>
+    // Replace bar chart with map in the top right
+
+    const mapDom = document.getElementById('comparison-map');
+    const mapChart = echarts.init(mapDom);
+
+    mapChart.showLoading();
+
+    const LONDON_GEOJSON_URL = "https://raw.githubusercontent.com/radoi90/housequest-data/master/london_boroughs.geojson";
+
+    $.get(LONDON_GEOJSON_URL, function (londonJson) {
+      mapChart.hideLoading();
+
+      echarts.registerMap("London", londonJson);
+
+      var allBoroughs = [
+        "Barking and Dagenham",
+        "Barnet",
+        "Bexley",
+        "Brent",
+        "Bromley",
+        "Camden",
+        "City of London",
+        "Croydon",
+        "Ealing",
+        "Enfield",
+        "Greenwich",
+        "Hackney",
+        "Hammersmith and Fulham",
+        "Haringey",
+        "Harrow",
+        "Havering",
+        "Hillingdon",
+        "Hounslow",
+        "Islington",
+        "Kensington and Chelsea",
+        "Kingston upon Thames",
+        "Lambeth",
+        "Lewisham",
+        "Merton",
+        "Newham",
+        "Redbridge",
+        "Richmond upon Thames",
+        "Southwark",
+        "Sutton",
+        "Tower Hamlets",
+        "Waltham Forest",
+        "Wandsworth",
+        "Westminster",
+      ];
+
+      var data = allBoroughs.map(function (name) {
+        return {
+          name: name,
+          value: name === "Hillingdon" ? 0.17 : -0.06,
+          itemStyle: {
+            color: name === "Hillingdon" ? "#88F298" : "#444444",
+          },
+          tooltipData:
+            name === "Hillingdon"
+              ? "Hillingdon<br/><span style='color:#333333'>Change: 0.17</span>"
+              : "London Average: -0.06%",
         };
-        
-        // Chart 2 options
-        const option2 = {
-            title: {
-                text: 'Visitor Demographics',
-                left: 'center',
-                textStyle: {
-                    color: 'white'
-                }
+      });
+
+      const mapOption = {
+        tooltip: {
+          trigger: "item",
+          formatter: function (params) {
+            return (
+              "<strong style='color:#333333'>" + params.data.tooltipData + "</strong>"
+            );
+          },
+          backgroundColor: "#ffffff",
+          borderColor: "#999999",
+          borderWidth: 1,
+          textStyle: {
+            color: "#333333",
+            fontFamily: "Poppins",
+          },
+        },
+        visualMap: {
+          show: false, // Disable auto-coloring
+        },
+        series: [
+          {
+            id: "libraries_change",
+            type: "map",
+            roam: true,
+            map: "London",
+            data: data,
+            itemStyle: {
+              borderColor: "#666666",
             },
-            tooltip: {
-                trigger: 'item'
+            emphasis: {
+              itemStyle: {
+                areaColor: "#555555",
+              },
+              label: {
+                color: "white",
+              },
             },
-            series: [
-                {
-                    name: 'Age Groups',
-                    type: 'pie',
-                    radius: '70%',
-                    data: [
-                        { value: 35, name: '18-25', itemStyle: { color: '#5EF275' } },
-                        { value: 30, name: '26-35', itemStyle: { color: '#A0F2CC' } },
-                        { value: 25, name: '36-50', itemStyle: { color: '#C4E5F2' } },
-                        { value: 10, name: '51+', itemStyle: { color: '#C8C2F2' } }
-                    ],
-                    label: {
-                        color: 'white'
-                    },
-                    emphasis: {
-                        itemStyle: {
-                            shadowBlur: 10,
-                            shadowOffsetX: 0,
-                            shadowColor: 'rgba(0, 0, 0, 0.5)'
-                        }
-                    }
-                }
-            ]
-        };
-        
-        // Set options for charts
-        chart1.setOption(option1);
-        chart2.setOption(option2);
-        
-        // Handle window resize
-        window.addEventListener('resize', function() {
-            chart1.resize();
-            chart2.resize();
-        });
-    </script>
+            label: {
+              color: "white",
+              fontFamily: "Poppins",
+            },
+          },
+        ],
+      };
+
+      mapChart.setOption(mapOption);
+    });
+
+
+    // Bottom Full-Width Graph: Financial Access Index (scatter plot)
+    const chartDom = document.getElementById('main-graph');
+    const myChart = echarts.init(chartDom);
+
+    const boroughs = [
+      'Barking and Dagenham', 'Barnet', 'Bexley', 'Brent', 'Bromley', 'Camden',
+      'Croydon', 'Ealing', 'Enfield', 'Greenwich', 'Hackney', 'Hammersmith and Fulham',
+      'Haringey', 'Harrow', 'Havering', 'Hillingdon', 'Hounslow', 'Islington',
+      'Kensington and Chelsea', 'Kingston upon Thames', 'Lambeth', 'Lewisham',
+      'Merton', 'Newham', 'Redbridge', 'Richmond upon Thames', 'Southwark',
+      'Sutton', 'Tower Hamlets', 'Waltham Forest', 'Wandsworth', 'Westminster'
+    ];
+
+    const financialAccessIndex = [
+      0.009789525, 0.022390148, 0.017281106, 0.013927577, 0.015874954, 0.015653535,
+      0.0194094, 0.018983645, 0.026307645, 0.018676628, 0.011803279, 0.007514089,
+      0.012366035, 0.010460251, 0.014068655, 0.024641252, 0.016684362, 0.012327416,
+      0.008640909, 0.009623316, 0.011286682, 0.016987542, 0.009700665, 0.015725743,
+      0.019431988, 0.015776699, 0.01521684, 0.010978455, 0.010437052, 0.013933398,
+      0.013043994, 0.013043994
+    ];
+
+    const librariesCount = [
+      6, 16, 12, 9, 13, 12,
+      14, 13, 17, 14, 9, 6,
+      9, 7, 10, 17, 11, 10,
+      7, 7, 9, 12, 7, 10,
+      13, 13, 12, 8, 8, 10,
+      11, 11
+    ];
+
+    const dataScatter = boroughs.map((borough, index) => ({
+      value: [index, financialAccessIndex[index], librariesCount[index]],
+      name: borough,
+      itemStyle: {
+        color: borough === 'Hillingdon' ? '#88F298' : '#ffffff'
+      }
+    }));
+
+    const scatterOption = {
+      title: {
+        text: 'Financial Inaccessibility Index and Library Availability Across Boroughs (2023)',
+        subtext: 'Height = Level on Financial Inaccessability  |  Size = Number of Libraries',
+        left: 'center',
+        top: 10,
+        textStyle: { color: 'white' },
+        subtextStyle: { color: '#ccc' }
+      },
+      tooltip: {
+        formatter: function (params) {
+          return `<strong>${params.data.name}</strong><br/>
+                  Financial Inaccess Index: ${params.data.value[1].toFixed(6)}<br/>
+                  Number of Libraries: ${params.data.value[2]}`;
+        }
+      },
+      grid: {
+        left: '5%',
+        right: '5%',
+        bottom: '15%',
+        top: '25%'
+      },
+      xAxis: {
+        type: 'category',
+        name: 'Boroughs',
+        nameGap: 30,
+        axisLabel: {
+          interval: 0,
+          rotate: 45,
+          fontSize: 10,
+          color: 'white'
+        },
+        data: boroughs
+      },
+      yAxis: {
+        type: 'value',
+        name: 'Financial Access Index',
+        nameGap: 30,
+        axisLabel: {
+          color: 'white'
+        }
+      },
+      series: [{
+        type: 'scatter',
+        symbolSize: function (data) {
+          return data[2] * 4;
+        },
+        data: dataScatter,
+        emphasis: {
+          itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(0, 0, 0, 0.5)'
+          }
+        }
+      }]
+    };
+
+    myChart.setOption(scatterOption);
+
+    // Resize charts on window resize
+    window.addEventListener('resize', function () {
+      mapChart.resize();
+      myChart.resize();
+    });
+  </script>
 </body>
 </html>

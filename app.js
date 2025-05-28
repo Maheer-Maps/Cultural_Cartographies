@@ -155,23 +155,15 @@ function updateMapForYear(year) {
     yearDisplay.textContent = year;
 }
 
-// Set up controls with slider
 function setupControls() {
-    // Remove old buttons
-    const controlsDiv = document.getElementById('controls');
-    controlsDiv.innerHTML = '';
-    
-    // Create slider
-    slider.type = 'range';
+    const prevButton = document.getElementById('prev-button');
+    const nextButton = document.getElementById('next-button');
+    const slider = document.getElementById('year-slider');
+
     slider.min = '0';
     slider.max = (years.length - 1).toString();
-    slider.value = '0';
-    slider.style.width = '200px';
-    slider.style.margin = '0 10px';
-    
-    // Create year navigation
-    const prevButton = document.createElement('button');
-    prevButton.textContent = '◄';
+    slider.value = currentYearIndex.toString();
+
     prevButton.addEventListener('click', () => {
         if (currentYearIndex > 0) {
             currentYearIndex--;
@@ -179,9 +171,7 @@ function setupControls() {
             updateMapForYear(years[currentYearIndex]);
         }
     });
-    
-    const nextButton = document.createElement('button');
-    nextButton.textContent = '►';
+
     nextButton.addEventListener('click', () => {
         if (currentYearIndex < years.length - 1) {
             currentYearIndex++;
@@ -189,19 +179,26 @@ function setupControls() {
             updateMapForYear(years[currentYearIndex]);
         }
     });
-    
-    // Add slider event
+
     slider.addEventListener('input', (e) => {
         currentYearIndex = parseInt(e.target.value);
         updateMapForYear(years[currentYearIndex]);
     });
-    
-    // Add elements to controls
-    controlsDiv.appendChild(prevButton);
-    controlsDiv.appendChild(slider);
-    controlsDiv.appendChild(nextButton);
-    controlsDiv.appendChild(yearDisplay);
 }
+
 
 // Start loading data
 loadAllData();
+
+// Legend toggle
+document.getElementById("legendToggle").onclick = () => {
+    const legend = document.getElementById("legend");
+    const toggle = document.getElementById("legendToggle");
+    if (legend.style.display === "none") {
+        legend.style.display = "block";
+        toggle.innerText = "Hide Legend";
+    } else {
+        legend.style.display = "none";
+        toggle.innerText = "Show Legend";
+    }
+};

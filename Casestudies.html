@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Culture Investigation</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .image-container img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: display 0.01s;
+        }
+        
+        .image-1 { display: block; }
+        .image-2 { 
+            display: none;
+            cursor: default; /* Remove pointer cursor on hover areas */
+        }
+        
+        .image-container:hover .image-1 { display: none; }
+        .image-container:hover .image-2 { display: block; }
+
+        /* Style for interactive areas */
+        area {
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="Map_Pre.png" alt="London culture past" class="image-1">
+        
+        <!-- Interactive Map Image -->
+        <img src="Map_Post.png" alt="London culture present" class="image-2" usemap="#image-map">
+        
+        <!-- Corrected Image Map -->
+        <map name="image-map">
+            <!-- Hackney (circle) - Fixed radius -->
+            <area target="" alt="HACKNEY" title="HACKNEY" href="#hackney" 
+                  coords="2608,1082,105" shape="circle" 
+                  onclick="showInfo('Hackney')">
+                  
+            <!-- Bromley (circle) - Fixed radius -->
+            <area target="" alt="BROMLEY" title="BROMLEY" href="#bromley" 
+                  coords="3169,2335,415" shape="circle" 
+                  onclick="showInfo('Bromley')">
+                  
+            <!-- Hillingdon (rectangle) - Fixed coordinates -->
+            <area target="" alt="HILLINGDON" title="HILLINGDON" href="#hillingdon" 
+                  coords="691,640,1058,1740" shape="rect" 
+                  onclick="showInfo('Hillingdon')">
+        </map>
+    </div>
+
+    <script>
+        function showInfo(location) {
+            event.preventDefault();
+            // Replace with your custom interaction:
+            alert(`Showing information for ${location}`);
+            // Could also load content via AJAX, show a modal, etc.
+        }
+        
+        // Make image map responsive (scales coordinates with image size)
+        window.addEventListener('load', function() {
+            const img = document.querySelector('.image-2');
+            const areas = document.querySelectorAll('area');
+            
+            function scaleCoords() {
+                const originalWidth = 4000; // Original image width in pixels
+                const originalHeight = 3000; // Original image height in pixels
+                const scaleX = img.width / originalWidth;
+                const scaleY = img.height / originalHeight;
+                
+                areas.forEach(area => {
+                    const coords = area.getAttribute('coords').split(',');
+                    let scaledCoords = [];
+                    
+                    for (let i = 0; i < coords.length; i++) {
+                        if (i % 2 === 0) { // X coordinate
+                            scaledCoords.push(Math.round(coords[i] * scaleX));
+                        } else { // Y coordinate
+                            scaledCoords.push(Math.round(coords[i] * scaleY));
+                        }
+                    }
+                    
+                    area.setAttribute('coords', scaledCoords.join(','));
+                });
+            }
+            
+            // Run on load and resize
+            scaleCoords();
+            window.addEventListener('resize', scaleCoords);
+        });
+    </script>
+</body>
+</html>

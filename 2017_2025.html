@@ -23,20 +23,7 @@
             bottom: 0; 
             width: 100%; 
         }
-        #control-panel {
-            position: absolute;
-            width:300px;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: #333432;
-            opacity: 0.9;
-            padding: 15px;
-            border-radius: 8px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+       
         #controls {
             display: flex;
             align-items: center;
@@ -60,6 +47,19 @@
             font-weight: bold;
             margin: 0 10px;
         }
+
+        #legend {
+    position: absolute;
+    top: 90px; /* Adjust to sit below #year-panel */
+    right: 10px;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    max-width: 200px;
+}
         .legend {
             margin-top: 10px;
         }
@@ -80,23 +80,70 @@
             margin-right: 8px;
             border-radius: 50%;
         }
+
+        #year-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: transparent;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#controls button,
+#legendToggle {
+    padding: 6px 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background: transparent;
+    font-size: 0.85rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#controls button:hover,
+#legendToggle:hover {
+    background: transparent;
+}
+
+#year-slider {
+    width: 120px;
+}
+
     </style>
 </head>
 <body>
     <div id='map'></div>
     
-    <div id='control-panel'>
+    <div id='year-panel'>
         <div id='controls'>
-            <button id='play-button'>Play</button>
-            <button id='pause-button'>Pause</button>
-            <button id='reset-button'>Reset</button>
+            <button id='prev-button'>◄</button>
+            <input id='year-slider' type='range' />
+            <button id='next-button'>►</button>
             <span id='year-display'>2017</span>
         </div>
-        
-        <div class='legend'>
-            <h4>Venue Types</h4>
-            <div id='legend-items'></div>
-        </div>
+        <button id="legendToggle">Show Legend</button>
+    </div>
+    
+    <div id="legend" class='legend' style="display: none;">
+        <h4>Venue Types</h4>
+        <div id='legend-items'></div>
+    </div>
+    
         
         <div id='chart-container'>
             <div id='chart' style="width: 100%; height: 100%;"></div>

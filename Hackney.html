@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borough: Bromley</title>
+    <title>Borough: Hackney</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
-            padding: 0;
-            font-family: "Cormorant", serif;
-            background-color: #333333;
+            padding: 60;
+            font-family: 'Poppins', sans-serif;
+            background-color: #333432; /* Changed background color */
             color: white;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.5fr 1fr;
             grid-template-rows: 1fr 1fr;
             height: 100vh;
             box-sizing: border-box;
@@ -23,35 +23,37 @@
         }
         
         .box {
-            background-color: #333333;
+            background-color: #333432; /* Changed to match background */
             border-radius: 10px;
             padding: 20px;
             display: flex;
             flex-direction: column;
             color: white;
-            border: 0.5px solid #ffffff;
+            border: 1px solid #333432; /* Made border same as background */
         }
         
         #title-box {
         }
         
         #photo-box {
+            display: flex;
             justify-content: center;
             align-items: center;
+            padding: 0;
+            overflow: hidden;
         }
         
         #graphs-box {
-        }
-        
-        #quote-box {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            grid-column: 2;
+            grid-row: 1 / span 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
         
         .graph-container {
             width: 100%;
-            height: 45%;
+            height: 50%; /* Split space between two charts */
         }
         
         h1 {
@@ -59,126 +61,170 @@
             font-size: 2.5rem;
         }
         
-        #quote {
-            font-size: 1.8rem;
-            font-style: italic;
-            font-weight: 600;
-            max-width: 80%;
-        }
-        
-        .photo-placeholder {
-            width: 80%;
-            height: 80%;
-            background-color: rgba(255,255,255,0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        #hackney-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
             border-radius: 5px;
-            font-size: 1.2rem;
         }
     </style>
 </head>
 <body>
     <div class="box" id="title-box">
         <h1>Borough: Hackney</h1>
-        <p>The text will go here</p>
+        <p>Hackney has a vibrant community center network, with 90 centers serving its population. This is among the highest in London, demonstrating the borough's commitment to community spaces.</p>
     </div>
     
     <div class="box" id="graphs-box">
-        <div class="graph-container" id="graph1"></div>
-        <div class="graph-container" id="graph2"></div>
+        <div class="graph-container" id="pie-chart"></div>
+        <div class="graph-container" id="bar-chart"></div>
     </div>
     
     <div class="box" id="photo-box">
-        <div class="photo-placeholder">Photo would go here</div>
-    </div>
-    
-    <div class="box" id="quote-box">
-        <p id="quote">"Museums and galleries have seen an 8% decline since the last data capture."</p>
+        <img id="hackney-image" src="HACKNEY.jpg" alt="Hackney Borough">
     </div>
 
     <script>
         // Initialize charts
-        const chart1 = echarts.init(document.getElementById('graph1'));
-        const chart2 = echarts.init(document.getElementById('graph2'));
+        const pieChart = echarts.init(document.getElementById('pie-chart'));
+        const barChart = echarts.init(document.getElementById('bar-chart'));
         
-        // Chart 1 options
-        const option1 = {
-            title: {
-                text: 'Cultural Visits Trend',
-                left: 'center',
-                textStyle: {
-                    color: 'white'
-                }
-            },
-            tooltip: {},
-            xAxis: {
-                type: 'category',
-                data: ['2018', '2019', '2020', '2021', '2022'],
-                axisLabel: {
-                    color: 'white'
-                }
-            },
-            yAxis: {
-                type: 'value',
-                axisLabel: {
-                    color: 'white'
-                }
-            },
-            series: [{
-                data: [120, 200, 150, 80, 70],
-                type: 'bar',
+        // Data
+        const boroughs = [
+            "Barking and Dagenham", "Barnet", "Bexley", "Brent", "Bromley", "Camden",
+            "Croydon", "Ealing", "Enfield", "Greenwich", "Hackney", "Hammersmith and Fulham",
+            "Haringey", "Harrow", "Havering", "Hillingdon", "Hounslow", "Islington",
+            "Kensington and Chelsea", "Kingston upon Thames", "Lambeth", "Lewisham",
+            "Merton", "Newham", "Redbridge", "Richmond upon Thames", "Southwark",
+            "Sutton", "Tower Hamlets", "Waltham Forest", "Wandsworth", "Westminster"
+        ];
+        
+        const centersCount = [
+            27, 13, 17, 19, 21, 110, 
+            12, 26, 13, 27, 90, 34, 
+            28, 11, 22, 27, 21, 60, 
+            18, 14, 54, 9, 11, 18, 
+            7, 11, 30, 10, 42, 32, 34, 34
+        ];
+        
+        const accessPerPopulation = [
+            2.181481481, 3.523076923, 2.429411765, 4.1, 1.057142857, 1.053636364,
+            3.766666667, 2.430769231, 3.215384615, 2.240740741, 1.643333333, 3.3,
+            3.428571429, 4.6, 1.040909091, 0.992592593, 2.366666667, 2.673333333,
+            7.3, 3.442857143, 2.312962963, 9.811111111, 5.063636364, 5.422222222,
+            7.742857143, 3.154545455, 3.723333333, 4.73, 3.819047619, 2.284375,
+            2.785294118, 3.482352941
+        ];
+        
+        // Prepare data for pie chart (highlight Hackney)
+        const pieData = boroughs.map((borough, index) => {
+            return {
+                value: centersCount[index],
+                name: borough === 'Hackney' ? 'HACKNEY' : borough,
                 itemStyle: {
-                    color: '#5EF275'
+                    color: borough === 'Hackney' ? '#7EB6D9' : '#555'
                 }
-            }]
-        };
+            };
+        });
         
-        // Chart 2 options
-        const option2 = {
+        // Pie chart options
+        const pieOption = {
             title: {
-                text: 'Visitor Demographics',
+                text: 'Community Centres per London Borough',
                 left: 'center',
                 textStyle: {
                     color: 'white'
                 }
             },
             tooltip: {
-                trigger: 'item'
+                trigger: 'item',
+                formatter: '{b}: {c} centres ({d}%)'
             },
             series: [
                 {
-                    name: 'Age Groups',
+                    name: 'Community Centres',
                     type: 'pie',
-                    radius: '70%',
-                    data: [
-                        { value: 35, name: '18-25', itemStyle: { color: '#5EF275' } },
-                        { value: 30, name: '26-35', itemStyle: { color: '#A0F2CC' } },
-                        { value: 25, name: '36-50', itemStyle: { color: '#C4E5F2' } },
-                        { value: 10, name: '51+', itemStyle: { color: '#C8C2F2' } }
-                    ],
+                    radius: ['40%', '70%'],
+                    avoidLabelOverlap: false,
+                    itemStyle: {
+                        borderRadius: 10,
+                        borderColor: '#333',
+                        borderWidth: 2
+                    },
                     label: {
+                        show: false,
+                        position: 'center',
                         color: 'white'
                     },
                     emphasis: {
-                        itemStyle: {
-                            shadowBlur: 10,
-                            shadowOffsetX: 0,
-                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        label: {
+                            show: true,
+                            fontSize: '18',
+                            fontWeight: 'bold'
                         }
-                    }
+                    },
+                    labelLine: {
+                        show: false
+                    },
+                    data: pieData
                 }
             ]
         };
         
-        // Set options for charts
-        chart1.setOption(option1);
-        chart2.setOption(option2);
+        // Bar chart options (simplified)
+        const barOption = {
+            title: {
+                text: 'Community Centre Access per Population/Hectare',
+                left: 'center',
+                textStyle: { color: 'white' }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { type: 'shadow' },
+                formatter: function (params) {
+                    return params.map(p => `${p.seriesName}: ${p.value}`).join('<br/>');
+                }
+            },
+            legend: {
+                data: ['Hackney', 'London Average'],
+                bottom: '5%',
+                textStyle: { color: 'white' }
+            },
+            xAxis: {
+                type: 'category',
+                data: ['Access per Population/Hectare'],
+                axisLabel: { color: 'white' }
+            },
+            yAxis: {
+                type: 'value',
+                name: 'Access per Pop/Hectare',
+                axisLabel: { color: 'white' },
+                nameTextStyle: { color: 'white' }
+            },
+            series: [
+                {
+                    name: 'Hackney',
+                    type: 'bar',
+                    data: [1.643333333],
+                    itemStyle: { color: '#7EB6D9' },
+                    barWidth: '30%'
+                },
+                {
+                    name: 'London Average',
+                    type: 'bar',
+                    data: [3.472447266],
+                    itemStyle: { color: '#888' },
+                    barWidth: '30%'
+                }
+            ]
+        };
+
+        pieChart.setOption(pieOption);
+        barChart.setOption(barOption);
         
-        // Handle window resize
         window.addEventListener('resize', function() {
-            chart1.resize();
-            chart2.resize();
+            pieChart.resize();
+            barChart.resize();
         });
     </script>
 </body>
