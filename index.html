@@ -137,35 +137,45 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 20px;
-  padding: 0px 40px 0px 40px;
-  height: 90vh;
+  gap: 40px;
+  padding: 40px;
   box-sizing: border-box;
   color: white;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
 }
 
-.city-network-left, .city-network-right {
-  flex: 1;
+.city-network-left,
+.city-network-right {
+  flex: 1 1 45%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+.city-network-left {
+  gap: 20px;
+}
 
 .city-network-desc {
-  padding:0px 0px 10px 40px;
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 95%;
   color: white;
 }
 
 .infographic-img {
-  width: 90%;
+  width: 100%;
   height: auto;
-  max-width: 100%;
   object-fit: contain;
+  margin-top: -10px;
 }
+
+.music-chart {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-bottom: 20px;
+}
+
 
 .two-column {
   padding:20px 0px 10px 40px;
@@ -367,11 +377,11 @@
 </section>
 
    <!-- London- cultural capital? -->
-   <section id="capital" style="min-height: 100vh; padding: 60px;">
+   <section id="capital" style="padding: 60px;">
     <div class="city-network-wrapper">
     
       <div class="city-network-left">
-    <h2 class="section-title">London; A Global Cultural Benchmark?</h2>
+    <h2 class="section-title">London: A Global Cultural Benchmark?</h2>
     <p class="city-network-desc">
       Our investigations uncovered notable gaps in the dataset—particularly the underrepresentation of at-risk categories such as music venues, which are often the first to disappear from standardised datasets despite their cultural significance. The data visualisations compare music venue and museum access per capita across global cultural capitals, revealing that while London initially appears healthy, a more nuanced picture emerges when contextualised by factors like population density and geographic spread. Additionally, reports have stated that museums and galleries have seen an 8% decline since the last data capture, while music venues are increasingly vulnerable. Recognising the limitations of existing datasets, we incorporated alternative data sources—including scraped data (2017–2025), OSM, and qualitative interviews—to offer a more complete and human-centred view of London’s cultural network through a data feminist lens.
     </p>
@@ -428,22 +438,7 @@
     </div>
   </div>
 
-  <!-- Second Part: Map/Bar Toggle Section -->
-  <div>
-    <!-- Chart Title -->
-    <div class="chart-title" style="margin-bottom: 20px;">
-      Change in Access to Libraries per London Borough (2017–2025)
-    </div>
 
-    <!-- Toggle Buttons -->
-    <div class="d-flex justify-content-center gap-3 mb-4">
-      <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
-      <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
-    </div>
-
-    <!-- Chart Container -->
-    <div id="main" style="width: 100%; height: 80vh;"></div>
-  </div>
 
 </section>
 
@@ -471,16 +466,33 @@
   </div>
 </section>
 
-<!-- Toggle Buttons -->
-<div class="d-flex justify-content-center gap-3 mb-4">
-  <a href="#" id="mapViewBtn2" class="chart-toggle-btn">NUMBERS OF CINEMAS PER BOROUGH</a>
-  <a href="#" id="barViewBtn2" class="chart-toggle-btn">CINEMA ECONOMIC Accessibility</a>
-</div>
+<!-- Cinema Chart Section -->
+<section style="height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px;">
+  <!-- Toggle Buttons -->
+  <div class="d-flex justify-content-center gap-3 mb-4">
+    <a href="#" id="mapViewBtn2" class="chart-toggle-btn">NUMBERS OF CINEMAS PER BOROUGH</a>
+    <a href="#" id="barViewBtn2" class="chart-toggle-btn">CINEMA ECONOMIC Accessibility</a>
+  </div>
 
-<!-- Chart Container -->
-<div id="main2" style="width: 100%; height: 80vh; padding-right: 40px; padding-left: 40px;"></div>
-    </div>
-  </section>
+  <!-- Chart Container -->
+  <div id="main2" style="flex: 1; width: 100%;"></div>
+</section>
+
+<!-- Libraries Chart Section -->
+<section style="height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px;">
+  <!-- Chart Title -->
+  <div class="chart-title" style="margin-bottom: 20px; text-align: center;">
+    Change in Access to Libraries per London Borough (2017–2025)
+  </div>
+
+  <!-- Toggle Buttons -->
+  <div class="d-flex justify-content-center gap-3 mb-4">
+    <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
+    <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+  </div>
+
+  <!-- Chart Container -->
+  <div id="main" style="flex: 1; width: 100%;"></div>
 </section>
 
 

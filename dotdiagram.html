@@ -93,6 +93,7 @@ svg {
   pointer-events: none;
   transition: opacity 0.2s;
   z-index: 10000;
+  display: none;
 }
 /* Wrap the button + legend together */
 .legend-wrapper {
@@ -218,12 +219,14 @@ svg {
     const categories2023 = new Set(allData["2023"].map(d => d.category));
     discontinuedCategories = [...categories2018].filter(cat => !categories2023.has(cat));
 
-    renderLegend(allCategories); // Moved here, AFTER colorScale is built
-    render();                    // Render AFTER everything is ready
+    renderLegend(allCategories);     // ✅ Legend setup
+    setYear("2018");                 // ✅ Initial render
+    document.getElementById("btn2018").classList.add("active"); // ✅ Highlight 2018 button
   } catch (e) {
     console.error("Failed to load CSV:", e);
   }
 }
+
 
     const discontinuedColor = "#D3D3D3";
 
@@ -378,18 +381,21 @@ cachedLayout = { columns, rows, stepX, stepY, circleRadius, offsetX, offsetY };
       const tooltip = d3.select("#tooltip");
 
       svg.selectAll("circle")
-        .on("mouseover", (event, d) => {
-          tooltip.style("opacity", 1)
-          .html(`<strong>${[...new Set(d.items.map(i => i.category))].join(", ")}</strong>`);
+      .on("mouseover", (event, d) => {
+  tooltip
+    .style("display", "block") // ADD THIS
+    .style("opacity", 1)
+    .html(`<strong>${[...new Set(d.items.map(i => i.category))].join(", ")}</strong>`);
+})
+.on("mousemove", (event) => {
+  tooltip.style("left", (event.pageX + 10) + "px")
+         .style("top", (event.pageY - 20) + "px");
+})
+.on("mouseout", () => {
+  tooltip.style("opacity", 0)
+         .style("display", "none"); // ADD THIS
+});
 
-        })
-        .on("mousemove", (event) => {
-          tooltip.style("left", (event.pageX + 10) + "px")
-                 .style("top", (event.pageY - 20) + "px");
-        })
-        .on("mouseout", () => {
-          tooltip.style("opacity", 0);
-        });
     }
 
     function toggleYear() {
@@ -410,13 +416,6 @@ cachedLayout = { columns, rows, stepX, stepY, circleRadius, offsetX, offsetY };
 
     loadCSVData();
 
-   const allCategories = Array.from(new Set(data.map(d => d.category)));
-buildColorScale(allCategories);
-renderLegend(allCategories); // Moved here from outside
-
-
-
-    setYear("2018");
   </script>
 </body>
 </html>
