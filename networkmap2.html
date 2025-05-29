@@ -116,7 +116,7 @@
 
 
   const svg = d3.select("body").append("svg");
-  const colorScale = d3.scaleOrdinal().range(["#C79BF2","#81B9E4", "#85F2A0","#C8C2F2",  "#5EF275"]); // Custom color scale
+  let colorScale;
   let currentYear = "2018";
   let dataByYear = { "2018": [], "2023": [] };
 
@@ -136,23 +136,47 @@
 
   // Load CSV data
   async function loadData() {
-    const data = await d3.csv("combined_cultural_data_clean.csv");
+  const data = await d3.csv("combined_cultural_data_clean.csv");
 
-    const categories = Array.from(new Set(data.map(d => d.category)));
-    colorScale.domain(categories);
+  // Clean and extract categories
+data.forEach(d => {
+  d.lat = +d.latitude;
+  d.lon = +d.longitude;
+  d.category = d.category.trim(); // Clean category name
+});
 
-    data.forEach(d => {
-      d.lat = +d.latitude;
-      d.lon = +d.longitude;
-    });
+const categories = Array.from(
+  new Set(data.map(d => d.category))
+).sort();
 
-    dataByYear["2018"] = data.filter(d => d.year === "2018" && d.lat && d.lon);
-    dataByYear["2023"] = data.filter(d => d.year === "2023" && d.lat && d.lon);
+const colorGradient = d3.interpolateRgbBasis([
+  "#C79BF2", "#81B9E4", "#85F2A0", "#C8C2F2", "#5EF275"
+]);
 
-    buildLegend(categories, colorScale); // Build the legend
-    updateVisualization();
-    map.on("move", updateVisualization);
-  }
+const categoryColorMap = new Map();
+categories.forEach((cat, i) => {
+  const t = i / (categories.length - 1);
+  categoryColorMap.set(cat, colorGradient(t));
+});
+
+
+  // Step 4: Color scale function
+  colorScale = d => categoryColorMap.get(d); // global override
+
+  // Prepare data
+  data.forEach(d => {
+    d.lat = +d.latitude;
+    d.lon = +d.longitude;
+  });
+
+  dataByYear["2018"] = data.filter(d => d.year === "2018" && d.lat && d.lon);
+  dataByYear["2023"] = data.filter(d => d.year === "2023" && d.lat && d.lon);
+
+  buildLegend(categories, colorScale); // use updated colorScale
+  updateVisualization();
+  map.on("move", updateVisualization);
+}
+
 
   // Update visualization with dots and links
   function updateVisualization() {
@@ -221,20 +245,32 @@
 
   // Build legend for categories
   function buildLegend(categories, scale) {
-    const legendContainer = d3.select("#legend");
-    legendContainer.html(""); // Clear existing legend content
+  const legendContainer = d3.select("#legend");
+  legendContainer.html(""); // Clear existing legend content
 
-    categories.forEach(category => {
-      const row = legendContainer.append("div").style("margin-bottom", "6px");
-      row.append("span")
-        .style("background-color", scale(category))
-        .style("display", "inline-block")
-        .style("width", "14px")
-        .style("height", "14px")
-        .style("margin-right", "6px");
-      row.append("span").text(category);
-    });
-  }
+  categories.forEach(category => {
+    const row = legendContainer.append("div")
+      .style("display", "flex")
+      .style("align-items", "center")
+      .style("margin-bottom", "6px");
+
+    row.append("span")
+      .style("background-color", scale(category))
+      .style("flex-shrink", "0") // Prevent shrinking of color box
+      .style("display", "inline-block")
+      .style("width", "14px")
+      .style("height", "14px")
+      .style("margin-right", "6px");
+
+    row.append("div")
+      .text(category)
+      .style("flex", "1") // Take remaining space
+      .style("white-space", "normal") // Allow wrapping
+      .style("word-break", "break-word"); // Break long words if needed
+  });
+}
+
+
 
   loadData();
 
