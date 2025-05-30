@@ -40,11 +40,11 @@
       color: white;
       text-transform: uppercase;
       border: 1px solid white;
+      background-color: rgba(51, 52, 50, 0.9);
       padding: 6px 15px;
       border-radius: 20px;
       text-decoration: none;
       font-size: 0.85rem;
-      background-color: transparent;
       transition: background-color 0.3s, color 0.3s;
       margin: 6px 0;
     }
@@ -66,28 +66,65 @@
     }
 
     .title-section {
-      height: 100vh;
-      background: url('LandingCollage.png') center center / cover no-repeat;
-      display: flex;
-      justify-content: right;
-      align-items: flex-end;
-      padding: 100px;
-    }
+  height: 100vh;
+  position: relative;
+}
 
-    .title {
-      font-size: 3rem;
-      font-weight: 700;
-      color: #ffffff;
-      font-family: "Rubik Mono One", monospace;
-      text-transform: uppercase;
-    }
+.title-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.title-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.default-image {
+  opacity: 1;
+}
+
+.hover-image {
+  opacity: 0;
+}
+
+.title-image-container:hover .default-image {
+  opacity: 0;
+}
+
+.title-image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.title {
+  position: absolute;
+  bottom: 100px; 
+  right: 100px;  
+  z-index: 10;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Rubik Mono One", monospace;
+  text-transform: uppercase;
+  margin: 0; 
+  padding: 0; 
+}
 
     section {
       background-color: #333432;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       color: #ffffff;
       font-family: "EB Garamond", serif;
     }
@@ -137,45 +174,35 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
-  padding: 40px;
+  gap: 20px;
+  padding: 0px 40px 0px 40px;
+  height: 90vh;
   box-sizing: border-box;
   color: white;
-  flex-wrap: wrap; /* allow wrapping on smaller screens */
 }
 
-.city-network-left,
-.city-network-right {
-  flex: 1 1 45%;
+.city-network-left, .city-network-right {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.city-network-left {
-  gap: 20px;
-}
 
 .city-network-desc {
+  padding:0px 0px 10px 40px;
   font-size: 1.2rem;
   line-height: 1.6;
+  max-width: 95%;
   color: white;
 }
 
 .infographic-img {
-  width: 100%;
+  width: 90%;
   height: auto;
+  max-width: 100%;
   object-fit: contain;
-  margin-top: -10px;
 }
-
-.music-chart {
-  width: 100%;
-  height: 300px;
-  border: none;
-  margin-bottom: 20px;
-}
-
 
 .two-column {
   padding:20px 0px 10px 40px;
@@ -266,7 +293,7 @@
       color: white;
       text-transform: uppercase;
       border: 1px solid white;
-      padding: 6px 15px;
+      padding: 6px 10px;
       border-radius: 20px;
       text-decoration: none;
       font-size: 0.85rem;
@@ -291,12 +318,14 @@
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#citynetwork">London's Cultural network</a></li>
         <li><a class="dropdown-item" href="#2018_2023">Cultural network comparison</a></li>
-        <li><a class="dropdown-item" href="#capital">London: A global cultural benchmark?</a></li>
+        <li><a class="dropdown-item" href="#incomparable">Incomparable Data <data value=""></data></a></li>
+        <li><a class="dropdown-item" href="#capital">London as a global cultural benchmark?</a></li>
         <li><a class="dropdown-item" href="#2017_2025">spatio-temporal analysis</a></li>
         <li><a class="dropdown-item" href="#boroughs">Borough by borough breakdown</a></li> 
         <li><a class="dropdown-item" href="#inequitable">Inequitable Access</a></li>
         <li><a class="dropdown-item" href="#casestudies">Case Studies</a></li>
-        <li><a class="dropdown-item" href="#process">Process and People</a></li>
+        <li><a class="dropdown-item" href="#process">Our Process</a></li>
+        <li><a class="dropdown-item" href="#team">Meet The Team</a></li>
 
       </ul>
     </div>
@@ -304,7 +333,11 @@
 
   <!-- Title -->
   <section class="title-section">
-    <div class="title">Cultural Cartographies</div>
+    <div class="title-image-container">
+      <img src="LandingCollage.png" alt="Cultural Cartographies" class="title-image default-image">
+      <img src="LandingCollage2.png" alt="Cultural Cartographies" class="title-image hover-image">
+      <div class="title">Cultural Cartographies</div>
+    </div>
   </section>
 
   <!-- City Network Section -->
@@ -315,7 +348,7 @@
       <h2 class="section-title ">LONDON'S CULTURAL NETWORK</h2>
       <p class="city-network-desc">
         Our web-analysis of London’s cultural network, visualises gaps in cultural infrastructure and data through a spatial-temporal lens. While existing maps—such as the Cultural Infrastructure Map by the Mayor of London and the Culture and Place Data Explorer by Arts Council England—offer valuable static overviews, they fail to reflect how London’s cultural landscape has shifted over time, particularly in the wake of COVID-19. Cultural consumption spaces experienced the greatest losses, prompting a targeted investigation into how access to culture has changed across both space and time begging the research question - 
-        <em>Is access to London cultural network equitable across time and geography?</em>
+        <em>Is access to London's cultural network equitable across time and geography?</em>
       </p>
       <img src="./diagram3.png" alt="Net Loss Bar Chart" class="infographic-img">
     </div>
@@ -356,7 +389,8 @@
 </section>
 
 <!-- 2018-2023 - continuation -->
-<section id="2023_continuation" style="padding: 60px 60px 60px 60px;">
+<section id="incomparable" style="padding: 60px 60px 60px 60px;">
+  <h2 class="section-title">Incomparable Data</h2>
   <div class="two-column reversed">
     <div class="column">
       <p>
@@ -377,14 +411,14 @@
 </section>
 
    <!-- London- cultural capital? -->
-   <section id="capital" style="padding: 60px;">
+   <section id="capital" style="min-height: 100vh; padding: 60px;">
     <div class="city-network-wrapper">
     
       <div class="city-network-left">
-    <h2 class="section-title">London: A Global Cultural Benchmark?</h2>
+    <h2 class="section-title">LONDON AS A GLOBAL CULTURAL BENCHMARK?</h2>
     <p class="city-network-desc">
-      Our investigations uncovered notable gaps in the dataset—particularly the underrepresentation of at-risk categories such as music venues, which are often the first to disappear from standardised datasets despite their cultural significance. The data visualisations compare music venue and museum access per capita across global cultural capitals, revealing that while London initially appears healthy, a more nuanced picture emerges when contextualised by factors like population density and geographic spread. Additionally, reports have stated that museums and galleries have seen an 8% decline since the last data capture, while music venues are increasingly vulnerable. Recognising the limitations of existing datasets, we incorporated alternative data sources—including scraped data (2017–2025), OSM, and qualitative interviews—to offer a more complete and human-centred view of London’s cultural network through a data feminist lens.
-    </p>
+      Our analysis, limited to 2023 data due to incompatibility with earlier years, assessed London’s cultural standing against peer cities using the World Cities Cultural Forum’s dashboard. Raw GLA data affirmed London’s dominance, but normalization by population and land area revealed underperformance, suggesting greater sector vulnerability. External reports corroborated this: the Music Venues Trust noted 125 venue closures in 2023, while museums saw an 8% post-pandemic decline. These trends highlight systemic fragility, challenging assumptions from the GLA’s 2023 dataset. However, its lack of longitudinal depth necessitated supplemental data—including scraped sources—to fully evaluate shifts in London’s cultural landscape (see Data Transparency). This underscores the need for nuanced metrics and expanded datasets to accurately gauge risks to the city’s cultural infrastructure.
+        </p>
     <img src="./cities.png" alt="Cities Diagram" class="infographic-img">
   </div>
 
@@ -402,11 +436,10 @@
    <!-- 2017-2025 -->
   <section id="2017_2025" class="section-flex">
     <div class="left-column">
-      <h2 class="section-title">LONDON CULTURAL NETWORK: SPACIO-TEMPORAL ANALYSIS</h2>
+      <h2 class="section-title">LONDON CULTURAL NETWORK: SPATIO-TEMPORAL ANALYSIS</h2>
 
       <p class="city-network-desc">
-        Our web-analysis of London’s cultural network, visualises gaps in cultural infrastructure and data through a spatial-temporal lens. While existing maps—such as the Cultural Infrastructure Map by the Mayor of London and the Culture and Place Data Explorer by Arts Council England—offer valuable static overviews, they fail to reflect how London’s cultural landscape has shifted over time, particularly in the wake of COVID-19. Cultural consumption spaces experienced the greatest losses, prompting a targeted investigation into how access to culture has changed across both space and time begging the research question - 
-        <em>Is access to London cultural network equitable across time and geography?</em>
+        Our spatio-temporal analysis of London’s cultural network, based on scraped consumption data (2017–2025), uncovered critical trends overlooked by official GLA datasets. While the GLA reported growth in libraries (claiming 347 by 2022), our findings revealed that both theatres and libraries experienced significant decline, exposing inconsistencies in how cultural infrastructure is recorded. Notably, community centres emerged as the only consumption-oriented assets in expansion, suggesting a shift toward hyper-local cultural provision, possibly at the expense of larger, specialized venues. Borough-level analysis further highlighted stark inequalities, with some areas suffering severe cultural depletion while others retained accessibility. These disparities challenge the reliability of static administrative data and underscore the need for dynamic, granular insights to inform equitable policymaking and safeguard London’s cultural ecosystem.
       </p>
 
       <div class="chart-container">
@@ -418,90 +451,94 @@
     </div>
   </section>
 
-
 <!-- Borough by borough -->
 <section id="boroughs" style="min-height: 100vh; padding: 60px; box-sizing: border-box;">
 
   <!-- First Part: Borough Breakdown and Stacked Bar -->
-  <div style="margin-bottom: 60px;">
+  <div style="margin-bottom: 60px; width: 100%;">
     <!-- Section Title -->
-    <h2 class="section-title" style="margin-bottom: 20px;">Borough by borough breakdown</h2>
+    <h2 class="section-title" style="margin-bottom: 20px; width: 100%;">Borough by borough breakdown</h2>
 
     <!-- Description Text -->
-    <p class="city-network-desc" style="max-width: 900px; margin-bottom: 20px;">
-      This section explores how cultural infrastructure is distributed across London’s boroughs. The stacked bar chart provides a typology-based comparison per borough, helping to identify localised trends and disparities in cultural access.
-    </p>
-
-    <!-- Chart Fills Remaining Height -->
-    <div style="height: 60vh;">
-      <iframe src="./stacked_bar.html" style="width: 100%; height: 100%; border: none;"></iframe>
-    </div>
-  </div>
-
-
-
-</section>
-
-
-
-<!-- Inequitable Access - Page 1 -->
-<section id="inequitable" style="min-height: 90vh; padding: 60px;">
-  <h2 class="section-title">Inequitable Access</h2>
-  <div class="section-flex">
-    <!-- Left Column with Text -->
-    <div class="left-column">
-      <p class="city-network-desc">
-        Access to community services is not evenly distributed across the city. 
-        Certain neighborhoods benefit from a dense network of community centres, 
-        while others remain underserved. This chart shows disparities in access 
-        across different boroughs.
+    <div style="width: 100%; max-width: 100%; margin: 0 auto 20px; padding: 0 20px; box-sizing: border-box;">
+      <p class="city-network-desc" style="width: 100%; max-width: 100%; margin: 0 auto; line-height: 1.6; font-size: 1.2rem;">
+        Our comparative analysis of London's boroughs combined the GLA's 2023 cultural asset counts with scraped OpenStreetMap (OSM) data tracking percentage changes (2017–2025). Though not directly comparable—GLA measures absolute numbers, OSM tracks growth rates—their juxtaposition revealed critical insights. Havering, despite having among the fewest cultural assets, showed the highest growth rate, signaling potential long-term sustainability. Meanwhile, access to community centres varied drastically, with a gap exceeding 100 venues between the best- and worst-performing boroughs—a divide likely widening due to uneven investment.
+        <br><br>
+        Limitations include the exclusion of negative change rates (closures/declines) and a lack of normalization for area, population density, or income. Spatial mapping was also absent, leaving geographic patterns unexplored. These gaps highlight the need for deeper, contextualized research to guide equitable cultural policy.
       </p>
     </div>
 
-    <div class="right-column">
-      <div class="wide-chart-container">
-        <iframe src="Community_centres.html"></iframe>
-      </div>
+    <!-- Chart Fills Remaining Height -->
+    <div style="height: calc(70vh + 100px); width: 100%;">
+      <iframe src="./stacked_bar.html" style="width: 100%; height: 100%; border: none;"></iframe>
     </div>
   </div>
 </section>
 
-<!-- Cinema Chart Section -->
-<section style="height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px;">
-  <!-- Toggle Buttons -->
-  <div class="d-flex justify-content-center gap-3 mb-4">
-    <a href="#" id="mapViewBtn2" class="chart-toggle-btn">NUMBERS OF CINEMAS PER BOROUGH</a>
-    <a href="#" id="barViewBtn2" class="chart-toggle-btn">CINEMA ECONOMIC Accessibility</a>
+<!-- Inequitable Access - Page 1 -->
+<section id="inequitable" style="padding: 60px;">
+  <h2 class="section-title">Inequitable Access</h2>
+  
+  <!-- Charts Row -->
+  <div style="display: flex; gap: 40px; margin-bottom: 40px;">
+    <!-- Community Centers Chart -->
+    <div style="flex: 2;">
+      <div class="wide-chart-container" style="width: 100%; height: 60vh;">
+        <iframe src="Community_centres.html" style="width: 100%; height: 100%; border: none; margin-top: 40px;"></iframe>
+      </div>
+    </div>
+    
+    <!-- Cinema Visualization -->
+    <div style="flex: 1;">
+      <div class="chart-title" style="margin-bottom: 20px;">
+        Cinema Access Analysis
+      </div>
+      <!-- Toggle Buttons -->
+      <div class="d-flex justify-content-center gap-3 mb-4">
+        <a href="#" id="mapViewBtn2" class="chart-toggle-btn">NUMBERS OF CINEMAS PER BOROUGH</a>
+        <a href="#" id="barViewBtn2" class="chart-toggle-btn">CINEMA ECONOMIC ACCESSIBILITY</a>
+      </div>
+      <!-- Chart Container -->
+      <div id="main2" style="width: 100%; height: 60vh;"></div>
+    </div>
   </div>
 
-  <!-- Chart Container -->
-  <div id="main2" style="flex: 1; width: 100%;"></div>
+  <!-- Text Content -->
+  <div style="width: 100%; margin-bottom: 40px;">
+    <p class="city-network-desc">
+      Our spatial analysis of London's cultural infrastructure reveals troubling disparities in access to vital community assets. By examining three key indicators—cinemas, community centers, and libraries—we uncover how raw data often obscures the true picture of cultural equity across boroughs.
+      <br><br>
+      <strong>Community Centers:</strong> City of London & Lewisham show strong per-capita access despite appearing underserved in raw counts whilst Camden's seemingly comprehensive coverage shrinks when adjusted for population density.
+      <br><br>
+      <strong>Cinemas:</strong> GLA data inaccuracies falsely erased all cinemas in Waltham Forest/Sutton.
+      <br><br>
+      <strong>Libraries:</strong> A clear decline in library provision emerged across most boroughs, with no discernible spatial pattern between high- and low-performing areas. However, this analysis was limited by its exclusion of public vs. private libraries (e.g., university libraries), some of which offer community access.
+    </p>
+  </div>
 </section>
 
-<!-- Libraries Chart Section -->
-<section style="height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px;">
-  <!-- Chart Title -->
-  <div class="chart-title" style="margin-bottom: 20px; text-align: center;">
-    Change in Access to Libraries per London Borough (2017–2025)
-  </div>
+<!-- Libraries Section -->
+<section id="boroughs" style="padding: 60px; box-sizing: border-box;">
+  <div>
+    <h2 class="section-title" style="margin-bottom: 20px;">Library Access Changes (2017-2025)</h2>
+    
+    <!-- Toggle Buttons -->
+    <div class="d-flex justify-content-center gap-3 mb-4">
+      <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
+      <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+    </div>
 
-  <!-- Toggle Buttons -->
-  <div class="d-flex justify-content-center gap-3 mb-4">
-    <a href="#" id="mapViewBtn" class="chart-toggle-btn">Map View</a>
-    <a href="#" id="barViewBtn" class="chart-toggle-btn">Bar Chart</a>
+    <!-- Chart Container -->
+    <div id="main" style="width: 100%; height: 80vh;"></div>
   </div>
-
-  <!-- Chart Container -->
-  <div id="main" style="flex: 1; width: 100%;"></div>
 </section>
-
 
 
  <!-- Case studies -->
 <section id="casestudies" style="padding: 60px 60px 0 60px; height: 100vh; box-sizing: border-box; display: flex; flex-direction: column;">
 
   <!-- Section Title -->
-  <h2 class="section-title" style="margin-bottom: 20px;">Case Studies</h2>
+  <h2 class="section-title" style="margin-bottom: 20px;">Cultural Case Studies</h2>
 
   <!-- Fullscreen Iframe -->
   <div style="flex: 1; width: 100%;">
@@ -534,43 +571,69 @@
     </div>
   </section>
 
- <!-- Process and People -->
-<section id="process" style="height: 100vh; padding: 60px; display: flex; flex-direction: column; box-sizing: border-box;">
+ <!-- Process -->
+ <section id="process" style="min-height: 90vh; padding: 60px; display: flex; flex-direction: column; box-sizing: border-box;">
 
-  <!-- Section Title -->
-  <h2 class="section-title" style="margin-bottom: 20px;">Process</h2>
 
-  <!-- Content Row -->
-  <div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-start; gap: 40px;">
+<!-- Section Title -->
+<h2 class="section-title" style="margin-bottom: 0px;">Process</h2>
 
-    <!-- Left Column: Buttons + Text -->
-    <div style="flex: 1; max-width: 60%; display: flex; flex-direction: column; padding: 60px;">
+<!-- Content Row -->
+<div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-start; gap: 40px;">
 
-      <!-- Buttons -->
-      <div class="process-button" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 30px; max-width: 300px;">
-        <a href=" https://data.london.gov.uk/dataset/cultural-infrastructure-map">CULTURAL INFRASTRUCTURE DATA</a>
-        <a href="https://overpass-turbo.eu/">OVER-PASS TURBO</a>
-        <a href="https://worldcitiescultureforum.com/cities/?_gl=1*iqrlto*_up*MQ..*_ga*ODEzMTE4NTAzLjE3NDg0MjkxNDQ.*_ga_0RH3RGNJVS*czE3NDg0MjkxNDMkbzEkZzAkdDE3NDg0MjkxNDMkajYwJGwwJGgw">WORLD CULTURAL CITIES FORUM</a>
-        <a href="https://data.london.gov.uk/dataset/earnings-place-residence-borough">INCOME DATA</a>
-        <a href="https://data.london.gov.uk/dataset/land-area-and-population-density-ward-and-borough">POPULATION DATA</a>
-      </div>
+  <!-- Left Column: Text -->
+  <div style="flex: 1; max-width: 60%; display: flex; flex-direction: column; padding: 15px;">
 
-      <!-- Text -->
-      <p style=" font-size: 1.1rem; line-height: 1.6;">
-        This section outlines the process and people behind the project. It highlights the collaborative steps, research methods, and design iterations that shaped the outcomes.
-      </p>
+    <!-- Text -->
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      Understanding London’s cultural landscape required moving beyond traditional datasets. Our project began with the Cultural Infrastructure Data from the Greater London Authority (GLA), an official source mapping various cultural venues across the city. However, we quickly identified major gaps: some cultural spaces were missing, others were misclassified, and the data lacked detail over time.
+    </p>
 
-    </div>
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      To address this, we expanded our data collection. We used Overpass Turbo, a tool that allows us to extract publicly available data from OpenStreetMap (OSM)—a community-built map of the world. This helped us identify cultural venues that may have been overlooked or recently added, especially smaller or hyper-local spaces often missed by official surveys.
+    </p>
 
-    <!-- Right Column: Image -->
-    <div style="flex: 1; max-width: 40%; display: flex; justify-content: center;">
-      <img src="DATA_DIAGRAM.png" alt="Data Diagram" style="max-width: 100%; height: auto;">
-    </div>
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      But collecting more data wasn’t enough. We recognised that no dataset is truly neutral. Who collects the data, what they choose to include, and how they categorise venues all influence the story that gets told. To respond to this, we adopted principles from Data Feminism—a framework that values multiple perspectives and challenges power imbalances in how data is produced and used. This meant combining quantitative data (like venue counts and access rates) with qualitative insights, such as interviews with cultural workers and community members.
+    </p>
 
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      Throughout this process, we remained committed to transparency. Not all data sources were directly comparable—for example, GLA figures count absolute venue numbers, while OSM shows growth rates. Still, by putting them side by side, we could uncover deeper patterns, inconsistencies, and blind spots in cultural provision.
+    </p>
+
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      Ultimately, our goal was not just to map infrastructure, but to highlight where access is unequal, and to support better policy decisions grounded in a fuller picture of London’s cultural life.
+    </p>
   </div>
+
+  <!-- Right Column: Image + Buttons -->
+<div style="flex: 1; max-width: 40%; display: flex; flex-direction: column; align-items: flex-end; gap: 10px;">
+  <img src="DATA_DIAGRAM.png" alt="Data Diagram" style="max-width: 100%; height: auto;">
+
+  <!-- Buttons -->
+  <div class="process-button" style="display: flex; flex-direction: column; gap: 0px; width: 100%;">
+    <a href="https://data.london.gov.uk/dataset/cultural-infrastructure-map" style="text-align: center; display: block;">CULTURAL INFRASTRUCTURE DATA</a>
+    <a href="https://overpass-turbo.eu/" style="text-align: center; display: block;">OVER-PASS TURBO</a>
+    <a href="https://worldcitiescultureforum.com/cities/?_gl=1*iqrlto*_up*MQ..*_ga*ODEzMTE4NTAzLjE3NDg0MjkxNDQ.*_ga_0RH3RGNJVS*czE3NDg0MjkxNDMkbzEkZzAkdDE3NDg0MjkxNDMkajYwJGwwJGgw" style="text-align: center; display: block;">WORLD CULTURAL CITIES FORUM</a>
+    <a href="https://data.london.gov.uk/dataset/earnings-place-residence-borough" style="text-align: center; display: block;">INCOME DATA</a>
+    <a href="https://data.london.gov.uk/dataset/land-area-and-population-density-ward-and-borough" style="text-align: center; display: block;">POPULATION DATA</a>
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- The Team Section -->
+<section id="team" style="min-height: 100vh; padding: 60px; box-sizing: border-box; display: flex; flex-direction: column;">
+
+  
+  <!-- Section Title -->
+  <h2 class="section-title" style="margin-bottom: 20px;">The Team</h2>
+
+  <!-- Iframe (fills remaining space below title) -->
+  <iframe src="./The_Team.html" style="flex-grow: 1; width: 100%; border: none;"></iframe>
 </section>
-
-
 
   <!-- Map / Data Logic -->
 <script src="app.js"></script>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Borough: Bromley</title>
+  <title>Bromley</title>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -17,7 +17,7 @@
       color: white;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1.2fr;
       height: 100vh;
       gap: 10px;
       box-sizing: border-box;
@@ -61,31 +61,31 @@
     }
 
     #photo-box {
-      /* Make sure photo-box is a flex container centered horizontally and vertically */
+      
       display: flex;
       justify-content: center;
       align-items: center;
-      /* Crucial: fix height so chart can fill exactly */
-      /* Let's use 100% height and width to fill the box */
       width: 100%;
       height: 100%;
       padding: 0;
       position: relative;
     }
 
-    /* The bar chart container must fill #photo-box */
+    
     #main-bar-chart {
       width: 100%;
       height: 100%;
+      padding-top: 10px;
     
     }
 
     #quote-box {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  min-height: 300px;
     }
 
     h1 {
@@ -99,7 +99,7 @@
     
 
     #quote {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       font-style: italic;
       font-weight: 600;
       max-width: 80%;
@@ -108,11 +108,15 @@
 </head>
 <body>
   <div class="box" id="title-box">
-    <h1>Borough: Bromley</h1>
-    <p>Bromley Local Plan 2019 : Produce healthier environments and infrastructure to support people in living fuller, longer, healthier, and more sustainable lives. The Council will support the maximisation of opportunities for the enhancement or the creation of social infrastructure, to address the needs of existing and future residents of all ages…encouraging the development of community “hubs” providing a range of social infrastructure on accessible existing community sites or in retail centres or within new major developments.
-
-        Bromley Regeneration Strategy 2020-2030 : Emphasizes the importance of preserving and nurturing green spaces, promoting sustainability, achieving high-quality leisure and cultural offerings. Often the borough’s talented and creative past and present is overlooked.</p>
+    <h1>Bromley</h1>
+    <p>
+      Bromley's cultural infrastructure faces significant challenges despite policy commitments in the Local Plan 2019 and <em>Regeneration Strategy 2020–2030</em>. Former Bromley Council planner Hamdee Yusuf highlighted how austerity measures have undermined delivery: “hyper-competitive Arts Council funding system disadvantages smaller community organisations." This financial squeeze has created stark geographic inequalities — while the borough added cinemas between 2017–2025, provisions remain significantly below the London average when adjusted for population spread per hectare.
+    </p>
+    <p>
+      These intersecting challenges — funding instability, geographic barriers, etc — demand targeted solutions. Priorities should include ringfencing developer contributions, introducing a borough-wide cultural pass, and expanding Arts Council support for mobile delivery models to reach underserved areas. Without such interventions, Bromley's cultural divide may continue to widen.
+    </p>
   </div>
+  
 
   <div class="box" id="graphs-box">
     <div id="map-title">Cinema Rate of Change in London Boroughs (2017-2025)</div>
@@ -125,8 +129,7 @@
 
   <div class="box" id="quote-box">
     <p id="quote">
-      "Museums and galleries have seen an 8% decline since the last data
-      capture."
+      “Bromley being London's largest borough makes culture a car-owning privilege. When every cinema, library and gallery clusters in the town centre, residents need a vehicle to participate. Public transport gaps turn cultural access into a postcode lottery.” - Hamdee Yusuf (Former Planner for Bromley Council and Cultural Strategist working in Bromley)
     </p>
   </div>
 

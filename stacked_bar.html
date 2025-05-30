@@ -3,34 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>London Cultural Facilities Comparison</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&family=Tilt+Warp&family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
   <style>
-
-
     body {
-      font-family: "Bricolage Grotesque", sans-serif;
-      background-color: #333432;
+      background-color: #333432;;
       color: #ffffff;
+      overflow: hidden;
     }
-
-    body, html {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
     .chart-container {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      overflow: hidden;
+      height:100%;
     }
     .chart {
-      width: 47%;
-      height: 600px;
+      width: 48%;
+      height: 700px;
       margin: 1%;
     }
-  
+    .note {
+      font-style: italic;
+      text-align: center;
+      margin: 20px;
+      color: #cccccc;
+    }
   </style>
 </head>
 <body>
@@ -41,8 +38,7 @@
     <!-- Scraped Rate of Change Chart -->
     <div id="scrapedChart" class="chart"></div>
   </div>
-  
-  
+
 
   <script>
     // Initialize both charts
@@ -61,7 +57,6 @@
         left: 'center',
         top: 20,
         textStyle: {
-          fontFamily: '"Bricolage Grotesque", sans-serif',
           color: '#ffffff'
         }
       },
@@ -97,7 +92,7 @@
         }
       },
       grid: {
-        left: '5%',
+        left: '3%',
         right: '4%',
         bottom: '15%',
         containLabel: true

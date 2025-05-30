@@ -21,7 +21,6 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 100vw;
 }
 
@@ -39,9 +38,10 @@ body {
 svg {
   flex-grow: 1;
   width: 100%;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 60px);
   display: block;
   background-color: #333432;
+  margin-top: -20px;
 }
 
 .year-btn, .legend-btn {
@@ -100,10 +100,10 @@ svg {
   position: relative;
 }
 
-/* Legend appears below button, aligned to left */
+
 #legend {
   position: absolute;
-  top: 110%; /* Appears below the button */
+  top: 110%; 
   left: 0;
   background: rgba(0, 0, 0, 0.85);
   padding: 12px 14px;
@@ -112,15 +112,15 @@ svg {
   font-size: 14px;
   max-height: 70vh;
   width: 250px;
-  overflow-y: auto;     /* vertical scroll only */
-  overflow-x: hidden;   /* hide horizontal scroll */
+  overflow-y: auto;     
+  overflow-x: hidden;   
   display: none;
   z-index: 1000;
   white-space: normal; 
   border-radius: 10px; 
 }
 
-/* Scrollbar styling (Chrome, Edge, Safari) */
+
 #legend::-webkit-scrollbar {
   width: 8px;
 }
@@ -135,7 +135,7 @@ svg {
   background-color: #aaa;
 }
 
-/* Scrollbar styling (Firefox) */
+
 #legend {
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
