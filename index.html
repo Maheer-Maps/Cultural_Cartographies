@@ -193,7 +193,7 @@
   padding:0px 0px 10px 40px;
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 95%;
+  max-width: 100%;
   color: white;
 }
 
@@ -293,7 +293,7 @@
       color: white;
       text-transform: uppercase;
       border: 1px solid white;
-      padding: 6px 10px;
+      padding: 3px 10px;
       border-radius: 20px;
       text-decoration: none;
       font-size: 0.85rem;
@@ -307,6 +307,9 @@
       color: black;
     }
 
+    a {
+      color:white
+    }
   </style>
 </head>
 <body>
@@ -323,7 +326,7 @@
         <li><a class="dropdown-item" href="#2017_2025">spatio-temporal analysis</a></li>
         <li><a class="dropdown-item" href="#boroughs">Borough by borough breakdown</a></li> 
         <li><a class="dropdown-item" href="#inequitable">Inequitable Access</a></li>
-        <li><a class="dropdown-item" href="#casestudies">Case Studies</a></li>
+        <li><a class="dropdown-item" href="#casestudies">Cultural Case Studies</a></li>
         <li><a class="dropdown-item" href="#process">Our Process</a></li>
         <li><a class="dropdown-item" href="#team">Meet The Team</a></li>
 
@@ -417,7 +420,11 @@
       <div class="city-network-left">
     <h2 class="section-title">LONDON AS A GLOBAL CULTURAL BENCHMARK?</h2>
     <p class="city-network-desc">
-      Our analysis, limited to 2023 data due to incompatibility with earlier years, assessed London’s cultural standing against peer cities using the World Cities Cultural Forum’s dashboard. Raw GLA data affirmed London’s dominance, but normalization by population and land area revealed underperformance, suggesting greater sector vulnerability. External reports corroborated this: the Music Venues Trust noted 125 venue closures in 2023, while museums saw an 8% post-pandemic decline. These trends highlight systemic fragility, challenging assumptions from the GLA’s 2023 dataset. However, its lack of longitudinal depth necessitated supplemental data—including scraped sources—to fully evaluate shifts in London’s cultural landscape (see Data Transparency). This underscores the need for nuanced metrics and expanded datasets to accurately gauge risks to the city’s cultural infrastructure.
+      Our analysis, limited to 2023 data due to incompatibility with earlier years, compared London’s cultural infrastructure to that of other major cities using the World Cities Cultural Forum dashboard.
+       Raw GLA data shows London as a cultural leader, but normalization by population and land area revealed underperformance, suggesting greater sector vulnerability. External reports confirmed this: the Music Venues Trust noted 125 venue closures in 2023, while museums saw an 8% post-pandemic decline.
+        These trends highlight systemic fragility, challenging assumptions from the GLA’s 2023 dataset. 
+        Because the GLA dataset lacks long-term tracking, we brought in additional data sources—including scraped datasets—to get a more complete picture (see <a href="#process">Our Process</a> for more). 
+        This underscores the need for nuanced metrics and expanded datasets to accurately determine risks to the city’s cultural infrastructure.
         </p>
     <img src="./cities.png" alt="Cities Diagram" class="infographic-img">
   </div>
@@ -439,8 +446,7 @@
       <h2 class="section-title">LONDON CULTURAL NETWORK: SPATIO-TEMPORAL ANALYSIS</h2>
 
       <p class="city-network-desc">
-        Our spatio-temporal analysis of London’s cultural network, based on scraped consumption data (2017–2025), uncovered critical trends overlooked by official GLA datasets. While the GLA reported growth in libraries (claiming 347 by 2022), our findings revealed that both theatres and libraries experienced significant decline, exposing inconsistencies in how cultural infrastructure is recorded. Notably, community centres emerged as the only consumption-oriented assets in expansion, suggesting a shift toward hyper-local cultural provision, possibly at the expense of larger, specialized venues. Borough-level analysis further highlighted stark inequalities, with some areas suffering severe cultural depletion while others retained accessibility. These disparities challenge the reliability of static administrative data and underscore the need for dynamic, granular insights to inform equitable policymaking and safeguard London’s cultural ecosystem.
-      </p>
+        Our spatio-temporal analysis of London’s cultural network, based on scraped consumption data (2017–2025), uncovered critical trends overlooked by official GLA datasets. While the GLA reported growth in libraries (claiming 347 by 2022), our findings revealed that both theatres and libraries experienced significant decline, exposing inconsistencies in how cultural infrastructure is recorded. Interestingly, community centres were the only type of cultural spaces focused on consumption that showed growth. This may indicate a move toward more locally-based cultural offerings, potentially taking priority over larger, more specialized venues. Borough-level revealed significant inequalities, with certain areas experiencing severe cultural depletion while others maintained better accessibility. These disparities challenge the reliability of static administrative data and emphasize the need for dynamic, detailed insights to better understand and support London’s cultural ecosystem.
 
       <div class="chart-container">
         <iframe src="Line.html"></iframe>
@@ -462,10 +468,9 @@
     <!-- Description Text -->
     <div style="width: 100%; max-width: 100%; margin: 0 auto 20px; padding: 0 20px; box-sizing: border-box;">
       <p class="city-network-desc" style="width: 100%; max-width: 100%; margin: 0 auto; line-height: 1.6; font-size: 1.2rem;">
-        Our comparative analysis of London's boroughs combined the GLA's 2023 cultural asset counts with scraped OpenStreetMap (OSM) data tracking percentage changes (2017–2025). Though not directly comparable—GLA measures absolute numbers, OSM tracks growth rates—their juxtaposition revealed critical insights. Havering, despite having among the fewest cultural assets, showed the highest growth rate, signaling potential long-term sustainability. Meanwhile, access to community centres varied drastically, with a gap exceeding 100 venues between the best- and worst-performing boroughs—a divide likely widening due to uneven investment.
+        Our comparative analysis of London’s boroughs integrated the Greater London Authority’s (GLA) 2023 cultural asset counts with OpenStreetMap (OSM) data tracking percentage changes between 2017 and 2025. While the datasets are not directly comparable—GLA provides absolute figures, whereas OSM reflects growth rates—their combined examination uncovered valuable insights. Havering, despite having among the fewest cultural assets, exhibited the highest growth rate, indicating promising potential for long-term sustainability. Meanwhile, access to community centres varied significantly across boroughs, with a disparity exceeding 100 venues between the most and least well-served areas—a gap likely to widen due to uneven investment.
         <br><br>
-        Limitations include the exclusion of negative change rates (closures/declines) and a lack of normalization for area, population density, or income. Spatial mapping was also absent, leaving geographic patterns unexplored. These gaps highlight the need for deeper, contextualized research to guide equitable cultural policy.
-      </p>
+        Limitations include the exclusion of negative change rates (closures/declines) and a lack of normalization for area, population density, or income. Additionally, spatial mapping was not conducted, leaving geographic patterns unexplored. These gaps highlight the need for deeper, contextualized research to inform equitable cultural policy. </p>
     </div>
 
     <!-- Chart Fills Remaining Height -->
@@ -576,7 +581,7 @@
 
 
 <!-- Section Title -->
-<h2 class="section-title" style="margin-bottom: 0px;">Process</h2>
+<h2 class="section-title" style="margin-bottom: 0px;">Our Process</h2>
 
 <!-- Content Row -->
 <div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-start; gap: 40px;">
@@ -629,7 +634,7 @@
 
   
   <!-- Section Title -->
-  <h2 class="section-title" style="margin-bottom: 20px;">The Team</h2>
+  <h2 class="section-title" style="margin-bottom: 20px;">Meet The Team</h2>
 
   <!-- Iframe (fills remaining space below title) -->
   <iframe src="./The_Team.html" style="flex-grow: 1; width: 100%; border: none;"></iframe>
