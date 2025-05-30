@@ -193,7 +193,13 @@
                 formatter: function (params) {
                     return params.map(p => `${p.seriesName}: ${p.value}`).join('<br/>');
                 }
+                
             },
+            grid: {
+    left: '17%',
+    right: '4%',
+    bottom: '17%',
+    top: '20%',},
             legend: {
                 data: ['Hackney', 'London Average'],
                 bottom: '5%',
